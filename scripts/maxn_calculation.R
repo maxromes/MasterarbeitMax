@@ -5,26 +5,33 @@
 # Daten laden
 data <- read.csv2("Annotation_reports/1.csv")
 
-# MaxN berechnen: Zähle pro Frame wie viele Individuen pro Art
-count_per_frame_species <- table(data$frames, data$label_name)
-maxn_per_species <- apply(count_per_frame_species, 2, max)
+# Unique Fischarten
+species_list <- unique(data$label_name)
 
-# Detaillierte Statistiken
+# MaxN berechnen für jede Art
 maxn_result <- data.frame(
-  label_name = names(maxn_per_species),
-  MaxN = as.numeric(maxn_per_species),
+  label_name = species_list,
+  MaxN = NA,
+  Total_occurrences = NA,
+  Mean_per_frame = NA,
   stringsAsFactors = FALSE
 )
 
-# Zusätzliche Statistiken hinzufügen
-maxn_result$Total_occurrences <- sapply(maxn_result$label_name, function(species) {
-  sum(data$label_name == species)
-})
-
-maxn_result$Mean_per_frame <- sapply(maxn_result$label_name, function(species) {
-  species_data <- count_per_frame_species[, species]
-  mean(species_data[species_data > 0])
-})
+# Für jede Art berechnen
+for (i in 1:nrow(maxn_result)) {
+  species <- maxn_result$label_name[i]
+  species_data <- data[data$label_name == species, ]
+  
+  # Total occurrences (Zeilen mit dieser Art)
+  maxn_result$Total_occurrences[i] <- nrow(species_data)
+  
+  # MaxN (max Anzahl pro Frame)
+  frame_counts <- table(species_data$frames)
+  maxn_result$MaxN[i] <- max(frame_counts)
+  
+  # Mean per frame
+  maxn_result$Mean_per_frame[i] <- mean(as.numeric(frame_counts))
+}
 
 # Sortieren nach MaxN
 maxn_result <- maxn_result[order(maxn_result$MaxN, decreasing = TRUE), ]
