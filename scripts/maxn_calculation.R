@@ -1,54 +1,52 @@
 # MaxN Berechnung für Fischarten
 # MaxN = Maximum Number of individuals of a species observed at the same time
-# Mit base R - keine zusätzlichen Packages nötig
 
 # Daten laden
 data <- read.csv2("Annotation_reports/1.csv")
 
-# Unique Fischarten
-species_list <- unique(data$label_name)
+# Ergebnisse speichern
+results <- list()
 
-# MaxN berechnen für jede Art
+# Für jede eindeutige Art berechnen
+for (species in unique(data$label_name)) {
+  # Alle Zeilen dieser Art
+  species_rows <- data[data$label_name == species, ]
+  
+  # Frame-Zählung (wie oft kommt die Art pro Frame vor)
+  frame_table <- table(species_rows$frames)
+  
+  # MaxN = Maximum an einem Frame
+  maxn_value <- max(frame_table)
+  
+  # Speichern
+  results[[species]] <- list(
+    MaxN = maxn_value,
+    Total_occurrences = nrow(species_rows),
+    Mean_per_frame = mean(as.numeric(frame_table))
+  )
+}
+
+# In Dataframe konvertieren
 maxn_result <- data.frame(
-  label_name = species_list,
-  MaxN = NA,
-  Total_occurrences = NA,
-  Mean_per_frame = NA,
+  label_name = names(results),
+  MaxN = sapply(results, function(x) x$MaxN),
+  Total_occurrences = sapply(results, function(x) x$Total_occurrences),
+  Mean_per_frame = sapply(results, function(x) x$Mean_per_frame),
+  row.names = NULL,
   stringsAsFactors = FALSE
 )
 
-# Für jede Art berechnen
-for (i in 1:nrow(maxn_result)) {
-  species <- maxn_result$label_name[i]
-  species_data <- data[data$label_name == species, ]
-  
-  # Total occurrences (Zeilen mit dieser Art)
-  maxn_result$Total_occurrences[i] <- nrow(species_data)
-  
-  # MaxN (max Anzahl pro Frame)
-  frame_counts <- table(species_data$frames)
-  maxn_result$MaxN[i] <- max(frame_counts)
-  
-  # Mean per frame
-  maxn_result$Mean_per_frame[i] <- mean(as.numeric(frame_counts))
-}
-
-# Sortieren nach MaxN
+# Nach MaxN sortieren
 maxn_result <- maxn_result[order(maxn_result$MaxN, decreasing = TRUE), ]
-rownames(maxn_result) <- NULL
 
-# Ergebnis anzeigen
+# Anzeigen
 print(maxn_result)
 
-# Verzeichnis erstellen falls nötig
-if (!dir.exists("results")) {
-  dir.create("results")
-}
-
-# Speichern als CSV
+# Speichern
+dir.create("results", showWarnings = FALSE)
 write.csv(maxn_result, "results/maxn_analysis.csv", row.names = FALSE)
 
-# Zusammenfassung
 cat("\n=== MaxN Summary ===\n")
 cat("Gesamtzahl Fischarten:", nrow(maxn_result), "\n")
-cat("Höchste MaxN-Wert:", max(maxn_result$MaxN), "\n")
+cat("Höchste MaxN:", max(maxn_result$MaxN), "\n")
+cat("Gespeichert in: results/maxn_analysis.csv\n")
