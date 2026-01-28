@@ -1,7 +1,13 @@
 # MaxN Berechnung für Fischarten
 # MaxN = Maximum Number of individuals of a species observed at the same time
 
-library(tidyverse)
+# Paket installieren falls nötig
+if (!require("tidyverse", quietly = TRUE)) {
+  install.packages("tidyverse")
+  library(tidyverse)
+} else {
+  library(tidyverse)
+}
 
 # Daten laden
 data <- read.csv2("Annotation_reports/1.csv")
