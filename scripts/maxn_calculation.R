@@ -1,52 +1,38 @@
-# MaxN Berechnung für Fischarten
-# MaxN = Maximum Number of individuals of a species observed at the same time
+# ===== MaxN Berechnung =====
+# MaxN = Maximum Number von Individuen einer Art pro Frame
 
-# Daten laden
-data <- read.csv2("Annotation_reports/1.csv")
+# 1. Daten einlesen
+df <- read.csv2("Annotation_reports/1.csv")
 
-# Ergebnisse speichern
-results <- list()
+# 2. Neue Liste für Ergebnisse
+result_list <- list()
 
-# Für jede eindeutige Art berechnen
-for (species in unique(data$label_name)) {
-  # Alle Zeilen dieser Art
-  species_rows <- data[data$label_name == species, ]
+# 3. Für jede Art durchlaufen
+unique_species <- unique(df$label_name)
+
+for (spp in unique_species) {
+  subset_data <- df[df$label_name == spp, ]
+  counts_by_frame <- table(subset_data$frames)
+  max_value <- max(counts_by_frame)
+  total_rows <- nrow(subset_data)
+  avg_value <- mean(as.numeric(counts_by_frame))
   
-  # Frame-Zählung (wie oft kommt die Art pro Frame vor)
-  frame_table <- table(species_rows$frames)
-  
-  # MaxN = Maximum an einem Frame
-  maxn_value <- max(frame_table)
-  
-  # Speichern
-  results[[species]] <- list(
-    MaxN = maxn_value,
-    Total_occurrences = nrow(species_rows),
-    Mean_per_frame = mean(as.numeric(frame_table))
-  )
+  result_list[[spp]] <- c(MaxN = max_value, Total = total_rows, Mean = avg_value)
 }
 
-# In Dataframe konvertieren
-maxn_result <- data.frame(
-  label_name = names(results),
-  MaxN = sapply(results, function(x) x$MaxN),
-  Total_occurrences = sapply(results, function(x) x$Total_occurrences),
-  Mean_per_frame = sapply(results, function(x) x$Mean_per_frame),
-  row.names = NULL,
-  stringsAsFactors = FALSE
-)
+# 4. Umwandeln in Dataframe
+output_df <- do.call(rbind, result_list)
+output_df <- as.data.frame(output_df)
+output_df$Species <- rownames(output_df)
+rownames(output_df) <- NULL
+output_df <- output_df[, c("Species", "MaxN", "Total", "Mean")]
+output_df <- output_df[order(output_df$MaxN, decreasing = TRUE), ]
 
-# Nach MaxN sortieren
-maxn_result <- maxn_result[order(maxn_result$MaxN, decreasing = TRUE), ]
+# 5. Anzeigen
+print(output_df)
 
-# Anzeigen
-print(maxn_result)
-
-# Speichern
+# 6. Speichern
 dir.create("results", showWarnings = FALSE)
-write.csv(maxn_result, "results/maxn_analysis.csv", row.names = FALSE)
+write.csv(output_df, "results/maxn_analysis.csv", row.names = FALSE)
 
-cat("\n=== MaxN Summary ===\n")
-cat("Gesamtzahl Fischarten:", nrow(maxn_result), "\n")
-cat("Höchste MaxN:", max(maxn_result$MaxN), "\n")
-cat("Gespeichert in: results/maxn_analysis.csv\n")
+cat("\nErgebnis gespeichert in: results/maxn_analysis.csv\n")
