@@ -7,7 +7,7 @@ df <- read.csv2("Annotation_reports/1.csv")
 # 2. Neue Liste für Ergebnisse
 result_list <- list()
 
-# 3. Für jede Art durchlaufen
+#  3. Für jede Art durchlaufen
 unique_species <- unique(df$label_name)
 
 for (spp in unique_species) {
