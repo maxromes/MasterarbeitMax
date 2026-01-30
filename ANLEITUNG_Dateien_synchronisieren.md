@@ -46,20 +46,50 @@ git push origin main
 
 ---
 
+## 3. Dateien löschen und synchronisieren
+
+### Im RStudio Files-Panel:
+1. Wähle die Datei aus
+2. Klick auf "Delete"
+
+### Oder im RStudio Terminal:
+```bash
+git rm Annotation_reports/AleDatei.csv
+```
+
+### Löschung synchronisieren:
+```bash
+git pull origin main
+git add -A
+git commit -m "Remove: AleDatei"
+git push origin main
+```
+
+**`git add -A`** registriert alle Änderungen inklusive Löschungen!
+
+---
+
 ## Wichtig!
 
 ✅ **Immer `git pull` vor `git push` machen!**  
 ✅ **Aussagekräftige Commit-Nachrichten schreiben**  
-✅ **Dateien im Projekt-Ordner speichern, nicht in OneDrive**
+✅ **Dateien im Projekt-Ordner speichern, nicht in OneDrive**  
+✅ **Aufräumen und Löschen in RStudio machen, nicht in Codespaces**
 
 ---
 
 ## Schnell-Referenz
 
 ```bash
-# Kompletter Workflow in einem:
+# Datei hinzufügen:
 git pull origin main && \
 git add Annotation_reports/DeineDatei.csv && \
 git commit -m "Add: DeineDatei" && \
+git push origin main
+
+# Datei löschen:
+git pull origin main && \
+git add -A && \
+git commit -m "Remove: AleDatei" && \
 git push origin main
 ```
