@@ -1,0 +1,3 @@
+area_type,anzahl_dateien,richness_mean,richness_sd,richness_min,richness_max,maxn_mean,maxn_sd,observations_total,shannon_mean,evennes_mean
+Coral Reef,33,56.79,10.01,37,79,71.21,38.99,9908,2.88,0.72
+Nursery,6,44.83,4.58,41,52,28.17,12.72,1569,2.97,0.78

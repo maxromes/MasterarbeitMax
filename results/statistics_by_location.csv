@@ -1,0 +1,4 @@
+location,area_type,anzahl_dateien,richness_mean,richness_sd,maxn_mean,observations_total,shannon_mean
+Milimani,Coral Reef,16,51.75,9.7,71.44,4281,2.81
+Milimani,Nursery,6,44.83,4.58,28.17,1569,2.97
+Utumbi,Coral Reef,17,61.53,7.94,71.0,5627,2.95
