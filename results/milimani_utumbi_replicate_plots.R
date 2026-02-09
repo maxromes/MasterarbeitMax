@@ -10,8 +10,15 @@ suppressPackageStartupMessages({
   library(jsonlite)
 })
 
+script_path <- tryCatch(
+  normalizePath(sys.frame(1)$ofile, winslash = "/"),
+  error = function(e) NA_character_
+)
+script_dir <- if (!is.na(script_path)) dirname(script_path) else getwd()
+repo_dir <- normalizePath(file.path(script_dir, ".."), winslash = "/", mustWork = FALSE)
+
 report_paths <- list.files(
-  "/workspaces/MasterarbeitMax/Annotation_reports_coral_reef",
+  file.path(repo_dir, "Annotation_reports_coral_reef"),
   pattern = "\\.csv$",
   full.names = TRUE
 )
@@ -129,7 +136,7 @@ p_bc <- pairwise %>%
   theme(legend.position = "none")
 
 ggsave(
-  "/workspaces/MasterarbeitMax/results/figures/bray_curtis_within_between.png",
+  file.path(repo_dir, "results", "figures", "bray_curtis_within_between.png"),
   p_bc,
   width = 6,
   height = 4,
@@ -146,7 +153,7 @@ p_j <- pairwise %>%
   theme(legend.position = "none")
 
 ggsave(
-  "/workspaces/MasterarbeitMax/results/figures/jaccard_within_between.png",
+  file.path(repo_dir, "results", "figures", "jaccard_within_between.png"),
   p_j,
   width = 6,
   height = 4,
@@ -167,7 +174,7 @@ p_nmds <- ggplot(ord_df, aes(x = NMDS1, y = NMDS2, color = site, shape = bait)) 
   theme_minimal(base_size = 12)
 
 ggsave(
-  "/workspaces/MasterarbeitMax/results/figures/nmds_bray.png",
+  file.path(repo_dir, "results", "figures", "nmds_bray.png"),
   p_nmds,
   width = 7,
   height = 5,
@@ -185,7 +192,7 @@ p_counts <- ggplot(bait_counts, aes(x = bait, y = n, fill = site)) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
 ggsave(
-  "/workspaces/MasterarbeitMax/results/figures/bait_counts.png",
+  file.path(repo_dir, "results", "figures", "bait_counts.png"),
   p_counts,
   width = 7,
   height = 4.5,
@@ -231,11 +238,11 @@ p_bait <- ggplot(bait_dist, aes(x = bait, y = distance, fill = metric)) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
 ggsave(
-  "/workspaces/MasterarbeitMax/results/figures/bait_level_distances.png",
+  file.path(repo_dir, "results", "figures", "bait_level_distances.png"),
   p_bait,
   width = 7,
   height = 4.5,
   dpi = 150
 )
 
-message("Done. Figures saved to /workspaces/MasterarbeitMax/results/figures")
+message("Done. Figures saved to ", file.path(repo_dir, "results", "figures"))
