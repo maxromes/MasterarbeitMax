@@ -44,6 +44,20 @@ Counts after merging -c8/-c10 into the base bait name:
 - meersalat: Bray-Curtis 0.5079, Jaccard 0.4854
 - sargassum: Bray-Curtis 0.4575, Jaccard 0.3918
 
+## Interpretation
+
+- Between-site distances are consistently higher than within-site distances for both Bray-Curtis and Jaccard, indicating that Milimani and Utumbi are not identical replicates.
+- The effect is moderate (ratio 1.14 to 1.20), suggesting partial overlap with a systematic site signal rather than complete separation.
+- Bait-level distances vary by bait (e.g., lower for mackerel, higher for glasnudel), so replicate suitability depends on bait and should be interpreted per bait or with bait as a factor.
+
+## Additional statistical tests to compare sites
+
+- PERMANOVA (Bray-Curtis, Jaccard) with site as factor and bait as covariate: tests whether site explains community differences beyond bait.
+- PERMDISP (beta dispersion): checks whether site differences are driven by dispersion rather than location in multivariate space.
+- Mantel or Procrustes tests between sites on the same bait averages: evaluates concordance of community structure across sites.
+- Indicator species analysis (IndVal): identifies taxa driving site differences.
+- Mixed effects models on richness or total abundance per report with site and bait as fixed effects.
+
 ## Notes
 
 - Bait-level means computed after merging -c8/-c10 variants.
