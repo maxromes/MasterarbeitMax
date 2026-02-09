@@ -1,376 +1,376 @@
-video_annotation_label_id,label_name,label_hierarchy,video_id,video_filename,frames,annotation_id
-3376739,Blacktip (Epinephelus fasciatus),Heavy Bodies/Large Lips > Groupers (Serranidae) > Blacktip (Epinephelus fasciatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[0],2871379
-3376740,Green (Amblyglyphidodon indicus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Green (Amblyglyphidodon indicus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[0],2871380
-3376745,Leopard (Cephalopholis leopardus),Heavy Bodies/Large Lips > Groupers (Serranidae) > Leopard (Cephalopholis leopardus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[19.557301775330128],2871385
-3376748,Goldbar (Thalassoma hebraicum),Wrasses > Wrasses (Labridae) > Goldbar (Thalassoma hebraicum),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[20.42530565033453],2871388
-3376750,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[20.42530565033453],2871390
-3376751,Orange-lined (Balistapus undulatus),Odd-shaped Swimmers > Triggerfishes (Balistidae) > Orange-lined (Balistapus undulatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[26.04309202066592],2871391
-3376754,Orange-lined Interested,Odd-shaped Swimmers > Triggerfishes (Balistidae) > Orange-lined (Balistapus undulatus) > Orange-lined Interested,37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[34.42999936033562],2871394
-3376755,Goldbar Feeding,Wrasses > Wrasses (Labridae) > Goldbar (Thalassoma hebraicum) > Goldbar Feeding,37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[34.42999936033562],2871395
-3376758,Wrasses (Labridae),Wrasses > Wrasses (Labridae),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[39.2779731116734],2871398
-3376760,Red (Lutjanus bohar),Sloping Heads > Snappers (Lutjanidae) > Red (Lutjanus bohar),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[43.150305223000046],2871400
-3376763,Orange-lined (Balistapus undulatus),Odd-shaped Swimmers > Triggerfishes (Balistidae) > Orange-lined (Balistapus undulatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[48.263334547334175],2871403
-3376764,Orange-lined (Balistapus undulatus),Odd-shaped Swimmers > Triggerfishes (Balistidae) > Orange-lined (Balistapus undulatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[48.263334547334175],2871404
-3376766,Genus Soldier (Myripristis),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Soldier (Myripristis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[67.13443691000319],2871406
-3376767,Moon (Thalassoma lunare),Wrasses > Wrasses (Labridae) > Moon (Thalassoma lunare),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[71.47840165099902],2871407
-3376771,Mozambique Fangblenny (Meiacanthus mossambicus),Blennies > Blennies (Blenniidae) > Mozambique Fangblenny (Meiacanthus mossambicus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[97.5211954873337],2871411
-3376772,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871412
-3376773,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871413
-3376774,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871414
-3376775,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871415
-3376776,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871416
-3376777,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871417
-3376778,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871418
-3376779,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871419
-3376780,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871420
-3376781,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871421
-3376782,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871422
-3376783,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871423
-3376784,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871424
-3376785,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871425
-3376786,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871426
-3376787,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871427
-3376788,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871428
-3376789,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871429
-3376790,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871430
-3376791,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871431
-3376792,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871432
-3376793,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871433
-3376794,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871434
-3376795,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871435
-3376796,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871436
-3376797,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871437
-3376798,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871438
-3376799,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871439
-3376800,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871440
-3376801,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871441
-3376802,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[105.32397270399854],2871442
-3376803,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[158.03468932133202],2871443
-3376804,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[160.5122427083383],2871444
-3376805,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[160.5122427083383],2871445
-3376806,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[160.5122427],2871446
-3376807,Disappearing (Pseudocheilinus evanidus),Wrasses > Wrasses (Labridae) > Disappearing (Pseudocheilinus evanidus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[191.3491058103369],2871447
-3376809,Whitetail (Acanthurus thompsoni),Large Ovals > Surgeonfishes (Acanthuridae) > Whitetail (Acanthurus thompsoni),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[229.52147450699894],2871449
-3376810,Bluefin (Caranx melampygus),Silvery > Jacks/Trevallyes (Carangidae) > Bluefin (Caranx melampygus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[230.83352820766456],2871450
-3376811,Bluefin (Caranx melampygus),Silvery > Jacks/Trevallyes (Carangidae) > Bluefin (Caranx melampygus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[230.83352820766456],2871451
-3376812,Scorpion-&Lionfishes (Scorpaenidae),Odd-shaped Bottom Dwellers > Scorpion-&Lionfishes (Scorpaenidae),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[239.82032152566813],2871452
-3376813,Regal (Pygoplites diacanthus),Disk-shaped/Colourful > Angelfishes (Pomacanthidae) > Regal (Pygoplites diacanthus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[246.56965234999726],2871453
-3376814,False-eye (Abudefduf sparoides),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > False-eye (Abudefduf sparoides),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[251.5433915393338],2871454
-3376817,Genus Ctenochaetus,Large Ovals > Surgeonfishes (Acanthuridae) > Genus Ctenochaetus,37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[257.20789398633343],2871457
-3376819,False-eye (Abudefduf sparoides),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > False-eye (Abudefduf sparoides),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[258.1343505746621],2871459
-3376821,False-eye (Abudefduf sparoides),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > False-eye (Abudefduf sparoides),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[258.1343505746621],2871461
-3376823,Bird wrasse (Gomphosus caeruleus),Wrasses > Wrasses (Labridae) > Bird wrasse (Gomphosus caeruleus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[259.90517189832656],2871463
-3376825,Goldbar (Thalassoma hebraicum),Wrasses > Wrasses (Labridae) > Goldbar (Thalassoma hebraicum),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[263.44975960733336],2871465
-3376826,Goldbar (Thalassoma hebraicum),Wrasses > Wrasses (Labridae) > Goldbar (Thalassoma hebraicum),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[263.44975960733336],2871466
-3376830,Genus Ctenochaetus,Large Ovals > Surgeonfishes (Acanthuridae) > Genus Ctenochaetus,37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[269.8056204660002],2871470
-3376831,Genus Ctenochaetus,Large Ovals > Surgeonfishes (Acanthuridae) > Genus Ctenochaetus,37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[269.8056204660002],2871471
-3376833,Genus Ctenochaetus,Large Ovals > Surgeonfishes (Acanthuridae) > Genus Ctenochaetus,37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[269.8056204660002],2871473
-3376835,Checkerboard (Halichoeres hortulanus),Wrasses > Wrasses (Labridae) > Checkerboard (Halichoeres hortulanus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[275.53615107966067],2871475
-3376838,Barred (Hemigymnus fasciatus),Wrasses > Wrasses (Labridae) > Barred (Hemigymnus fasciatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[300.7368548486646],2871478
-3376842,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[305.6447332956657],2871482
-3376843,Green (Amblyglyphidodon indicus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Green (Amblyglyphidodon indicus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[316.409980513996],2871483
-3376844,Green (Amblyglyphidodon indicus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Green (Amblyglyphidodon indicus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[316.409980513996],2871484
-3376860,Redmouth (Aethaloperca rogaa),Heavy Bodies/Large Lips > Groupers (Serranidae) > Redmouth (Aethaloperca rogaa),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[412.7564917403392],2871500
-3376872,Genus Soldier (Myripristis),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Soldier (Myripristis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[430.5056488846671],2871512
-3376873,Genus Soldier (Myripristis),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Soldier (Myripristis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[430.5056488846671],2871513
-3376874,Genus Soldier (Myripristis),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Soldier (Myripristis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[430.5056488846671],2871514
-3376876,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[432.1528493423315],2871516
-3376885,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[466.4011212176612],2871525
-3376888,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[466.4011212176612],2871528
-3376889,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[466.4011212176612],2871529
-3376890,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[466.4011212176612],2871530
-3376891,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[471.0479166729979],2871531
-3376892,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[471.0479166729979],2871532
-3376893,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[471.0479166729979],2871533
-3376894,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[471.0479166729979],2871534
-3376895,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[471.0479166729979],2871535
-3376896,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[471.0479166729979],2871536
-3376897,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[471.0479166729979],2871537
-3376898,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[471.0479166729979],2871538
-3376899,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[471.0479166729979],2871539
-3376900,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[471.0479166729979],2871540
-3376901,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[471.0479166729979],2871541
-3376902,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[471.0479166729979],2871542
-3376904,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[471.0479166729979],2871544
-3376905,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[471.0479166729979],2871545
-3376906,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[471.0479166729979],2871546
-3376907,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[471.0479166729979],2871547
-3376908,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[471.0479166729979],2871548
-3376910,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[471.0479166729979],2871550
-3376912,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[477.2406789176693],2871552
-3376913,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[477.2406789176693],2871553
-3376917,Slingjaw (Epibulus insidiator),Wrasses > Wrasses (Labridae) > Slingjaw (Epibulus insidiator),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[484.1898135903332],2871557
-3376920,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[509.2110868619966],2871560
-3376921,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[509.2110868619966],2871561
-3376922,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[509.2110868619966],2871562
-3376923,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[509.2110868619966],2871563
-3376924,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[509.2110868619966],2871564
-3376925,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[509.2110868619966],2871565
-3376926,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[509.2110868619966],2871566
-3376927,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[509.2110868619966],2871567
-3376928,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[509.2110868619966],2871568
-3376930,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[509.2110868619966],2871570
-3376931,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[509.2110868619966],2871571
-3376932,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[509.2110868619966],2871572
-3376933,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[509.2110868619966],2871573
-3376934,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[509.2110868619966],2871574
-3376935,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[509.2110868619966],2871575
-3376936,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[509.2110868619966],2871576
-3376937,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[509.2110868619966],2871577
-3376938,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[509.2110868619966],2871578
-3376940,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[509.2110868619966],2871580
-3376941,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[509.2110868619966],2871581
-3376942,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[509.2110868619966],2871582
-3376943,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[509.2110868619966],2871583
-3376944,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[509.2110868619966],2871584
-3376959,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871599
-3376960,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871600
-3376961,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871601
-3376962,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871602
-3376963,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871603
-3376964,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871604
-3376965,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871605
-3376966,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871606
-3376967,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871607
-3376968,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871608
-3376969,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871609
-3376970,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871610
-3376971,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871611
-3376972,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871612
-3376973,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871613
-3376974,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871614
-3376975,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871615
-3376976,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871616
-3376977,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871617
-3376978,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871618
-3376979,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871619
-3376980,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871620
-3376981,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871621
-3376982,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871622
-3376983,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871623
-3376984,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871624
-3376985,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871625
-3376986,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871626
-3376987,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871627
-3376988,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871628
-3376989,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871629
-3376990,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871630
-3376991,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871631
-3376992,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871632
-3376993,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871633
-3376994,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.4820820069971],2871634
-3376996,Powder Blue (Acanthurus leucosternon),Large Ovals > Surgeonfishes (Acanthuridae) > Powder Blue (Acanthurus leucosternon),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[591.7019346336656],2871636
-3377013,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871653
-3377014,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871654
-3377015,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871655
-3377016,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871656
-3377017,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871657
-3377018,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871658
-3377019,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871659
-3377020,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871660
-3377021,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871661
-3377022,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871662
-3377023,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871663
-3377024,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871664
-3377025,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871665
-3377026,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871666
-3377027,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871667
-3377028,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871668
-3377029,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871669
-3377030,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871670
-3377031,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871671
-3377032,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871672
-3377033,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871673
-3377035,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871675
-3377036,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871676
-3377037,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871677
-3377038,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871678
-3377039,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871679
-3377040,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871680
-3377041,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871681
-3377042,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871682
-3377043,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871683
-3377044,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871684
-3377045,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871685
-3377046,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871686
-3377047,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871687
-3377048,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871688
-3377049,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871689
-3377050,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871690
-3377052,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871692
-3377053,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871693
-3377054,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871694
-3377055,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871695
-3377056,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871696
-3377057,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871697
-3377058,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871698
-3377059,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871699
-3377060,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871700
-3377061,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871701
-3377062,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871702
-3377063,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871703
-3377064,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871704
-3377065,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871705
-3377066,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871706
-3377067,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871707
-3377069,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871709
-3377070,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[613.580590639],2871710
-3377078,Humpnose Bigeye (Monotaxis grandoculis),Sloping Heads > Emperors (Lethrinidae) > Humpnose Bigeye (Monotaxis grandoculis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[645.1948756849956],2871718
-3377081,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[660.8090340593266],2871721
-3377082,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[660.8090340593266],2871722
-3377083,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[660.8090340593266],2871723
-3377085,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[660.8090340593266],2871725
-3377086,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[660.8090340593266],2871726
-3377088,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[671.2292543759997],2871728
-3377089,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[671.2292543759997],2871729
-3377090,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[671.2292543759997],2871730
-3377091,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[671.2292543759997],2871731
-3377092,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[671.2292543759997],2871732
-3377094,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[671.2292543759997],2871734
-3377095,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[671.2292543759997],2871735
-3377096,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[671.2292543759997],2871736
-3377097,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[671.2292543759997],2871737
-3377098,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[671.2292543759997],2871738
-3377099,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[671.2292543759997],2871739
-3377100,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[671.2292543759997],2871740
-3377101,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[671.2292543759997],2871741
-3377102,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[671.2292543759997],2871742
-3377103,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[671.2292543759997],2871743
-3377104,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[671.2292543759997],2871744
-3377105,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[671.2292543759997],2871745
-3377110,Brown Pigmy (Centropyge multispinis),Disk-shaped/Colourful > Angelfishes (Pomacanthidae) > Brown Pigmy (Centropyge multispinis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[681.9923724756617],2871750
-3377121,Bullethead (Chlorurus sordidus),Parrotfishes > Parrotfishes (Scaridae) > Bullethead (Chlorurus sordidus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[725.4763001393329],2871761
-3377122,Bullethead (Chlorurus sordidus),Parrotfishes > Parrotfishes (Scaridae) > Bullethead (Chlorurus sordidus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[728.8560824133391],2871762
-3377123,Bullethead (Chlorurus sordidus),Parrotfishes > Parrotfishes (Scaridae) > Bullethead (Chlorurus sordidus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[728.8560824133391],2871763
-3377124,Bullethead (Chlorurus sordidus),Parrotfishes > Parrotfishes (Scaridae) > Bullethead (Chlorurus sordidus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[728.8560824133391],2871764
-3377125,Bullethead (Chlorurus sordidus),Parrotfishes > Parrotfishes (Scaridae) > Bullethead (Chlorurus sordidus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[728.8560824133391],2871765
-3377126,Bullethead (Chlorurus sordidus),Parrotfishes > Parrotfishes (Scaridae) > Bullethead (Chlorurus sordidus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[728.8560824133391],2871766
-3377133,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871773
-3377134,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871774
-3377135,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871775
-3377136,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871776
-3377137,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871777
-3377138,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871778
-3377139,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871779
-3377140,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871780
-3377141,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871781
-3377142,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871782
-3377143,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871783
-3377144,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871784
-3377145,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871785
-3377146,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871786
-3377147,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871787
-3377148,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871788
-3377149,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871789
-3377150,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871790
-3377151,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871791
-3377152,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871792
-3377153,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871793
-3377154,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871794
-3377155,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871795
-3377156,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871796
-3377157,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871797
-3377158,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871798
-3377159,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871799
-3377161,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871801
-3377162,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871802
-3377163,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871803
-3377164,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871804
-3377165,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871805
-3377167,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871807
-3377168,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871808
-3377169,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871809
-3377170,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871810
-3377171,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871811
-3377172,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871812
-3377174,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871814
-3377175,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871815
-3377176,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871816
-3377177,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871817
-3377178,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871818
-3377179,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871819
-3377180,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871820
-3377181,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871821
-3377182,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871822
-3377183,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871823
-3377184,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871824
-3377185,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871825
-3377186,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871826
-3377187,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871827
-3377188,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871828
-3377190,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871830
-3377191,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871831
-3377192,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[774.0729787373343],2871832
-3377195,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[785.5553665129984],2871835
-3377196,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[785.5553665129984],2871836
-3377197,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[785.5553665129984],2871837
-3377198,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[785.5553665129984],2871838
-3377199,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[785.5553665129984],2871839
-3377200,Groupers (Serranidae),Heavy Bodies/Large Lips > Groupers (Serranidae),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[829.4267150329998],2871840
-3377201,Groupers (Serranidae),Heavy Bodies/Large Lips > Groupers (Serranidae),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[829.4267150329998],2871841
-3377202,Trumpetfish (Aulostomus chinensis),Odd-shaped Swimmers > Trumpetfishes (Aulostomidae) > Trumpetfish (Aulostomus chinensis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[829.4267150329998],2871842
-3377203,Yellowhead (Chaetodon xanthocephalus),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Yellowhead (Chaetodon xanthocephalus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[851.5052822056646],2871843
-3377214,Moorish Idol (Zanclus cornutus),Large Ovals > Moorish Idol (Zanclidae) > Moorish Idol (Zanclus cornutus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[926.8628415106715],2871854
-3377221,Eclipse (Chaetodon bennetti),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Eclipse (Chaetodon bennetti),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[921.0770481616682],2871861
-3377224,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[928.6458468470016],2871864
-3377225,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[928.6458468470016],2871865
-3377226,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[928.6458468470016],2871866
-3377227,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[928.6458468470016],2871867
-3377228,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[928.6458468470016],2871868
-3377229,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[928.6458468470016],2871869
-3377230,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[928.6458468470016],2871870
-3377231,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[928.6458468470016],2871871
-3377232,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[928.6458468470016],2871872
-3377233,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[928.6458468470016],2871873
-3377234,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[928.6458468470016],2871874
-3377247,Genus Naso,Large Ovals > Surgeonfishes (Acanthuridae) > Genus Naso,37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[1002.3087400699969],2871887
-3381628,Indian Redfin (Chaetodon trifasciatus),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Indian Redfin (Chaetodon trifasciatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[1148.877245746],2876237
-3381629,Indian Redfin (Chaetodon trifasciatus),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Indian Redfin (Chaetodon trifasciatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[1148.877245746],2876238
-3381630,Honeycomb (Siganus stellatus),Large Ovals > Rabbitfishes (Siganidae) > Honeycomb (Siganus stellatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[1229.7414292856665],2876239
-3381631,Honeycomb (Siganus stellatus),Large Ovals > Rabbitfishes (Siganidae) > Honeycomb (Siganus stellatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[1229.7414292856665],2876240
-3381675,Indian Redfin (Chaetodon trifasciatus),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Indian Redfin (Chaetodon trifasciatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[1525.5261756339999],2876284
-3381676,Indian Redfin (Chaetodon trifasciatus),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Indian Redfin (Chaetodon trifasciatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[1525.5261756339999],2876285
-3381677,Indian Redfin (Chaetodon trifasciatus),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Indian Redfin (Chaetodon trifasciatus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[1525.5261756339999],2876286
-3381683,Genus Soldier (Myripristis),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Soldier (Myripristis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[1652.5539160340002],2876292
-3381684,Genus Soldier (Myripristis),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Soldier (Myripristis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[1652.5539160340002],2876293
-3381685,Genus Soldier (Myripristis),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Soldier (Myripristis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[1652.5539160340002],2876294
-3381686,Genus Soldier (Myripristis),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Soldier (Myripristis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[1652.5539160340002],2876295
-3381738,Five-saddle (Scarus saber),Parrotfishes > Parrotfishes (Scaridae) > Five-saddle (Scarus saber),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[1958.0196893133334],2876347
-3381744,Brown Pigmy (Centropyge multispinis),Disk-shaped/Colourful > Angelfishes (Pomacanthidae) > Brown Pigmy (Centropyge multispinis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[1980.5107043],2876353
-3381745,Brown Pigmy (Centropyge multispinis),Disk-shaped/Colourful > Angelfishes (Pomacanthidae) > Brown Pigmy (Centropyge multispinis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[1980.5107043],2876354
-3381747,Brown Pigmy (Centropyge multispinis),Disk-shaped/Colourful > Angelfishes (Pomacanthidae) > Brown Pigmy (Centropyge multispinis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[1980.5107043],2876356
-3381980,Black-lipped (Chaetodon kleinii),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Black-lipped (Chaetodon kleinii),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[2089.7111055976666],2876589
-3382006,Regal (Pygoplites diacanthus),Disk-shaped/Colourful > Angelfishes (Pomacanthidae) > Regal (Pygoplites diacanthus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[2103.551811014333],2876615
-3382007,Regal (Pygoplites diacanthus),Disk-shaped/Colourful > Angelfishes (Pomacanthidae) > Regal (Pygoplites diacanthus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[2103.551811014333],2876616
-3382010,Swarthy (Scarus niger),Parrotfishes > Parrotfishes (Scaridae) > Swarthy (Scarus niger),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[2118.4473689396664],2876619
-3382012,Snubnose (Lethrinus borbonicus),Sloping Heads > Emperors (Lethrinidae) > Snubnose (Lethrinus borbonicus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[2120.6058996903334],2876621
-3382021,Disappearing (Pseudocheilinus evanidus),Wrasses > Wrasses (Labridae) > Disappearing (Pseudocheilinus evanidus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[2138.110863539334],2876630
-3382023,Disappearing (Pseudocheilinus evanidus),Wrasses > Wrasses (Labridae) > Disappearing (Pseudocheilinus evanidus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[2138.110863539334],2876632
-3382034,Sulfur (Pomacentrus sulfureus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Sulfur (Pomacentrus sulfureus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[2200.1861596999997],2876643
-3382045,Bird wrasse (Gomphosus caeruleus),Wrasses > Wrasses (Labridae) > Bird wrasse (Gomphosus caeruleus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[2398.3347189883325],2876654
-3382046,Bird wrasse (Gomphosus caeruleus),Wrasses > Wrasses (Labridae) > Bird wrasse (Gomphosus caeruleus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[2398.3347189883325],2876655
-3382048,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[2485.6017255170004],2876657
-3382049,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[2485.6017255170004],2876658
-3382050,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[2485.6017255170004],2876659
-3382051,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[2485.6017255170004],2876660
-3382052,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[2485.6017255170004],2876661
-3382053,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[2485.6017255170004],2876662
-3382059,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[2535.816860815999],2876668
-3382060,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[2535.816860815999],2876669
-3382071,Groupers (Serranidae),Heavy Bodies/Large Lips > Groupers (Serranidae),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[2705.1247801673335],2876680
-3382095,Threadfin (Chaetodon auriga),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Threadfin (Chaetodon auriga),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[2992.8705029593334],2876704
-3382239,Threadfin (Chaetodon auriga),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Threadfin (Chaetodon auriga),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[3365.211932690667],2876848
-3382240,Threadfin (Chaetodon auriga),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Threadfin (Chaetodon auriga),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[3365.211932690667],2876849
-3382241,Spotted Toby (Canthigaster solandri),Odd-shaped Swimmers > Puffers (Tetraodontidae) > Spotted Toby (Canthigaster solandri),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[3402.515601023667],2876850
-3382242,Spotted Toby (Canthigaster solandri),Odd-shaped Swimmers > Puffers (Tetraodontidae) > Spotted Toby (Canthigaster solandri),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[3430.814560066334],2876851
-3382243,Spotted Toby (Canthigaster solandri),Odd-shaped Swimmers > Puffers (Tetraodontidae) > Spotted Toby (Canthigaster solandri),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[3430.814560066334],2876852
-3382268,Rockmover (Novaculichthys taeniourus),Wrasses > Wrasses (Labridae) > Rockmover (Novaculichthys taeniourus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[3475.280805746],2876877
-3382338,Paletail Unicorn (Naso brevirostris),Large Ovals > Surgeonfishes (Acanthuridae) > Paletail Unicorn (Naso brevirostris),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[3595.6480132906668],2876947
-3385254,Bicolor (Labroides bicolor),Wrasses > Wrasses (Labridae) > Bicolor (Labroides bicolor),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[857.9150588103327],2879383
-3558958,Moorish Idol (Zanclus cornutus),Large Ovals > Moorish Idol (Zanclidae) > Moorish Idol (Zanclus cornutus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[2325.8943619],3041734
-3558959,Moorish Idol (Zanclus cornutus),Large Ovals > Moorish Idol (Zanclidae) > Moorish Idol (Zanclus cornutus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[2325.8943619],3041735
-3559236,Slingjaw (Epibulus insidiator),Wrasses > Wrasses (Labridae) > Slingjaw (Epibulus insidiator),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[77.9926724],3042011
-3559237,Wirenet (Cantherhines pardalis),Odd-shaped Swimmers > Filefishes (Monacanthidae) > Wirenet (Cantherhines pardalis),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[2552.7227013],3042012
-3620525,Palenose (Scarus psittacus),Parrotfishes > Parrotfishes (Scaridae) > Palenose (Scarus psittacus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[2277.814594],3079866
-3620526,Tunas/Mackerels (Scombridae),Silvery > Tunas/Mackerels (Scombridae),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[2393.684385],3079867
-4448415,Spotted (Chaetodon guttatissimus),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Spotted (Chaetodon guttatissimus),37261,29.10.24_Utumbi_C10_Glasnudel_ganz.mp4,[483.711495],3698697
+video_annotation_label_id,label_name,label_hierarchy,frames
+3376739,Blacktip (Epinephelus fasciatus),Heavy Bodies/Large Lips > Groupers (Serranidae) > Blacktip (Epinephelus fasciatus),[0]
+3376740,Green (Amblyglyphidodon indicus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Green (Amblyglyphidodon indicus),[0]
+3376745,Leopard (Cephalopholis leopardus),Heavy Bodies/Large Lips > Groupers (Serranidae) > Leopard (Cephalopholis leopardus),[19.557301775330128]
+3376748,Goldbar (Thalassoma hebraicum),Wrasses > Wrasses (Labridae) > Goldbar (Thalassoma hebraicum),[20.42530565033453]
+3376750,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[20.42530565033453]
+3376751,Orange-lined (Balistapus undulatus),Odd-shaped Swimmers > Triggerfishes (Balistidae) > Orange-lined (Balistapus undulatus),[26.04309202066592]
+3376754,Orange-lined Interested,Odd-shaped Swimmers > Triggerfishes (Balistidae) > Orange-lined (Balistapus undulatus) > Orange-lined Interested,[34.42999936033562]
+3376755,Goldbar Feeding,Wrasses > Wrasses (Labridae) > Goldbar (Thalassoma hebraicum) > Goldbar Feeding,[34.42999936033562]
+3376758,Wrasses (Labridae),Wrasses > Wrasses (Labridae),[39.2779731116734]
+3376760,Red (Lutjanus bohar),Sloping Heads > Snappers (Lutjanidae) > Red (Lutjanus bohar),[43.150305223000046]
+3376763,Orange-lined (Balistapus undulatus),Odd-shaped Swimmers > Triggerfishes (Balistidae) > Orange-lined (Balistapus undulatus),[48.263334547334175]
+3376764,Orange-lined (Balistapus undulatus),Odd-shaped Swimmers > Triggerfishes (Balistidae) > Orange-lined (Balistapus undulatus),[48.263334547334175]
+3376766,Genus Soldier (Myripristis),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Soldier (Myripristis),[67.13443691000319]
+3376767,Moon (Thalassoma lunare),Wrasses > Wrasses (Labridae) > Moon (Thalassoma lunare),[71.47840165099902]
+3376771,Mozambique Fangblenny (Meiacanthus mossambicus),Blennies > Blennies (Blenniidae) > Mozambique Fangblenny (Meiacanthus mossambicus),[97.5211954873337]
+3376772,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376773,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376774,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376775,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376776,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376777,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376778,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376779,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376780,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376781,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376782,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376783,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376784,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376785,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376786,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376787,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376788,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376789,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376790,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376791,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376792,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376793,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376794,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376795,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376796,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376797,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376798,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376799,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376800,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376801,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376802,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[105.32397270399854]
+3376803,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),[158.03468932133202]
+3376804,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),[160.5122427083383]
+3376805,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),[160.5122427083383]
+3376806,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),[160.5122427]
+3376807,Disappearing (Pseudocheilinus evanidus),Wrasses > Wrasses (Labridae) > Disappearing (Pseudocheilinus evanidus),[191.3491058103369]
+3376809,Whitetail (Acanthurus thompsoni),Large Ovals > Surgeonfishes (Acanthuridae) > Whitetail (Acanthurus thompsoni),[229.52147450699894]
+3376810,Bluefin (Caranx melampygus),Silvery > Jacks/Trevallyes (Carangidae) > Bluefin (Caranx melampygus),[230.83352820766456]
+3376811,Bluefin (Caranx melampygus),Silvery > Jacks/Trevallyes (Carangidae) > Bluefin (Caranx melampygus),[230.83352820766456]
+3376812,Scorpion-&Lionfishes (Scorpaenidae),Odd-shaped Bottom Dwellers > Scorpion-&Lionfishes (Scorpaenidae),[239.82032152566813]
+3376813,Regal (Pygoplites diacanthus),Disk-shaped/Colourful > Angelfishes (Pomacanthidae) > Regal (Pygoplites diacanthus),[246.56965234999726]
+3376814,False-eye (Abudefduf sparoides),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > False-eye (Abudefduf sparoides),[251.5433915393338]
+3376817,Genus Ctenochaetus,Large Ovals > Surgeonfishes (Acanthuridae) > Genus Ctenochaetus,[257.20789398633343]
+3376819,False-eye (Abudefduf sparoides),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > False-eye (Abudefduf sparoides),[258.1343505746621]
+3376821,False-eye (Abudefduf sparoides),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > False-eye (Abudefduf sparoides),[258.1343505746621]
+3376823,Bird wrasse (Gomphosus caeruleus),Wrasses > Wrasses (Labridae) > Bird wrasse (Gomphosus caeruleus),[259.90517189832656]
+3376825,Goldbar (Thalassoma hebraicum),Wrasses > Wrasses (Labridae) > Goldbar (Thalassoma hebraicum),[263.44975960733336]
+3376826,Goldbar (Thalassoma hebraicum),Wrasses > Wrasses (Labridae) > Goldbar (Thalassoma hebraicum),[263.44975960733336]
+3376830,Genus Ctenochaetus,Large Ovals > Surgeonfishes (Acanthuridae) > Genus Ctenochaetus,[269.8056204660002]
+3376831,Genus Ctenochaetus,Large Ovals > Surgeonfishes (Acanthuridae) > Genus Ctenochaetus,[269.8056204660002]
+3376833,Genus Ctenochaetus,Large Ovals > Surgeonfishes (Acanthuridae) > Genus Ctenochaetus,[269.8056204660002]
+3376835,Checkerboard (Halichoeres hortulanus),Wrasses > Wrasses (Labridae) > Checkerboard (Halichoeres hortulanus),[275.53615107966067]
+3376838,Barred (Hemigymnus fasciatus),Wrasses > Wrasses (Labridae) > Barred (Hemigymnus fasciatus),[300.7368548486646]
+3376842,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[305.6447332956657]
+3376843,Green (Amblyglyphidodon indicus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Green (Amblyglyphidodon indicus),[316.409980513996]
+3376844,Green (Amblyglyphidodon indicus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Green (Amblyglyphidodon indicus),[316.409980513996]
+3376860,Redmouth (Aethaloperca rogaa),Heavy Bodies/Large Lips > Groupers (Serranidae) > Redmouth (Aethaloperca rogaa),[412.7564917403392]
+3376872,Genus Soldier (Myripristis),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Soldier (Myripristis),[430.5056488846671]
+3376873,Genus Soldier (Myripristis),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Soldier (Myripristis),[430.5056488846671]
+3376874,Genus Soldier (Myripristis),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Soldier (Myripristis),[430.5056488846671]
+3376876,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),[432.1528493423315]
+3376885,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[466.4011212176612]
+3376888,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[466.4011212176612]
+3376889,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[466.4011212176612]
+3376890,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[466.4011212176612]
+3376891,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[471.0479166729979]
+3376892,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[471.0479166729979]
+3376893,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[471.0479166729979]
+3376894,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[471.0479166729979]
+3376895,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[471.0479166729979]
+3376896,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[471.0479166729979]
+3376897,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[471.0479166729979]
+3376898,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[471.0479166729979]
+3376899,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[471.0479166729979]
+3376900,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[471.0479166729979]
+3376901,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[471.0479166729979]
+3376902,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[471.0479166729979]
+3376904,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[471.0479166729979]
+3376905,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[471.0479166729979]
+3376906,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[471.0479166729979]
+3376907,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[471.0479166729979]
+3376908,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[471.0479166729979]
+3376910,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[471.0479166729979]
+3376912,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[477.2406789176693]
+3376913,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[477.2406789176693]
+3376917,Slingjaw (Epibulus insidiator),Wrasses > Wrasses (Labridae) > Slingjaw (Epibulus insidiator),[484.1898135903332]
+3376920,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[509.2110868619966]
+3376921,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[509.2110868619966]
+3376922,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[509.2110868619966]
+3376923,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[509.2110868619966]
+3376924,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[509.2110868619966]
+3376925,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[509.2110868619966]
+3376926,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[509.2110868619966]
+3376927,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[509.2110868619966]
+3376928,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[509.2110868619966]
+3376930,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[509.2110868619966]
+3376931,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[509.2110868619966]
+3376932,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[509.2110868619966]
+3376933,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[509.2110868619966]
+3376934,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[509.2110868619966]
+3376935,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[509.2110868619966]
+3376936,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[509.2110868619966]
+3376937,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[509.2110868619966]
+3376938,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[509.2110868619966]
+3376940,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[509.2110868619966]
+3376941,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[509.2110868619966]
+3376942,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[509.2110868619966]
+3376943,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[509.2110868619966]
+3376944,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[509.2110868619966]
+3376959,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376960,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376961,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376962,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376963,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376964,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376965,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376966,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376967,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376968,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376969,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376970,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376971,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376972,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376973,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376974,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376975,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376976,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376977,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376978,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376979,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376980,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376981,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376982,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376983,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376984,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376985,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376986,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376987,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376988,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376989,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376990,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376991,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376992,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376993,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376994,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[591.4820820069971]
+3376996,Powder Blue (Acanthurus leucosternon),Large Ovals > Surgeonfishes (Acanthuridae) > Powder Blue (Acanthurus leucosternon),[591.7019346336656]
+3377013,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377014,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377015,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377016,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377017,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377018,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377019,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377020,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377021,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377022,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377023,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377024,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377025,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377026,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377027,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377028,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377029,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377030,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377031,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377032,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377033,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377035,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377036,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377037,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377038,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377039,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377040,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377041,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377042,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377043,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377044,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377045,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377046,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377047,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377048,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377049,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377050,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377052,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377053,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377054,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377055,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377056,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377057,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377058,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377059,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377060,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377061,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377062,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377063,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377064,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377065,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377066,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377067,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377069,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377070,Ternate (Chromis ternatensis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Ternate (Chromis ternatensis),[613.580590639]
+3377078,Humpnose Bigeye (Monotaxis grandoculis),Sloping Heads > Emperors (Lethrinidae) > Humpnose Bigeye (Monotaxis grandoculis),[645.1948756849956]
+3377081,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),[660.8090340593266]
+3377082,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),[660.8090340593266]
+3377083,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),[660.8090340593266]
+3377085,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),[660.8090340593266]
+3377086,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),[660.8090340593266]
+3377088,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),[671.2292543759997]
+3377089,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),[671.2292543759997]
+3377090,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),[671.2292543759997]
+3377091,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),[671.2292543759997]
+3377092,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),[671.2292543759997]
+3377094,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),[671.2292543759997]
+3377095,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),[671.2292543759997]
+3377096,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),[671.2292543759997]
+3377097,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),[671.2292543759997]
+3377098,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),[671.2292543759997]
+3377099,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),[671.2292543759997]
+3377100,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),[671.2292543759997]
+3377101,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),[671.2292543759997]
+3377102,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),[671.2292543759997]
+3377103,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),[671.2292543759997]
+3377104,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),[671.2292543759997]
+3377105,Blue-green (Chromis viridis),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Blue-green (Chromis viridis),[671.2292543759997]
+3377110,Brown Pigmy (Centropyge multispinis),Disk-shaped/Colourful > Angelfishes (Pomacanthidae) > Brown Pigmy (Centropyge multispinis),[681.9923724756617]
+3377121,Bullethead (Chlorurus sordidus),Parrotfishes > Parrotfishes (Scaridae) > Bullethead (Chlorurus sordidus),[725.4763001393329]
+3377122,Bullethead (Chlorurus sordidus),Parrotfishes > Parrotfishes (Scaridae) > Bullethead (Chlorurus sordidus),[728.8560824133391]
+3377123,Bullethead (Chlorurus sordidus),Parrotfishes > Parrotfishes (Scaridae) > Bullethead (Chlorurus sordidus),[728.8560824133391]
+3377124,Bullethead (Chlorurus sordidus),Parrotfishes > Parrotfishes (Scaridae) > Bullethead (Chlorurus sordidus),[728.8560824133391]
+3377125,Bullethead (Chlorurus sordidus),Parrotfishes > Parrotfishes (Scaridae) > Bullethead (Chlorurus sordidus),[728.8560824133391]
+3377126,Bullethead (Chlorurus sordidus),Parrotfishes > Parrotfishes (Scaridae) > Bullethead (Chlorurus sordidus),[728.8560824133391]
+3377133,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377134,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377135,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377136,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377137,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377138,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377139,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377140,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377141,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377142,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377143,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377144,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377145,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377146,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377147,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377148,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377149,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377150,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377151,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377152,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377153,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377154,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377155,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377156,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377157,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377158,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377159,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377161,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377162,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377163,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377164,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377165,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377167,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377168,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377169,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377170,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377171,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377172,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377174,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377175,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377176,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377177,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377178,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377179,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377180,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377181,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377182,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377183,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377184,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377185,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377186,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377187,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377188,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377190,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377191,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377192,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[774.0729787373343]
+3377195,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[785.5553665129984]
+3377196,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[785.5553665129984]
+3377197,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[785.5553665129984]
+3377198,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[785.5553665129984]
+3377199,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[785.5553665129984]
+3377200,Groupers (Serranidae),Heavy Bodies/Large Lips > Groupers (Serranidae),[829.4267150329998]
+3377201,Groupers (Serranidae),Heavy Bodies/Large Lips > Groupers (Serranidae),[829.4267150329998]
+3377202,Trumpetfish (Aulostomus chinensis),Odd-shaped Swimmers > Trumpetfishes (Aulostomidae) > Trumpetfish (Aulostomus chinensis),[829.4267150329998]
+3377203,Yellowhead (Chaetodon xanthocephalus),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Yellowhead (Chaetodon xanthocephalus),[851.5052822056646]
+3377214,Moorish Idol (Zanclus cornutus),Large Ovals > Moorish Idol (Zanclidae) > Moorish Idol (Zanclus cornutus),[926.8628415106715]
+3377221,Eclipse (Chaetodon bennetti),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Eclipse (Chaetodon bennetti),[921.0770481616682]
+3377224,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[928.6458468470016]
+3377225,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[928.6458468470016]
+3377226,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[928.6458468470016]
+3377227,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[928.6458468470016]
+3377228,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[928.6458468470016]
+3377229,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[928.6458468470016]
+3377230,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[928.6458468470016]
+3377231,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[928.6458468470016]
+3377232,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[928.6458468470016]
+3377233,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[928.6458468470016]
+3377234,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[928.6458468470016]
+3377247,Genus Naso,Large Ovals > Surgeonfishes (Acanthuridae) > Genus Naso,[1002.3087400699969]
+3381628,Indian Redfin (Chaetodon trifasciatus),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Indian Redfin (Chaetodon trifasciatus),[1148.877245746]
+3381629,Indian Redfin (Chaetodon trifasciatus),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Indian Redfin (Chaetodon trifasciatus),[1148.877245746]
+3381630,Honeycomb (Siganus stellatus),Large Ovals > Rabbitfishes (Siganidae) > Honeycomb (Siganus stellatus),[1229.7414292856665]
+3381631,Honeycomb (Siganus stellatus),Large Ovals > Rabbitfishes (Siganidae) > Honeycomb (Siganus stellatus),[1229.7414292856665]
+3381675,Indian Redfin (Chaetodon trifasciatus),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Indian Redfin (Chaetodon trifasciatus),[1525.5261756339999]
+3381676,Indian Redfin (Chaetodon trifasciatus),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Indian Redfin (Chaetodon trifasciatus),[1525.5261756339999]
+3381677,Indian Redfin (Chaetodon trifasciatus),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Indian Redfin (Chaetodon trifasciatus),[1525.5261756339999]
+3381683,Genus Soldier (Myripristis),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Soldier (Myripristis),[1652.5539160340002]
+3381684,Genus Soldier (Myripristis),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Soldier (Myripristis),[1652.5539160340002]
+3381685,Genus Soldier (Myripristis),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Soldier (Myripristis),[1652.5539160340002]
+3381686,Genus Soldier (Myripristis),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Soldier (Myripristis),[1652.5539160340002]
+3381738,Five-saddle (Scarus saber),Parrotfishes > Parrotfishes (Scaridae) > Five-saddle (Scarus saber),[1958.0196893133334]
+3381744,Brown Pigmy (Centropyge multispinis),Disk-shaped/Colourful > Angelfishes (Pomacanthidae) > Brown Pigmy (Centropyge multispinis),[1980.5107043]
+3381745,Brown Pigmy (Centropyge multispinis),Disk-shaped/Colourful > Angelfishes (Pomacanthidae) > Brown Pigmy (Centropyge multispinis),[1980.5107043]
+3381747,Brown Pigmy (Centropyge multispinis),Disk-shaped/Colourful > Angelfishes (Pomacanthidae) > Brown Pigmy (Centropyge multispinis),[1980.5107043]
+3381980,Black-lipped (Chaetodon kleinii),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Black-lipped (Chaetodon kleinii),[2089.7111055976666]
+3382006,Regal (Pygoplites diacanthus),Disk-shaped/Colourful > Angelfishes (Pomacanthidae) > Regal (Pygoplites diacanthus),[2103.551811014333]
+3382007,Regal (Pygoplites diacanthus),Disk-shaped/Colourful > Angelfishes (Pomacanthidae) > Regal (Pygoplites diacanthus),[2103.551811014333]
+3382010,Swarthy (Scarus niger),Parrotfishes > Parrotfishes (Scaridae) > Swarthy (Scarus niger),[2118.4473689396664]
+3382012,Snubnose (Lethrinus borbonicus),Sloping Heads > Emperors (Lethrinidae) > Snubnose (Lethrinus borbonicus),[2120.6058996903334]
+3382021,Disappearing (Pseudocheilinus evanidus),Wrasses > Wrasses (Labridae) > Disappearing (Pseudocheilinus evanidus),[2138.110863539334]
+3382023,Disappearing (Pseudocheilinus evanidus),Wrasses > Wrasses (Labridae) > Disappearing (Pseudocheilinus evanidus),[2138.110863539334]
+3382034,Sulfur (Pomacentrus sulfureus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Sulfur (Pomacentrus sulfureus),[2200.1861596999997]
+3382045,Bird wrasse (Gomphosus caeruleus),Wrasses > Wrasses (Labridae) > Bird wrasse (Gomphosus caeruleus),[2398.3347189883325]
+3382046,Bird wrasse (Gomphosus caeruleus),Wrasses > Wrasses (Labridae) > Bird wrasse (Gomphosus caeruleus),[2398.3347189883325]
+3382048,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),[2485.6017255170004]
+3382049,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),[2485.6017255170004]
+3382050,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),[2485.6017255170004]
+3382051,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),[2485.6017255170004]
+3382052,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),[2485.6017255170004]
+3382053,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),[2485.6017255170004]
+3382059,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),[2535.816860815999]
+3382060,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),[2535.816860815999]
+3382071,Groupers (Serranidae),Heavy Bodies/Large Lips > Groupers (Serranidae),[2705.1247801673335]
+3382095,Threadfin (Chaetodon auriga),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Threadfin (Chaetodon auriga),[2992.8705029593334]
+3382239,Threadfin (Chaetodon auriga),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Threadfin (Chaetodon auriga),[3365.211932690667]
+3382240,Threadfin (Chaetodon auriga),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Threadfin (Chaetodon auriga),[3365.211932690667]
+3382241,Spotted Toby (Canthigaster solandri),Odd-shaped Swimmers > Puffers (Tetraodontidae) > Spotted Toby (Canthigaster solandri),[3402.515601023667]
+3382242,Spotted Toby (Canthigaster solandri),Odd-shaped Swimmers > Puffers (Tetraodontidae) > Spotted Toby (Canthigaster solandri),[3430.814560066334]
+3382243,Spotted Toby (Canthigaster solandri),Odd-shaped Swimmers > Puffers (Tetraodontidae) > Spotted Toby (Canthigaster solandri),[3430.814560066334]
+3382268,Rockmover (Novaculichthys taeniourus),Wrasses > Wrasses (Labridae) > Rockmover (Novaculichthys taeniourus),[3475.280805746]
+3382338,Paletail Unicorn (Naso brevirostris),Large Ovals > Surgeonfishes (Acanthuridae) > Paletail Unicorn (Naso brevirostris),[3595.6480132906668]
+3385254,Bicolor (Labroides bicolor),Wrasses > Wrasses (Labridae) > Bicolor (Labroides bicolor),[857.9150588103327]
+3558958,Moorish Idol (Zanclus cornutus),Large Ovals > Moorish Idol (Zanclidae) > Moorish Idol (Zanclus cornutus),[2325.8943619]
+3558959,Moorish Idol (Zanclus cornutus),Large Ovals > Moorish Idol (Zanclidae) > Moorish Idol (Zanclus cornutus),[2325.8943619]
+3559236,Slingjaw (Epibulus insidiator),Wrasses > Wrasses (Labridae) > Slingjaw (Epibulus insidiator),[77.9926724]
+3559237,Wirenet (Cantherhines pardalis),Odd-shaped Swimmers > Filefishes (Monacanthidae) > Wirenet (Cantherhines pardalis),[2552.7227013]
+3620525,Palenose (Scarus psittacus),Parrotfishes > Parrotfishes (Scaridae) > Palenose (Scarus psittacus),[2277.814594]
+3620526,Tunas/Mackerels (Scombridae),Silvery > Tunas/Mackerels (Scombridae),[2393.684385]
+4448415,Spotted (Chaetodon guttatissimus),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Spotted (Chaetodon guttatissimus),[483.711495]

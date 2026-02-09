@@ -1,274 +1,274 @@
-video_annotation_label_id,label_name,label_hierarchy,video_id,video_filename,frames,annotation_id
-3542747,Green (Amblyglyphidodon indicus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Green (Amblyglyphidodon indicus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[0.1452923],3027274
-3542748,Green (Amblyglyphidodon indicus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Green (Amblyglyphidodon indicus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[0.1452923],3027275
-3542750,Green (Amblyglyphidodon indicus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Green (Amblyglyphidodon indicus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[0.1452923],3027277
-3542752,Orange-lined (Balistapus undulatus),Odd-shaped Swimmers > Triggerfishes (Balistidae) > Orange-lined (Balistapus undulatus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2.0557226],3027279
-3542753,Orange-lined (Balistapus undulatus),Odd-shaped Swimmers > Triggerfishes (Balistidae) > Orange-lined (Balistapus undulatus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2.0557226],3027280
-3542754,Orange-lined (Balistapus undulatus),Odd-shaped Swimmers > Triggerfishes (Balistidae) > Orange-lined (Balistapus undulatus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2.0557226],3027281
-3542755,Orange-lined (Balistapus undulatus),Odd-shaped Swimmers > Triggerfishes (Balistidae) > Orange-lined (Balistapus undulatus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2.0557226],3027282
-3542756,Moon (Thalassoma lunare),Wrasses > Wrasses (Labridae) > Moon (Thalassoma lunare),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[5.8181896],3027283
-3542757,Goldbar (Thalassoma hebraicum),Wrasses > Wrasses (Labridae) > Goldbar (Thalassoma hebraicum),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[5.8181896],3027284
-3542759,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[6.2476331],3027286
-3542760,Red (Lutjanus bohar),Sloping Heads > Snappers (Lutjanidae) > Red (Lutjanus bohar),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1.3612594],3027287
-3542761,Golden (Ctenochaetus truncates),Large Ovals > Surgeonfishes (Acanthuridae) > Golden (Ctenochaetus truncates),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3.5400115],3027288
-3542762,Leopard (Cephalopholis leopardus),Heavy Bodies/Large Lips > Groupers (Serranidae) > Leopard (Cephalopholis leopardus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3.5400115],3027289
-3542763,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3.5400115],3027290
-3542764,Genus Soldier (Myripristis),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Soldier (Myripristis),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[5.9400735],3027291
-3542765,False-eye (Abudefduf sparoides),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > False-eye (Abudefduf sparoides),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[11.0884973],3027292
-3542766,Green Interested,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Green (Amblyglyphidodon indicus) > Green Interested,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[15.8151862],3027293
-3542767,Green Interested,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Green (Amblyglyphidodon indicus) > Green Interested,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[15.8151862],3027294
-3542768,Green Feeding,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Green (Amblyglyphidodon indicus) > Green Feeding,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[15.8151862],3027295
-3542769,False-eye (Abudefduf sparoides),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > False-eye (Abudefduf sparoides),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[15.8151862],3027296
-3542770,False-eye (Abudefduf sparoides),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > False-eye (Abudefduf sparoides),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[15.8151862],3027297
-3542771,Goldbar (Thalassoma hebraicum),Wrasses > Wrasses (Labridae) > Goldbar (Thalassoma hebraicum),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[24.5172023],3027298
-3542772,Goldbar (Thalassoma hebraicum),Wrasses > Wrasses (Labridae) > Goldbar (Thalassoma hebraicum),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[24.5172023],3027299
-3542773,Groupers (Serranidae),Heavy Bodies/Large Lips > Groupers (Serranidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[25.1183093],3027300
-3542774,Goldbar Interested,Wrasses > Wrasses (Labridae) > Goldbar (Thalassoma hebraicum) > Goldbar Interested,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[30.0083624],3027301
-3542775,Red Interested,Sloping Heads > Snappers (Lutjanidae) > Red (Lutjanus bohar) > Red Interested,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[40.8321105],3027302
-3542776,Goldbar (Thalassoma hebraicum),Wrasses > Wrasses (Labridae) > Goldbar (Thalassoma hebraicum),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[47.8624262],3027303
-3542777,Goldbar (Thalassoma hebraicum),Wrasses > Wrasses (Labridae) > Goldbar (Thalassoma hebraicum),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[47.8624262],3027304
-3542778,Goldbar (Thalassoma hebraicum),Wrasses > Wrasses (Labridae) > Goldbar (Thalassoma hebraicum),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[47.8624262],3027305
-3542779,Humpnose Bigeye (Monotaxis grandoculis),Sloping Heads > Emperors (Lethrinidae) > Humpnose Bigeye (Monotaxis grandoculis),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[53.3708597],3027306
-3542780,Goldbar Feeding,Wrasses > Wrasses (Labridae) > Goldbar (Thalassoma hebraicum) > Goldbar Feeding,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[66.4775688],3027307
-3542781,Bird wrasse (Gomphosus caeruleus),Wrasses > Wrasses (Labridae) > Bird wrasse (Gomphosus caeruleus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[68.1867988],3027308
-3542783,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[68.1867988],3027310
-3542785,Indian Redfin (Chaetodon trifasciatus),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Indian Redfin (Chaetodon trifasciatus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[75.4097174],3027312
-3542786,Green (Amblyglyphidodon indicus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Green (Amblyglyphidodon indicus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[75.4097174],3027313
-3542787,Green (Amblyglyphidodon indicus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Green (Amblyglyphidodon indicus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[75.4097174],3027314
-3542788,Green (Amblyglyphidodon indicus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Green (Amblyglyphidodon indicus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[75.4097174],3027315
-3542789,Green (Amblyglyphidodon indicus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Green (Amblyglyphidodon indicus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[75.4097174],3027316
-3542790,Moon (Thalassoma lunare),Wrasses > Wrasses (Labridae) > Moon (Thalassoma lunare),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[81.0911524],3027317
-3542791,Moon (Thalassoma lunare),Wrasses > Wrasses (Labridae) > Moon (Thalassoma lunare),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[81.0911524],3027318
-3542792,Redmouth (Aethaloperca rogaa),Heavy Bodies/Large Lips > Groupers (Serranidae) > Redmouth (Aethaloperca rogaa),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[87.7242329],3027319
-3542793,Regal (Pygoplites diacanthus),Disk-shaped/Colourful > Angelfishes (Pomacanthidae) > Regal (Pygoplites diacanthus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[94.6525385],3027320
-3542794,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[95.0599174],3027321
-3542795,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[95.0599174],3027322
-3542796,Swarthy (Scarus niger),Parrotfishes > Parrotfishes (Scaridae) > Swarthy (Scarus niger),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[100.5504733],3027323
-3542798,Black-backed (Chaetodon melannotus),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Black-backed (Chaetodon melannotus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[119.8571942],3027325
-3542800,Trumpetfish (Aulostomus chinensis),Odd-shaped Swimmers > Trumpetfishes (Aulostomidae) > Trumpetfish (Aulostomus chinensis),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[153.0866411],3027327
-3542801,Brown Pigmy (Centropyge multispinis),Disk-shaped/Colourful > Angelfishes (Pomacanthidae) > Brown Pigmy (Centropyge multispinis),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[158.0437728],3027328
-3542802,Redmouth (Aethaloperca rogaa),Heavy Bodies/Large Lips > Groupers (Serranidae) > Redmouth (Aethaloperca rogaa),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[177.0383059],3027329
-3542803,Redmouth (Aethaloperca rogaa),Heavy Bodies/Large Lips > Groupers (Serranidae) > Redmouth (Aethaloperca rogaa),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[177.0383059],3027330
-3542806,Bicolor (Labroides bicolor),Wrasses > Wrasses (Labridae) > Bicolor (Labroides bicolor),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[189.5882951],3027333
-3542816,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[238.134455],3027343
-3542819,Stareye (Calotomus carolinus),Parrotfishes > Parrotfishes (Scaridae) > Stareye (Calotomus carolinus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[256.932398],3027346
-3542821,Brown Tang (Zebrasoma scopas),Large Ovals > Surgeonfishes (Acanthuridae) > Brown Tang (Zebrasoma scopas),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[293.5322277],3027348
-3542859,Barred (Hemigymnus fasciatus),Wrasses > Wrasses (Labridae) > Barred (Hemigymnus fasciatus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[347.7583011],3027386
-3542867,Bullethead (Chlorurus sordidus),Parrotfishes > Parrotfishes (Scaridae) > Bullethead (Chlorurus sordidus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[407.9221302],3027394
-3542878,Brown Pigmy (Centropyge multispinis),Disk-shaped/Colourful > Angelfishes (Pomacanthidae) > Brown Pigmy (Centropyge multispinis),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[439.6281647],3027405
-3542879,Brown Pigmy (Centropyge multispinis),Disk-shaped/Colourful > Angelfishes (Pomacanthidae) > Brown Pigmy (Centropyge multispinis),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[439.6281647],3027406
-3542886,Axilspot Hogfish (Bodianus axillaris),Wrasses > Wrasses (Labridae) > Axilspot Hogfish (Bodianus axillaris),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[457.5338209],3027413
-3542890,Spotted (Chaetodon guttatissimus),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Spotted (Chaetodon guttatissimus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[480.3886947],3027417
-3542893,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[481.9020146],3027420
-3542894,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[481.9020146],3027421
-3542895,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[481.9020146],3027422
-3542898,Red (Lutjanus bohar),Sloping Heads > Snappers (Lutjanidae) > Red (Lutjanus bohar),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[482.0013875],3027425
-3542899,Red (Lutjanus bohar),Sloping Heads > Snappers (Lutjanidae) > Red (Lutjanus bohar),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[482.0013875],3027426
-3542900,Genus Soldier (Myripristis),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Soldier (Myripristis),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[490.4302102],3027427
-3542901,Genus Soldier (Myripristis),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Soldier (Myripristis),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[490.4302102],3027428
-3542903,Bird wrasse (Gomphosus caeruleus),Wrasses > Wrasses (Labridae) > Bird wrasse (Gomphosus caeruleus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[505.3778631],3027430
-3542904,Bird wrasse (Gomphosus caeruleus),Wrasses > Wrasses (Labridae) > Bird wrasse (Gomphosus caeruleus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[505.3778631],3027431
-3542905,Five-saddle (Scarus saber),Parrotfishes > Parrotfishes (Scaridae) > Five-saddle (Scarus saber),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[520.7336857],3027432
-3542908,Moorish Idol (Zanclus cornutus),Large Ovals > Moorish Idol (Zanclidae) > Moorish Idol (Zanclus cornutus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[563.8672406],3027435
-3542912,Genus Soldier (Myripristis),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Soldier (Myripristis),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[621.133395],3027439
-3542913,Genus Soldier (Myripristis),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Soldier (Myripristis),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[621.133395],3027440
-3542914,Genus Soldier (Myripristis),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Soldier (Myripristis),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[621.133395],3027441
-3542916,Mozambique Fangblenny (Meiacanthus mossambicus),Blennies > Blennies (Blenniidae) > Mozambique Fangblenny (Meiacanthus mossambicus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[633.0934102],3027443
-3542923,Paletail Unicorn (Naso brevirostris),Large Ovals > Surgeonfishes (Acanthuridae) > Paletail Unicorn (Naso brevirostris),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[657.4619848],3027450
-3542925,Linedcheeked (Oxycheilinus digramma),Wrasses > Wrasses (Labridae) > Linedcheeked (Oxycheilinus digramma),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[661.2634425],3027452
-3542927,Linedcheeked (Oxycheilinus digramma),Wrasses > Wrasses (Labridae) > Linedcheeked (Oxycheilinus digramma),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[669.2904472],3027454
-3542928,Linedcheeked (Oxycheilinus digramma),Wrasses > Wrasses (Labridae) > Linedcheeked (Oxycheilinus digramma),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[669.2904472],3027455
-3542929,Linedcheeked (Oxycheilinus digramma),Wrasses > Wrasses (Labridae) > Linedcheeked (Oxycheilinus digramma),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[669.2904472],3027456
-3542999,Golden (Ctenochaetus truncates),Large Ovals > Surgeonfishes (Acanthuridae) > Golden (Ctenochaetus truncates),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[693.213057],3027526
-3543000,Golden (Ctenochaetus truncates),Large Ovals > Surgeonfishes (Acanthuridae) > Golden (Ctenochaetus truncates),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[693.213057],3027527
-3543005,Wirenet (Cantherhines pardalis),Odd-shaped Swimmers > Filefishes (Monacanthidae) > Wirenet (Cantherhines pardalis),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[714.9922551],3027532
-3543018,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[752.1204639],3027545
-3543019,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[752.1204639],3027546
-3543021,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[752.1204639],3027548
-3543028,Disappearing (Pseudocheilinus evanidus),Wrasses > Wrasses (Labridae) > Disappearing (Pseudocheilinus evanidus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[835.5631261],3027555
-3543032,Moorish Idol (Zanclus cornutus),Large Ovals > Moorish Idol (Zanclidae) > Moorish Idol (Zanclus cornutus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[899.5352083],3027559
-3543033,Moorish Idol (Zanclus cornutus),Large Ovals > Moorish Idol (Zanclidae) > Moorish Idol (Zanclus cornutus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[899.5352083],3027560
-3543034,Raccoon (Chaetodon lunula),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Raccoon (Chaetodon lunula),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[923.3478759],3027561
-3543035,Tubelip (Labrichthys unilineatus),Wrasses > Wrasses (Labridae) > Tubelip (Labrichthys unilineatus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[940.0706985],3027562
-3543052,Saddleback (Chaetodon falcula),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Saddleback (Chaetodon falcula),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1113.0213962],3027579
-3543058,Freckled (Paracirrhites forsteri),Heavy Bodies/Large Lips > Hawkfishes (Cirrhitidae) > Freckled (Paracirrhites forsteri),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1230.7507877],3027585
-3543064,Paletail Unicorn (Naso brevirostris),Large Ovals > Surgeonfishes (Acanthuridae) > Paletail Unicorn (Naso brevirostris),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1310.0283322],3027591
-3543065,Paletail Unicorn (Naso brevirostris),Large Ovals > Surgeonfishes (Acanthuridae) > Paletail Unicorn (Naso brevirostris),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1310.0283322],3027592
-3543073,Longnose (Forcipiger flavissimus),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Longnose (Forcipiger flavissimus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1485.9981537],3027600
-3543082,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1632.0739583],3027609
-3543083,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1632.0739583],3027610
-3543084,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1632.0739583],3027611
-3543085,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1632.0739583],3027612
-3543086,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1632.0739583],3027613
-3543087,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1632.0739583],3027614
-3543088,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1632.0739583],3027615
-3543089,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1632.0739583],3027616
-3543090,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1632.0739583],3027617
-3543091,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1632.0739583],3027618
-3543092,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1632.0739583],3027619
-3543093,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1632.0739583],3027620
-3543094,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1632.0739583],3027621
-3543095,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1632.0739583],3027622
-3543096,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1632.0739583],3027623
-3543097,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1632.0739583],3027624
-3543098,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1632.0739583],3027625
-3543099,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1632.0739583],3027626
-3543100,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1632.0739583],3027627
-3543101,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1632.0739583],3027628
-3543102,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1632.0739583],3027629
-3543103,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1632.0739583],3027630
-3543104,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1632.0739583],3027631
-3543105,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1632.0739583],3027632
-3543106,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1632.0739583],3027633
-3543107,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1632.0739583],3027634
-3543108,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1632.0739583],3027635
-3543109,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1632.0739583],3027636
-3543110,Whitetail (Acanthurus thompsoni),Large Ovals > Surgeonfishes (Acanthuridae) > Whitetail (Acanthurus thompsoni),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1641.1748096],3027637
-3543114,Checkerboard (Halichoeres hortulanus),Wrasses > Wrasses (Labridae) > Checkerboard (Halichoeres hortulanus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1816.0956479],3027641
-3543213,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1874.8635587],3027698
-3543214,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1874.8635587],3027699
-3543215,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1874.8635587],3027700
-3543216,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1874.8635587],3027701
-3543217,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1874.8635587],3027702
-3543219,Blackeye (Hemigymnus melapterus),Wrasses > Wrasses (Labridae) > Blackeye (Hemigymnus melapterus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1910.9453132],3027704
-3543221,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1956.5385057],3027706
-3543222,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1956.5385057],3027707
-3543223,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1956.5385057],3027708
-3543224,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1956.5385057],3027709
-3543231,Bullethead (Chlorurus sordidus),Parrotfishes > Parrotfishes (Scaridae) > Bullethead (Chlorurus sordidus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2122.1543749],3027713
-3543232,Bullethead (Chlorurus sordidus),Parrotfishes > Parrotfishes (Scaridae) > Bullethead (Chlorurus sordidus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2122.1543749],3027714
-3543233,Bullethead (Chlorurus sordidus),Parrotfishes > Parrotfishes (Scaridae) > Bullethead (Chlorurus sordidus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2122.1543749],3027715
-3543235,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2120.6686699],3027717
-3543236,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2120.6686699],3027718
-3543237,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2120.6686699],3027719
-3543238,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2120.6686699],3027720
-3543239,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2120.6686699],3027721
-3543240,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2120.6686699],3027722
-3543246,Threadfin (Chaetodon auriga),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Threadfin (Chaetodon auriga),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2160.5390096],3027726
-3543248,Black-lipped (Chaetodon kleinii),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Black-lipped (Chaetodon kleinii),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2168.6574317],3027728
-3543250,Black-lipped (Chaetodon kleinii),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Black-lipped (Chaetodon kleinii),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2192.8351341],3027729
-3543251,Black-lipped (Chaetodon kleinii),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Black-lipped (Chaetodon kleinii),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2192.8351341],3027730
-3543253,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2208.7250529],3027731
-3543254,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2208.7250529],3027732
-3543255,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2208.7250529],3027733
-3543256,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2208.7250529],3027734
-3543257,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2208.7250529],3027735
-3543258,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2208.7250529],3027736
-3543259,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2208.7250529],3027737
-3543260,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2208.7250529],3027738
-3543261,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2208.7250529],3027739
-3543262,Regal (Pygoplites diacanthus),Disk-shaped/Colourful > Angelfishes (Pomacanthidae) > Regal (Pygoplites diacanthus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2305.6073919],3027740
-3543263,Regal (Pygoplites diacanthus),Disk-shaped/Colourful > Angelfishes (Pomacanthidae) > Regal (Pygoplites diacanthus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2305.6073919],3027741
-3543264,Blue-streak (Labroides dimidiatus),Wrasses > Wrasses (Labridae) > Blue-streak (Labroides dimidiatus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2322.3708934],3027742
-3543266,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2351.1661568],3027744
-3543267,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2351.1661568],3027745
-3543268,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2351.1661568],3027746
-3543270,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2363.1859652],3027748
-3543271,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2363.1859652],3027749
-3543272,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2363.1859652],3027750
-3543273,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2363.1859652],3027751
-3543275,Red-breasted (Cheilinus fasciatus),Wrasses > Wrasses (Labridae) > Red-breasted (Cheilinus fasciatus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2400.2217042],3027753
-3543276,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2405.8341023],3027754
-3543277,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2410.2813644],3027755
-3543278,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2410.2813644],3027756
-3543279,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2410.2813644],3027757
-3543280,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2410.2813644],3027758
-3543281,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2410.2813644],3027759
-3543282,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2410.2813644],3027760
-3543283,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2410.2813644],3027761
-3543285,Bird wrasse (Gomphosus caeruleus),Wrasses > Wrasses (Labridae) > Bird wrasse (Gomphosus caeruleus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2475.4349584],3027762
-3543286,Bird wrasse (Gomphosus caeruleus),Wrasses > Wrasses (Labridae) > Bird wrasse (Gomphosus caeruleus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2475.4349584],3027763
-3543287,Bird wrasse (Gomphosus caeruleus),Wrasses > Wrasses (Labridae) > Bird wrasse (Gomphosus caeruleus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2475.4349584],3027764
-3543290,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2510.5168081],3027766
-3543291,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2510.5168081],3027767
-3543292,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2510.5168081],3027768
-3543293,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2510.5168081],3027769
-3543294,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2510.5168081],3027770
-3543295,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2510.5168081],3027771
-3543296,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2510.5168081],3027772
-3543297,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2510.5168081],3027773
-3543298,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2510.5168081],3027774
-3543299,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2510.5168081],3027775
-3543300,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2510.5168081],3027776
-3543301,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2510.5168081],3027777
-3543302,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2510.5168081],3027778
-3543303,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2510.5168081],3027779
-3543304,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2510.5168081],3027780
-3543312,Sidespot (Parupeneus pleurostigma),Odd-shaped Swimmers > Goatfishes (Mullidae) > Sidespot (Parupeneus pleurostigma),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2660.0141689],3027782
-3543322,Halfmoon (Sufflamen chrysopterum),Odd-shaped Swimmers > Triggerfishes (Balistidae) > Halfmoon (Sufflamen chrysopterum),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2890.9468592],3027792
-3543324,Groupers (Serranidae),Heavy Bodies/Large Lips > Groupers (Serranidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2919.8003124],3027794
-3543325,Groupers (Serranidae),Heavy Bodies/Large Lips > Groupers (Serranidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2919.8003124],3027795
-3543328,Scorpion-&Lionfishes (Scorpaenidae),Odd-shaped Bottom Dwellers > Scorpion-&Lionfishes (Scorpaenidae),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2970.8769238],3027798
-3543329,Sulfur (Pomacentrus sulfureus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Sulfur (Pomacentrus sulfureus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2980.1148401],3027799
-3543337,Black Saddled Toby (Canthigaster valentini),Odd-shaped Swimmers > Puffers (Tetraodontidae) > Black Saddled Toby (Canthigaster valentini),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3160.8931873],3027807
-3543340,Paletail Unicorn (Naso brevirostris),Large Ovals > Surgeonfishes (Acanthuridae) > Paletail Unicorn (Naso brevirostris),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3197.6148316],3027810
-3543341,Paletail Unicorn (Naso brevirostris),Large Ovals > Surgeonfishes (Acanthuridae) > Paletail Unicorn (Naso brevirostris),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3197.6148316],3027811
-3543342,Paletail Unicorn (Naso brevirostris),Large Ovals > Surgeonfishes (Acanthuridae) > Paletail Unicorn (Naso brevirostris),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3197.6148316],3027812
-3543343,Raccoon (Chaetodon lunula),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Raccoon (Chaetodon lunula),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3195.010672],3027813
-3543344,Raccoon (Chaetodon lunula),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Raccoon (Chaetodon lunula),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3195.010672],3027814
-3543348,Rockmover (Novaculichthys taeniourus),Wrasses > Wrasses (Labridae) > Rockmover (Novaculichthys taeniourus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3389.4563787],3027818
-3543350,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3405.1051551],3027820
-3543351,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3405.1051551],3027821
-3543352,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3405.1051551],3027822
-3543353,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3405.1051551],3027823
-3543354,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3405.1051551],3027824
-3543355,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3405.1051551],3027825
-3543356,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3405.1051551],3027826
-3543357,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3405.1051551],3027827
-3543358,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3405.1051551],3027828
-3543360,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3405.1051551],3027830
-3543361,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027831
-3543362,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027832
-3543363,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027833
-3543364,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027834
-3543365,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027835
-3543366,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027836
-3543367,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027837
-3543368,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027838
-3543369,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027839
-3543370,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027840
-3543371,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027841
-3543372,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027842
-3543373,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027843
-3543374,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027844
-3543375,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027845
-3543376,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027846
-3543377,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027847
-3543378,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027848
-3543379,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027849
-3543380,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027850
-3543381,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027851
-3543382,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027852
-3543383,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027853
-3543384,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027854
-3543385,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027855
-3543386,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027856
-3543387,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027857
-3543389,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027859
-3543390,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027860
-3543391,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027861
-3543392,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027862
-3543393,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027863
-3543394,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027864
-3543395,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[3421.6025137],3027865
-3547937,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1026.1775219],3031562
-3547938,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1026.1775219],3031563
-3547939,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1026.1775219],3031564
-3547940,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1026.1775219],3031565
-3547941,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1026.1775219],3031566
-3547942,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1026.1775219],3031567
-3547943,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1026.1775219],3031568
-3547944,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1026.1775219],3031569
-3547945,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1026.1775219],3031570
-3547946,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1026.1775219],3031571
-3547947,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1026.1775219],3031572
-3547948,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1026.1775219],3031573
-3547949,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1026.1775219],3031574
-3547950,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1026.1775219],3031575
-3547951,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1026.1775219],3031576
-3558962,Spotted (Diodon hystrix),Odd-shaped Swimmers > Porcupinefishes (Diodontidae) > Spotted (Diodon hystrix),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[2788.2759928],3041738
-3559414,Yellowtail (Anampses meleagrides),Wrasses > Wrasses (Labridae) > Yellowtail (Anampses meleagrides),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[1733.4277671],3042185
-3620602,Longnose (Oxymonacanthus longirostris),Odd-shaped Swimmers > Filefishes (Monacanthidae) > Longnose (Oxymonacanthus longirostris),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[417.456316],3079943
-3620603,Longnose (Oxymonacanthus longirostris),Odd-shaped Swimmers > Filefishes (Monacanthidae) > Longnose (Oxymonacanthus longirostris),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[422.373406],3079944
-3620604,Longnose (Oxymonacanthus longirostris),Odd-shaped Swimmers > Filefishes (Monacanthidae) > Longnose (Oxymonacanthus longirostris),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[422.373406],3079945
-3620605,Yellowbreast (Anampses twistii),Wrasses > Wrasses (Labridae) > Yellowbreast (Anampses twistii),38039,29.11.2024_Utumbi_Sargassum_ganz.mp4,[849.298314],3079946
+video_annotation_label_id,label_name,label_hierarchy,frames
+3542747,Green (Amblyglyphidodon indicus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Green (Amblyglyphidodon indicus),[0.1452923]
+3542748,Green (Amblyglyphidodon indicus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Green (Amblyglyphidodon indicus),[0.1452923]
+3542750,Green (Amblyglyphidodon indicus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Green (Amblyglyphidodon indicus),[0.1452923]
+3542752,Orange-lined (Balistapus undulatus),Odd-shaped Swimmers > Triggerfishes (Balistidae) > Orange-lined (Balistapus undulatus),[2.0557226]
+3542753,Orange-lined (Balistapus undulatus),Odd-shaped Swimmers > Triggerfishes (Balistidae) > Orange-lined (Balistapus undulatus),[2.0557226]
+3542754,Orange-lined (Balistapus undulatus),Odd-shaped Swimmers > Triggerfishes (Balistidae) > Orange-lined (Balistapus undulatus),[2.0557226]
+3542755,Orange-lined (Balistapus undulatus),Odd-shaped Swimmers > Triggerfishes (Balistidae) > Orange-lined (Balistapus undulatus),[2.0557226]
+3542756,Moon (Thalassoma lunare),Wrasses > Wrasses (Labridae) > Moon (Thalassoma lunare),[5.8181896]
+3542757,Goldbar (Thalassoma hebraicum),Wrasses > Wrasses (Labridae) > Goldbar (Thalassoma hebraicum),[5.8181896]
+3542759,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[6.2476331]
+3542760,Red (Lutjanus bohar),Sloping Heads > Snappers (Lutjanidae) > Red (Lutjanus bohar),[1.3612594]
+3542761,Golden (Ctenochaetus truncates),Large Ovals > Surgeonfishes (Acanthuridae) > Golden (Ctenochaetus truncates),[3.5400115]
+3542762,Leopard (Cephalopholis leopardus),Heavy Bodies/Large Lips > Groupers (Serranidae) > Leopard (Cephalopholis leopardus),[3.5400115]
+3542763,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),[3.5400115]
+3542764,Genus Soldier (Myripristis),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Soldier (Myripristis),[5.9400735]
+3542765,False-eye (Abudefduf sparoides),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > False-eye (Abudefduf sparoides),[11.0884973]
+3542766,Green Interested,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Green (Amblyglyphidodon indicus) > Green Interested,[15.8151862]
+3542767,Green Interested,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Green (Amblyglyphidodon indicus) > Green Interested,[15.8151862]
+3542768,Green Feeding,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Green (Amblyglyphidodon indicus) > Green Feeding,[15.8151862]
+3542769,False-eye (Abudefduf sparoides),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > False-eye (Abudefduf sparoides),[15.8151862]
+3542770,False-eye (Abudefduf sparoides),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > False-eye (Abudefduf sparoides),[15.8151862]
+3542771,Goldbar (Thalassoma hebraicum),Wrasses > Wrasses (Labridae) > Goldbar (Thalassoma hebraicum),[24.5172023]
+3542772,Goldbar (Thalassoma hebraicum),Wrasses > Wrasses (Labridae) > Goldbar (Thalassoma hebraicum),[24.5172023]
+3542773,Groupers (Serranidae),Heavy Bodies/Large Lips > Groupers (Serranidae),[25.1183093]
+3542774,Goldbar Interested,Wrasses > Wrasses (Labridae) > Goldbar (Thalassoma hebraicum) > Goldbar Interested,[30.0083624]
+3542775,Red Interested,Sloping Heads > Snappers (Lutjanidae) > Red (Lutjanus bohar) > Red Interested,[40.8321105]
+3542776,Goldbar (Thalassoma hebraicum),Wrasses > Wrasses (Labridae) > Goldbar (Thalassoma hebraicum),[47.8624262]
+3542777,Goldbar (Thalassoma hebraicum),Wrasses > Wrasses (Labridae) > Goldbar (Thalassoma hebraicum),[47.8624262]
+3542778,Goldbar (Thalassoma hebraicum),Wrasses > Wrasses (Labridae) > Goldbar (Thalassoma hebraicum),[47.8624262]
+3542779,Humpnose Bigeye (Monotaxis grandoculis),Sloping Heads > Emperors (Lethrinidae) > Humpnose Bigeye (Monotaxis grandoculis),[53.3708597]
+3542780,Goldbar Feeding,Wrasses > Wrasses (Labridae) > Goldbar (Thalassoma hebraicum) > Goldbar Feeding,[66.4775688]
+3542781,Bird wrasse (Gomphosus caeruleus),Wrasses > Wrasses (Labridae) > Bird wrasse (Gomphosus caeruleus),[68.1867988]
+3542783,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),[68.1867988]
+3542785,Indian Redfin (Chaetodon trifasciatus),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Indian Redfin (Chaetodon trifasciatus),[75.4097174]
+3542786,Green (Amblyglyphidodon indicus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Green (Amblyglyphidodon indicus),[75.4097174]
+3542787,Green (Amblyglyphidodon indicus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Green (Amblyglyphidodon indicus),[75.4097174]
+3542788,Green (Amblyglyphidodon indicus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Green (Amblyglyphidodon indicus),[75.4097174]
+3542789,Green (Amblyglyphidodon indicus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Green (Amblyglyphidodon indicus),[75.4097174]
+3542790,Moon (Thalassoma lunare),Wrasses > Wrasses (Labridae) > Moon (Thalassoma lunare),[81.0911524]
+3542791,Moon (Thalassoma lunare),Wrasses > Wrasses (Labridae) > Moon (Thalassoma lunare),[81.0911524]
+3542792,Redmouth (Aethaloperca rogaa),Heavy Bodies/Large Lips > Groupers (Serranidae) > Redmouth (Aethaloperca rogaa),[87.7242329]
+3542793,Regal (Pygoplites diacanthus),Disk-shaped/Colourful > Angelfishes (Pomacanthidae) > Regal (Pygoplites diacanthus),[94.6525385]
+3542794,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),[95.0599174]
+3542795,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),[95.0599174]
+3542796,Swarthy (Scarus niger),Parrotfishes > Parrotfishes (Scaridae) > Swarthy (Scarus niger),[100.5504733]
+3542798,Black-backed (Chaetodon melannotus),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Black-backed (Chaetodon melannotus),[119.8571942]
+3542800,Trumpetfish (Aulostomus chinensis),Odd-shaped Swimmers > Trumpetfishes (Aulostomidae) > Trumpetfish (Aulostomus chinensis),[153.0866411]
+3542801,Brown Pigmy (Centropyge multispinis),Disk-shaped/Colourful > Angelfishes (Pomacanthidae) > Brown Pigmy (Centropyge multispinis),[158.0437728]
+3542802,Redmouth (Aethaloperca rogaa),Heavy Bodies/Large Lips > Groupers (Serranidae) > Redmouth (Aethaloperca rogaa),[177.0383059]
+3542803,Redmouth (Aethaloperca rogaa),Heavy Bodies/Large Lips > Groupers (Serranidae) > Redmouth (Aethaloperca rogaa),[177.0383059]
+3542806,Bicolor (Labroides bicolor),Wrasses > Wrasses (Labridae) > Bicolor (Labroides bicolor),[189.5882951]
+3542816,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[238.134455]
+3542819,Stareye (Calotomus carolinus),Parrotfishes > Parrotfishes (Scaridae) > Stareye (Calotomus carolinus),[256.932398]
+3542821,Brown Tang (Zebrasoma scopas),Large Ovals > Surgeonfishes (Acanthuridae) > Brown Tang (Zebrasoma scopas),[293.5322277]
+3542859,Barred (Hemigymnus fasciatus),Wrasses > Wrasses (Labridae) > Barred (Hemigymnus fasciatus),[347.7583011]
+3542867,Bullethead (Chlorurus sordidus),Parrotfishes > Parrotfishes (Scaridae) > Bullethead (Chlorurus sordidus),[407.9221302]
+3542878,Brown Pigmy (Centropyge multispinis),Disk-shaped/Colourful > Angelfishes (Pomacanthidae) > Brown Pigmy (Centropyge multispinis),[439.6281647]
+3542879,Brown Pigmy (Centropyge multispinis),Disk-shaped/Colourful > Angelfishes (Pomacanthidae) > Brown Pigmy (Centropyge multispinis),[439.6281647]
+3542886,Axilspot Hogfish (Bodianus axillaris),Wrasses > Wrasses (Labridae) > Axilspot Hogfish (Bodianus axillaris),[457.5338209]
+3542890,Spotted (Chaetodon guttatissimus),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Spotted (Chaetodon guttatissimus),[480.3886947]
+3542893,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[481.9020146]
+3542894,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[481.9020146]
+3542895,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[481.9020146]
+3542898,Red (Lutjanus bohar),Sloping Heads > Snappers (Lutjanidae) > Red (Lutjanus bohar),[482.0013875]
+3542899,Red (Lutjanus bohar),Sloping Heads > Snappers (Lutjanidae) > Red (Lutjanus bohar),[482.0013875]
+3542900,Genus Soldier (Myripristis),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Soldier (Myripristis),[490.4302102]
+3542901,Genus Soldier (Myripristis),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Soldier (Myripristis),[490.4302102]
+3542903,Bird wrasse (Gomphosus caeruleus),Wrasses > Wrasses (Labridae) > Bird wrasse (Gomphosus caeruleus),[505.3778631]
+3542904,Bird wrasse (Gomphosus caeruleus),Wrasses > Wrasses (Labridae) > Bird wrasse (Gomphosus caeruleus),[505.3778631]
+3542905,Five-saddle (Scarus saber),Parrotfishes > Parrotfishes (Scaridae) > Five-saddle (Scarus saber),[520.7336857]
+3542908,Moorish Idol (Zanclus cornutus),Large Ovals > Moorish Idol (Zanclidae) > Moorish Idol (Zanclus cornutus),[563.8672406]
+3542912,Genus Soldier (Myripristis),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Soldier (Myripristis),[621.133395]
+3542913,Genus Soldier (Myripristis),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Soldier (Myripristis),[621.133395]
+3542914,Genus Soldier (Myripristis),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Soldier (Myripristis),[621.133395]
+3542916,Mozambique Fangblenny (Meiacanthus mossambicus),Blennies > Blennies (Blenniidae) > Mozambique Fangblenny (Meiacanthus mossambicus),[633.0934102]
+3542923,Paletail Unicorn (Naso brevirostris),Large Ovals > Surgeonfishes (Acanthuridae) > Paletail Unicorn (Naso brevirostris),[657.4619848]
+3542925,Linedcheeked (Oxycheilinus digramma),Wrasses > Wrasses (Labridae) > Linedcheeked (Oxycheilinus digramma),[661.2634425]
+3542927,Linedcheeked (Oxycheilinus digramma),Wrasses > Wrasses (Labridae) > Linedcheeked (Oxycheilinus digramma),[669.2904472]
+3542928,Linedcheeked (Oxycheilinus digramma),Wrasses > Wrasses (Labridae) > Linedcheeked (Oxycheilinus digramma),[669.2904472]
+3542929,Linedcheeked (Oxycheilinus digramma),Wrasses > Wrasses (Labridae) > Linedcheeked (Oxycheilinus digramma),[669.2904472]
+3542999,Golden (Ctenochaetus truncates),Large Ovals > Surgeonfishes (Acanthuridae) > Golden (Ctenochaetus truncates),[693.213057]
+3543000,Golden (Ctenochaetus truncates),Large Ovals > Surgeonfishes (Acanthuridae) > Golden (Ctenochaetus truncates),[693.213057]
+3543005,Wirenet (Cantherhines pardalis),Odd-shaped Swimmers > Filefishes (Monacanthidae) > Wirenet (Cantherhines pardalis),[714.9922551]
+3543018,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),[752.1204639]
+3543019,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),[752.1204639]
+3543021,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),[752.1204639]
+3543028,Disappearing (Pseudocheilinus evanidus),Wrasses > Wrasses (Labridae) > Disappearing (Pseudocheilinus evanidus),[835.5631261]
+3543032,Moorish Idol (Zanclus cornutus),Large Ovals > Moorish Idol (Zanclidae) > Moorish Idol (Zanclus cornutus),[899.5352083]
+3543033,Moorish Idol (Zanclus cornutus),Large Ovals > Moorish Idol (Zanclidae) > Moorish Idol (Zanclus cornutus),[899.5352083]
+3543034,Raccoon (Chaetodon lunula),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Raccoon (Chaetodon lunula),[923.3478759]
+3543035,Tubelip (Labrichthys unilineatus),Wrasses > Wrasses (Labridae) > Tubelip (Labrichthys unilineatus),[940.0706985]
+3543052,Saddleback (Chaetodon falcula),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Saddleback (Chaetodon falcula),[1113.0213962]
+3543058,Freckled (Paracirrhites forsteri),Heavy Bodies/Large Lips > Hawkfishes (Cirrhitidae) > Freckled (Paracirrhites forsteri),[1230.7507877]
+3543064,Paletail Unicorn (Naso brevirostris),Large Ovals > Surgeonfishes (Acanthuridae) > Paletail Unicorn (Naso brevirostris),[1310.0283322]
+3543065,Paletail Unicorn (Naso brevirostris),Large Ovals > Surgeonfishes (Acanthuridae) > Paletail Unicorn (Naso brevirostris),[1310.0283322]
+3543073,Longnose (Forcipiger flavissimus),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Longnose (Forcipiger flavissimus),[1485.9981537]
+3543082,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),[1632.0739583]
+3543083,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),[1632.0739583]
+3543084,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),[1632.0739583]
+3543085,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),[1632.0739583]
+3543086,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),[1632.0739583]
+3543087,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),[1632.0739583]
+3543088,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),[1632.0739583]
+3543089,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),[1632.0739583]
+3543090,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),[1632.0739583]
+3543091,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),[1632.0739583]
+3543092,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),[1632.0739583]
+3543093,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),[1632.0739583]
+3543094,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),[1632.0739583]
+3543095,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),[1632.0739583]
+3543096,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),[1632.0739583]
+3543097,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),[1632.0739583]
+3543098,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),[1632.0739583]
+3543099,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),[1632.0739583]
+3543100,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),[1632.0739583]
+3543101,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),[1632.0739583]
+3543102,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),[1632.0739583]
+3543103,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),[1632.0739583]
+3543104,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),[1632.0739583]
+3543105,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),[1632.0739583]
+3543106,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),[1632.0739583]
+3543107,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),[1632.0739583]
+3543108,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),[1632.0739583]
+3543109,Fusiliers (Caesionidae),Slender Schoolers/Colourful > Fusiliers (Caesionidae),[1632.0739583]
+3543110,Whitetail (Acanthurus thompsoni),Large Ovals > Surgeonfishes (Acanthuridae) > Whitetail (Acanthurus thompsoni),[1641.1748096]
+3543114,Checkerboard (Halichoeres hortulanus),Wrasses > Wrasses (Labridae) > Checkerboard (Halichoeres hortulanus),[1816.0956479]
+3543213,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),[1874.8635587]
+3543214,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),[1874.8635587]
+3543215,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),[1874.8635587]
+3543216,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),[1874.8635587]
+3543217,Genus Squirrel (Sargocentron),Reddish/Big Eyes > Soldier-&Squirrelfishes (Holocentridae) > Genus Squirrel (Sargocentron),[1874.8635587]
+3543219,Blackeye (Hemigymnus melapterus),Wrasses > Wrasses (Labridae) > Blackeye (Hemigymnus melapterus),[1910.9453132]
+3543221,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[1956.5385057]
+3543222,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[1956.5385057]
+3543223,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[1956.5385057]
+3543224,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[1956.5385057]
+3543231,Bullethead (Chlorurus sordidus),Parrotfishes > Parrotfishes (Scaridae) > Bullethead (Chlorurus sordidus),[2122.1543749]
+3543232,Bullethead (Chlorurus sordidus),Parrotfishes > Parrotfishes (Scaridae) > Bullethead (Chlorurus sordidus),[2122.1543749]
+3543233,Bullethead (Chlorurus sordidus),Parrotfishes > Parrotfishes (Scaridae) > Bullethead (Chlorurus sordidus),[2122.1543749]
+3543235,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[2120.6686699]
+3543236,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[2120.6686699]
+3543237,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[2120.6686699]
+3543238,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[2120.6686699]
+3543239,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[2120.6686699]
+3543240,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[2120.6686699]
+3543246,Threadfin (Chaetodon auriga),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Threadfin (Chaetodon auriga),[2160.5390096]
+3543248,Black-lipped (Chaetodon kleinii),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Black-lipped (Chaetodon kleinii),[2168.6574317]
+3543250,Black-lipped (Chaetodon kleinii),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Black-lipped (Chaetodon kleinii),[2192.8351341]
+3543251,Black-lipped (Chaetodon kleinii),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Black-lipped (Chaetodon kleinii),[2192.8351341]
+3543253,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[2208.7250529]
+3543254,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[2208.7250529]
+3543255,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[2208.7250529]
+3543256,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[2208.7250529]
+3543257,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[2208.7250529]
+3543258,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[2208.7250529]
+3543259,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[2208.7250529]
+3543260,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[2208.7250529]
+3543261,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[2208.7250529]
+3543262,Regal (Pygoplites diacanthus),Disk-shaped/Colourful > Angelfishes (Pomacanthidae) > Regal (Pygoplites diacanthus),[2305.6073919]
+3543263,Regal (Pygoplites diacanthus),Disk-shaped/Colourful > Angelfishes (Pomacanthidae) > Regal (Pygoplites diacanthus),[2305.6073919]
+3543264,Blue-streak (Labroides dimidiatus),Wrasses > Wrasses (Labridae) > Blue-streak (Labroides dimidiatus),[2322.3708934]
+3543266,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),[2351.1661568]
+3543267,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),[2351.1661568]
+3543268,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),[2351.1661568]
+3543270,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),[2363.1859652]
+3543271,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),[2363.1859652]
+3543272,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),[2363.1859652]
+3543273,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),[2363.1859652]
+3543275,Red-breasted (Cheilinus fasciatus),Wrasses > Wrasses (Labridae) > Red-breasted (Cheilinus fasciatus),[2400.2217042]
+3543276,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[2405.8341023]
+3543277,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[2410.2813644]
+3543278,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[2410.2813644]
+3543279,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[2410.2813644]
+3543280,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[2410.2813644]
+3543281,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[2410.2813644]
+3543282,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[2410.2813644]
+3543283,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[2410.2813644]
+3543285,Bird wrasse (Gomphosus caeruleus),Wrasses > Wrasses (Labridae) > Bird wrasse (Gomphosus caeruleus),[2475.4349584]
+3543286,Bird wrasse (Gomphosus caeruleus),Wrasses > Wrasses (Labridae) > Bird wrasse (Gomphosus caeruleus),[2475.4349584]
+3543287,Bird wrasse (Gomphosus caeruleus),Wrasses > Wrasses (Labridae) > Bird wrasse (Gomphosus caeruleus),[2475.4349584]
+3543290,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[2510.5168081]
+3543291,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[2510.5168081]
+3543292,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[2510.5168081]
+3543293,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[2510.5168081]
+3543294,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[2510.5168081]
+3543295,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[2510.5168081]
+3543296,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[2510.5168081]
+3543297,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[2510.5168081]
+3543298,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[2510.5168081]
+3543299,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[2510.5168081]
+3543300,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[2510.5168081]
+3543301,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[2510.5168081]
+3543302,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[2510.5168081]
+3543303,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[2510.5168081]
+3543304,Parrotfishes (Scaridae),Parrotfishes > Parrotfishes (Scaridae),[2510.5168081]
+3543312,Sidespot (Parupeneus pleurostigma),Odd-shaped Swimmers > Goatfishes (Mullidae) > Sidespot (Parupeneus pleurostigma),[2660.0141689]
+3543322,Halfmoon (Sufflamen chrysopterum),Odd-shaped Swimmers > Triggerfishes (Balistidae) > Halfmoon (Sufflamen chrysopterum),[2890.9468592]
+3543324,Groupers (Serranidae),Heavy Bodies/Large Lips > Groupers (Serranidae),[2919.8003124]
+3543325,Groupers (Serranidae),Heavy Bodies/Large Lips > Groupers (Serranidae),[2919.8003124]
+3543328,Scorpion-&Lionfishes (Scorpaenidae),Odd-shaped Bottom Dwellers > Scorpion-&Lionfishes (Scorpaenidae),[2970.8769238]
+3543329,Sulfur (Pomacentrus sulfureus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Sulfur (Pomacentrus sulfureus),[2980.1148401]
+3543337,Black Saddled Toby (Canthigaster valentini),Odd-shaped Swimmers > Puffers (Tetraodontidae) > Black Saddled Toby (Canthigaster valentini),[3160.8931873]
+3543340,Paletail Unicorn (Naso brevirostris),Large Ovals > Surgeonfishes (Acanthuridae) > Paletail Unicorn (Naso brevirostris),[3197.6148316]
+3543341,Paletail Unicorn (Naso brevirostris),Large Ovals > Surgeonfishes (Acanthuridae) > Paletail Unicorn (Naso brevirostris),[3197.6148316]
+3543342,Paletail Unicorn (Naso brevirostris),Large Ovals > Surgeonfishes (Acanthuridae) > Paletail Unicorn (Naso brevirostris),[3197.6148316]
+3543343,Raccoon (Chaetodon lunula),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Raccoon (Chaetodon lunula),[3195.010672]
+3543344,Raccoon (Chaetodon lunula),Disk-shaped/Colourful > Butterflyfishes (Chaetodontidae) > Raccoon (Chaetodon lunula),[3195.010672]
+3543348,Rockmover (Novaculichthys taeniourus),Wrasses > Wrasses (Labridae) > Rockmover (Novaculichthys taeniourus),[3389.4563787]
+3543350,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),[3405.1051551]
+3543351,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),[3405.1051551]
+3543352,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),[3405.1051551]
+3543353,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),[3405.1051551]
+3543354,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),[3405.1051551]
+3543355,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),[3405.1051551]
+3543356,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),[3405.1051551]
+3543357,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),[3405.1051551]
+3543358,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),[3405.1051551]
+3543360,Longbarbel (Parupeneus macronemus),Odd-shaped Swimmers > Goatfishes (Mullidae) > Longbarbel (Parupeneus macronemus),[3405.1051551]
+3543361,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543362,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543363,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543364,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543365,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543366,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543367,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543368,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543369,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543370,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543371,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543372,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543373,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543374,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543375,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543376,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543377,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543378,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543379,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543380,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543381,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543382,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543383,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543384,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543385,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543386,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543387,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543389,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543390,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543391,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543392,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543393,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543394,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3543395,Genus Chromis,Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Genus Chromis,[3421.6025137]
+3547937,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[1026.1775219]
+3547938,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[1026.1775219]
+3547939,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[1026.1775219]
+3547940,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[1026.1775219]
+3547941,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[1026.1775219]
+3547942,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[1026.1775219]
+3547943,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[1026.1775219]
+3547944,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[1026.1775219]
+3547945,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[1026.1775219]
+3547946,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[1026.1775219]
+3547947,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[1026.1775219]
+3547948,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[1026.1775219]
+3547949,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[1026.1775219]
+3547950,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[1026.1775219]
+3547951,Indian Half-and-Half (Pycnochromis dimidiatus),Small Ovals - Damselfishes > Damselfishes (Pomacentridae) > Indian Half-and-Half (Pycnochromis dimidiatus),[1026.1775219]
+3558962,Spotted (Diodon hystrix),Odd-shaped Swimmers > Porcupinefishes (Diodontidae) > Spotted (Diodon hystrix),[2788.2759928]
+3559414,Yellowtail (Anampses meleagrides),Wrasses > Wrasses (Labridae) > Yellowtail (Anampses meleagrides),[1733.4277671]
+3620602,Longnose (Oxymonacanthus longirostris),Odd-shaped Swimmers > Filefishes (Monacanthidae) > Longnose (Oxymonacanthus longirostris),[417.456316]
+3620603,Longnose (Oxymonacanthus longirostris),Odd-shaped Swimmers > Filefishes (Monacanthidae) > Longnose (Oxymonacanthus longirostris),[422.373406]
+3620604,Longnose (Oxymonacanthus longirostris),Odd-shaped Swimmers > Filefishes (Monacanthidae) > Longnose (Oxymonacanthus longirostris),[422.373406]
+3620605,Yellowbreast (Anampses twistii),Wrasses > Wrasses (Labridae) > Yellowbreast (Anampses twistii),[849.298314]
