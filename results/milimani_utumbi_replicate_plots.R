@@ -231,18 +231,22 @@ for (b in valid_baits) {
 
 bait_dist <- bind_rows(bait_dist)
 
-p_bait <- ggplot(bait_dist, aes(x = bait, y = distance, fill = metric)) +
-  geom_col(position = position_dodge(width = 0.8)) +
-  labs(title = "Bait-level Milimani vs Utumbi distances", x = NULL, y = "Distance") +
-  theme_minimal(base_size = 12) +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+if (nrow(bait_dist) == 0) {
+  message("No valid baits found for bait-level distances; skipping bait-level plot.")
+} else {
+  p_bait <- ggplot(bait_dist, aes(x = bait, y = distance, fill = metric)) +
+    geom_col(position = position_dodge(width = 0.8)) +
+    labs(title = "Bait-level Milimani vs Utumbi distances", x = NULL, y = "Distance") +
+    theme_minimal(base_size = 12) +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
-ggsave(
-  file.path(repo_dir, "results", "figures", "bait_level_distances.png"),
-  p_bait,
-  width = 7,
-  height = 4.5,
-  dpi = 150
-)
+  ggsave(
+    file.path(repo_dir, "results", "figures", "bait_level_distances.png"),
+    p_bait,
+    width = 7,
+    height = 4.5,
+    dpi = 150
+  )
+}
 
 message("Done. Figures saved to ", file.path(repo_dir, "results", "figures"))
