@@ -1,0 +1,94 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='900' height='500' viewBox='0 0 900 500'>
+<text x='450.0' y='28' font-size='16' text-anchor='middle' font-family='DejaVu Sans, Arial, sans-serif'>Species richness per bait (coral reef reports)</text>
+<line x1='70' y1='400' x2='880' y2='400' stroke='#2b2b2b'/>
+<line x1='70' y1='400' x2='70' y2='50' stroke='#2b2b2b'/>
+<line x1='66' y1='400.0' x2='70' y2='400.0' stroke='#2b2b2b'/>
+<text x='62' y='404.0' font-size='11' text-anchor='end' font-family='DejaVu Sans, Arial, sans-serif'>36</text>
+<line x1='66' y1='312.5' x2='70' y2='312.5' stroke='#2b2b2b'/>
+<text x='62' y='316.5' font-size='11' text-anchor='end' font-family='DejaVu Sans, Arial, sans-serif'>47</text>
+<line x1='66' y1='225.0' x2='70' y2='225.0' stroke='#2b2b2b'/>
+<text x='62' y='229.0' font-size='11' text-anchor='end' font-family='DejaVu Sans, Arial, sans-serif'>58</text>
+<line x1='66' y1='137.5' x2='70' y2='137.5' stroke='#2b2b2b'/>
+<text x='62' y='141.5' font-size='11' text-anchor='end' font-family='DejaVu Sans, Arial, sans-serif'>69</text>
+<line x1='66' y1='50.0' x2='70' y2='50.0' stroke='#2b2b2b'/>
+<text x='62' y='54.0' font-size='11' text-anchor='end' font-family='DejaVu Sans, Arial, sans-serif'>80</text>
+<rect x='107.125' y='101.70454545454544' width='60.75' height='75.56818181818184' fill='#b3cde3' stroke='#2b2b2b'/>
+<line x1='107.125' y1='145.45454545454547' x2='167.875' y2='145.45454545454547' stroke='#2b2b2b'/>
+<line x1='137.5' y1='101.70454545454544' x2='137.5' y2='57.95454545454544' stroke='#2b2b2b'/>
+<line x1='137.5' y1='177.27272727272728' x2='137.5' y2='209.0909090909091' stroke='#2b2b2b'/>
+<line x1='122.3125' y1='57.95454545454544' x2='152.6875' y2='57.95454545454544' stroke='#2b2b2b'/>
+<line x1='122.3125' y1='209.0909090909091' x2='152.6875' y2='209.0909090909091' stroke='#2b2b2b'/>
+<circle cx='140.27673438926226' cy='57.95454545454544' r='3' fill='#1f78b4' opacity='0.8'/>
+<circle cx='128.02314483188349' cy='209.0909090909091' r='3' fill='#1f78b4' opacity='0.8'/>
+<circle cx='144.33848652178634' cy='145.45454545454547' r='3' fill='#1f78b4' opacity='0.8'/>
+<g transform='translate(137.5,430) rotate(-30)'><text font-size='11' text-anchor='end' font-family='DejaVu Sans, Arial, sans-serif'>fischmix</text></g>
+<rect x='242.125' y='113.63636363636363' width='60.75' height='113.35227272727275' fill='#b3cde3' stroke='#2b2b2b'/>
+<line x1='242.125' y1='173.29545454545453' x2='302.875' y2='173.29545454545453' stroke='#2b2b2b'/>
+<line x1='272.5' y1='113.63636363636363' x2='272.5' y2='57.95454545454544' stroke='#2b2b2b'/>
+<line x1='272.5' y1='226.98863636363637' x2='272.5' y2='256.8181818181818' stroke='#2b2b2b'/>
+<line x1='257.3125' y1='57.95454545454544' x2='287.6875' y2='57.95454545454544' stroke='#2b2b2b'/>
+<line x1='257.3125' y1='256.8181818181818' x2='287.6875' y2='256.8181818181818' stroke='#2b2b2b'/>
+<circle cx='281.07089597811495' cy='232.95454545454547' r='3' fill='#1f78b4' opacity='0.8'/>
+<circle cx='254.72119184339192' cy='137.5' r='3' fill='#1f78b4' opacity='0.8'/>
+<circle cx='260.63388924371714' cy='256.8181818181818' r='3' fill='#1f78b4' opacity='0.8'/>
+<circle cx='273.6649456738619' cy='209.0909090909091' r='3' fill='#1f78b4' opacity='0.8'/>
+<circle cx='269.6182393772691' cy='57.95454545454544' r='3' fill='#1f78b4' opacity='0.8'/>
+<circle cx='272.34689945224216' cy='105.68181818181819' r='3' fill='#1f78b4' opacity='0.8'/>
+<g transform='translate(272.5,430) rotate(-30)'><text font-size='11' text-anchor='end' font-family='DejaVu Sans, Arial, sans-serif'>mackerel</text></g>
+<rect x='377.125' y='165.3409090909091' width='60.75' height='89.48863636363637' fill='#b3cde3' stroke='#2b2b2b'/>
+<line x1='377.125' y1='213.0681818181818' x2='437.875' y2='213.0681818181818' stroke='#2b2b2b'/>
+<line x1='407.5' y1='165.3409090909091' x2='407.5' y2='161.36363636363637' stroke='#2b2b2b'/>
+<line x1='407.5' y1='254.82954545454547' x2='407.5' y2='272.72727272727275' stroke='#2b2b2b'/>
+<line x1='392.3125' y1='161.36363636363637' x2='422.6875' y2='161.36363636363637' stroke='#2b2b2b'/>
+<line x1='392.3125' y1='272.72727272727275' x2='422.6875' y2='272.72727272727275' stroke='#2b2b2b'/>
+<circle cx='399.72663720998577' cy='256.8181818181818' r='3' fill='#1f78b4' opacity='0.8'/>
+<circle cx='415.51351404593754' cy='177.27272727272728' r='3' fill='#1f78b4' opacity='0.8'/>
+<circle cx='414.5876290115963' cy='272.72727272727275' r='3' fill='#1f78b4' opacity='0.8'/>
+<circle cx='408.1017047315266' cy='161.36363636363637' r='3' fill='#1f78b4' opacity='0.8'/>
+<circle cx='417.7719854984962' cy='248.86363636363637' r='3' fill='#1f78b4' opacity='0.8'/>
+<circle cx='411.76017888127177' cy='161.36363636363637' r='3' fill='#1f78b4' opacity='0.8'/>
+<g transform='translate(407.5,430) rotate(-30)'><text font-size='11' text-anchor='end' font-family='DejaVu Sans, Arial, sans-serif'>sargassum</text></g>
+<rect x='512.125' y='223.01136363636363' width='60.75' height='73.5795454545455' fill='#b3cde3' stroke='#2b2b2b'/>
+<line x1='512.125' y1='268.75' x2='572.875' y2='268.75' stroke='#2b2b2b'/>
+<line x1='542.5' y1='223.01136363636363' x2='542.5' y2='193.1818181818182' stroke='#2b2b2b'/>
+<line x1='542.5' y1='296.5909090909091' x2='542.5' y2='336.3636363636364' stroke='#2b2b2b'/>
+<line x1='527.3125' y1='193.1818181818182' x2='557.6875' y2='193.1818181818182' stroke='#2b2b2b'/>
+<line x1='527.3125' y1='336.3636363636364' x2='557.6875' y2='336.3636363636364' stroke='#2b2b2b'/>
+<circle cx='534.6696974319765' cy='336.3636363636364' r='3' fill='#1f78b4' opacity='0.8'/>
+<circle cx='545.8602415199517' cy='296.5909090909091' r='3' fill='#1f78b4' opacity='0.8'/>
+<circle cx='533.7621822999457' cy='240.9090909090909' r='3' fill='#1f78b4' opacity='0.8'/>
+<circle cx='550.5048783706625' cy='296.5909090909091' r='3' fill='#1f78b4' opacity='0.8'/>
+<circle cx='542.0450501361378' cy='193.1818181818182' r='3' fill='#1f78b4' opacity='0.8'/>
+<circle cx='540.8154417121938' cy='217.04545454545453' r='3' fill='#1f78b4' opacity='0.8'/>
+<g transform='translate(542.5,430) rotate(-30)'><text font-size='11' text-anchor='end' font-family='DejaVu Sans, Arial, sans-serif'>glasnudel</text></g>
+<rect x='647.125' y='205.11363636363637' width='60.75' height='111.36363636363637' fill='#b3cde3' stroke='#2b2b2b'/>
+<line x1='647.125' y1='248.86363636363637' x2='707.875' y2='248.86363636363637' stroke='#2b2b2b'/>
+<line x1='677.5' y1='205.11363636363637' x2='677.5' y2='193.1818181818182' stroke='#2b2b2b'/>
+<line x1='677.5' y1='316.47727272727275' x2='677.5' y2='392.04545454545456' stroke='#2b2b2b'/>
+<line x1='662.3125' y1='193.1818181818182' x2='692.6875' y2='193.1818181818182' stroke='#2b2b2b'/>
+<line x1='662.3125' y1='392.04545454545456' x2='692.6875' y2='392.04545454545456' stroke='#2b2b2b'/>
+<circle cx='671.295029526619' cy='248.86363636363637' r='3' fill='#1f78b4' opacity='0.8'/>
+<circle cx='688.6404079486671' cy='344.3181818181818' r='3' fill='#1f78b4' opacity='0.8'/>
+<circle cx='676.0918500946481' cy='201.13636363636363' r='3' fill='#1f78b4' opacity='0.8'/>
+<circle cx='673.5968627205386' cy='392.04545454545456' r='3' fill='#1f78b4' opacity='0.8'/>
+<circle cx='674.291183021176' cy='209.0909090909091' r='3' fill='#1f78b4' opacity='0.8'/>
+<circle cx='682.3506674533548' cy='193.1818181818182' r='3' fill='#1f78b4' opacity='0.8'/>
+<circle cx='680.8301090365177' cy='288.6363636363636' r='3' fill='#1f78b4' opacity='0.8'/>
+<g transform='translate(677.5,430) rotate(-30)'><text font-size='11' text-anchor='end' font-family='DejaVu Sans, Arial, sans-serif'>meersalat</text></g>
+<rect x='782.125' y='260.7954545454545' width='60.75' height='43.75000000000006' fill='#b3cde3' stroke='#2b2b2b'/>
+<line x1='782.125' y1='280.6818181818182' x2='842.875' y2='280.6818181818182' stroke='#2b2b2b'/>
+<line x1='812.5' y1='260.7954545454545' x2='812.5' y2='240.9090909090909' stroke='#2b2b2b'/>
+<line x1='812.5' y1='304.54545454545456' x2='812.5' y2='368.1818181818182' stroke='#2b2b2b'/>
+<line x1='797.3125' y1='240.9090909090909' x2='827.6875' y2='240.9090909090909' stroke='#2b2b2b'/>
+<line x1='797.3125' y1='368.1818181818182' x2='827.6875' y2='368.1818181818182' stroke='#2b2b2b'/>
+<circle cx='816.2610259231684' cy='312.5' r='3' fill='#1f78b4' opacity='0.8'/>
+<circle cx='816.4258563899093' cy='280.6818181818182' r='3' fill='#1f78b4' opacity='0.8'/>
+<circle cx='832.0157637629321' cy='240.9090909090909' r='3' fill='#1f78b4' opacity='0.8'/>
+<circle cx='808.7965431631952' cy='368.1818181818182' r='3' fill='#1f78b4' opacity='0.8'/>
+<circle cx='807.8321881313357' cy='296.5909090909091' r='3' fill='#1f78b4' opacity='0.8'/>
+<circle cx='805.0844960138412' cy='280.6818181818182' r='3' fill='#1f78b4' opacity='0.8'/>
+<circle cx='818.1131124882193' cy='185.22727272727272' r='3' fill='#1f78b4' opacity='0.8'/>
+<g transform='translate(812.5,430) rotate(-30)'><text font-size='11' text-anchor='end' font-family='DejaVu Sans, Arial, sans-serif'>control</text></g>
+<text x='450.0' y='490' font-size='12' text-anchor='middle' font-family='DejaVu Sans, Arial, sans-serif'>Bait</text>
+<g transform='translate(18,250.0) rotate(-90)'><text font-size='12' text-anchor='middle' font-family='DejaVu Sans, Arial, sans-serif'>Species richness</text></g>
+</svg>

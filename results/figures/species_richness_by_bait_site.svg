@@ -1,0 +1,75 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='900' height='500' viewBox='0 0 900 500'>
+<text x='450.0' y='28' font-size='16' text-anchor='middle' font-family='DejaVu Sans, Arial, sans-serif'>Mean species richness by bait and site</text>
+<line x1='70' y1='400' x2='880' y2='400' stroke='#2b2b2b'/>
+<line x1='70' y1='400' x2='70' y2='50' stroke='#2b2b2b'/>
+<line x1='66' y1='400.0' x2='70' y2='400.0' stroke='#2b2b2b'/>
+<text x='62' y='404.0' font-size='11' text-anchor='end' font-family='DejaVu Sans, Arial, sans-serif'>0</text>
+<line x1='66' y1='312.5' x2='70' y2='312.5' stroke='#2b2b2b'/>
+<text x='62' y='316.5' font-size='11' text-anchor='end' font-family='DejaVu Sans, Arial, sans-serif'>22</text>
+<line x1='66' y1='225.0' x2='70' y2='225.0' stroke='#2b2b2b'/>
+<text x='62' y='229.0' font-size='11' text-anchor='end' font-family='DejaVu Sans, Arial, sans-serif'>44</text>
+<line x1='66' y1='137.5' x2='70' y2='137.5' stroke='#2b2b2b'/>
+<text x='62' y='141.5' font-size='11' text-anchor='end' font-family='DejaVu Sans, Arial, sans-serif'>66</text>
+<line x1='66' y1='50.0' x2='70' y2='50.0' stroke='#2b2b2b'/>
+<text x='62' y='54.0' font-size='11' text-anchor='end' font-family='DejaVu Sans, Arial, sans-serif'>88</text>
+<rect x='80.125' y='161.7707831427046' width='47.25' height='238.2292168572954' fill='#4daf4a' opacity='0.85'/>
+<line x1='103.75' y1='161.7707831427046' x2='103.75' y2='161.7707831427046' stroke='#2b2b2b'/>
+<line x1='99.75' y1='161.7707831427046' x2='107.75' y2='161.7707831427046' stroke='#2b2b2b'/>
+<line x1='99.75' y1='161.7707831427046' x2='107.75' y2='161.7707831427046' stroke='#2b2b2b'/>
+<rect x='147.625' y='108.16920934981317' width='47.25' height='291.8307906501868' fill='#984ea3' opacity='0.85'/>
+<line x1='171.25' y1='77.28606865177824' x2='171.25' y2='139.0523500478481' stroke='#2b2b2b'/>
+<line x1='167.25' y1='77.28606865177824' x2='175.25' y2='77.28606865177824' stroke='#2b2b2b'/>
+<line x1='167.25' y1='139.0523500478481' x2='175.25' y2='139.0523500478481' stroke='#2b2b2b'/>
+<g transform='translate(137.5,430) rotate(-30)'><text font-size='11' text-anchor='end' font-family='DejaVu Sans, Arial, sans-serif'>fischmix</text></g>
+<rect x='215.125' y='148.53582665063263' width='47.25' height='251.46417334936737' fill='#4daf4a' opacity='0.85'/>
+<line x1='238.75' y1='94.33710424844105' x2='238.75' y2='202.73454905282424' stroke='#2b2b2b'/>
+<line x1='234.75' y1='94.33710424844105' x2='242.75' y2='94.33710424844105' stroke='#2b2b2b'/>
+<line x1='234.75' y1='202.73454905282424' x2='242.75' y2='202.73454905282424' stroke='#2b2b2b'/>
+<rect x='282.625' y='132.65387886014634' width='47.25' height='267.34612113985366' fill='#984ea3' opacity='0.85'/>
+<line x1='306.25' y1='106.21707397274207' x2='306.25' y2='159.09068374755057' stroke='#2b2b2b'/>
+<line x1='302.25' y1='106.21707397274207' x2='310.25' y2='106.21707397274207' stroke='#2b2b2b'/>
+<line x1='302.25' y1='159.09068374755057' x2='310.25' y2='159.09068374755057' stroke='#2b2b2b'/>
+<g transform='translate(272.5,430) rotate(-30)'><text font-size='11' text-anchor='end' font-family='DejaVu Sans, Arial, sans-serif'>mackerel</text></g>
+<rect x='350.125' y='186.91720047764136' width='47.25' height='213.08279952235864' fill='#4daf4a' opacity='0.85'/>
+<line x1='373.75' y1='180.85218148320465' x2='373.75' y2='192.98221947207807' stroke='#2b2b2b'/>
+<line x1='369.75' y1='180.85218148320465' x2='377.75' y2='180.85218148320465' stroke='#2b2b2b'/>
+<line x1='369.75' y1='192.98221947207807' x2='377.75' y2='192.98221947207807' stroke='#2b2b2b'/>
+<rect x='417.625' y='140.59485275538952' width='47.25' height='259.4051472446105' fill='#984ea3' opacity='0.85'/>
+<line x1='441.25' y1='136.01012933934305' x2='441.25' y2='145.17957617143597' stroke='#2b2b2b'/>
+<line x1='437.25' y1='136.01012933934305' x2='445.25' y2='136.01012933934305' stroke='#2b2b2b'/>
+<line x1='437.25' y1='145.17957617143597' x2='445.25' y2='145.17957617143597' stroke='#2b2b2b'/>
+<g transform='translate(407.5,430) rotate(-30)'><text font-size='11' text-anchor='end' font-family='DejaVu Sans, Arial, sans-serif'>sargassum</text></g>
+<rect x='485.125' y='211.4018699879745' width='47.25' height='188.5981300120255' fill='#4daf4a' opacity='0.85'/>
+<line x1='508.75' y1='172.16295811824418' x2='508.75' y2='250.6407818577048' stroke='#2b2b2b'/>
+<line x1='504.75' y1='172.16295811824418' x2='512.75' y2='172.16295811824418' stroke='#2b2b2b'/>
+<line x1='504.75' y1='250.6407818577048' x2='512.75' y2='250.6407818577048' stroke='#2b2b2b'/>
+<rect x='552.625' y='164.417774441119' width='47.25' height='235.582225558881' fill='#984ea3' opacity='0.85'/>
+<line x1='576.25' y1='149.38575346529282' x2='576.25' y2='179.44979541694522' stroke='#2b2b2b'/>
+<line x1='572.25' y1='149.38575346529282' x2='580.25' y2='149.38575346529282' stroke='#2b2b2b'/>
+<line x1='572.25' y1='179.44979541694522' x2='580.25' y2='179.44979541694522' stroke='#2b2b2b'/>
+<g transform='translate(542.5,430) rotate(-30)'><text font-size='11' text-anchor='end' font-family='DejaVu Sans, Arial, sans-serif'>meersalat</text></g>
+<rect x='620.125' y='212.06361781257806' width='47.25' height='187.93638218742194' fill='#4daf4a' opacity='0.85'/>
+<line x1='643.75' y1='200.60180927246196' x2='643.75' y2='223.52542635269415' stroke='#2b2b2b'/>
+<line x1='639.75' y1='200.60180927246196' x2='647.75' y2='200.60180927246196' stroke='#2b2b2b'/>
+<line x1='639.75' y1='223.52542635269415' x2='647.75' y2='223.52542635269415' stroke='#2b2b2b'/>
+<rect x='687.625' y='165.7412700903262' width='47.25' height='234.2587299096738' fill='#984ea3' opacity='0.85'/>
+<line x1='711.25' y1='153.82980924746144' x2='711.25' y2='177.65273093319098' stroke='#2b2b2b'/>
+<line x1='707.25' y1='153.82980924746144' x2='715.25' y2='153.82980924746144' stroke='#2b2b2b'/>
+<line x1='707.25' y1='177.65273093319098' x2='715.25' y2='177.65273093319098' stroke='#2b2b2b'/>
+<g transform='translate(677.5,430) rotate(-30)'><text font-size='11' text-anchor='end' font-family='DejaVu Sans, Arial, sans-serif'>glasnudel</text></g>
+<rect x='755.125' y='212.06361781257806' width='47.25' height='187.93638218742194' fill='#4daf4a' opacity='0.85'/>
+<line x1='778.75' y1='186.84763902432266' x2='778.75' y2='237.27959660083351' stroke='#2b2b2b'/>
+<line x1='774.75' y1='186.84763902432266' x2='782.75' y2='186.84763902432266' stroke='#2b2b2b'/>
+<line x1='774.75' y1='237.27959660083351' x2='782.75' y2='237.27959660083351' stroke='#2b2b2b'/>
+<rect x='822.625' y='186.58632656533956' width='47.25' height='213.41367343466044' fill='#984ea3' opacity='0.85'/>
+<line x1='846.25' y1='157.70347872591645' x2='846.25' y2='215.46917440476267' stroke='#2b2b2b'/>
+<line x1='842.25' y1='157.70347872591645' x2='850.25' y2='157.70347872591645' stroke='#2b2b2b'/>
+<line x1='842.25' y1='215.46917440476267' x2='850.25' y2='215.46917440476267' stroke='#2b2b2b'/>
+<g transform='translate(812.5,430) rotate(-30)'><text font-size='11' text-anchor='end' font-family='DejaVu Sans, Arial, sans-serif'>control</text></g>
+<text x='450.0' y='490' font-size='12' text-anchor='middle' font-family='DejaVu Sans, Arial, sans-serif'>Bait</text>
+<g transform='translate(18,250.0) rotate(-90)'><text font-size='12' text-anchor='middle' font-family='DejaVu Sans, Arial, sans-serif'>Mean species richness</text></g>
+<rect x='760' y='50' width='12' height='12' fill='#4daf4a'/>
+<text x='778' y='60' font-size='12' text-anchor='start' font-family='DejaVu Sans, Arial, sans-serif'>milimani</text>
+<rect x='760' y='68' width='12' height='12' fill='#984ea3'/>
+<text x='778' y='78' font-size='12' text-anchor='start' font-family='DejaVu Sans, Arial, sans-serif'>utumbi</text>
+</svg>
