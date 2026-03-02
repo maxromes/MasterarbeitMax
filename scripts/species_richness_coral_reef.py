@@ -33,11 +33,24 @@ def parse_filename(file_name: str) -> dict:
     return {"date": date, "site": site, "bait": bait, "camera": camera}
 
 
+def get_highest_taxon(row: pd.Series) -> str:
+    """Extract the highest available taxonomic level.
+    Priority: species > genus > family > unspecific
+    """
+    for col in ["species", "genus", "family", "unspecific"]:
+        value = str(row.get(col, "")).strip()
+        if value and value != "nan":
+            return value
+    return "unidentified"
+
+
 def collect_richness(report_dir: Path) -> pd.DataFrame:
     rows = []
     for file_path in sorted(report_dir.glob("*.csv")):
         data = pd.read_csv(file_path)
-        richness = data["label_name"].nunique()
+        # Extract highest taxonomic level for each record
+        data["taxon"] = data.apply(get_highest_taxon, axis=1)
+        richness = data["taxon"].nunique()
         meta = parse_filename(file_path.name)
         rows.append(
             {
