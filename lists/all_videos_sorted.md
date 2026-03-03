@@ -64,11 +64,11 @@
 ## Bait-Typen Übersicht
 
 ### Coral Reef (35 Videos)
-- **mackerel:** 8 Videos
+- **mackerel:** 6 Videos
 - **ulva_salad:** 7 Videos
-- **ulva_gutweed:** 7 Videos
+- **ulva_gutweed:** 6 Videos
 - **control:** 7 Videos
-- **sargassum:** 4 Videos
+- **sargassum:** 6 Videos
 - **fischmix:** 3 Videos
 
 ### Nursery (11 Videos)
