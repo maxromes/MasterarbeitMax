@@ -1,0 +1,52 @@
+======================================================================
+TIMELINE VISUALISIERUNGEN - DETAILLIERTE ANALYSE
+======================================================================
+
+INTERPRETATION DER VISUALISIERUNGEN:
+
+1. FIRST SEEN TIMELINE
+   • Zeigt: Zeitpunkt der ERSTEN Sichtung jeder Fischart
+   • Anwendung: Identifiziert Colonisations-Verlauf und Ankauf-Hierarchie
+   • Muster zu suchen:
+     - Clustered starts: Viele Arten erscheinen gleichzeitig
+     - Sequential pattern: Arten erscheinen nacheinander
+     - Late bloomers: Arten, die erst nach 40+ Minuten kommen
+
+2. KUMULATIVE SPECIES PLOT
+   • Zeigt: Gesamtzahl unterschiedlicher Arten über Zeit
+   • Anwendung: Messung der Biodiversitäts-Akkumulation
+   • Wichtige Metriken:
+     - Initiale Steigung: Wie schnell werden Arten identifiziert?
+     - Inflection point: Wann verlangsamt sich die Entdeckung?
+     - Sättigung: Wie viele Arten insgesamt?
+
+3. ANNOTATIONS-DICHTE
+   • Zeigt: Annotations-Häufigkeit pro Videonominute
+   • Anwendung: Identifiziert zeitliche Hotspots
+   • Interpretation:
+     - Hohe Dichte: Viel Fischaktivität oder Bodeninteraktion
+     - Niedrige Dichte: Leere Phasen oder schnelle Übergänge
+
+FORSCHUNGSFRAGEN, DIE BEANTWORTET WERDEN KÖNNEN:
+
+1. Köder-Spezifität:
+   Erscheinen bestimmte Arten früher auf Fischmix als auf Sargassum?
+
+2. Standort-Unterschiede (Milimani vs. Utumbi):
+   Unterscheiden sich die Kolonialisierungsmuster zwischen Standorten?
+
+3. Ökologische Hierarchie:
+   Welche Arten sind dominant (erscheinen früh)?
+   Welche sind subdominant (erscheinen später)?
+
+4. Temporale Belastung (Temporal Robustness):
+   Wie konsistent sind die Muster über verschiedene Videos?
+
+STATISTISCHE ANALYSEN (EMPFOHLEN):
+
+1. Korrelation zwischen Ködern und Species First Appearance Times
+2. Mann-Whitney U Test für Standortunterschiede
+3. Clusteranalyse der First Appearance Patterns
+4. Regression: Wie schnell wächst die kumulative Artenzahl?
+
+======================================================================
