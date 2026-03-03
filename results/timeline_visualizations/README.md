@@ -1,57 +1,102 @@
-# First Seen vs. MaxN Visualisierung
+# First Seen vs. MaxN - Multi-Video Vergleich
 
-## Video analysiert
-**20241029-utumbi-ulva_gutweed.csv** (59:55 Min)
+## Übersicht
+
+Diese Visualisierungen vergleichen **5 Videos** mit ähnlicher Länge (~60 Min) bezüglich ihrer **First Seen** und **MaxN** Muster.
+
+## Videos analysiert
+
+1. **20241029-utumbi-ulva_gutweed.csv** (59:55, Utumbi, Ulva Gutweed)
+2. **20241110-milimani-ulva_salad.csv** (59:23, Milimani, Ulva Salad)
+3. **20241110-utumbi-ulva_salad.csv** (59:21, Utumbi, Ulva Salad)
+4. **20241112-milimani-ulva_salad.csv** (59:16, Milimani, Ulva Salad)
+5. **20241115-utumbi-control.csv** (59:05, Utumbi, Control)
 
 ## Grafiken
 
-### 1. First Seen Timeline
-**Datei:** `20241029-utumbi-ulva_gutweed_first_seen.png`
+### 1. Multi-Video First Seen
+**Datei:** `multi_video_first_seen.png`
 
-Zeigt **wann jede Art zum ersten Mal** im Video erscheint.
-- X-Achse: Video-Zeit (Minuten:Sekunden)  
-- Y-Achse: Arten/Taxa (sortiert nach Erscheinungszeitpunkt)
-- Punktfarbe: Familie
-- **Interpretation:** Kolonisations-Reihenfolge, ökologische Hierarchie
+**Kumulative Kurven** zeigen, wie schnell neue Arten in jedem Video entdeckt werden.
+- **X-Achse:** Video-Zeit (Minuten)
+- **Y-Achse:** Kumulative Anzahl neuer Arten
+- **Farben:** Jedes Video hat eine eigene Farbe
+- **Marker:** Verschiedene Symbole pro Video (●, ■, ▲, ◆, ▼)
 
-### 2. MaxN Timeline
-**Datei:** `20241029-utumbi-ulva_gutweed_maxn.png`
+**Interpretation:**
+- **Steile Kurven:** Viele Arten werden früh entdeckt
+- **Flache Kurven am Ende:** Artenentdeckung verlangsamt sich (Sättigung)
+- **Vergleich:** Videos mit ähnlichem Verlauf zeigen ähnliche Kolonisations-Dynamik
 
-Zeigt **wann die maximale Anzahl einer Art** erreicht wird.
-- X-Achse: Video-Zeit (Minuten:Sekunden)
-- Y-Achse: Arten/Taxa mit MaxN-Anzahl (z.B. "Indian Half-and-Half (n=56)")
-- Punktgröße: Proportional zur MaxN-Anzahl
-- Punktfarbe: Familie
-- **Interpretation:** Wann erreichen Schwärme ihre maximale Größe?
+### 2. Multi-Video MaxN
+**Datei:** `multi_video_maxn.png`
+
+**Kumulative Kurven** zeigen, wann die maximalen Artenzahlen (MaxN) erreicht werden.
+- **X-Achse:** Video-Zeit (Minuten)
+- **Y-Achse:** Kumulative Anzahl erreichter MaxN-Werte
+- **Farben:** Gleiche Farben wie First Seen für direkten Vergleich
+
+**Interpretation:**
+- **MaxN kommt später als First Seen:** Im Durchschnitt 5-15 Min Unterschied
+- **Flachere Kurven:** MaxN-Werte brauchen länger zum Erreichen
+- **Höhere Kurven:** Mehr verschiedene Schwarm-Ereignisse
 
 ## Wichtigste Erkenntnisse
 
-### First Seen
-- **Median:** 7:55 Min → Hälfte aller Arten erscheint in den ersten 8 Minuten
-- **Nach 40 Min:** Nur noch 5 neue Arten (90% bereits gesehen)
+### First Seen Median-Zeiten:
+- **20241110-utumbi-ulva_salad:** 7:19 Min (schnellste Artenentdeckung)
+- **20241110-milimani-ulva_salad:** 7:48 Min
+- **20241029-utumbi-ulva_gutweed:** 7:55 Min
+- **20241115-utumbi-control:** 9:14 Min
+- **20241112-milimani-ulva_salad:** 10:36 Min (langsamste)
 
-### MaxN  
-- **Median:** 13:49 Min → Hälfte der MaxN-Werte wird in den ersten 14 Minuten erreicht
-- **Nach 40 Min:** Nur noch 7 MaxN-Ereignisse
-- **Zeit bis MaxN:** Durchschnittlich 5:13 Min von First Seen bis MaxN
+### MaxN Median-Zeiten:
+- **20241029-utumbi-ulva_gutweed:** 13:49 Min
+- **20241110-milimani-ulva_salad:** 14:58 Min
+- **20241110-utumbi-ulva_salad:** 16:12 Min
+- **20241115-utumbi-control:** 18:24 Min
+- **20241112-milimani-ulva_salad:** 24:20 Min (späteste MaxN)
 
-### Top 3 MaxN-Arten
-1. **Indian Half-and-Half:** MaxN = 56 Individuen (bei 12:54 Min)
-2. **Ternate Chromis:** MaxN = 55 Individuen (bei 10:13 Min)
-3. **Blue-green Chromis:** MaxN = 17 Individuen (bei 11:11 Min)
+### Artenvielfalt:
+- **Höchste:** 63 Arten (20241115-utumbi-control)
+- **Niedrigste:** 50 Arten (20241112-milimani-ulva_salad)
+- **Durchschnitt:** 58 Arten pro Video
 
-## Interpretation
+## Muster und Vergleiche
 
-**Ab welcher Minute kommen wenig neue Arten dazu?**
-- Nach **Minute 20:** < 25% neue Arten (nur 13 von 56)
-- Nach **Minute 40:** < 10% neue Arten (nur 5 von 56)
+### Standort-Unterschiede:
+- **Utumbi:** 3 Videos (56, 62, 63 Arten) → Durchschnitt 60 Arten
+- **Milimani:** 2 Videos (60, 50 Arten) → Durchschnitt 55 Arten
+- ➜ Utumbi zeigt tendenziell höhere Artenvielfalt
 
-**Ab welcher Minute werden wenig neue MaxN erreicht?**
-- Nach **Minute 20:** 61% der MaxN-Werte bereits erreicht  
-- Nach **Minute 40:** 87% der MaxN-Werte bereits erreicht
+### Köder-Unterschiede:
+- **Ulva Salad:** 3 Videos (60, 62, 50 Arten)
+- **Ulva Gutweed:** 1 Video (56 Arten)
+- **Control:** 1 Video (63 Arten)
+- ➜ Control-Video zeigt höchste Artenvielfalt
+
+### Zeitliche Muster:
+- **Alle Videos:** Erste 10 Minuten = 50% der Arten entdeckt
+- **Alle Videos:** Erste 20 Minuten = 60-70% der MaxN-Werte erreicht
+- **Konsistenz:** Ähnliche Kolonisations-Kurven trotz verschiedener Köder
+
+## Forschungsfragen
+
+Diese Visualisierungen helfen bei:
+1. **Vergleich Standorte:** Milimani vs. Utumbi - gibt es systematische Unterschiede?
+2. **Köder-Effekte:** Welche Köder ziehen Arten schneller/langsamer an?
+3. **Temporal Robustness:** Wie konsistent sind die Muster über verschiedene Videos?
+4. **Optimal Sampling:** Ab wann ist die Artenerfassung gesättigt? (wichtig für Sampling-Design)
+
+## Verwendung
+
+- **Vergleiche die Steigungen:** Ähnliche Steigung = ähnliche Kolonisations-Rate
+- **Achte auf Endpunkte:** Finale Höhe = Gesamtartenzahl
+- **Beobachte Inflection Points:** Wo flachen die Kurven ab?
+- **Suche nach Clustern:** Gruppieren sich bestimmte Videos?
 
 ---
 
 **Erstellt:** 2026-03-03  
-**Generator:** generate_first_seen_vs_maxn.py  
-**Zusammenfassung:** first_seen_vs_maxn_summary.txt
+**Generator:** generate_first_seen_vs_maxn_multi.py  
+**Zusammenfassung:** multi_video_summary.txt

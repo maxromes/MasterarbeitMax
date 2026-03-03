@@ -1,0 +1,63 @@
+================================================================================
+FIRST SEEN vs. MaxN - MULTI-VIDEO VERGLEICH
+================================================================================
+
+Anzahl Videos: 5
+Ziel-Länge: ~60 Minuten
+
+VIDEOS:
+
+1. 20241029-utumbi-ulva_gutweed.csv
+   Länge: 59:55
+   First Seen: 56 Arten
+   MaxN Ereignisse: 56
+   First Seen Median: 7:55
+   MaxN Median: 13:49
+
+2. 20241110-milimani-ulva_salad.csv
+   Länge: 59:23
+   First Seen: 60 Arten
+   MaxN Ereignisse: 60
+   First Seen Median: 7:48
+   MaxN Median: 14:58
+
+3. 20241110-utumbi-ulva_salad.csv
+   Länge: 59:21
+   First Seen: 62 Arten
+   MaxN Ereignisse: 62
+   First Seen Median: 7:19
+   MaxN Median: 16:12
+
+4. 20241112-milimani-ulva_salad.csv
+   Länge: 59:16
+   First Seen: 50 Arten
+   MaxN Ereignisse: 50
+   First Seen Median: 10:36
+   MaxN Median: 24:20
+
+5. 20241115-utumbi-control.csv
+   Länge: 59:05
+   First Seen: 63 Arten
+   MaxN Ereignisse: 63
+   First Seen Median: 9:14
+   MaxN Median: 18:24
+
+================================================================================
+INTERPRETATION
+================================================================================
+
+Grafik 1 - First Seen:
+  • Zeigt kumulative Kurven: Wie schnell werden neue Arten entdeckt?
+  • Steile Kurven = Viele Arten erscheinen früh
+  • Flache Kurven am Ende = Sättigung erreicht
+
+Grafik 2 - MaxN:
+  • Zeigt kumulative Kurven: Wann werden MaxN-Werte erreicht?
+  • Höhere Kurven = Mehr verschiedene Schwarm-Maxima
+  • MaxN dauert oft länger als First Seen
+
+Vergleiche zwischen Videos:
+  • Unterschiedliche Standorte oder Köder?
+  • Ähnliche Kolonisations-Muster erkennbar?
+  • Zeitliche Variabilität in der Artenentdeckung
+
