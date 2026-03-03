@@ -10,56 +10,83 @@ Diese Liste zeigt die **letzte beibehaltene Annotation** für jedes der 39 konti
 
 | # | Dateiname | Letzte Annotation (Zeit) | Sekunden | Art/Label |
 |---|-----------|--------------------------|----------|------------|
-| 1 | 20241204-nursery-algae_strings.csv | 19:39.984 | 1180.0s | Goldsaddle (Parupeneus cyclostomus) |
-| 2 | 20241205-nursery-algae_strings.csv | 02:06.393 | 126.4s | Blackspot (Lutjanus fulviflamma) |
-| 3 | 20241206-nursery-algae_strings.csv | 28:58.304 | 1738.3s | Blackspot (Lutjanus fulviflamma) |
-| 4 | 20241208-nursery-algaemix.csv | 14:25.762 | 865.8s | Blackspot (Lutjanus fulviflamma) |
-| 5 | 20241209-nursery-algaemix.csv | 06:04.820 | 364.8s | Blackspot (Lutjanus fulviflamma) |
-| 6 | 20241210-nursery-algaemix.csv | 01:18.998 | 79.0s | Blackspot (Lutjanus fulviflamma) |
+| 1 | 20241204-nursery-algae_strings.csv | 36:35.581 | 2195.6s | Yellowhead (Chaetodon xanthocephalus) |
+| 2 | 20241205-nursery-algae_strings.csv | 44:20.441 | 2660.4s | Jacks/Trevallyes (Carangidae) |
+| 3 | 20241206-nursery-algae_strings.csv | 43:49.131 | 2629.1s | Honeycomb (Siganus stellatus) |
+| 4 | 20241208-nursery-algaemix.csv | 46:17.155 | 2777.2s | Threadfin (Chaetodon auriga) |
+| 5 | 20241209-nursery-algaemix.csv | 42:34.883 | 2554.9s | Arabian Monocle (Scolopsis ghanam) |
+| 6 | 20241210-nursery-algaemix.csv | 37:16.743 | 2236.7s | Parrotfishes Feeding |
 
 ## Annotation_reports_coral_reef
 
 | # | Dateiname | Letzte Annotation (Zeit) | Sekunden | Art/Label |
 |---|-----------|--------------------------|----------|------------|
-| 1 | 20241025-milimani-mackerel.csv | 21:29.631 | 1289.6s | Sailfin Tang (Zebrasoma desjardinii) |
-| 2 | 20241025-utumbi-ulva_salad.csv | 13:29.312 | 809.3s | Orange-lined (Balistapus undulatus) |
-| 3 | 20241026-milimani-ulva_gutweed.csv | 25:24.287 | 1524.3s | Freckled (Paracirrhites forsteri) |
-| 4 | 20241026-utumbi-mackerel.csv | 37:03.249 | 2223.2s | Barred (Hemigymnus fasciatus) |
-| 5 | 20241027-milimani-ulva_salad.csv | 18:24.129 | 1104.1s | Tunas/Mackerels (Scombridae) |
-| 6 | 20241027-utumbi-ulva_salad.csv | 30:56.173 | 1856.2s | Tubelip (Labrichthys unilineatus) |
-| 7 | 20241029-milimani-ulva_gutweed.csv | 13:27.109 | 807.1s | Tunas/Mackerels (Scombridae) |
-| 8 | 20241029-utumbi-ulva_gutweed.csv | 08:03.711 | 483.7s | Spotted (Chaetodon guttatissimus) |
-| 9 | 20241030-milimani-ulva_gutweed.csv | 10:55.765 | 655.8s | Redmouth (Aethaloperca rogaa) |
-| 10 | 20241030-utumbi-ulva_gutweed.csv | 36:30.231 | 2190.2s | Eclipse (Chaetodon bennetti) |
-| 11 | 20241105-milimani-ulva_salad.csv | 17:22.998 | 1043.0s | Longnose (Oxymonacanthus longirostris) |
-| 12 | 20241105-utumbi-control.csv | 26:53.889 | 1613.9s | Green (Amblyglyphidodon indicus) |
-| 13 | 20241110-milimani-ulva_salad.csv | 27:47.168 | 1667.2s | Genus Siganus |
-| 14 | 20241110-utumbi-ulva_salad.csv | 25:24.819 | 1524.8s | Yellowbreast (Anampses twistii) |
-| 15 | 20241111-milimani-control.csv | 10:07.217 | 607.2s | Tubelip (Labrichthys unilineatus) |
-| 16 | 20241111-utumbi-control.csv | 23:15.529 | 1395.5s | Yellowbreast (Anampses twistii) |
-| 17 | 20241112-milimani-ulva_salad.csv | 09:32.889 | 572.9s | Longnose (Oxymonacanthus longirostris) |
-| 18 | 20241112-utumbi-ulva_gutweed.csv | 13:14.493 | 794.5s | Spotted (Cetoscarus ocellatus) |
-| 19 | 20241114-milimani-control.csv | 41:39.006 | 2499.0s | Tunas/Mackerels (Scombridae) |
-| 20 | 20241114-utumbi-control.csv | 06:31.842 | 391.8s | Yellowbreast (Anampses twistii) |
-| 21 | 20241115-milimani-control.csv | 04:57.109 | 297.1s | Longnose (Oxymonacanthus longirostris) |
-| 22 | 20241115-utumbi-control.csv | 29:09.077 | 1749.1s | Yellowbreast (Anampses twistii) |
-| 23 | 20241124-milimani-mackerel.csv | 26:25.213 | 1585.2s | Stomatapoda |
-| 24 | 20241124-utumbi-mackerel.csv | 11:21.526 | 681.5s | Humpnose Bigeye (Monotaxis grandoculis) |
-| 25 | 20241127-milimani-sargassum.csv | 18:17.182 | 1097.2s | Genus Siganus |
-| 26 | 20241127-utumbi-sargassum.csv | 01:43.676 | 103.7s | Tunas/Mackerels (Scombridae) |
-| 27 | 20241128-milimani-sargassum.csv | 08:29.630 | 509.6s | Spotted (Cetoscarus ocellatus) |
-| 28 | 20241128-utumbi-sargassum.csv | 35:30.476 | 2130.5s | Emperors (Lethrinidae) |
-| 29 | 20241129-milimani-sargassum.csv | 42:29.585 | 2549.6s | Wrasses (Labridae) |
-| 30 | 20241129-utumbi-sargassum.csv | 14:09.298 | 849.3s | Yellowbreast (Anampses twistii) |
-| 31 | 20241209-utumbi-fischmix.csv | 39:48.310 | 2388.3s | Cigar (Cheilio inermis) |
-| 32 | 20241210-milimani-fischmix.csv | 27:31.347 | 1651.3s | Longnose (Oxymonacanthus longirostris) |
-| 33 | 20241210-utumbi-fischmix.csv | 36:17.383 | 2177.4s | Emperors (Lethrinidae) |
+| 1 | 20241025-milimani-mackerel.csv | 46:17.270 | 2777.3s | Redmouth (Aethaloperca rogaa) |
+| 2 | 20241025-utumbi-ulva_salad.csv | 46:40.875 | 2800.9s | Freckled (Paracirrhites forsteri) |
+| 3 | 20241026-milimani-ulva_gutweed.csv | 45:12.330 | 2712.3s | Genus Naso |
+| 4 | 20241026-utumbi-mackerel.csv | 43:09.014 | 2589.0s | Parrotfishes (Scaridae) |
+| 5 | 20241027-milimani-ulva_salad.csv | 44:39.618 | 2679.6s | Groupers (Serranidae) |
+| 6 | 20241027-utumbi-ulva_salad.csv | 46:42.600 | 2802.6s | Golden (Ctenochaetus truncates) |
+| 7 | 20241029-milimani-ulva_gutweed.csv | 44:21.283 | 2661.3s | Humpnose Bigeye (Monotaxis grandoculis) |
+| 8 | 20241029-utumbi-ulva_gutweed.csv | 45:05.125 | 2705.1s | Groupers (Serranidae) |
+| 9 | 20241030-milimani-ulva_gutweed.csv | 45:35.179 | 2735.2s | Longnose (Forcipiger flavissimus) |
+| 10 | 20241030-utumbi-ulva_gutweed.csv | 46:28.137 | 2788.1s | Lined Bristletooth (Ctenochaetus striatus) |
+| 11 | 20241105-milimani-ulva_salad.csv | 46:43.484 | 2803.5s | Puffers (Tetraodontidae) |
+| 12 | 20241105-utumbi-control.csv | 39:56.836 | 2396.8s | Speckled (Parapercis hexophthalma) |
+| 13 | 20241110-milimani-ulva_salad.csv | 46:50.936 | 2810.9s | Linedcheeked (Oxycheilinus digramma) |
+| 14 | 20241110-utumbi-ulva_salad.csv | 46:45.460 | 2805.5s | Bluefin (Caranx melampygus) |
+| 15 | 20241111-milimani-control.csv | 46:26.087 | 2786.1s | Mozambique Fangblenny (Meiacanthus mossambicus) |
+| 16 | 20241111-utumbi-control.csv | 46:31.954 | 2792.0s | Powder Blue (Acanthurus leucosternon) |
+| 17 | 20241112-milimani-ulva_salad.csv | 40:48.616 | 2448.6s | Black-backed (Chaetodon melannotus) |
+| 18 | 20241112-utumbi-ulva_gutweed.csv | 45:59.401 | 2759.4s | Orange-lined (Balistapus undulatus) |
+| 19 | 20241114-milimani-control.csv | 44:37.399 | 2677.4s | Parrotfishes (Scaridae) |
+| 20 | 20241114-utumbi-control.csv | 44:59.214 | 2699.2s | Lined Bristletooth (Ctenochaetus striatus) |
+| 21 | 20241115-milimani-control.csv | 45:53.902 | 2753.9s | Freckled (Paracirrhites forsteri) |
+| 22 | 20241115-utumbi-control.csv | 45:44.668 | 2744.7s | Fusiliers (Caesionidae) |
+| 23 | 20241124-milimani-mackerel.csv | 44:12.257 | 2652.3s | Monk (Acanthurus gahhm) |
+| 24 | 20241124-utumbi-mackerel.csv | 46:18.378 | 2778.4s | False-eye (Abudefduf sparoides) |
+| 25 | 20241127-milimani-sargassum.csv | 46:55.095 | 2815.1s | Trumpetfish (Aulostomus chinensis) |
+| 26 | 20241127-utumbi-sargassum.csv | 46:22.030 | 2782.0s | Black-lipped (Chaetodon kleinii) |
+| 27 | 20241128-milimani-sargassum.csv | 44:53.169 | 2693.2s | Raccoon (Chaetodon lunula) |
+| 28 | 20241128-utumbi-sargassum.csv | 45:51.318 | 2751.3s | Meyer's (Chaetodon meyeri) |
+| 29 | 20241129-milimani-sargassum.csv | 46:32.609 | 2792.6s | Brown Tang (Zebrasoma scopas) |
+| 30 | 20241129-utumbi-sargassum.csv | 46:28.276 | 2788.3s | Spotted (Diodon hystrix) |
+| 31 | 20241209-utumbi-fischmix.csv | 45:33.143 | 2733.1s | Saddleback (Chaetodon falcula) |
+| 32 | 20241210-milimani-fischmix.csv | 46:37.483 | 2797.5s | Redmouth (Aethaloperca rogaa) |
+| 33 | 20241210-utumbi-fischmix.csv | 46:31.774 | 2791.8s | Bird wrasse (Gomphosus caeruleus) |
 
 ---
 
 ## Zusammenfassung
 
 - **Videos gekürzt:** 39
-- **Kürzeste letzte Annotation:** 01:18.998 (79.0s)
-- **Längste letzte Annotation:** 42:29.585 (2549.6s)
-- **Durchschnitt:** 20:09.680 (1209.7s)
+- **Kürzeste letzte Annotation:** 36:35.581 (2195.6s)
+- **Längste letzte Annotation:** 46:55.095 (2815.1s)
+- **Durchschnitt:** 44:56.381 (2696.4s)
+
+### Videos mit letzter Annotation > 45 Minuten (sehr nah an 47min):
+- **20241127-milimani-sargassum.csv**: 46:55.095 (2815.1s)
+- **20241110-milimani-ulva_salad.csv**: 46:50.936 (2810.9s)
+- **20241110-utumbi-ulva_salad.csv**: 46:45.460 (2805.5s)
+- **20241105-milimani-ulva_salad.csv**: 46:43.484 (2803.5s)
+- **20241027-utumbi-ulva_salad.csv**: 46:42.600 (2802.6s)
+- **20241025-utumbi-ulva_salad.csv**: 46:40.875 (2800.9s)
+- **20241210-milimani-fischmix.csv**: 46:37.483 (2797.5s)
+- **20241129-milimani-sargassum.csv**: 46:32.609 (2792.6s)
+- **20241111-utumbi-control.csv**: 46:31.954 (2792.0s)
+- **20241210-utumbi-fischmix.csv**: 46:31.774 (2791.8s)
+- **20241129-utumbi-sargassum.csv**: 46:28.276 (2788.3s)
+- **20241030-utumbi-ulva_gutweed.csv**: 46:28.137 (2788.1s)
+- **20241111-milimani-control.csv**: 46:26.087 (2786.1s)
+- **20241127-utumbi-sargassum.csv**: 46:22.030 (2782.0s)
+- **20241124-utumbi-mackerel.csv**: 46:18.378 (2778.4s)
+- **20241025-milimani-mackerel.csv**: 46:17.270 (2777.3s)
+- **20241208-nursery-algaemix.csv**: 46:17.155 (2777.2s)
+- **20241112-utumbi-ulva_gutweed.csv**: 45:59.401 (2759.4s)
+- **20241115-milimani-control.csv**: 45:53.902 (2753.9s)
+- **20241128-utumbi-sargassum.csv**: 45:51.318 (2751.3s)
+- **20241115-utumbi-control.csv**: 45:44.668 (2744.7s)
+- **20241030-milimani-ulva_gutweed.csv**: 45:35.179 (2735.2s)
+- **20241209-utumbi-fischmix.csv**: 45:33.143 (2733.1s)
+- **20241026-milimani-ulva_gutweed.csv**: 45:12.330 (2712.3s)
+- **20241029-utumbi-ulva_gutweed.csv**: 45:05.125 (2705.1s)

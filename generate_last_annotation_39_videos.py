@@ -1,3 +1,4 @@
+import ast
 import csv
 from pathlib import Path
 
@@ -17,6 +18,22 @@ SPLIT_VIDEOS = {
 }
 
 
+def parse_time_value(value: str) -> float:
+    """Parse time value that can be a single float or a list."""
+    if not value or value == "":
+        return 0.0
+    try:
+        parsed = ast.literal_eval(value)
+        if isinstance(parsed, list):
+            return max(parsed) if parsed else 0.0
+        return float(parsed)
+    except (ValueError, SyntaxError):
+        try:
+            return float(value)
+        except ValueError:
+            return 0.0
+
+
 def format_seconds(sec: float) -> str:
     """Format seconds as MM:SS.ss"""
     minutes = int(sec // 60)
@@ -30,8 +47,13 @@ def get_last_annotation(file_path: Path, area: str) -> dict:
     
     with file_path.open("r", encoding="utf-8", newline="") as f:
         reader = csv.DictReader(f)
-        for row in reader:
-            last_row = row
+        rows = list(reader)
+    
+    if not rows:
+        last_row = None
+    else:
+        # Find the row with the maximum time_sec_local_max value (rows may not be chronologically sorted)
+        last_row = max(rows, key=lambda r: float(r['time_sec_local_max']) if r.get('time_sec_local_max', '').strip() else 0.0)
     
     if last_row is None:
         return {
