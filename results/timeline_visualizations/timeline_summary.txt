@@ -1,0 +1,217 @@
+================================================================================
+TIMELINE VISUALISIERUNGEN - ZUSAMMENFASSUNG
+================================================================================
+
+Analysierte Videos: 35
+Kriterien: max. 60 Min, min. 50 Annotations, kontinuierliche Zeitmessungen
+
+1. 20241029-utumbi-ulva_gutweed.csv
+   Länge: 59:55
+   Annotations: 375
+   Verschiedene Arten: 56
+   Grafiken: first_seen_timeline, cumulative, density
+
+2. 20241110-milimani-ulva_salad.csv
+   Länge: 59:23
+   Annotations: 326
+   Verschiedene Arten: 60
+   Grafiken: first_seen_timeline, cumulative, density
+
+3. 20241110-utumbi-ulva_salad.csv
+   Länge: 59:21
+   Annotations: 346
+   Verschiedene Arten: 62
+   Grafiken: first_seen_timeline, cumulative, density
+
+4. 20241112-milimani-ulva_salad.csv
+   Länge: 59:16
+   Annotations: 280
+   Verschiedene Arten: 50
+   Grafiken: first_seen_timeline, cumulative, density
+
+5. 20241115-utumbi-control.csv
+   Länge: 59:05
+   Annotations: 283
+   Verschiedene Arten: 63
+   Grafiken: first_seen_timeline, cumulative, density
+
+6. 20241209-utumbi-fischmix.csv
+   Länge: 59:02
+   Annotations: 428
+   Verschiedene Arten: 79
+   Grafiken: first_seen_timeline, cumulative, density
+
+7. 20241112-utumbi-ulva_gutweed.csv
+   Länge: 58:56
+   Annotations: 224
+   Verschiedene Arten: 59
+   Grafiken: first_seen_timeline, cumulative, density
+
+8. 20241128-utumbi-sargassum.csv
+   Länge: 58:55
+   Annotations: 271
+   Verschiedene Arten: 66
+   Grafiken: first_seen_timeline, cumulative, density
+
+9. 20241111-milimani-control.csv
+   Länge: 58:54
+   Annotations: 343
+   Verschiedene Arten: 51
+   Grafiken: first_seen_timeline, cumulative, density
+
+10. 20241025-milimani-mackerel.csv
+   Länge: 58:51
+   Annotations: 490
+   Verschiedene Arten: 54
+   Grafiken: first_seen_timeline, cumulative, density
+
+11. 20241105-milimani-ulva_salad.csv
+   Länge: 58:44
+   Annotations: 109
+   Verschiedene Arten: 37
+   Grafiken: first_seen_timeline, cumulative, density
+
+12. 20241127-milimani-sargassum.csv
+   Länge: 58:36
+   Annotations: 241
+   Verschiedene Arten: 54
+   Grafiken: first_seen_timeline, cumulative, density
+
+13. 20241210-utumbi-fischmix.csv
+   Länge: 58:32
+   Annotations: 331
+   Verschiedene Arten: 68
+   Grafiken: first_seen_timeline, cumulative, density
+
+14. 20241114-utumbi-control.csv
+   Länge: 58:29
+   Annotations: 155
+   Verschiedene Arten: 49
+   Grafiken: first_seen_timeline, cumulative, density
+
+15. 20241210-milimani-fischmix.csv
+   Länge: 58:07
+   Annotations: 459
+   Verschiedene Arten: 60
+   Grafiken: first_seen_timeline, cumulative, density
+
+16. 20241124-milimani-mackerel.csv
+   Länge: 58:01
+   Annotations: 344
+   Verschiedene Arten: 79
+   Grafiken: first_seen_timeline, cumulative, density
+
+17. 20241128-milimani-sargassum.csv
+   Länge: 58:01
+   Annotations: 398
+   Verschiedene Arten: 52
+   Grafiken: first_seen_timeline, cumulative, density
+
+18. 20241027-milimani-ulva_salad.csv
+   Länge: 57:58
+   Annotations: 112
+   Verschiedene Arten: 43
+   Grafiken: first_seen_timeline, cumulative, density
+
+19. 20241027-utumbi-ulva_salad.csv
+   Länge: 57:55
+   Annotations: 391
+   Verschiedene Arten: 61
+   Grafiken: first_seen_timeline, cumulative, density
+
+20. 20241115-milimani-control.csv
+   Länge: 57:32
+   Annotations: 169
+   Verschiedene Arten: 51
+   Grafiken: first_seen_timeline, cumulative, density
+
+21. 20241114-milimani-control.csv
+   Länge: 57:20
+   Annotations: 187
+   Verschiedene Arten: 40
+   Grafiken: first_seen_timeline, cumulative, density
+
+22. 20241030-utumbi-ulva_gutweed.csv
+   Länge: 57:20
+   Annotations: 252
+   Verschiedene Arten: 62
+   Grafiken: first_seen_timeline, cumulative, density
+
+23. 20241111-utumbi-control.csv
+   Länge: 57:15
+   Annotations: 270
+   Verschiedene Arten: 56
+   Grafiken: first_seen_timeline, cumulative, density
+
+24. 20241124-utumbi-mackerel.csv
+   Länge: 57:05
+   Annotations: 362
+   Verschiedene Arten: 73
+   Grafiken: first_seen_timeline, cumulative, density
+
+25. 20241129-utumbi-sargassum.csv
+   Länge: 57:01
+   Annotations: 273
+   Verschiedene Arten: 66
+   Grafiken: first_seen_timeline, cumulative, density
+
+26. 20241127-utumbi-sargassum.csv
+   Länge: 56:57
+   Annotations: 310
+   Verschiedene Arten: 64
+   Grafiken: first_seen_timeline, cumulative, density
+
+27. 20241129-milimani-sargassum.csv
+   Länge: 56:55
+   Annotations: 339
+   Verschiedene Arten: 55
+   Grafiken: first_seen_timeline, cumulative, density
+
+28. 20241026-milimani-ulva_gutweed.csv
+   Länge: 55:52
+   Annotations: 135
+   Verschiedene Arten: 44
+   Grafiken: first_seen_timeline, cumulative, density
+
+29. 20241025-utumbi-ulva_salad.csv
+   Länge: 53:48
+   Annotations: 560
+   Verschiedene Arten: 55
+   Grafiken: first_seen_timeline, cumulative, density
+
+30. 20241030-milimani-ulva_gutweed.csv
+   Länge: 52:24
+   Annotations: 197
+   Verschiedene Arten: 49
+   Grafiken: first_seen_timeline, cumulative, density
+
+31. 20241105-utumbi-control.csv
+   Länge: 47:11
+   Annotations: 399
+   Verschiedene Arten: 47
+   Grafiken: first_seen_timeline, cumulative, density
+
+32. 20241029-milimani-ulva_gutweed.csv
+   Länge: 44:21
+   Annotations: 149
+   Verschiedene Arten: 49
+   Grafiken: first_seen_timeline, cumulative, density
+
+33. 20241026-utumbi-mackerel.csv
+   Länge: 43:09
+   Annotations: 395
+   Verschiedene Arten: 60
+   Grafiken: first_seen_timeline, cumulative, density
+
+34. 20240515-milimani-mackerel.csv
+   Länge: 11:48
+   Annotations: 379
+   Verschiedene Arten: 56
+   Grafiken: first_seen_timeline, cumulative, density
+
+35. 20240516-utumbi-mackerel.csv
+   Länge: 11:38
+   Annotations: 536
+   Verschiedene Arten: 69
+   Grafiken: first_seen_timeline, cumulative, density
+
