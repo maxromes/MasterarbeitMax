@@ -11,6 +11,7 @@ import re
 
 import numpy as np
 import pandas as pd
+from scipy import stats
 
 
 def parse_filename(file_name: str) -> dict:
@@ -285,6 +286,104 @@ def plot_mean_by_bait_and_site(df: pd.DataFrame, out_path: Path) -> None:
     out_path.write_text("".join(svg), encoding="utf-8")
 
 
+def calculate_statistical_significance(df: pd.DataFrame, out_path: Path) -> None:
+    """Calculate statistical significance tests for species richness comparisons."""
+    stats_results = []
+    
+    # 1. Vergleich zwischen Baits (ANOVA wenn >2 Baits, t-test wenn 2)
+    baits = df["bait"].unique()
+    if len(baits) > 2:
+        bait_groups = [df[df["bait"] == b]["species_richness"].values for b in baits]
+        # Kruskal-Wallis Test (non-parametric ANOVA)
+        h_stat, p_value = stats.kruskal(*bait_groups)
+        stats_results.append({
+            "comparison": "Baits (all)",
+            "test": "Kruskal-Wallis H",
+            "statistic": f"{h_stat:.4f}",
+            "p_value": f"{p_value:.4f}",
+            "significant": "Yes" if p_value < 0.05 else "No"
+        })
+    elif len(baits) == 2:
+        group1 = df[df["bait"] == baits[0]]["species_richness"].values
+        group2 = df[df["bait"] == baits[1]]["species_richness"].values
+        # Mann-Whitney U Test (non-parametric t-test)
+        u_stat, p_value = stats.mannwhitneyu(group1, group2)
+        stats_results.append({
+            "comparison": f"{baits[0]} vs {baits[1]}",
+            "test": "Mann-Whitney U",
+            "statistic": f"{u_stat:.4f}",
+            "p_value": f"{p_value:.4f}",
+            "significant": "Yes" if p_value < 0.05 else "No"
+        })
+    
+    # 2. Vergleich zwischen Sites
+    sites = df["site"].unique()
+    if len(sites) > 2:
+        site_groups = [df[df["site"] == s]["species_richness"].values for s in sites]
+        h_stat, p_value = stats.kruskal(*site_groups)
+        stats_results.append({
+            "comparison": "Sites (all)",
+            "test": "Kruskal-Wallis H",
+            "statistic": f"{h_stat:.4f}",
+            "p_value": f"{p_value:.4f}",
+            "significant": "Yes" if p_value < 0.05 else "No"
+        })
+    elif len(sites) == 2:
+        group1 = df[df["site"] == sites[0]]["species_richness"].values
+        group2 = df[df["site"] == sites[1]]["species_richness"].values
+        u_stat, p_value = stats.mannwhitneyu(group1, group2)
+        stats_results.append({
+            "comparison": f"{sites[0]} vs {sites[1]}",
+            "test": "Mann-Whitney U",
+            "statistic": f"{u_stat:.4f}",
+            "p_value": f"{p_value:.4f}",
+            "significant": "Yes" if p_value < 0.05 else "No"
+        })
+    
+    # 3. Paarweise Vergleiche zwischen Baits
+    bait_list = list(baits)
+    for i in range(len(bait_list)):
+        for j in range(i + 1, len(bait_list)):
+            group1 = df[df["bait"] == bait_list[i]]["species_richness"].values
+            group2 = df[df["bait"] == bait_list[j]]["species_richness"].values
+            if len(group1) > 0 and len(group2) > 0:
+                u_stat, p_value = stats.mannwhitneyu(group1, group2)
+                stats_results.append({
+                    "comparison": f"{bait_list[i]} vs {bait_list[j]}",
+                    "test": "Mann-Whitney U (pairwise)",
+                    "statistic": f"{u_stat:.4f}",
+                    "p_value": f"{p_value:.4f}",
+                    "significant": "Yes" if p_value < 0.05 else "No"
+                })
+    
+    # 4. Paarweise Vergleiche zwischen Sites
+    site_list = list(sites)
+    for i in range(len(site_list)):
+        for j in range(i + 1, len(site_list)):
+            group1 = df[df["site"] == site_list[i]]["species_richness"].values
+            group2 = df[df["site"] == site_list[j]]["species_richness"].values
+            if len(group1) > 0 and len(group2) > 0:
+                u_stat, p_value = stats.mannwhitneyu(group1, group2)
+                stats_results.append({
+                    "comparison": f"{site_list[i]} vs {site_list[j]}",
+                    "test": "Mann-Whitney U (pairwise)",
+                    "statistic": f"{u_stat:.4f}",
+                    "p_value": f"{p_value:.4f}",
+                    "significant": "Yes" if p_value < 0.05 else "No"
+                })
+    
+    # 5. Vergleich Bait × Site Kombinationen
+    for bait in baits:
+        for site in sites:
+            # Vergleich für spezifische Bait-Site Kombination
+            pass
+    
+    stats_df = pd.DataFrame(stats_results)
+    stats_df.to_csv(out_path, index=False)
+    
+    return stats_df
+
+
 if __name__ == "__main__":
     report_dir = Path("Annotation_reports_coral_reef")
     out_dir = Path("results")
@@ -301,6 +400,11 @@ if __name__ == "__main__":
         .sort_values("mean", ascending=False)
     )
     bait_summary.to_csv(out_dir / "species_richness_coral_reef_by_bait.csv", index=False)
+
+    # Calculate statistical significance
+    stats_df = calculate_statistical_significance(df, out_dir / "statistical_significance_coral_reef.csv")
+    print("\n=== STATISTICAL SIGNIFICANCE TESTS ===\n")
+    print(stats_df.to_string(index=False))
 
     plot_richness_by_bait(df, fig_dir / "species_richness_by_bait.svg")
     plot_mean_by_bait_and_site(df, fig_dir / "species_richness_by_bait_site.svg")

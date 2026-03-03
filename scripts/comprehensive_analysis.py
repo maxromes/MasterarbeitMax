@@ -8,7 +8,7 @@ Erstellt große Vergleichstabelle mit Species Richness, MaxN und statistischen K
 import pandas as pd
 import numpy as np
 from pathlib import Path
-from scipy.stats import entropy
+from scipy.stats import entropy, kruskal, mannwhitneyu, f_oneway
 from collections import Counter
 
 # ===== 1. FUNKTIONEN DEFINIEREN =====
@@ -220,7 +220,127 @@ bait_stats.columns = ['anzahl_videos', 'richness_mean', 'richness_sd',
 bait_stats = bait_stats.sort_values('richness_mean', ascending=False)
 print(bait_stats)
 
-# ===== 8. SPEICHERE ERGEBNISSE =====
+# ===== 8. STATISTISCHE SIGNIFIKANZTESTS =====
+
+print("\n\n===== STATISTISCHE SIGNIFIKANZTESTS =====\n")
+
+significance_results = []
+
+# Vergleich: Coral Reef vs Nursery (Species Richness)
+coral_reef_richness = comprehensive_df[comprehensive_df['area_type'] == 'Coral Reef']['species_richness'].values
+nursery_richness = comprehensive_df[comprehensive_df['area_type'] == 'Nursery']['species_richness'].values
+
+if len(coral_reef_richness) > 0 and len(nursery_richness) > 0:
+    u_stat, p_value = mannwhitneyu(coral_reef_richness, nursery_richness)
+    significance_results.append({
+        'comparison': 'Coral Reef vs Nursery (Species Richness)',
+        'n_group1': len(coral_reef_richness),
+        'n_group2': len(nursery_richness),
+        'test': 'Mann-Whitney U',
+        'statistic': f"{u_stat:.4f}",
+        'p_value': f"{p_value:.6f}",
+        'significant_alpha_005': 'Yes' if p_value < 0.05 else 'No',
+        'mean_group1': f"{coral_reef_richness.mean():.2f}",
+        'mean_group2': f"{nursery_richness.mean():.2f}"
+    })
+
+# Vergleich: Locations (Milimani vs Utumbi) - Species Richness
+milimani_richness = comprehensive_df[comprehensive_df['location'] == 'Milimani']['species_richness'].values
+utumbi_richness = comprehensive_df[comprehensive_df['location'] == 'Utumbi']['species_richness'].values
+
+if len(milimani_richness) > 0 and len(utumbi_richness) > 0:
+    u_stat, p_value = mannwhitneyu(milimani_richness, utumbi_richness)
+    significance_results.append({
+        'comparison': 'Milimani vs Utumbi (Species Richness)',
+        'n_group1': len(milimani_richness),
+        'n_group2': len(utumbi_richness),
+        'test': 'Mann-Whitney U',
+        'statistic': f"{u_stat:.4f}",
+        'p_value': f"{p_value:.6f}",
+        'significant_alpha_005': 'Yes' if p_value < 0.05 else 'No',
+        'mean_group1': f"{milimani_richness.mean():.2f}",
+        'mean_group2': f"{utumbi_richness.mean():.2f}"
+    })
+
+# Vergleich: Locations - MaxN
+milimani_maxn = comprehensive_df[comprehensive_df['location'] == 'Milimani']['maxn_overall'].values
+utumbi_maxn = comprehensive_df[comprehensive_df['location'] == 'Utumbi']['maxn_overall'].values
+
+if len(milimani_maxn) > 0 and len(utumbi_maxn) > 0:
+    u_stat, p_value = mannwhitneyu(milimani_maxn, utumbi_maxn)
+    significance_results.append({
+        'comparison': 'Milimani vs Utumbi (MaxN)',
+        'n_group1': len(milimani_maxn),
+        'n_group2': len(utumbi_maxn),
+        'test': 'Mann-Whitney U',
+        'statistic': f"{u_stat:.4f}",
+        'p_value': f"{p_value:.6f}",
+        'significant_alpha_005': 'Yes' if p_value < 0.05 else 'No',
+        'mean_group1': f"{milimani_maxn.mean():.2f}",
+        'mean_group2': f"{utumbi_maxn.mean():.2f}"
+    })
+
+# Paarweise Vergleiche zwischen Baits - Species Richness
+bait_types = comprehensive_df['bait_type'].unique()
+if len(bait_types) > 2:
+    bait_groups = [comprehensive_df[comprehensive_df['bait_type'] == b]['species_richness'].values 
+                   for b in bait_types]
+    h_stat, p_value = kruskal(*bait_groups)
+    significance_results.append({
+        'comparison': f'All Baits ({len(bait_types)}) - Species Richness',
+        'n_group1': len(comprehensive_df),
+        'n_group2': len(bait_types),
+        'test': 'Kruskal-Wallis H',
+        'statistic': f"{h_stat:.4f}",
+        'p_value': f"{p_value:.6f}",
+        'significant_alpha_005': 'Yes' if p_value < 0.05 else 'No',
+        'mean_group1': f"{comprehensive_df['species_richness'].mean():.2f}",
+        'mean_group2': ''
+    })
+
+# Paarweise Baits-Vergleiche
+bait_list = sorted(comprehensive_df['bait_type'].unique())
+for i in range(min(5, len(bait_list))):  # Begrenzen auf top 5 Baits
+    for j in range(i + 1, min(5, len(bait_list))):
+        group1 = comprehensive_df[comprehensive_df['bait_type'] == bait_list[i]]['species_richness'].values
+        group2 = comprehensive_df[comprehensive_df['bait_type'] == bait_list[j]]['species_richness'].values
+        
+        if len(group1) > 0 and len(group2) > 0:
+            u_stat, p_value = mannwhitneyu(group1, group2)
+            significance_results.append({
+                'comparison': f'{bait_list[i]} vs {bait_list[j]}',
+                'n_group1': len(group1),
+                'n_group2': len(group2),
+                'test': 'Mann-Whitney U',
+                'statistic': f"{u_stat:.4f}",
+                'p_value': f"{p_value:.6f}",
+                'significant_alpha_005': 'Yes' if p_value < 0.05 else 'No',
+                'mean_group1': f"{group1.mean():.2f}",
+                'mean_group2': f"{group2.mean():.2f}"
+            })
+
+# Vergleich: Shannon Diversity Index zwischen Bereichen
+coral_reef_shannon = comprehensive_df[comprehensive_df['area_type'] == 'Coral Reef']['shannon_h'].values
+nursery_shannon = comprehensive_df[comprehensive_df['area_type'] == 'Nursery']['shannon_h'].values
+
+if len(coral_reef_shannon) > 0 and len(nursery_shannon) > 0:
+    u_stat, p_value = mannwhitneyu(coral_reef_shannon, nursery_shannon)
+    significance_results.append({
+        'comparison': 'Coral Reef vs Nursery (Shannon Diversity)',
+        'n_group1': len(coral_reef_shannon),
+        'n_group2': len(nursery_shannon),
+        'test': 'Mann-Whitney U',
+        'statistic': f"{u_stat:.4f}",
+        'p_value': f"{p_value:.6f}",
+        'significant_alpha_005': 'Yes' if p_value < 0.05 else 'No',
+        'mean_group1': f"{coral_reef_shannon.mean():.3f}",
+        'mean_group2': f"{nursery_shannon.mean():.3f}"
+    })
+
+significance_df = pd.DataFrame(significance_results)
+print(significance_df.to_string(index=False))
+
+# ===== 9. SPEICHERE ERGEBNISSE =====
 
 output_dir = Path("results")
 output_dir.mkdir(exist_ok=True)
@@ -240,5 +360,9 @@ print("Standort-Statistiken gespeichert: results/statistics_by_location.csv")
 # Köder-Statistiken
 bait_stats.to_csv(output_dir / "statistics_by_bait.csv")
 print("Köder-Statistiken gespeichert: results/statistics_by_bait.csv")
+
+# Signifikanz-Tests
+significance_df.to_csv(output_dir / "statistical_significance_tests.csv", index=False)
+print("Signifikanz-Tests gespeichert: results/statistical_significance_tests.csv")
 
 print("\n===== ANALYSE ABGESCHLOSSEN =====\n")

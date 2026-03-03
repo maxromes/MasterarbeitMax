@@ -221,7 +221,165 @@ bait_stats <- comprehensive_df %>%
 
 print(bait_stats)
 
-# ===== 9. SPEICHERE ERGEBNISSE =====
+# ===== 9. STATISTISCHE SIGNIFIKANZTESTS =====
+
+cat("\n\n===== STATISTISCHE SIGNIFIKANZTESTS =====\n\n")
+
+significance_results <- data.frame()
+
+# Test 1: Coral Reef vs Nursery (Species Richness)
+coral_reef_richness <- comprehensive_df %>%
+  filter(area_type == "Coral Reef") %>%
+  pull(species_richness)
+
+nursery_richness <- comprehensive_df %>%
+  filter(area_type == "Nursery") %>%
+  pull(species_richness)
+
+if (length(coral_reef_richness) > 0 && length(nursery_richness) > 0) {
+  test_result <- wilcox.test(coral_reef_richness, nursery_richness)
+  significance_results <- rbind(significance_results, data.frame(
+    comparison = "Coral Reef vs Nursery (Species Richness)",
+    n_group1 = length(coral_reef_richness),
+    n_group2 = length(nursery_richness),
+    test = "Mann-Whitney U (Wilcox)",
+    statistic = round(test_result$statistic, 4),
+    p_value = round(test_result$p.value, 6),
+    significant_alpha_005 = ifelse(test_result$p.value < 0.05, "Yes", "No"),
+    mean_group1 = round(mean(coral_reef_richness), 2),
+    mean_group2 = round(mean(nursery_richness), 2)
+  ))
+}
+
+# Test 2: Milimani vs Utumbi (Species Richness)
+milimani_richness <- comprehensive_df %>%
+  filter(location == "Milimani") %>%
+  pull(species_richness)
+
+utumbi_richness <- comprehensive_df %>%
+  filter(location == "Utumbi") %>%
+  pull(species_richness)
+
+if (length(milimani_richness) > 0 && length(utumbi_richness) > 0) {
+  test_result <- wilcox.test(milimani_richness, utumbi_richness)
+  significance_results <- rbind(significance_results, data.frame(
+    comparison = "Milimani vs Utumbi (Species Richness)",
+    n_group1 = length(milimani_richness),
+    n_group2 = length(utumbi_richness),
+    test = "Mann-Whitney U (Wilcox)",
+    statistic = round(test_result$statistic, 4),
+    p_value = round(test_result$p.value, 6),
+    significant_alpha_005 = ifelse(test_result$p.value < 0.05, "Yes", "No"),
+    mean_group1 = round(mean(milimani_richness), 2),
+    mean_group2 = round(mean(utumbi_richness), 2)
+  ))
+}
+
+# Test 3: Milimani vs Utumbi (MaxN)
+milimani_maxn <- comprehensive_df %>%
+  filter(location == "Milimani") %>%
+  pull(maxn_overall)
+
+utumbi_maxn <- comprehensive_df %>%
+  filter(location == "Utumbi") %>%
+  pull(maxn_overall)
+
+if (length(milimani_maxn) > 0 && length(utumbi_maxn) > 0) {
+  test_result <- wilcox.test(milimani_maxn, utumbi_maxn)
+  significance_results <- rbind(significance_results, data.frame(
+    comparison = "Milimani vs Utumbi (MaxN)",
+    n_group1 = length(milimani_maxn),
+    n_group2 = length(utumbi_maxn),
+    test = "Mann-Whitney U (Wilcox)",
+    statistic = round(test_result$statistic, 4),
+    p_value = round(test_result$p.value, 6),
+    significant_alpha_005 = ifelse(test_result$p.value < 0.05, "Yes", "No"),
+    mean_group1 = round(mean(milimani_maxn), 2),
+    mean_group2 = round(mean(utumbi_maxn), 2)
+  ))
+}
+
+# Test 4: Kruskal-Wallis für alle Baits (Species Richness)
+bait_types <- unique(comprehensive_df$bait_type)
+if (length(bait_types) > 2) {
+  bait_groups <- list()
+  for (bait in bait_types) {
+    bait_groups[[bait]] <- comprehensive_df %>%
+      filter(bait_type == bait) %>%
+      pull(species_richness)
+  }
+  
+  # Kruskal-Wallis Test
+  test_result <- kruskal.test(comprehensive_df$species_richness, comprehensive_df$bait_type)
+  significance_results <- rbind(significance_results, data.frame(
+    comparison = paste("All Baits (", length(bait_types), ") - Species Richness", sep=""),
+    n_group1 = nrow(comprehensive_df),
+    n_group2 = length(bait_types),
+    test = "Kruskal-Wallis H",
+    statistic = round(test_result$statistic, 4),
+    p_value = round(test_result$p.value, 6),
+    significant_alpha_005 = ifelse(test_result$p.value < 0.05, "Yes", "No"),
+    mean_group1 = round(mean(comprehensive_df$species_richness), 2),
+    mean_group2 = ""
+  ))
+}
+
+# Test 5: Paarweise Bait-Vergleiche
+bait_list <- sort(unique(comprehensive_df$bait_type))
+for (i in 1:min(5, length(bait_list))) {
+  for (j in (i+1):min(5, length(bait_list))) {
+    group1 <- comprehensive_df %>%
+      filter(bait_type == bait_list[i]) %>%
+      pull(species_richness)
+    
+    group2 <- comprehensive_df %>%
+      filter(bait_type == bait_list[j]) %>%
+      pull(species_richness)
+    
+    if (length(group1) > 0 && length(group2) > 0) {
+      test_result <- wilcox.test(group1, group2)
+      significance_results <- rbind(significance_results, data.frame(
+        comparison = paste(bait_list[i], " vs ", bait_list[j], sep=""),
+        n_group1 = length(group1),
+        n_group2 = length(group2),
+        test = "Mann-Whitney U (Wilcox)",
+        statistic = round(test_result$statistic, 4),
+        p_value = round(test_result$p.value, 6),
+        significant_alpha_005 = ifelse(test_result$p.value < 0.05, "Yes", "No"),
+        mean_group1 = round(mean(group1), 2),
+        mean_group2 = round(mean(group2), 2)
+      ))
+    }
+  }
+}
+
+# Test 6: Shannon Diversity Index - Coral Reef vs Nursery
+coral_reef_shannon <- comprehensive_df %>%
+  filter(area_type == "Coral Reef") %>%
+  pull(shannon_h)
+
+nursery_shannon <- comprehensive_df %>%
+  filter(area_type == "Nursery") %>%
+  pull(shannon_h)
+
+if (length(coral_reef_shannon) > 0 && length(nursery_shannon) > 0) {
+  test_result <- wilcox.test(coral_reef_shannon, nursery_shannon)
+  significance_results <- rbind(significance_results, data.frame(
+    comparison = "Coral Reef vs Nursery (Shannon Diversity)",
+    n_group1 = length(coral_reef_shannon),
+    n_group2 = length(nursery_shannon),
+    test = "Mann-Whitney U (Wilcox)",
+    statistic = round(test_result$statistic, 4),
+    p_value = round(test_result$p.value, 6),
+    significant_alpha_005 = ifelse(test_result$p.value < 0.05, "Yes", "No"),
+    mean_group1 = round(mean(coral_reef_shannon), 3),
+    mean_group2 = round(mean(nursery_shannon), 3)
+  ))
+}
+
+print(significance_results)
+
+# ===== 10. SPEICHERE ERGEBNISSE =====
 
 dir.create("results", showWarnings = FALSE)
 
@@ -240,5 +398,9 @@ cat("Standort-Statistiken gespeichert: results/statistics_by_location.csv\n")
 # Köder-Statistiken
 write.csv(bait_stats, "results/statistics_by_bait.csv", row.names = FALSE)
 cat("Köder-Statistiken gespeichert: results/statistics_by_bait.csv\n")
+
+# Signifikanz-Tests
+write.csv(significance_results, "results/statistical_significance_tests.csv", row.names = FALSE)
+cat("Signifikanz-Tests gespeichert: results/statistical_significance_tests.csv\n")
 
 cat("\n===== ANALYSE ABGESCHLOSSEN =====\n\n")

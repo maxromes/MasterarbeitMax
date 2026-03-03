@@ -98,3 +98,45 @@ detailed_species_list <- do.call(rbind, lapply(results_list, function(res) {
 detailed_output_file <- "results/species_richness_detailed.csv"
 write.csv(detailed_species_list, detailed_output_file, row.names = FALSE)
 cat("Detaillierte Artenliste gespeichert in:", detailed_output_file, "\n")
+
+# ===== STATISTISCHE SIGNIFIKANZTESTS =====
+
+cat("\n\n===== STATISTISCHE SIGNIFIKANZTESTS =====\n\n")
+
+# Vergleich zwischen Standorten (Milimani vs Utumbi)
+milimani_richness <- summary_df %>%
+  filter(location == "Milimani") %>%
+  pull(species_richness)
+
+utumbi_richness <- summary_df %>%
+  filter(location == "Utumbi") %>%
+  pull(species_richness)
+
+significance_results <- data.frame()
+
+if (length(milimani_richness) > 0 && length(utumbi_richness) > 0) {
+  test_result <- wilcox.test(milimani_richness, utumbi_richness)
+  cat("Milimani vs Utumbi (Species Richness):\n")
+  cat("  n_Milimani:", length(milimani_richness), "\n")
+  cat("  n_Utumbi:", length(utumbi_richness), "\n")
+  cat("  Test: Mann-Whitney U\n")
+  cat("  Statistic:", round(test_result$statistic, 4), "\n")
+  cat("  p-value:", round(test_result$p.value, 6), "\n")
+  cat("  Significant (α=0.05):", ifelse(test_result$p.value < 0.05, "Yes", "No"), "\n\n")
+  
+  significance_results <- rbind(significance_results, data.frame(
+    comparison = "Milimani vs Utumbi",
+    n_group1 = length(milimani_richness),
+    n_group2 = length(utumbi_richness),
+    test = "Mann-Whitney U",
+    statistic = round(test_result$statistic, 4),
+    p_value = round(test_result$p.value, 6),
+    significant_alpha_005 = ifelse(test_result$p.value < 0.05, "Yes", "No"),
+    mean_group1 = round(mean(milimani_richness), 2),
+    mean_group2 = round(mean(utumbi_richness), 2)
+  ))
+}
+
+# Speichere Signifikanz-Ergebnisse
+write.csv(significance_results, "results/species_richness_statistical_tests.csv", row.names = FALSE)
+cat("Signifikanz-Tests gespeichert in: results/species_richness_statistical_tests.csv\n")

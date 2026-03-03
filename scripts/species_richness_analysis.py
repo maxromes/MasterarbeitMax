@@ -7,6 +7,7 @@ Analysiert die Artenvielfalt in allen Annotation-Dateien
 import pandas as pd
 import os
 from pathlib import Path
+from scipy.stats import mannwhitneyu
 
 def calculate_species_richness(file_path, file_name):
     """Berechnet die Species Richness für eine Datei"""
@@ -98,6 +99,44 @@ def main():
     detailed_output_file = "results/species_richness_detailed.csv"
     detailed_df.to_csv(detailed_output_file, index=False)
     print(f"Detaillierte Artenliste gespeichert in: {detailed_output_file}")
+    
+    # ===== STATISTISCHE SIGNIFIKANZTESTS =====
+    
+    print("\n\n===== STATISTISCHE SIGNIFIKANZTESTS =====\n")
+    
+    significance_results = []
+    
+    # Vergleich zwischen Standorten (Milimani vs Utumbi)
+    milimani_richness = summary_df[summary_df['location'] == 'Milimani']['species_richness'].values
+    utumbi_richness = summary_df[summary_df['location'] == 'Utumbi']['species_richness'].values
+    
+    if len(milimani_richness) > 0 and len(utumbi_richness) > 0:
+        u_stat, p_value = mannwhitneyu(milimani_richness, utumbi_richness)
+        print(f"Milimani vs Utumbi (Species Richness):")
+        print(f"  n_Milimani: {len(milimani_richness)}")
+        print(f"  n_Utumbi: {len(utumbi_richness)}")
+        print(f"  Test: Mann-Whitney U")
+        print(f"  Statistic: {u_stat:.4f}")
+        print(f"  p-value: {p_value:.6f}")
+        print(f"  Significant (α=0.05): {'Yes' if p_value < 0.05 else 'No'}\n")
+        
+        significance_results.append({
+            'comparison': 'Milimani vs Utumbi',
+            'n_group1': len(milimani_richness),
+            'n_group2': len(utumbi_richness),
+            'test': 'Mann-Whitney U',
+            'statistic': f"{u_stat:.4f}",
+            'p_value': f"{p_value:.6f}",
+            'significant_alpha_005': 'Yes' if p_value < 0.05 else 'No',
+            'mean_group1': f"{milimani_richness.mean():.2f}",
+            'mean_group2': f"{utumbi_richness.mean():.2f}"
+        })
+    
+    # Speichere Signifikanz-Ergebnisse
+    stats_df = pd.DataFrame(significance_results)
+    stats_output_file = "results/species_richness_statistical_tests.csv"
+    stats_df.to_csv(stats_output_file, index=False)
+    print(f"Signifikanz-Tests gespeichert in: {stats_output_file}")
 
 if __name__ == "__main__":
     main()

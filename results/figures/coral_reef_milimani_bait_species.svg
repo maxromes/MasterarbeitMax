@@ -1,0 +1,37 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='900' height='500' viewBox='0 0 900 500'>
+<text x='450.0' y='35' font-size='18' font-weight='bold' text-anchor='middle' font-family='DejaVu Sans, Arial' fill='#2b2b2b'>Fish Species per Bait Type - MILIMANI</text>
+<line x1='100' y1='350' x2='880' y2='350' stroke='#2b2b2b' stroke-width='2'/>
+<line x1='100' y1='350' x2='100' y2='60' stroke='#2b2b2b' stroke-width='2'/>
+<line x1='95' y1='350.0' x2='100' y2='350.0' stroke='#2b2b2b' stroke-width='1'/>
+<text x='90' y='354.0' font-size='11' font-weight='normal' text-anchor='end' font-family='DejaVu Sans, Arial' fill='#2b2b2b'>0</text>
+<line x1='95' y1='292.0' x2='100' y2='292.0' stroke='#2b2b2b' stroke-width='1'/>
+<text x='90' y='296.0' font-size='11' font-weight='normal' text-anchor='end' font-family='DejaVu Sans, Arial' fill='#2b2b2b'>14</text>
+<line x1='95' y1='234.0' x2='100' y2='234.0' stroke='#2b2b2b' stroke-width='1'/>
+<text x='90' y='238.0' font-size='11' font-weight='normal' text-anchor='end' font-family='DejaVu Sans, Arial' fill='#2b2b2b'>28</text>
+<line x1='95' y1='176.0' x2='100' y2='176.0' stroke='#2b2b2b' stroke-width='1'/>
+<text x='90' y='180.0' font-size='11' font-weight='normal' text-anchor='end' font-family='DejaVu Sans, Arial' fill='#2b2b2b'>42</text>
+<line x1='95' y1='118.0' x2='100' y2='118.0' stroke='#2b2b2b' stroke-width='1'/>
+<text x='90' y='122.0' font-size='11' font-weight='normal' text-anchor='end' font-family='DejaVu Sans, Arial' fill='#2b2b2b'>56</text>
+<line x1='95' y1='60.0' x2='100' y2='60.0' stroke='#2b2b2b' stroke-width='1'/>
+<text x='90' y='64.0' font-size='11' font-weight='normal' text-anchor='end' font-family='DejaVu Sans, Arial' fill='#2b2b2b'>70</text>
+<g transform='translate(25,250.0) rotate(-90)'><text font-size='12' text-anchor='middle' font-family='DejaVu Sans'>Species Count</text></g>
+<rect x='139.0' y='138.71428571428572' width='99.99999999999999' height='211.28571428571428' fill='#1f78b4' stroke='#2b2b2b'/>
+<text x='189.0' y='128.71428571428572' font-size='11' font-weight='bold' text-anchor='middle' font-family='DejaVu Sans, Arial' fill='#2b2b2b'>51</text>
+<g transform='translate(189.0,370) rotate(-30)'><text font-size='11' text-anchor='end' font-family='DejaVu Sans'>CONTROL</text></g>
+<rect x='269.0' y='142.85714285714286' width='99.99999999999999' height='207.14285714285714' fill='#33a02c' stroke='#2b2b2b'/>
+<text x='319.0' y='132.85714285714286' font-size='11' font-weight='bold' text-anchor='middle' font-family='DejaVu Sans, Arial' fill='#2b2b2b'>50</text>
+<g transform='translate(319.0,370) rotate(-30)'><text font-size='11' text-anchor='end' font-family='DejaVu Sans'>FISCHMIX</text></g>
+<rect x='399.0' y='147.0' width='99.99999999999999' height='203.0' fill='#e31a1c' stroke='#2b2b2b'/>
+<text x='449.0' y='137.0' font-size='11' font-weight='bold' text-anchor='middle' font-family='DejaVu Sans, Arial' fill='#2b2b2b'>49</text>
+<g transform='translate(449.0,370) rotate(-30)'><text font-size='11' text-anchor='end' font-family='DejaVu Sans'>GLASNUDEL</text></g>
+<rect x='529.0' y='72.42857142857144' width='99.99999999999999' height='277.57142857142856' fill='#ff7f00' stroke='#2b2b2b'/>
+<text x='579.0' y='62.428571428571445' font-size='11' font-weight='bold' text-anchor='middle' font-family='DejaVu Sans, Arial' fill='#2b2b2b'>67</text>
+<g transform='translate(579.0,370) rotate(-30)'><text font-size='11' text-anchor='end' font-family='DejaVu Sans'>MACKEREL</text></g>
+<rect x='659.0' y='101.42857142857144' width='99.99999999999999' height='248.57142857142856' fill='#6a3d9a' stroke='#2b2b2b'/>
+<text x='709.0' y='91.42857142857144' font-size='11' font-weight='bold' text-anchor='middle' font-family='DejaVu Sans, Arial' fill='#2b2b2b'>60</text>
+<g transform='translate(709.0,370) rotate(-30)'><text font-size='11' text-anchor='end' font-family='DejaVu Sans'>MEERSALAT</text></g>
+<rect x='789.0' y='142.85714285714286' width='99.99999999999999' height='207.14285714285714' fill='#a6cee3' stroke='#2b2b2b'/>
+<text x='839.0' y='132.85714285714286' font-size='11' font-weight='bold' text-anchor='middle' font-family='DejaVu Sans, Arial' fill='#2b2b2b'>50</text>
+<g transform='translate(839.0,370) rotate(-30)'><text font-size='11' text-anchor='end' font-family='DejaVu Sans'>SARGASSUM</text></g>
+<text x='450.0' y='480' font-size='12' font-weight='normal' text-anchor='middle' font-family='DejaVu Sans, Arial' fill='#2b2b2b'>Bait Type</text>
+</svg>
