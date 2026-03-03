@@ -16,6 +16,7 @@ SUMMARY_FILE = OUTPUT_ROOT / "normalization_summary.csv"
 
 TARGET_SECONDS = 47 * 60
 SHORT_VIDEO_NAME = "20240108-nursery-control.csv"
+# Split videos with time resets - to be processed manually
 SPLIT_VIDEO_NAMES = {
     "20240516-utumbi-mackerel.csv",
     "20240515-milimani-mackerel.csv",
@@ -69,6 +70,7 @@ def format_frame_list(values: List[float]) -> str:
 
 
 def process_file(input_path: Path, area: str) -> FileSummary:
+    """Process file: copy split videos unchanged, normalize continuous videos to 47min."""
     out_all_path = OUT_ALL / area / input_path.name
     out_cut_path = OUT_CUT / area / input_path.name
     out_all_path.parent.mkdir(parents=True, exist_ok=True)
@@ -76,7 +78,33 @@ def process_file(input_path: Path, area: str) -> FileSummary:
 
     is_short_control_nursery = input_path.name == SHORT_VIDEO_NAME
     is_split_video = input_path.name in SPLIT_VIDEO_NAMES
+    
+    # For split videos: copy unchanged, mark for manual processing
+    if is_split_video:
+        import shutil
+        shutil.copy2(input_path, out_all_path)
+        shutil.copy2(input_path, out_cut_path)
+        
+        # Count rows for summary
+        with input_path.open("r", encoding="utf-8", newline="") as f:
+            reader = csv.DictReader(f)
+            rows = list(reader)
+            total_rows = len(rows)
+        
+        return FileSummary(
+            filename=input_path.name,
+            area=area,
+            rows_total=total_rows,
+            rows_kept_47min=total_rows,  # All kept for manual processing
+            rows_removed_after_47min=0,
+            frame_values_total=total_rows,
+            frame_values_kept_47min=total_rows,
+            max_original_seconds=0.0,  # Not calculated for split videos
+            is_short_control_nursery=is_short_control_nursery,
+            is_split_video=True,
+        )
 
+    # Process continuous (non-split) videos with 47min cutoff
     with input_path.open("r", encoding="utf-8", newline="") as infile:
         reader = csv.DictReader(infile)
         original_fields = reader.fieldnames or []
@@ -88,7 +116,6 @@ def process_file(input_path: Path, area: str) -> FileSummary:
             "included_47min",
             "is_short_control_nursery",
             "is_split_video",
-            "split_time_reset_note",
             "frames_kept_47min",
             "frame_count_raw",
             "frame_count_kept_47min",
@@ -129,12 +156,7 @@ def process_file(input_path: Path, area: str) -> FileSummary:
                 row_out["time_sec_local_max"] = f"{max(local_values):.6f}" if local_values else ""
                 row_out["included_47min"] = "TRUE" if included else "FALSE"
                 row_out["is_short_control_nursery"] = "TRUE" if is_short_control_nursery else "FALSE"
-                row_out["is_split_video"] = "TRUE" if is_split_video else "FALSE"
-                row_out["split_time_reset_note"] = (
-                    "TRUE"
-                    if is_split_video
-                    else "FALSE"
-                )
+                row_out["is_split_video"] = "FALSE"
                 row_out["frames_kept_47min"] = format_frame_list(kept_values)
                 row_out["frame_count_raw"] = str(len(local_values))
                 row_out["frame_count_kept_47min"] = str(len(kept_values))
@@ -153,7 +175,7 @@ def process_file(input_path: Path, area: str) -> FileSummary:
         frame_values_kept_47min=frame_values_kept,
         max_original_seconds=max_original,
         is_short_control_nursery=is_short_control_nursery,
-        is_split_video=is_split_video,
+        is_split_video=False,
     )
 
 
@@ -198,8 +220,12 @@ def main() -> None:
                 }
             )
 
+    split_count = sum(1 for s in summaries if s.is_split_video)
+    normalized_count = len(summaries) - split_count
+    
     print(f"Processed files: {len(summaries)}")
-    print(f"Split videos flagged: {sum(1 for s in summaries if s.is_split_video)}")
+    print(f"  - Split videos (copied for manual processing): {split_count}")
+    print(f"  - Continuous videos (normalized to 47min): {normalized_count}")
     print(f"Output (all rows): {OUT_ALL}")
     print(f"Output (cut <=47min): {OUT_CUT}")
     print(f"Summary: {SUMMARY_FILE}")
