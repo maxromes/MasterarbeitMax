@@ -1,0 +1,4 @@
+standort,test,groups,h_stat,p_value,significant_0_05,note
+milimani,Kruskal-Wallis (koeder),"control, mackerel, sargassum, ulva_gutweed, ulva_salad",1.5708955223880732,0.8140133351937504,False,
+nursery,Kruskal-Wallis (koeder),"algae_strings, algaemix, mackerel",1.8584905660377342,0.39485159915350887,False,
+utumbi,Kruskal-Wallis (koeder),"control, fischmix, mackerel, sargassum, ulva_gutweed, ulva_salad",6.336631944444438,0.2748271637060062,False,

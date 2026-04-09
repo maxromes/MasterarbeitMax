@@ -1,0 +1,4 @@
+group_a,group_b,n_a,n_b,u_stat,p_value,p_value_holm,significant_0_05,significant_0_05_holm
+nursery,utumbi,11,18,0.5,1.0146702619223898e-05,3.0440107857671694e-05,True,True
+milimani,utumbi,17,18,55.5,0.0013439732787524667,0.0026879465575049334,True,True
+milimani,nursery,17,11,157.0,0.0029341476514441922,0.0029341476514441922,True,True
