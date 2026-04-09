@@ -1,0 +1,4 @@
+standort,koeder_long,anzahl_dateien_long,first_seen_90_durchschnitt_sekunden_long,first_seen_90_durchschnitt_mmss_long,maxn_90_durchschnitt_sekunden_long,maxn_90_durchschnitt_mmss_long,koeder_cut,anzahl_dateien_cut,first_seen_90_durchschnitt_sekunden_cut,first_seen_90_durchschnitt_mmss_cut,maxn_90_durchschnitt_sekunden_cut,maxn_90_durchschnitt_mmss_cut,delta_first_seen_sec_cut_minus_long,delta_maxn_sec_cut_minus_long
+milimani,ALL,17,2424.72,40:25,2765.23,46:05,ALL,17,1870.16,31:10,2159.8,36:00,-554.56,-605.43
+utumbi,ALL,18,2299.47,38:19,2658.75,44:19,ALL,18,1865.86,31:06,2185.95,36:26,-433.61,-472.8
+nursery,ALL,11,1201.64,20:02,1546.97,25:47,ALL,11,1115.93,18:36,1299.19,21:39,-85.71,-247.78

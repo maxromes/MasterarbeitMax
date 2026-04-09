@@ -1,0 +1,27 @@
+# 90%-Zeitpunkte First Seen und MaxN - Gekuerzte Videos (cut_47min)
+
+Quelle: normalized_reports/cut_47min
+
+## Tabelle
+
+| standort   | koeder        |   anzahl_dateien |   first_seen_90_durchschnitt_sekunden | first_seen_90_durchschnitt_mmss   |   maxn_90_durchschnitt_sekunden | maxn_90_durchschnitt_mmss   |
+|:-----------|:--------------|-----------------:|--------------------------------------:|:----------------------------------|--------------------------------:|:----------------------------|
+| milimani   | ALL           |               17 |                               1870.16 | 31:10                             |                         2159.8  | 36:00                       |
+| milimani   | control       |                3 |                               2207.65 | 36:48                             |                         2301.25 | 38:21                       |
+| milimani   | fischmix      |                1 |                               1468.05 | 24:28                             |                         2450.93 | 40:51                       |
+| milimani   | mackerel      |                3 |                               1524.41 | 25:24                             |                         1735.84 | 28:56                       |
+| milimani   | sargassum     |                3 |                               1798.64 | 29:59                             |                         2223.02 | 37:03                       |
+| milimani   | ulva_gutweed  |                3 |                               1773.98 | 29:34                             |                         2207.45 | 36:47                       |
+| milimani   | ulva_salad    |                4 |                               2102.66 | 35:03                             |                         2215.76 | 36:56                       |
+| utumbi     | ALL           |               18 |                               1865.86 | 31:06                             |                         2185.95 | 36:26                       |
+| utumbi     | control       |                4 |                               1637.53 | 27:18                             |                         2242.15 | 37:22                       |
+| utumbi     | fischmix      |                2 |                               2069.37 | 34:29                             |                         2256.49 | 37:36                       |
+| utumbi     | mackerel      |                3 |                               1456.08 | 24:16                             |                         1600.16 | 26:40                       |
+| utumbi     | sargassum     |                3 |                               2057.1  | 34:17                             |                         2274.53 | 37:55                       |
+| utumbi     | ulva_gutweed  |                3 |                               2097.98 | 34:58                             |                         2421.07 | 40:21                       |
+| utumbi     | ulva_salad    |                3 |                               2021.06 | 33:41                             |                         2326.1  | 38:46                       |
+| nursery    | ALL           |               11 |                               1115.93 | 18:36                             |                         1299.19 | 21:39                       |
+| nursery    | algae_strings |                3 |                               1834.67 | 30:35                             |                         2037.41 | 33:57                       |
+| nursery    | algaemix      |                3 |                               1467.33 | 24:27                             |                         1891.83 | 31:32                       |
+| nursery    | control       |                1 |                                512.93 | 08:33                             |                          512.93 | 08:33                       |
+| nursery    | mackerel      |                4 |                                464.08 | 07:44                             |                          497.62 | 08:18                       |
