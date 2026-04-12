@@ -1,0 +1,2 @@
+test,n_perm,n_rows,n_baits,stat_mean_diff,p_value,significant_0_05,note
+Stratifizierter Permutationstest (Utumbi vs Milimani | by koeder),20000,35,6,8.290849673202615,0.00085,True,"Gemeinsame Köder: control, fischmix, mackerel, sargassum, ulva_gutweed, ulva_salad"

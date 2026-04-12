@@ -1,0 +1,121 @@
+taxon_key,control,fischmix,mackerel,sargassum,ulva_gutweed,ulva_salad,n_baits_present,presence_pattern
+family_label::blennies (blenniidae),0,0,1,0,0,1,2,001001
+family_label::emperors (lethrinidae),0,1,1,1,0,0,3,011100
+family_label::fusiliers (caesionidae),1,1,1,1,0,1,5,111101
+family_label::groupers (serranidae),1,1,1,1,1,1,6,111111
+family_label::groupers feeding,0,1,1,0,0,0,2,011000
+family_label::groupers interested,0,1,1,0,0,0,2,011000
+family_label::jacks/trevallyes (carangidae),0,0,0,0,0,1,1,000001
+family_label::morays (muraenidae),0,1,1,0,0,0,2,011000
+family_label::naso feeding,0,0,0,0,0,1,1,000001
+family_label::parrotfishes (scaridae),1,1,1,1,1,1,6,111111
+family_label::scorpion-&lionfishes (scorpaenidae),0,0,0,0,1,0,1,000010
+family_label::surgeonfishes (acanthuridae),1,0,0,0,0,1,2,100001
+family_label::triggerfishes (balistidae),0,1,0,0,0,0,1,010000
+family_label::tunas/mackerels (scombridae),0,0,1,1,1,0,3,001110
+family_label::wrasses (labridae),1,1,1,1,1,1,6,111111
+family_label::wrasses interested,0,0,1,0,0,0,1,001000
+genus::genus caesio,1,0,0,1,0,1,3,100101
+genus::genus chromis,1,1,1,1,1,1,6,111111
+genus::genus ctenochaetus,0,0,0,0,1,0,1,000010
+genus::genus naso,1,1,1,1,1,1,6,111111
+genus::genus siganus,0,1,0,0,0,1,2,010001
+genus::genus soldier,1,1,1,1,1,1,6,111111
+genus::genus squirrel,1,1,1,1,1,1,6,111111
+species::arabian monocle (scolopsis ghanam),1,0,0,0,1,1,3,100011
+species::axilspot hogfish (bodianus axillaris),1,1,1,1,1,1,6,111111
+species::barred (hemigymnus fasciatus),1,1,1,1,1,1,6,111111
+species::bicolor (labroides bicolor),1,1,1,1,1,1,6,111111
+species::bird wrasse (gomphosus caeruleus),1,1,1,1,1,1,6,111111
+species::black saddled toby (canthigaster valentini),1,0,0,1,1,1,4,100111
+species::black-backed (chaetodon melannotus),0,0,1,1,0,0,2,001100
+species::black-lipped (chaetodon kleinii),0,1,1,1,1,1,5,011111
+species::blackeye (hemigymnus melapterus),1,1,1,1,1,1,6,111111
+species::blacktip (epinephelus fasciatus),0,1,1,0,1,1,4,011011
+species::blue-green (chromis viridis),1,0,1,1,1,1,5,101111
+species::blue-streak (labroides dimidiatus),1,1,1,1,1,0,5,111110
+species::bluefin (caranx melampygus),1,1,1,1,1,1,6,111111
+species::brassy trevally (caranx papuensis),0,0,1,0,0,0,1,001000
+species::brown pigmy (centropyge multispinis),1,1,1,1,1,1,6,111111
+species::brown tang (zebrasoma scopas),1,1,1,1,1,1,6,111111
+species::bullethead (chlorurus sordidus),1,1,1,1,1,1,6,111111
+species::checkerboard (halichoeres hortulanus),1,1,0,1,1,1,5,110111
+species::chevroned (chaetodon trifascialis),0,0,1,0,0,0,1,001000
+species::cigar (cheilio inermis),0,1,0,0,0,0,1,010000
+species::claudia (halichoeres claudia),0,1,1,0,0,1,3,011001
+species::clown (coris aygula),0,0,0,0,0,1,1,000001
+species::disappearing (pseudocheilinus evanidus),1,1,1,1,1,1,6,111111
+species::eclipse (chaetodon bennetti),1,1,1,1,1,1,6,111111
+species::elegant unicorn (naso elegans),1,1,1,1,1,1,6,111111
+species::emperor (pomacanthus imperator),0,0,0,0,0,1,1,000001
+species::false-eye (abudefduf sparoides),1,1,1,1,1,0,5,111110
+species::five-saddle (scarus saber),1,1,1,1,1,1,6,111111
+species::freckled (paracirrhites forsteri),1,1,1,1,1,1,6,111111
+species::goldbar (thalassoma hebraicum),1,1,1,1,1,1,6,111111
+species::golden (ctenochaetus truncates),1,1,1,1,0,1,5,111101
+species::green (amblyglyphidodon indicus),1,1,1,1,1,1,6,111111
+species::halfmoon (sufflamen chrysopterum),0,0,0,0,1,0,1,000010
+species::honeycomb (siganus stellatus),1,0,1,0,1,1,4,101011
+species::humpback unicorn (naso brachycentron),1,1,1,1,0,1,5,111101
+species::humphead (cheilinus undulatus),0,1,1,1,0,0,3,011100
+species::humpnose bigeye (monotaxis grandoculis),1,1,1,1,1,1,6,111111
+species::indian half-and-half (pycnochromis dimidiatus),1,1,1,1,1,1,6,111111
+species::indian half-and-half (pycnochromis dimidiatusf),0,0,1,0,0,0,1,001000
+species::indian redfin (chaetodon trifasciatus),1,1,1,1,1,1,6,111111
+species::leopard (cephalopholis leopardus),1,1,1,1,1,1,6,111111
+species::lined (chaetodon lineolatus),0,0,0,1,0,0,1,000100
+species::lined bristletooth (ctenochaetus striatus),1,1,1,1,1,1,6,111111
+species::linedcheeked (oxycheilinus digramma),1,1,1,1,1,1,6,111111
+species::longbarbel (parupeneus macronemus),1,1,1,1,1,1,6,111111
+species::longfin banner (heniochus acuminatus),1,1,1,0,1,0,4,111010
+species::longnose (forcipiger flavissimus),1,0,0,1,0,1,3,100101
+species::longnose (lethrinus olivaceus),0,1,0,0,0,0,1,010000
+species::longnose (oxymonacanthus longirostris),1,0,0,1,0,0,2,100100
+species::meyer's (chaetodon meyeri),1,0,1,1,0,0,3,101100
+species::monk (acanthurus gahhm),0,0,1,0,0,0,1,001000
+species::moon (thalassoma lunare),1,1,1,1,1,1,6,111111
+species::moorish idol (zanclus cornutus),1,1,1,1,1,1,6,111111
+species::mozambique fangblenny (meiacanthus mossambicus),1,1,1,1,1,1,6,111111
+species::orange-lined (balistapus undulatus),1,1,1,1,1,1,6,111111
+species::orangespotted (lethrinus erythracanthus),1,0,0,1,1,1,4,100111
+species::palenose (scarus psittacus),0,0,1,0,1,0,2,001010
+species::paletail unicorn (naso brevirostris),1,1,1,1,0,1,5,111101
+species::peacock (cephalopholis argus),0,0,1,0,0,0,1,001000
+species::piano fangblenny (plagiotremus tapeinosoma),0,0,1,1,0,0,2,001100
+species::potato (epinephelus tukula),1,0,0,0,0,0,1,100000
+species::powder blue (acanthurus leucosternon),1,0,0,0,1,0,2,100010
+species::pyramid (hemitaurichthys zoster),1,0,0,1,0,0,2,100100
+species::queenfish (scomberoides lysan),0,0,1,0,0,0,1,001000
+species::raccoon (chaetodon lunula),1,0,0,1,1,1,4,100111
+species::red (lutjanus bohar),1,1,1,1,1,1,6,111111
+species::red-breasted (cheilinus fasciatus),1,0,1,1,1,1,5,101111
+species::redmouth (aethaloperca rogaa),1,1,1,1,1,1,6,111111
+species::regal (pygoplites diacanthus),1,1,1,1,1,1,6,111111
+species::rockmover (novaculichthys taeniourus),1,1,0,1,0,0,3,110100
+species::saddleback (chaetodon falcula),0,1,0,1,0,0,2,010100
+species::sailfin tang (zebrasoma desjardinii),1,1,1,1,1,1,6,111111
+species::scrawled (aluterus scriptus),0,0,1,0,0,0,1,001000
+species::sidespot (parupeneus pleurostigma),1,0,0,1,0,1,3,100101
+species::sixbar (thalassoma hardwicke),0,1,1,1,1,1,5,011111
+species::slingjaw (epibulus insidiator),1,1,0,1,1,1,5,110111
+species::snubnose (lethrinus borbonicus),0,1,0,0,1,0,2,010010
+species::speckled (parapercis hexophthalma),1,1,0,1,0,0,3,110100
+species::spot-tail (coris caudimacula),0,0,1,0,0,0,1,001000
+species::spotted (cetoscarus ocellatus),0,0,0,0,1,1,2,000011
+species::spotted (chaetodon guttatissimus),1,1,1,1,1,1,6,111111
+species::spotted (diodon hystrix),0,0,0,1,1,0,2,000110
+species::stareye (calotomus carolinus),0,0,1,1,1,0,3,001110
+species::sulfur (pomacentrus sulfureus),1,1,1,1,1,1,6,111111
+species::swarthy (scarus niger),1,0,1,1,1,1,5,101111
+species::ternate (chromis ternatensis),1,0,1,0,1,1,4,101011
+species::threadfin (chaetodon auriga),1,1,1,1,1,1,6,111111
+species::threespot (apolemichthys trimaculatus),1,0,0,0,0,0,1,100000
+species::trumpetfish (aulostomus chinensis),1,1,1,1,1,1,6,111111
+species::tubelip (labrichthys unilineatus),1,1,1,1,1,1,6,111111
+species::undulated (gymnothorax undulatus),0,1,1,0,0,0,2,011000
+species::whiteline (stethojulis albovittata),0,1,0,0,0,1,2,010001
+species::whitetail (acanthurus thompsoni),1,0,1,1,1,1,5,101111
+species::wirenet (cantherhines pardalis),1,0,1,1,1,0,4,101110
+species::yellowbreast (anampses twistii),1,0,0,1,1,1,4,100111
+species::yellowhead (chaetodon xanthocephalus),1,0,1,0,1,1,4,101011
+species::yellowtail (anampses meleagrides),0,0,0,1,0,0,1,000100

@@ -1,0 +1,52 @@
+standort,taxon_key
+milimani,family_label::butterflyfishes (chaetodontidae)
+milimani,family_label::filefishes (monacanthidae)
+milimani,family_label::turtle (cheloniidae)
+milimani,species::lyretail hogfish (bodianus anthioides)
+milimani,species::masked banner (heniochus monoceros)
+utumbi,family_label::morays (muraenidae)
+utumbi,family_label::naso feeding
+utumbi,family_label::scorpion-&lionfishes (scorpaenidae)
+utumbi,genus::genus ctenochaetus
+utumbi,species::blacktip (epinephelus fasciatus)
+utumbi,species::cigar (cheilio inermis)
+utumbi,species::claudia (halichoeres claudia)
+utumbi,species::clown (coris aygula)
+utumbi,species::five-saddle (scarus saber)
+utumbi,species::golden (ctenochaetus truncates)
+utumbi,species::indian half-and-half (pycnochromis dimidiatusf)
+utumbi,species::palenose (scarus psittacus)
+utumbi,species::piano fangblenny (plagiotremus tapeinosoma)
+utumbi,species::powder blue (acanthurus leucosternon)
+utumbi,species::queenfish (scomberoides lysan)
+utumbi,species::spot-tail (coris caudimacula)
+utumbi,species::sulfur (pomacentrus sulfureus)
+utumbi,species::threespot (apolemichthys trimaculatus)
+utumbi,species::whiteline (stethojulis albovittata)
+utumbi,species::yellowbreast (anampses twistii)
+utumbi,species::yellowtail (anampses meleagrides)
+nursery,family_label::batfishes (ephippidae)
+nursery,family_label::parrotfishes feeding
+nursery,family_label::siganus feeding
+nursery,family_label::snappers (lutjanidae)
+nursery,family_label::trumpetfishes (aulostomidae)
+nursery,genus::canthigaster
+nursery,genus::chromis
+nursery,genus::dascyllus
+nursery,genus::zebrasoma
+nursery,species::blackspot (lutjanus fulviflamma)
+nursery,species::blackspot feeding (lutjanus fulviflamma)
+nursery,species::blackwhite (macolor niger)
+nursery,species::blackwhite feeding (macolor niger)
+nursery,species::blue barred (scarus ghobban)
+nursery,species::coral (cephalopholis miniata)
+nursery,species::goldsaddle (parupeneus cyclostomus)
+nursery,species::humpback (lutjanus gibbus)
+nursery,species::mahsena (lethrinus mahsena)
+nursery,species::map (arothron mappa)
+nursery,species::peacock damsel (pomacentrus pavo)
+nursery,species::queen (coris formosa)
+nursery,species::threespot dascyllus (dascyllus trimaculatus)
+nursery,species::thumbprint (lethrinus harak)
+nursery,species::yellow-margin (gymnothorax flavimarginatus)
+nursery,species::yellowmargin (pseudobalistes flavimarginatus)

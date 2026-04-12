@@ -1,0 +1,2 @@
+test,groups,h_stat,p_value,significant_0_05,sig_label
+Kruskal-Wallis (species_richness ~ standort),"utumbi, milimani, nursery",25.530087570399175,2.8589853031324563e-06,True,***

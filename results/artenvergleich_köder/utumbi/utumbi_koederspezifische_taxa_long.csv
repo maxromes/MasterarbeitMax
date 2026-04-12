@@ -1,0 +1,24 @@
+koeder,taxon_key
+control,species::potato (epinephelus tukula)
+control,species::threespot (apolemichthys trimaculatus)
+fischmix,family_label::triggerfishes (balistidae)
+fischmix,species::cigar (cheilio inermis)
+fischmix,species::longnose (lethrinus olivaceus)
+mackerel,family_label::wrasses interested
+mackerel,species::brassy trevally (caranx papuensis)
+mackerel,species::chevroned (chaetodon trifascialis)
+mackerel,species::indian half-and-half (pycnochromis dimidiatusf)
+mackerel,species::monk (acanthurus gahhm)
+mackerel,species::peacock (cephalopholis argus)
+mackerel,species::queenfish (scomberoides lysan)
+mackerel,species::scrawled (aluterus scriptus)
+mackerel,species::spot-tail (coris caudimacula)
+sargassum,species::lined (chaetodon lineolatus)
+sargassum,species::yellowtail (anampses meleagrides)
+ulva_gutweed,family_label::scorpion-&lionfishes (scorpaenidae)
+ulva_gutweed,genus::genus ctenochaetus
+ulva_gutweed,species::halfmoon (sufflamen chrysopterum)
+ulva_salad,family_label::jacks/trevallyes (carangidae)
+ulva_salad,family_label::naso feeding
+ulva_salad,species::clown (coris aygula)
+ulva_salad,species::emperor (pomacanthus imperator)

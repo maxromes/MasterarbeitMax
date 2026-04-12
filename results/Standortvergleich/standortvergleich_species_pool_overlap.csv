@@ -1,0 +1,4 @@
+site_a,site_b,n_taxa_a,n_taxa_b,intersection_taxa,union_taxa,jaccard_similarity,jaccard_distance,unique_a,unique_b
+utumbi,milimani,120,104,88,136,0.6470588235294118,0.3529411764705882,32,16
+utumbi,nursery,120,99,63,156,0.40384615384615385,0.5961538461538461,57,36
+milimani,nursery,104,99,63,140,0.45,0.55,41,36
