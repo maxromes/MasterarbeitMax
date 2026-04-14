@@ -1,0 +1,16 @@
+group_a,group_b,n_a,n_b,n_videos,pseudo_f,p_value,n_perm,note,p_value_holm,significant_0_05,significant_0_05_holm,sig_label_raw,sig_label_holm
+control,fischmix,4,2,6,1.9520833118350671,0.0683863227354529,5000,,1.0,False,False,ns,ns
+fischmix,ulva_salad,2,3,5,1.9380643524520962,0.09698060387922415,5000,,1.0,False,False,ns,ns
+mackerel,ulva_salad,3,3,6,1.3409521557031363,0.09798040391921616,5000,,1.0,False,False,ns,ns
+ulva_gutweed,ulva_salad,3,3,6,1.5442515917568314,0.10517896420715857,5000,,1.0,False,False,ns,ns
+fischmix,ulva_gutweed,2,3,5,2.540975314824685,0.10877824435112977,5000,,1.0,False,False,ns,ns
+control,mackerel,4,3,7,1.4122529014447671,0.11297740451909619,5000,,1.0,False,False,ns,ns
+sargassum,ulva_gutweed,3,3,6,1.7573873871044732,0.19616076784643072,5000,,1.0,False,False,ns,ns
+sargassum,ulva_salad,3,3,6,1.3117331157713827,0.19696060787842432,5000,,1.0,False,False,ns,ns
+fischmix,sargassum,2,3,5,1.688107944930006,0.20355928814237154,5000,,1.0,False,False,ns,ns
+mackerel,ulva_gutweed,3,3,6,1.4685341904899616,0.20535892821435714,5000,,1.0,False,False,ns,ns
+control,ulva_gutweed,4,3,7,1.191535151736366,0.2605478904219156,5000,,1.0,False,False,ns,ns
+fischmix,mackerel,2,3,5,1.1655419513754204,0.3063387322535493,5000,,1.0,False,False,ns,ns
+mackerel,sargassum,3,3,6,1.1169708239894254,0.4023195360927814,5000,,1.0,False,False,ns,ns
+control,sargassum,4,3,7,1.0704618791343825,0.46230753849230155,5000,,1.0,False,False,ns,ns
+control,ulva_salad,4,3,7,0.7786386409681109,0.912617476504699,5000,,1.0,False,False,ns,ns

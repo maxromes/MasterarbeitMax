@@ -1,0 +1,40 @@
+koeder,taxon_key
+algae_strings,family_label::siganus feeding
+algae_strings,family_label::wrasses interested
+algae_strings,species::brown pigmy (centropyge multispinis)
+algae_strings,species::checkerboard (halichoeres hortulanus)
+algae_strings,species::goldsaddle (parupeneus cyclostomus)
+algae_strings,species::rockmover (novaculichthys taeniourus)
+algaemix,family_label::emperors (lethrinidae)
+algaemix,family_label::triggerfishes (balistidae)
+algaemix,genus::genus acanthurus
+algaemix,genus::genus caesio
+algaemix,species::bicolor (labroides bicolor)
+algaemix,species::bird wrasse (gomphosus caeruleus)
+algaemix,species::goldbar (thalassoma hebraicum)
+algaemix,species::indian longnose (hipposcarus harid)
+algaemix,species::yellowmargin (pseudobalistes flavimarginatus)
+control,family_label::batfishes (ephippidae)
+control,family_label::puffers (tetraodontidae)
+control,family_label::snappers (lutjanidae)
+control,label::stomatapoda
+control,species::wirenet (cantherhines pardalis)
+mackerel,family_label::goatfishes (mullidae)
+mackerel,family_label::groupers feeding
+mackerel,family_label::trumpetfishes (aulostomidae)
+mackerel,genus::canthigaster
+mackerel,genus::dascyllus
+mackerel,species::black-lipped (chaetodon kleinii)
+mackerel,species::blackspot feeding (lutjanus fulviflamma)
+mackerel,species::blackwhite feeding (macolor niger)
+mackerel,species::blue-streak (labroides dimidiatus)
+mackerel,species::coral (cephalopholis miniata)
+mackerel,species::green (amblyglyphidodon indicus)
+mackerel,species::longfin banner (heniochus acuminatus)
+mackerel,species::mozambique fangblenny (meiacanthus mossambicus)
+mackerel,species::saddleback (chaetodon falcula)
+mackerel,species::sidespot (parupeneus pleurostigma)
+mackerel,species::sixbar (thalassoma hardwicke)
+mackerel,species::snubnose (lethrinus borbonicus)
+mackerel,species::spotted toby (canthigaster solandri)
+mackerel,species::whitetail (acanthurus thompsoni)

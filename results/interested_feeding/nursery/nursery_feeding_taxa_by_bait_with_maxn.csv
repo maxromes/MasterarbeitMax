@@ -1,0 +1,21 @@
+koeder,taxon_key,total_flag_events,n_videos_with_flag,mean_maxn,median_maxn,max_maxn,maxn_occurrence_rate
+algae_strings,species::paletail unicorn (naso brevirostris),20,3,20.0,23.0,23.0,1.0
+algae_strings,species::honeycomb (siganus stellatus),6,3,3.333333333333333,4.0,4.0,1.0
+algae_strings,family_label::siganus feeding,4,2,1.0,1.0,2.0,0.6666666666666666
+algae_strings,family_label::parrotfishes feeding,4,1,1.3333333333333333,0.0,4.0,0.3333333333333333
+algae_strings,species::longbarbel (parupeneus macronemus),2,2,5.666666666666667,5.0,7.0,1.0
+algae_strings,species::monk (acanthurus gahhm),2,2,2.6666666666666665,2.0,4.0,1.0
+algae_strings,species::blue barred (scarus ghobban),2,1,4.0,4.0,5.0,1.0
+algae_strings,species::red-breasted (cheilinus fasciatus),1,1,1.3333333333333333,1.0,2.0,1.0
+algaemix,species::paletail unicorn (naso brevirostris),91,3,31.0,32.0,40.0,1.0
+algaemix,species::honeycomb (siganus stellatus),4,3,4.0,4.0,4.0,1.0
+algaemix,family_label::parrotfishes feeding,2,2,0.6666666666666666,1.0,1.0,0.6666666666666666
+algaemix,species::humpback (lutjanus gibbus),2,1,36.0,43.0,45.0,1.0
+algaemix,species::threadfin (chaetodon auriga),1,1,2.6666666666666665,3.0,4.0,1.0
+algaemix,species::yellow-margin (gymnothorax flavimarginatus),1,1,1.0,1.0,2.0,0.6666666666666666
+mackerel,species::humpback (lutjanus gibbus),12,3,14.75,12.0,30.0,1.0
+mackerel,family_label::groupers feeding,3,1,0.5,0.0,2.0,0.25
+mackerel,species::longfin banner (heniochus acuminatus),3,1,0.75,0.5,2.0,0.5
+mackerel,species::red (lutjanus bohar),2,2,1.25,1.5,2.0,0.75
+mackerel,species::black-lipped (chaetodon kleinii),2,1,1.75,1.0,5.0,0.75
+mackerel,species::longnose (lethrinus olivaceus),1,1,0.5,0.0,2.0,0.25

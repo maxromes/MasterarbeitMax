@@ -1,0 +1,7 @@
+site,flag,koeder,n_videos,mean_total_events,median_total_events,mean_unique_taxa,n_bait_specific_taxa,n_trend_taxa_dominant
+utumbi,interested,control,4,0.25,0.0,0.25,0,0
+utumbi,interested,fischmix,2,18.0,18.0,5.5,3,1
+utumbi,interested,mackerel,3,15.0,8.0,5.666666666666667,4,1
+utumbi,interested,sargassum,3,2.3333333333333335,2.0,2.0,0,0
+utumbi,interested,ulva_gutweed,3,0.6666666666666666,1.0,0.6666666666666666,0,0
+utumbi,interested,ulva_salad,3,2.6666666666666665,3.0,2.3333333333333335,0,0

@@ -1,0 +1,9 @@
+taxon_key,dominant_koeder,p_value,p_value_holm,ratio,dom_mean_maxn,low_mean_maxn
+species::longnose (lethrinus olivaceus),fischmix,0.0046127191189073,0.5535262942688786,inf,1.5,0.0
+species::orange-lined (balistapus undulatus),fischmix,0.0214871200747392,1.0,5.0,7.5,1.5
+species::brown pigmy (centropyge multispinis),ulva_gutweed,0.0222947352327052,1.0,2.6666666666666665,2.6666666666666665,1.0
+species::bullethead (chlorurus sordidus),sargassum,0.031895610631911,1.0,5.0,5.0,1.0
+species::claudia (halichoeres claudia),fischmix,0.0326026814954917,1.0,inf,2.0,0.0
+species::redmouth (aethaloperca rogaa),fischmix,0.0391180127914317,1.0,2.0,2.0,1.0
+family_label::morays (muraenidae),fischmix,0.0432463060048269,1.0,inf,1.0,0.0
+family_label::fusiliers (caesionidae),ulva_salad,0.0446328968528563,1.0,inf,71.33333333333333,0.0

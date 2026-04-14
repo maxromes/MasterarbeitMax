@@ -1,3 +1,4 @@
-standort,n_videos,n_koeder,taxa_in_all_koeder,top_koederpaar,top_jaccard,max_koederspezifische_taxa
-milimani,17,6,31,control vs ulva_gutweed,0.6973684210526315,8
-utumbi,18,6,43,control vs sargassum,0.7640449438202247,9
+standort,n_videos,n_koeder,taxa_in_all_koeder,top_koederpaar,top_jaccard,max_koederspezifische_taxa,composition_p_value_global,composition_significant_0_05
+milimani,17,6,31,control vs ulva_gutweed,0.6973684210526315,8,0.02419516096780644,True
+utumbi,18,6,43,control vs sargassum,0.7640449438202247,9,0.004599080183963208,True
+nursery,11,4,16,algae_strings vs algaemix,0.6617647058823529,19,0.0015996800639872025,True

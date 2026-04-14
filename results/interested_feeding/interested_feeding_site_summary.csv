@@ -1,0 +1,4 @@
+standort,n_videos,n_koeder,feeding_taxa_tested,feeding_raw_sig_taxa,feeding_holm_sig_taxa,feeding_total_events_p,feeding_total_events_sig,interested_taxa_tested,interested_raw_sig_taxa,interested_holm_sig_taxa,interested_total_events_p,interested_total_events_sig
+milimani,17,6,6,1,1,0.07028796003985642,False,6,0,0,0.050894246572981035,False
+nursery,11,4,16,2,0,0.038430638404691506,True,13,0,0,0.7530043116564573,False
+utumbi,18,6,14,4,0,0.014548434906480194,True,15,2,0,0.01276774732007247,True

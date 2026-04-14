@@ -1,0 +1,2 @@
+test,groups,n_videos,n_groups,pseudo_f,p_value,n_perm,significant_0_05,sig_label,note
+"PERMANOVA (Jaccard distance, taxa composition ~ koeder)","algae_strings, algaemix, control, mackerel",11,4,2.0899824484609537,0.0015996800639872025,5000,True,**,

@@ -1,0 +1,16 @@
+site,flag,koeder_a,koeder_b,n_a,n_b,mean_total_a,mean_total_b,u_stat,p_value,p_value_holm,significant_0_05,significant_0_05_holm,sig_label_raw,sig_label_holm
+milimani,interested,control,fischmix,3,1,0.0,18.0,0.0,0.24821307898992362,1.0,False,False,ns,ns
+milimani,interested,control,mackerel,3,3,0.0,4.333333333333333,3.0,0.5049850750938458,1.0,False,False,ns,ns
+milimani,interested,control,sargassum,3,3,0.0,6.666666666666667,0.0,0.06360256962075367,0.8904359746905514,False,False,ns,ns
+milimani,interested,control,ulva_gutweed,3,3,0.0,0.6666666666666666,3.0,0.5049850750938458,1.0,False,False,ns,ns
+milimani,interested,control,ulva_salad,3,4,0.0,0.0,6.0,1.0,1.0,False,False,ns,ns
+milimani,interested,fischmix,mackerel,1,3,18.0,4.333333333333333,3.0,0.3457785861511603,1.0,False,False,ns,ns
+milimani,interested,fischmix,sargassum,1,3,18.0,6.666666666666667,3.0,0.5,1.0,False,False,ns,ns
+milimani,interested,fischmix,ulva_gutweed,1,3,18.0,0.6666666666666666,3.0,0.3457785861511603,1.0,False,False,ns,ns
+milimani,interested,fischmix,ulva_salad,1,4,18.0,0.0,4.0,0.13361440253771614,1.0,False,False,ns,ns
+milimani,interested,mackerel,sargassum,3,3,4.333333333333333,6.666666666666667,3.0,0.6579050194284821,1.0,False,False,ns,ns
+milimani,interested,mackerel,ulva_gutweed,3,3,4.333333333333333,0.6666666666666666,5.0,1.0,1.0,False,False,ns,ns
+milimani,interested,mackerel,ulva_salad,3,4,4.333333333333333,0.0,8.0,0.3864762307712327,1.0,False,False,ns,ns
+milimani,interested,sargassum,ulva_gutweed,3,3,6.666666666666667,0.6666666666666666,9.0,0.07652250047505922,0.9947925061757699,False,False,ns,ns
+milimani,interested,sargassum,ulva_salad,3,4,6.666666666666667,0.0,12.0,0.03191120476963876,0.4786680715445814,True,False,*,ns
+milimani,interested,ulva_gutweed,ulva_salad,3,4,0.6666666666666666,0.0,8.0,0.3864762307712327,1.0,False,False,ns,ns

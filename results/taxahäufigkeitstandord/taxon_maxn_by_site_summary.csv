@@ -1,0 +1,484 @@
+taxon_key,standort,n_videos,n_present,occurrence_rate,mean_maxn,median_maxn,std_maxn,max_maxn
+family_label::batfishes (ephippidae),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+family_label::batfishes (ephippidae),nursery,11,1,0.09090909090909091,0.09090909090909091,0.0,0.3015113445777636,1.0
+family_label::batfishes (ephippidae),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+family_label::blennies (blenniidae),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+family_label::blennies (blenniidae),nursery,11,2,0.18181818181818182,0.18181818181818182,0.0,0.4045199174779452,1.0
+family_label::blennies (blenniidae),utumbi,18,2,0.1111111111111111,0.1111111111111111,0.0,0.3233808333817773,1.0
+family_label::butterflyfishes (chaetodontidae),milimani,17,2,0.11764705882352941,0.11764705882352941,0.0,0.3321055820775357,1.0
+family_label::butterflyfishes (chaetodontidae),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+family_label::butterflyfishes (chaetodontidae),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+family_label::cornetfishes (fistulariidae),milimani,17,1,0.058823529411764705,0.058823529411764705,0.0,0.242535625036333,1.0
+family_label::cornetfishes (fistulariidae),nursery,11,6,0.5454545454545454,1.3636363636363635,1.0,1.9632996344280855,6.0
+family_label::cornetfishes (fistulariidae),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+family_label::emperors (lethrinidae),milimani,17,2,0.11764705882352941,0.11764705882352941,0.0,0.3321055820775357,1.0
+family_label::emperors (lethrinidae),nursery,11,1,0.09090909090909091,0.09090909090909091,0.0,0.30151134457776363,1.0
+family_label::emperors (lethrinidae),utumbi,18,3,0.16666666666666666,0.16666666666666666,0.0,0.38348249442368526,1.0
+family_label::filefishes (monacanthidae),milimani,17,1,0.058823529411764705,0.058823529411764705,0.0,0.242535625036333,1.0
+family_label::filefishes (monacanthidae),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+family_label::filefishes (monacanthidae),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+family_label::fusiliers (caesionidae),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+family_label::fusiliers (caesionidae),nursery,11,9,0.8181818181818182,4.363636363636363,4.0,3.7489392439122637,10.0
+family_label::fusiliers (caesionidae),utumbi,18,9,0.5,20.11111111111111,1.0,28.941907105926944,88.0
+family_label::goatfishes (mullidae),milimani,17,1,0.058823529411764705,0.6470588235294118,0.0,2.667891875399663,11.0
+family_label::goatfishes (mullidae),nursery,11,1,0.09090909090909091,0.18181818181818182,0.0,0.6030226891555273,2.0
+family_label::goatfishes (mullidae),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+family_label::groupers (serranidae),milimani,17,12,0.7058823529411765,1.1176470588235294,1.0,0.9926198253344827,3.0
+family_label::groupers (serranidae),nursery,11,4,0.36363636363636365,0.5454545454545454,0.0,0.9341987329938276,3.0
+family_label::groupers (serranidae),utumbi,18,18,1.0,1.6111111111111112,1.5,0.6978023391872253,3.0
+family_label::groupers feeding,milimani,17,2,0.11764705882352941,0.17647058823529413,0.0,0.5285941398709244,2.0
+family_label::groupers feeding,nursery,11,1,0.09090909090909091,0.18181818181818182,0.0,0.6030226891555271,2.0
+family_label::groupers feeding,utumbi,18,2,0.1111111111111111,0.16666666666666666,0.0,0.5144957554275265,2.0
+family_label::groupers interested,milimani,17,3,0.17647058823529413,0.29411764705882354,0.0,0.6859943405700354,2.0
+family_label::groupers interested,nursery,11,0,0.0,0.0,0.0,0.0,0.0
+family_label::groupers interested,utumbi,18,2,0.1111111111111111,0.16666666666666666,0.0,0.5144957554275265,2.0
+family_label::jacks/trevallyes (carangidae),milimani,17,4,0.23529411764705882,0.35294117647058826,0.0,0.7859052479933757,3.0
+family_label::jacks/trevallyes (carangidae),nursery,11,8,0.7272727272727273,1.4545454545454546,1.0,1.6949121725703877,6.0
+family_label::jacks/trevallyes (carangidae),utumbi,18,2,0.1111111111111111,0.4444444444444444,0.0,1.464168996281919,6.0
+family_label::morays (muraenidae),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+family_label::morays (muraenidae),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+family_label::morays (muraenidae),utumbi,18,3,0.16666666666666666,0.2222222222222222,0.0,0.5483188805533162,2.0
+family_label::naso feeding,milimani,17,0,0.0,0.0,0.0,0.0,0.0
+family_label::naso feeding,nursery,11,0,0.0,0.0,0.0,0.0,0.0
+family_label::naso feeding,utumbi,18,1,0.05555555555555555,0.05555555555555555,0.0,0.23570226039551584,1.0
+family_label::parrotfishes (scaridae),milimani,17,17,1.0,6.529411764705882,4.0,6.690643159095614,27.0
+family_label::parrotfishes (scaridae),nursery,11,11,1.0,7.090909090909091,6.0,4.614207309052021,14.0
+family_label::parrotfishes (scaridae),utumbi,18,18,1.0,13.055555555555555,8.0,18.32860901696394,84.0
+family_label::parrotfishes feeding,milimani,17,0,0.0,0.0,0.0,0.0,0.0
+family_label::parrotfishes feeding,nursery,11,3,0.2727272727272727,0.5454545454545454,0.0,1.2135597524338357,4.0
+family_label::parrotfishes feeding,utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+family_label::puffers (tetraodontidae),milimani,17,8,0.47058823529411764,0.6470588235294118,0.0,0.7859052479933758,2.0
+family_label::puffers (tetraodontidae),nursery,11,1,0.09090909090909091,0.18181818181818182,0.0,0.6030226891555271,2.0
+family_label::puffers (tetraodontidae),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+family_label::scorpion-&lionfishes (scorpaenidae),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+family_label::scorpion-&lionfishes (scorpaenidae),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+family_label::scorpion-&lionfishes (scorpaenidae),utumbi,18,1,0.05555555555555555,0.05555555555555555,0.0,0.23570226039551584,1.0
+family_label::siganus feeding,milimani,17,0,0.0,0.0,0.0,0.0,0.0
+family_label::siganus feeding,nursery,11,2,0.18181818181818182,0.2727272727272727,0.0,0.6466697906828633,2.0
+family_label::siganus feeding,utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+family_label::snappers (lutjanidae),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+family_label::snappers (lutjanidae),nursery,11,1,0.09090909090909091,0.09090909090909091,0.0,0.3015113445777636,1.0
+family_label::snappers (lutjanidae),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+family_label::surgeonfishes (acanthuridae),milimani,17,2,0.11764705882352941,0.6470588235294118,0.0,2.422322657868586,10.0
+family_label::surgeonfishes (acanthuridae),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+family_label::surgeonfishes (acanthuridae),utumbi,18,4,0.2222222222222222,0.2222222222222222,0.0,0.42779263194649864,1.0
+family_label::triggerfishes (balistidae),milimani,17,2,0.11764705882352941,0.23529411764705882,0.0,0.6642111641550714,2.0
+family_label::triggerfishes (balistidae),nursery,11,1,0.09090909090909091,0.2727272727272727,0.0,0.9045340337332909,3.0
+family_label::triggerfishes (balistidae),utumbi,18,1,0.05555555555555555,0.05555555555555555,0.0,0.23570226039551584,1.0
+family_label::trumpetfishes (aulostomidae),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+family_label::trumpetfishes (aulostomidae),nursery,11,1,0.09090909090909091,0.09090909090909091,0.0,0.3015113445777636,1.0
+family_label::trumpetfishes (aulostomidae),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+family_label::tunas/mackerels (scombridae),milimani,17,3,0.17647058823529413,0.17647058823529413,0.0,0.3929526239966879,1.0
+family_label::tunas/mackerels (scombridae),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+family_label::tunas/mackerels (scombridae),utumbi,18,3,0.16666666666666666,0.16666666666666666,0.0,0.38348249442368526,1.0
+family_label::turtle (cheloniidae),milimani,17,2,0.11764705882352941,0.11764705882352941,0.0,0.3321055820775357,1.0
+family_label::turtle (cheloniidae),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+family_label::turtle (cheloniidae),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+family_label::wrasses (labridae),milimani,17,12,0.7058823529411765,1.0588235294117647,1.0,1.0289915108550531,4.0
+family_label::wrasses (labridae),nursery,11,2,0.18181818181818182,0.18181818181818182,0.0,0.4045199174779452,1.0
+family_label::wrasses (labridae),utumbi,18,16,0.8888888888888888,1.2777777777777777,1.0,0.6691131580686884,2.0
+family_label::wrasses interested,milimani,17,0,0.0,0.0,0.0,0.0,0.0
+family_label::wrasses interested,nursery,11,1,0.09090909090909091,0.09090909090909091,0.0,0.3015113445777636,1.0
+family_label::wrasses interested,utumbi,18,1,0.05555555555555555,0.05555555555555555,0.0,0.23570226039551584,1.0
+genus::canthigaster,milimani,17,0,0.0,0.0,0.0,0.0,0.0
+genus::canthigaster,nursery,11,1,0.09090909090909091,0.18181818181818182,0.0,0.6030226891555271,2.0
+genus::canthigaster,utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+genus::chromis,milimani,17,0,0.0,0.0,0.0,0.0,0.0
+genus::chromis,nursery,11,2,0.18181818181818182,0.18181818181818182,0.0,0.4045199174779452,1.0
+genus::chromis,utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+genus::dascyllus,milimani,17,0,0.0,0.0,0.0,0.0,0.0
+genus::dascyllus,nursery,11,3,0.2727272727272727,2.3636363636363638,0.0,4.388000165741275,13.0
+genus::dascyllus,utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+genus::genus acanthurus,milimani,17,2,0.11764705882352941,0.35294117647058826,0.0,1.2217393579743308,5.0
+genus::genus acanthurus,nursery,11,1,0.09090909090909091,0.09090909090909091,0.0,0.3015113445777636,1.0
+genus::genus acanthurus,utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+genus::genus caesio,milimani,17,0,0.0,0.0,0.0,0.0,0.0
+genus::genus caesio,nursery,11,1,0.09090909090909091,0.45454545454545453,0.0,1.507556722888818,5.0
+genus::genus caesio,utumbi,18,3,0.16666666666666666,4.111111111111111,0.0,12.318751316059922,48.0
+genus::genus chromis,milimani,17,14,0.8235294117647058,57.1764705882353,55.0,49.917726428240954,171.0
+genus::genus chromis,nursery,11,7,0.6363636363636364,1.6363636363636365,1.0,1.8040358795061298,5.0
+genus::genus chromis,utumbi,18,15,0.8333333333333334,33.5,27.5,31.535694062442957,94.0
+genus::genus ctenochaetus,milimani,17,0,0.0,0.0,0.0,0.0,0.0
+genus::genus ctenochaetus,nursery,11,0,0.0,0.0,0.0,0.0,0.0
+genus::genus ctenochaetus,utumbi,18,1,0.05555555555555555,0.16666666666666666,0.0,0.7071067811865476,3.0
+genus::genus naso,milimani,17,7,0.4117647058823529,0.47058823529411764,0.0,0.6242642728467978,2.0
+genus::genus naso,nursery,11,0,0.0,0.0,0.0,0.0,0.0
+genus::genus naso,utumbi,18,14,0.7777777777777778,1.3888888888888888,1.0,2.0332208262027454,9.0
+genus::genus siganus,milimani,17,2,0.11764705882352941,0.17647058823529413,0.0,0.5285941398709244,2.0
+genus::genus siganus,nursery,11,4,0.36363636363636365,1.1818181818181819,0.0,2.1825756260978366,7.0
+genus::genus siganus,utumbi,18,2,0.1111111111111111,0.4444444444444444,0.0,1.6528841894672626,7.0
+genus::genus soldier,milimani,17,5,0.29411764705882354,0.29411764705882354,0.0,0.46966821831386213,1.0
+genus::genus soldier,nursery,11,0,0.0,0.0,0.0,0.0,0.0
+genus::genus soldier,utumbi,18,18,1.0,3.1666666666666665,3.0,1.465284553774253,7.0
+genus::genus squirrel,milimani,17,2,0.11764705882352941,0.11764705882352941,0.0,0.3321055820775357,1.0
+genus::genus squirrel,nursery,11,0,0.0,0.0,0.0,0.0,0.0
+genus::genus squirrel,utumbi,18,17,0.9444444444444444,4.111111111111111,4.5,1.9063018984684914,7.0
+genus::zebrasoma,milimani,17,0,0.0,0.0,0.0,0.0,0.0
+genus::zebrasoma,nursery,11,4,0.36363636363636365,0.6363636363636364,0.0,0.9244162777371755,2.0
+genus::zebrasoma,utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+label::stomatapoda,milimani,17,2,0.11764705882352941,0.11764705882352941,0.0,0.3321055820775357,1.0
+label::stomatapoda,nursery,11,1,0.09090909090909091,0.09090909090909091,0.0,0.3015113445777636,1.0
+label::stomatapoda,utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+species::arabian monocle (scolopsis ghanam),milimani,17,1,0.058823529411764705,0.11764705882352941,0.0,0.485071250072666,2.0
+species::arabian monocle (scolopsis ghanam),nursery,11,9,0.8181818181818182,7.0,8.0,6.115553940568262,20.0
+species::arabian monocle (scolopsis ghanam),utumbi,18,5,0.2777777777777778,0.4444444444444444,0.0,0.8555852638929972,3.0
+species::axilspot hogfish (bodianus axillaris),milimani,17,14,0.8235294117647058,1.0588235294117647,1.0,0.747545001596402,3.0
+species::axilspot hogfish (bodianus axillaris),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::axilspot hogfish (bodianus axillaris),utumbi,18,14,0.7777777777777778,0.8333333333333334,1.0,0.5144957554275266,2.0
+species::barred (hemigymnus fasciatus),milimani,17,15,0.8823529411764706,1.1764705882352942,1.0,0.7276068751089989,3.0
+species::barred (hemigymnus fasciatus),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::barred (hemigymnus fasciatus),utumbi,18,16,0.8888888888888888,0.9444444444444444,1.0,0.4161761818978652,2.0
+species::bicolor (labroides bicolor),milimani,17,1,0.058823529411764705,0.11764705882352941,0.0,0.485071250072666,2.0
+species::bicolor (labroides bicolor),nursery,11,1,0.09090909090909091,0.09090909090909091,0.0,0.3015113445777636,1.0
+species::bicolor (labroides bicolor),utumbi,18,15,0.8333333333333334,1.2222222222222223,1.0,0.8782037520219095,3.0
+species::bird wrasse (gomphosus caeruleus),milimani,17,17,1.0,1.4705882352941178,1.0,0.6242642728467979,3.0
+species::bird wrasse (gomphosus caeruleus),nursery,11,1,0.09090909090909091,0.09090909090909091,0.0,0.30151134457776363,1.0
+species::bird wrasse (gomphosus caeruleus),utumbi,18,18,1.0,1.7222222222222223,2.0,0.6691131580686884,3.0
+species::black saddled toby (canthigaster valentini),milimani,17,5,0.29411764705882354,0.47058823529411764,0.0,0.8744746321952062,3.0
+species::black saddled toby (canthigaster valentini),nursery,11,4,0.36363636363636365,0.36363636363636365,0.0,0.504524979109513,1.0
+species::black saddled toby (canthigaster valentini),utumbi,18,6,0.3333333333333333,0.3333333333333333,0.0,0.48507125007266594,1.0
+species::black-backed (chaetodon melannotus),milimani,17,11,0.6470588235294118,1.0,1.0,0.9354143466934853,3.0
+species::black-backed (chaetodon melannotus),nursery,11,9,0.8181818181818182,2.909090909090909,2.0,3.269695565478397,10.0
+species::black-backed (chaetodon melannotus),utumbi,18,4,0.2222222222222222,0.2777777777777778,0.0,0.5745131499601417,2.0
+species::black-lipped (chaetodon kleinii),milimani,17,2,0.11764705882352941,0.11764705882352941,0.0,0.3321055820775357,1.0
+species::black-lipped (chaetodon kleinii),nursery,11,3,0.2727272727272727,0.6363636363636364,0.0,1.5015143870590966,5.0
+species::black-lipped (chaetodon kleinii),utumbi,18,11,0.6111111111111112,0.8888888888888888,1.0,0.8323523637957304,2.0
+species::blackeye (hemigymnus melapterus),milimani,17,11,0.6470588235294118,0.6470588235294118,1.0,0.49259218307188896,1.0
+species::blackeye (hemigymnus melapterus),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::blackeye (hemigymnus melapterus),utumbi,18,13,0.7222222222222222,0.7777777777777778,1.0,0.5483188805533162,2.0
+species::blackspot (lutjanus fulviflamma),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::blackspot (lutjanus fulviflamma),nursery,11,7,0.6363636363636364,3.909090909090909,1.0,5.787133063176367,19.0
+species::blackspot (lutjanus fulviflamma),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+species::blackspot feeding (lutjanus fulviflamma),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::blackspot feeding (lutjanus fulviflamma),nursery,11,1,0.09090909090909091,0.5454545454545454,0.0,1.8090680674665818,6.0
+species::blackspot feeding (lutjanus fulviflamma),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+species::blacktip (epinephelus fasciatus),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::blacktip (epinephelus fasciatus),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::blacktip (epinephelus fasciatus),utumbi,18,5,0.2777777777777778,0.3888888888888889,0.0,0.6978023391872253,2.0
+species::blackwhite (macolor niger),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::blackwhite (macolor niger),nursery,11,10,0.9090909090909091,0.9090909090909091,1.0,0.30151134457776363,1.0
+species::blackwhite (macolor niger),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+species::blackwhite feeding (macolor niger),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::blackwhite feeding (macolor niger),nursery,11,1,0.09090909090909091,0.09090909090909091,0.0,0.30151134457776363,1.0
+species::blackwhite feeding (macolor niger),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+species::blue barred (scarus ghobban),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::blue barred (scarus ghobban),nursery,11,7,0.6363636363636364,1.7272727272727273,1.0,1.7939291563999449,5.0
+species::blue barred (scarus ghobban),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+species::blue-green (chromis viridis),milimani,17,1,0.058823529411764705,0.8235294117647058,0.0,3.395498750508662,14.0
+species::blue-green (chromis viridis),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::blue-green (chromis viridis),utumbi,18,7,0.3888888888888889,8.277777777777779,0.0,18.028753359908674,58.0
+species::blue-streak (labroides dimidiatus),milimani,17,2,0.11764705882352941,0.17647058823529413,0.0,0.5285941398709244,2.0
+species::blue-streak (labroides dimidiatus),nursery,11,3,0.2727272727272727,0.2727272727272727,0.0,0.46709936649691375,1.0
+species::blue-streak (labroides dimidiatus),utumbi,18,12,0.6666666666666666,1.1111111111111112,1.0,1.1318329168362207,4.0
+species::bluefin (caranx melampygus),milimani,17,5,0.29411764705882354,0.7058823529411765,0.0,1.7235394498804248,7.0
+species::bluefin (caranx melampygus),nursery,11,2,0.18181818181818182,0.18181818181818182,0.0,0.4045199174779452,1.0
+species::bluefin (caranx melampygus),utumbi,18,8,0.4444444444444444,0.9444444444444444,0.0,1.3048426644944466,4.0
+species::brassy trevally (caranx papuensis),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::brassy trevally (caranx papuensis),nursery,11,3,0.2727272727272727,1.2727272727272727,0.0,2.611164839335468,7.0
+species::brassy trevally (caranx papuensis),utumbi,18,1,0.05555555555555555,0.05555555555555555,0.0,0.23570226039551584,1.0
+species::brown pigmy (centropyge multispinis),milimani,17,16,0.9411764705882353,2.235294117647059,2.0,1.200490095997562,4.0
+species::brown pigmy (centropyge multispinis),nursery,11,1,0.09090909090909091,0.09090909090909091,0.0,0.3015113445777636,1.0
+species::brown pigmy (centropyge multispinis),utumbi,18,18,1.0,1.6666666666666667,2.0,0.6859943405700354,3.0
+species::brown tang (zebrasoma scopas),milimani,17,17,1.0,2.9411764705882355,3.0,1.8864844365675972,8.0
+species::brown tang (zebrasoma scopas),nursery,11,5,0.45454545454545453,0.45454545454545453,0.0,0.5222329678670934,1.0
+species::brown tang (zebrasoma scopas),utumbi,18,14,0.7777777777777778,1.5,1.0,1.2485285456935955,4.0
+species::bullethead (chlorurus sordidus),milimani,17,15,0.8823529411764706,2.3529411764705883,2.0,1.4975470138942315,6.0
+species::bullethead (chlorurus sordidus),nursery,11,4,0.36363636363636365,0.6363636363636364,0.0,1.2060453783110545,4.0
+species::bullethead (chlorurus sordidus),utumbi,18,18,1.0,2.7222222222222223,2.0,1.9645551975404016,8.0
+species::checkerboard (halichoeres hortulanus),milimani,17,14,0.8235294117647058,0.8823529411764706,1.0,0.48507125007266594,2.0
+species::checkerboard (halichoeres hortulanus),nursery,11,1,0.09090909090909091,0.09090909090909091,0.0,0.3015113445777636,1.0
+species::checkerboard (halichoeres hortulanus),utumbi,18,11,0.6111111111111112,0.7222222222222222,1.0,0.6691131580686884,2.0
+species::chevroned (chaetodon trifascialis),milimani,17,9,0.5294117647058824,0.5294117647058824,1.0,0.5144957554275266,1.0
+species::chevroned (chaetodon trifascialis),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::chevroned (chaetodon trifascialis),utumbi,18,1,0.05555555555555555,0.05555555555555555,0.0,0.23570226039551584,1.0
+species::cigar (cheilio inermis),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::cigar (cheilio inermis),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::cigar (cheilio inermis),utumbi,18,1,0.05555555555555555,0.05555555555555555,0.0,0.23570226039551584,1.0
+species::claudia (halichoeres claudia),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::claudia (halichoeres claudia),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::claudia (halichoeres claudia),utumbi,18,5,0.2777777777777778,0.3888888888888889,0.0,0.6978023391872253,2.0
+species::clown (coris aygula),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::clown (coris aygula),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::clown (coris aygula),utumbi,18,1,0.05555555555555555,0.05555555555555555,0.0,0.23570226039551584,1.0
+species::coral (cephalopholis miniata),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::coral (cephalopholis miniata),nursery,11,1,0.09090909090909091,0.18181818181818182,0.0,0.6030226891555271,2.0
+species::coral (cephalopholis miniata),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+species::disappearing (pseudocheilinus evanidus),milimani,17,9,0.5294117647058824,0.9411764705882353,1.0,1.1440382552221602,4.0
+species::disappearing (pseudocheilinus evanidus),nursery,11,2,0.18181818181818182,0.2727272727272727,0.0,0.6466697906828633,2.0
+species::disappearing (pseudocheilinus evanidus),utumbi,18,17,0.9444444444444444,2.4444444444444446,1.5,2.502286536049925,11.0
+species::eclipse (chaetodon bennetti),milimani,17,6,0.35294117647058826,0.4117647058823529,0.0,0.6183469424008423,2.0
+species::eclipse (chaetodon bennetti),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::eclipse (chaetodon bennetti),utumbi,18,12,0.6666666666666666,0.8333333333333334,1.0,0.7071067811865476,2.0
+species::elegant unicorn (naso elegans),milimani,17,1,0.058823529411764705,0.17647058823529413,0.0,0.7276068751089989,3.0
+species::elegant unicorn (naso elegans),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::elegant unicorn (naso elegans),utumbi,18,11,0.6111111111111112,0.7222222222222222,1.0,0.6691131580686884,2.0
+species::emperor (pomacanthus imperator),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::emperor (pomacanthus imperator),nursery,11,4,0.36363636363636365,0.5454545454545454,0.0,0.8201995322647243,2.0
+species::emperor (pomacanthus imperator),utumbi,18,1,0.05555555555555555,0.05555555555555555,0.0,0.23570226039551584,1.0
+species::false-eye (abudefduf sparoides),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::false-eye (abudefduf sparoides),nursery,11,7,0.6363636363636364,0.6363636363636364,1.0,0.504524979109513,1.0
+species::false-eye (abudefduf sparoides),utumbi,18,11,0.6111111111111112,1.2222222222222223,1.0,1.864704851446077,8.0
+species::five-saddle (scarus saber),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::five-saddle (scarus saber),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::five-saddle (scarus saber),utumbi,18,15,0.8333333333333334,0.8333333333333334,1.0,0.3834824944236852,1.0
+species::freckled (paracirrhites forsteri),milimani,17,8,0.47058823529411764,0.47058823529411764,0.0,0.5144957554275266,1.0
+species::freckled (paracirrhites forsteri),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::freckled (paracirrhites forsteri),utumbi,18,14,0.7777777777777778,1.0,1.0,0.6859943405700354,2.0
+species::goldbar (thalassoma hebraicum),milimani,17,16,0.9411764705882353,1.411764705882353,1.0,0.7952062255644574,3.0
+species::goldbar (thalassoma hebraicum),nursery,11,1,0.09090909090909091,0.09090909090909091,0.0,0.3015113445777636,1.0
+species::goldbar (thalassoma hebraicum),utumbi,18,18,1.0,2.0555555555555554,2.0,1.2113299556429324,6.0
+species::golden (ctenochaetus truncates),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::golden (ctenochaetus truncates),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::golden (ctenochaetus truncates),utumbi,18,13,0.7222222222222222,1.6666666666666667,2.0,1.1881770515720094,3.0
+species::goldsaddle (parupeneus cyclostomus),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::goldsaddle (parupeneus cyclostomus),nursery,11,1,0.09090909090909091,0.09090909090909091,0.0,0.3015113445777636,1.0
+species::goldsaddle (parupeneus cyclostomus),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+species::green (amblyglyphidodon indicus),milimani,17,17,1.0,3.8823529411764706,2.0,4.151541173786797,16.0
+species::green (amblyglyphidodon indicus),nursery,11,3,0.2727272727272727,1.0909090909090908,0.0,2.0714509627092528,6.0
+species::green (amblyglyphidodon indicus),utumbi,18,17,0.9444444444444444,4.277777777777778,2.5,4.560773354900596,18.0
+species::halfmoon (sufflamen chrysopterum),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::halfmoon (sufflamen chrysopterum),nursery,11,3,0.2727272727272727,0.2727272727272727,0.0,0.46709936649691375,1.0
+species::halfmoon (sufflamen chrysopterum),utumbi,18,1,0.05555555555555555,0.05555555555555555,0.0,0.23570226039551584,1.0
+species::honeycomb (siganus stellatus),milimani,17,12,0.7058823529411765,1.411764705882353,2.0,0.9393364366277243,2.0
+species::honeycomb (siganus stellatus),nursery,11,8,0.7272727272727273,2.6363636363636362,4.0,1.9116865471476894,5.0
+species::honeycomb (siganus stellatus),utumbi,18,7,0.3888888888888889,0.6666666666666666,0.0,0.9074852129730302,2.0
+species::humpback (lutjanus gibbus),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::humpback (lutjanus gibbus),nursery,11,11,1.0,20.181818181818183,20.0,14.455574577429855,45.0
+species::humpback (lutjanus gibbus),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+species::humpback unicorn (naso brachycentron),milimani,17,8,0.47058823529411764,0.47058823529411764,0.0,0.5144957554275266,1.0
+species::humpback unicorn (naso brachycentron),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::humpback unicorn (naso brachycentron),utumbi,18,7,0.3888888888888889,0.6666666666666666,0.0,1.4142135623730951,6.0
+species::humphead (cheilinus undulatus),milimani,17,2,0.11764705882352941,0.11764705882352941,0.0,0.3321055820775357,1.0
+species::humphead (cheilinus undulatus),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::humphead (cheilinus undulatus),utumbi,18,3,0.16666666666666666,0.16666666666666666,0.0,0.38348249442368526,1.0
+species::humpnose bigeye (monotaxis grandoculis),milimani,17,16,0.9411764705882353,3.764705882352941,2.0,3.976955678730684,15.0
+species::humpnose bigeye (monotaxis grandoculis),nursery,11,4,0.36363636363636365,0.6363636363636364,0.0,0.9244162777371755,2.0
+species::humpnose bigeye (monotaxis grandoculis),utumbi,18,10,0.5555555555555556,0.6111111111111112,1.0,0.6076849889141857,2.0
+species::indian half-and-half (pycnochromis dimidiatus),milimani,17,17,1.0,48.1764705882353,30.0,43.65380180195885,125.0
+species::indian half-and-half (pycnochromis dimidiatus),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::indian half-and-half (pycnochromis dimidiatus),utumbi,18,18,1.0,54.44444444444444,46.0,34.50698517900094,140.0
+species::indian half-and-half (pycnochromis dimidiatusf),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::indian half-and-half (pycnochromis dimidiatusf),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::indian half-and-half (pycnochromis dimidiatusf),utumbi,18,1,0.05555555555555555,0.05555555555555555,0.0,0.23570226039551584,1.0
+species::indian longnose (hipposcarus harid),milimani,17,3,0.17647058823529413,0.9411764705882353,0.0,2.925546706072519,12.0
+species::indian longnose (hipposcarus harid),nursery,11,1,0.09090909090909091,0.2727272727272727,0.0,0.9045340337332909,3.0
+species::indian longnose (hipposcarus harid),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+species::indian redfin (chaetodon trifasciatus),milimani,17,15,0.8823529411764706,2.176470588235294,2.0,1.0744355563298724,4.0
+species::indian redfin (chaetodon trifasciatus),nursery,11,6,0.5454545454545454,0.8181818181818182,1.0,0.8738628975053029,2.0
+species::indian redfin (chaetodon trifasciatus),utumbi,18,16,0.8888888888888888,1.4444444444444444,1.5,0.783823376129674,3.0
+species::leopard (cephalopholis leopardus),milimani,17,5,0.29411764705882354,0.29411764705882354,0.0,0.46966821831386213,1.0
+species::leopard (cephalopholis leopardus),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::leopard (cephalopholis leopardus),utumbi,18,15,0.8333333333333334,1.2222222222222223,1.0,0.8084520834544433,3.0
+species::lined (chaetodon lineolatus),milimani,17,3,0.17647058823529413,0.29411764705882354,0.0,0.6859943405700354,2.0
+species::lined (chaetodon lineolatus),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::lined (chaetodon lineolatus),utumbi,18,1,0.05555555555555555,0.05555555555555555,0.0,0.23570226039551584,1.0
+species::lined bristletooth (ctenochaetus striatus),milimani,17,17,1.0,4.176470588235294,4.0,1.0145993123917847,7.0
+species::lined bristletooth (ctenochaetus striatus),nursery,11,8,0.7272727272727273,2.1818181818181817,2.0,1.721521525754576,5.0
+species::lined bristletooth (ctenochaetus striatus),utumbi,18,14,0.7777777777777778,1.5,1.0,1.200490095997562,4.0
+species::linedcheeked (oxycheilinus digramma),milimani,17,4,0.23529411764705882,0.23529411764705882,0.0,0.4372373160976031,1.0
+species::linedcheeked (oxycheilinus digramma),nursery,11,2,0.18181818181818182,0.18181818181818182,0.0,0.40451991747794525,1.0
+species::linedcheeked (oxycheilinus digramma),utumbi,18,12,0.6666666666666666,0.7777777777777778,1.0,0.7320844981409597,3.0
+species::longbarbel (parupeneus macronemus),milimani,17,17,1.0,2.3529411764705883,2.0,1.5788119136944494,6.0
+species::longbarbel (parupeneus macronemus),nursery,11,11,1.0,3.5454545454545454,4.0,2.06705763652765,7.0
+species::longbarbel (parupeneus macronemus),utumbi,18,18,1.0,2.0,1.0,1.9402850002906638,9.0
+species::longfin banner (heniochus acuminatus),milimani,17,2,0.11764705882352941,0.17647058823529413,0.0,0.5285941398709244,2.0
+species::longfin banner (heniochus acuminatus),nursery,11,2,0.18181818181818182,0.2727272727272727,0.0,0.6466697906828633,2.0
+species::longfin banner (heniochus acuminatus),utumbi,18,5,0.2777777777777778,0.3333333333333333,0.0,0.5940885257860046,2.0
+species::longnose (forcipiger flavissimus),milimani,17,3,0.17647058823529413,0.17647058823529413,0.0,0.3929526239966879,1.0
+species::longnose (forcipiger flavissimus),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::longnose (forcipiger flavissimus),utumbi,18,4,0.2222222222222222,0.2222222222222222,0.0,0.42779263194649864,1.0
+species::longnose (lethrinus olivaceus),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::longnose (lethrinus olivaceus),nursery,11,3,0.2727272727272727,0.45454545454545453,0.0,0.8201995322647243,2.0
+species::longnose (lethrinus olivaceus),utumbi,18,2,0.1111111111111111,0.16666666666666666,0.0,0.5144957554275266,2.0
+species::longnose (oxymonacanthus longirostris),milimani,17,9,0.5294117647058824,1.0,1.0,1.118033988749895,3.0
+species::longnose (oxymonacanthus longirostris),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::longnose (oxymonacanthus longirostris),utumbi,18,2,0.1111111111111111,0.3333333333333333,0.0,1.028991510855053,4.0
+species::lyretail hogfish (bodianus anthioides),milimani,17,3,0.17647058823529413,0.23529411764705882,0.0,0.5622957145383871,2.0
+species::lyretail hogfish (bodianus anthioides),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::lyretail hogfish (bodianus anthioides),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+species::mahsena (lethrinus mahsena),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::mahsena (lethrinus mahsena),nursery,11,2,0.18181818181818182,0.18181818181818182,0.0,0.40451991747794525,1.0
+species::mahsena (lethrinus mahsena),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+species::map (arothron mappa),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::map (arothron mappa),nursery,11,3,0.2727272727272727,0.36363636363636365,0.0,0.674199862463242,2.0
+species::map (arothron mappa),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+species::masked banner (heniochus monoceros),milimani,17,2,0.11764705882352941,0.23529411764705882,0.0,0.6642111641550714,2.0
+species::masked banner (heniochus monoceros),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::masked banner (heniochus monoceros),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+species::meyer's (chaetodon meyeri),milimani,17,5,0.29411764705882354,0.47058823529411764,0.0,0.7998161553463028,2.0
+species::meyer's (chaetodon meyeri),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::meyer's (chaetodon meyeri),utumbi,18,5,0.2777777777777778,0.3333333333333333,0.0,0.5940885257860046,2.0
+species::monk (acanthurus gahhm),milimani,17,1,0.058823529411764705,0.11764705882352941,0.0,0.485071250072666,2.0
+species::monk (acanthurus gahhm),nursery,11,11,1.0,2.727272727272727,2.0,1.9021518914592017,8.0
+species::monk (acanthurus gahhm),utumbi,18,1,0.05555555555555555,0.05555555555555555,0.0,0.23570226039551584,1.0
+species::moon (thalassoma lunare),milimani,17,13,0.7647058823529411,1.2352941176470589,1.0,1.0325582165612917,3.0
+species::moon (thalassoma lunare),nursery,11,10,0.9090909090909091,2.272727272727273,1.0,3.0689056385268376,11.0
+species::moon (thalassoma lunare),utumbi,18,16,0.8888888888888888,2.388888888888889,2.0,2.2265480771520028,8.0
+species::moorish idol (zanclus cornutus),milimani,17,8,0.47058823529411764,0.7647058823529411,0.0,0.9701425001453319,3.0
+species::moorish idol (zanclus cornutus),nursery,11,8,0.7272727272727273,2.3636363636363638,1.0,2.8025961989814827,8.0
+species::moorish idol (zanclus cornutus),utumbi,18,15,0.8333333333333334,1.5555555555555556,2.0,0.9835244081556432,4.0
+species::mozambique fangblenny (meiacanthus mossambicus),milimani,17,12,0.7058823529411765,1.0588235294117647,1.0,0.8993461677306268,3.0
+species::mozambique fangblenny (meiacanthus mossambicus),nursery,11,2,0.18181818181818182,0.2727272727272727,0.0,0.6466697906828632,2.0
+species::mozambique fangblenny (meiacanthus mossambicus),utumbi,18,11,0.6111111111111112,0.7222222222222222,1.0,0.6691131580686884,2.0
+species::orange-lined (balistapus undulatus),milimani,17,17,1.0,1.411764705882353,1.0,0.5072996561958923,2.0
+species::orange-lined (balistapus undulatus),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::orange-lined (balistapus undulatus),utumbi,18,18,1.0,3.3333333333333335,2.0,2.3263199921511983,10.0
+species::orangespotted (lethrinus erythracanthus),milimani,17,3,0.17647058823529413,0.17647058823529413,0.0,0.3929526239966879,1.0
+species::orangespotted (lethrinus erythracanthus),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::orangespotted (lethrinus erythracanthus),utumbi,18,5,0.2777777777777778,0.2777777777777778,0.0,0.4608885989624768,1.0
+species::palenose (scarus psittacus),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::palenose (scarus psittacus),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::palenose (scarus psittacus),utumbi,18,3,0.16666666666666666,0.16666666666666666,0.0,0.38348249442368526,1.0
+species::paletail unicorn (naso brevirostris),milimani,17,11,0.6470588235294118,1.1764705882352942,1.0,1.2862393885688161,5.0
+species::paletail unicorn (naso brevirostris),nursery,11,9,0.8181818181818182,15.090909090909092,14.0,13.852469422125035,40.0
+species::paletail unicorn (naso brevirostris),utumbi,18,9,0.5,3.0555555555555554,0.5,7.764718261031922,32.0
+species::peacock (cephalopholis argus),milimani,17,11,0.6470588235294118,0.7058823529411765,1.0,0.5878675320972554,2.0
+species::peacock (cephalopholis argus),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::peacock (cephalopholis argus),utumbi,18,1,0.05555555555555555,0.05555555555555555,0.0,0.23570226039551584,1.0
+species::peacock damsel (pomacentrus pavo),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::peacock damsel (pomacentrus pavo),nursery,11,2,0.18181818181818182,0.6363636363636364,0.0,1.5666989036012804,5.0
+species::peacock damsel (pomacentrus pavo),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+species::piano fangblenny (plagiotremus tapeinosoma),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::piano fangblenny (plagiotremus tapeinosoma),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::piano fangblenny (plagiotremus tapeinosoma),utumbi,18,2,0.1111111111111111,0.1111111111111111,0.0,0.3233808333817773,1.0
+species::potato (epinephelus tukula),milimani,17,1,0.058823529411764705,0.058823529411764705,0.0,0.242535625036333,1.0
+species::potato (epinephelus tukula),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::potato (epinephelus tukula),utumbi,18,1,0.05555555555555555,0.05555555555555555,0.0,0.23570226039551584,1.0
+species::powder blue (acanthurus leucosternon),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::powder blue (acanthurus leucosternon),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::powder blue (acanthurus leucosternon),utumbi,18,2,0.1111111111111111,0.16666666666666666,0.0,0.5144957554275265,2.0
+species::pyramid (hemitaurichthys zoster),milimani,17,2,0.11764705882352941,0.11764705882352941,0.0,0.3321055820775357,1.0
+species::pyramid (hemitaurichthys zoster),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::pyramid (hemitaurichthys zoster),utumbi,18,3,0.16666666666666666,0.16666666666666666,0.0,0.3834824944236852,1.0
+species::queen (coris formosa),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::queen (coris formosa),nursery,11,4,0.36363636363636365,0.36363636363636365,0.0,0.504524979109513,1.0
+species::queen (coris formosa),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+species::queenfish (scomberoides lysan),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::queenfish (scomberoides lysan),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::queenfish (scomberoides lysan),utumbi,18,2,0.1111111111111111,0.1111111111111111,0.0,0.3233808333817773,1.0
+species::raccoon (chaetodon lunula),milimani,17,7,0.4117647058823529,0.8235294117647058,0.0,1.0145993123917847,2.0
+species::raccoon (chaetodon lunula),nursery,11,5,0.45454545454545453,0.45454545454545453,0.0,0.5222329678670934,1.0
+species::raccoon (chaetodon lunula),utumbi,18,7,0.3888888888888889,0.6666666666666666,0.0,0.9074852129730301,2.0
+species::red (lutjanus bohar),milimani,17,14,0.8235294117647058,1.588235294117647,1.0,1.8391174353957038,8.0
+species::red (lutjanus bohar),nursery,11,4,0.36363636363636365,0.5454545454545454,0.0,0.8201995322647243,2.0
+species::red (lutjanus bohar),utumbi,18,16,0.8888888888888888,1.2777777777777777,1.0,0.8264420947336313,3.0
+species::red-breasted (cheilinus fasciatus),milimani,17,10,0.5882352941176471,0.6470588235294118,1.0,0.6063390625908324,2.0
+species::red-breasted (cheilinus fasciatus),nursery,11,7,0.6363636363636364,0.7272727272727273,1.0,0.6466697906828632,2.0
+species::red-breasted (cheilinus fasciatus),utumbi,18,13,0.7222222222222222,0.7777777777777778,1.0,0.5483188805533162,2.0
+species::redmouth (aethaloperca rogaa),milimani,17,17,1.0,1.3529411764705883,1.0,0.492592183071889,2.0
+species::redmouth (aethaloperca rogaa),nursery,11,2,0.18181818181818182,0.18181818181818182,0.0,0.4045199174779452,1.0
+species::redmouth (aethaloperca rogaa),utumbi,18,18,1.0,1.3888888888888888,1.0,0.5016313257045503,2.0
+species::regal (pygoplites diacanthus),milimani,17,17,1.0,1.411764705882353,1.0,0.5072996561958923,2.0
+species::regal (pygoplites diacanthus),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::regal (pygoplites diacanthus),utumbi,18,17,0.9444444444444444,1.2777777777777777,1.0,0.5745131499601416,2.0
+species::rockmover (novaculichthys taeniourus),milimani,17,1,0.058823529411764705,0.058823529411764705,0.0,0.242535625036333,1.0
+species::rockmover (novaculichthys taeniourus),nursery,11,1,0.09090909090909091,0.09090909090909091,0.0,0.3015113445777636,1.0
+species::rockmover (novaculichthys taeniourus),utumbi,18,5,0.2777777777777778,0.3333333333333333,0.0,0.5940885257860046,2.0
+species::saddleback (chaetodon falcula),milimani,17,8,0.47058823529411764,0.7058823529411765,0.0,0.8488746876271653,2.0
+species::saddleback (chaetodon falcula),nursery,11,2,0.18181818181818182,0.18181818181818182,0.0,0.4045199174779452,1.0
+species::saddleback (chaetodon falcula),utumbi,18,3,0.16666666666666666,0.16666666666666666,0.0,0.38348249442368526,1.0
+species::sailfin tang (zebrasoma desjardinii),milimani,17,2,0.11764705882352941,6.176470588235294,0.0,18.173591053083204,67.0
+species::sailfin tang (zebrasoma desjardinii),nursery,11,9,0.8181818181818182,1.8181818181818181,2.0,1.1677484162422844,3.0
+species::sailfin tang (zebrasoma desjardinii),utumbi,18,6,0.3333333333333333,1.1666666666666667,0.0,2.9555530984313343,12.0
+species::scissortail sergeant (abudefduf sexfasciatus),milimani,17,7,0.4117647058823529,1.0588235294117647,0.0,1.6759545129303972,5.0
+species::scissortail sergeant (abudefduf sexfasciatus),nursery,11,7,0.6363636363636364,1.5454545454545454,1.0,1.6348477827391983,5.0
+species::scissortail sergeant (abudefduf sexfasciatus),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+species::scrawled (aluterus scriptus),milimani,17,1,0.058823529411764705,0.11764705882352941,0.0,0.485071250072666,2.0
+species::scrawled (aluterus scriptus),nursery,11,4,0.36363636363636365,0.36363636363636365,0.0,0.504524979109513,1.0
+species::scrawled (aluterus scriptus),utumbi,18,1,0.05555555555555555,0.05555555555555555,0.0,0.23570226039551584,1.0
+species::sidespot (parupeneus pleurostigma),milimani,17,4,0.23529411764705882,0.23529411764705882,0.0,0.4372373160976031,1.0
+species::sidespot (parupeneus pleurostigma),nursery,11,1,0.09090909090909091,0.7272727272727273,0.0,2.4120907566221086,8.0
+species::sidespot (parupeneus pleurostigma),utumbi,18,4,0.2222222222222222,0.2777777777777778,0.0,0.5745131499601417,2.0
+species::sixbar (thalassoma hardwicke),milimani,17,17,1.0,1.9411764705882353,1.0,1.477776549215667,6.0
+species::sixbar (thalassoma hardwicke),nursery,11,1,0.09090909090909091,0.09090909090909091,0.0,0.3015113445777636,1.0
+species::sixbar (thalassoma hardwicke),utumbi,18,8,0.4444444444444444,0.7222222222222222,0.0,0.8947924869885987,2.0
+species::slingjaw (epibulus insidiator),milimani,17,7,0.4117647058823529,0.47058823529411764,0.0,0.6242642728467978,2.0
+species::slingjaw (epibulus insidiator),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::slingjaw (epibulus insidiator),utumbi,18,10,0.5555555555555556,0.6111111111111112,1.0,0.6076849889141857,2.0
+species::snubnose (lethrinus borbonicus),milimani,17,4,0.23529411764705882,0.23529411764705882,0.0,0.4372373160976031,1.0
+species::snubnose (lethrinus borbonicus),nursery,11,3,0.2727272727272727,0.2727272727272727,0.0,0.46709936649691375,1.0
+species::snubnose (lethrinus borbonicus),utumbi,18,2,0.1111111111111111,0.1111111111111111,0.0,0.32338083338177726,1.0
+species::speckled (parapercis hexophthalma),milimani,17,8,0.47058823529411764,0.5882352941176471,0.0,0.7122871199007256,2.0
+species::speckled (parapercis hexophthalma),nursery,11,8,0.7272727272727273,1.2727272727272727,1.0,1.2720777563426766,4.0
+species::speckled (parapercis hexophthalma),utumbi,18,3,0.16666666666666666,0.16666666666666666,0.0,0.38348249442368526,1.0
+species::spot-tail (coris caudimacula),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::spot-tail (coris caudimacula),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::spot-tail (coris caudimacula),utumbi,18,1,0.05555555555555555,0.05555555555555555,0.0,0.23570226039551584,1.0
+species::spotted (cetoscarus ocellatus),milimani,17,1,0.058823529411764705,0.058823529411764705,0.0,0.242535625036333,1.0
+species::spotted (cetoscarus ocellatus),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::spotted (cetoscarus ocellatus),utumbi,18,2,0.1111111111111111,0.1111111111111111,0.0,0.3233808333817773,1.0
+species::spotted (chaetodon guttatissimus),milimani,17,12,0.7058823529411765,1.4705882352941178,2.0,1.1245914290767742,4.0
+species::spotted (chaetodon guttatissimus),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::spotted (chaetodon guttatissimus),utumbi,18,11,0.6111111111111112,0.8888888888888888,1.0,0.8323523637957304,2.0
+species::spotted (diodon hystrix),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::spotted (diodon hystrix),nursery,11,3,0.2727272727272727,0.2727272727272727,0.0,0.46709936649691375,1.0
+species::spotted (diodon hystrix),utumbi,18,2,0.1111111111111111,0.1111111111111111,0.0,0.3233808333817773,1.0
+species::spotted toby (canthigaster solandri),milimani,17,5,0.29411764705882354,0.4117647058823529,0.0,0.7122871199007256,2.0
+species::spotted toby (canthigaster solandri),nursery,11,1,0.09090909090909091,0.18181818181818182,0.0,0.6030226891555273,2.0
+species::spotted toby (canthigaster solandri),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+species::stareye (calotomus carolinus),milimani,17,1,0.058823529411764705,0.058823529411764705,0.0,0.242535625036333,1.0
+species::stareye (calotomus carolinus),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::stareye (calotomus carolinus),utumbi,18,5,0.2777777777777778,0.2777777777777778,0.0,0.4608885989624768,1.0
+species::sulfur (pomacentrus sulfureus),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::sulfur (pomacentrus sulfureus),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::sulfur (pomacentrus sulfureus),utumbi,18,9,0.5,0.6111111111111112,0.5,0.6978023391872252,2.0
+species::swarthy (scarus niger),milimani,17,10,0.5882352941176471,0.5882352941176471,1.0,0.5072996561958923,1.0
+species::swarthy (scarus niger),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::swarthy (scarus niger),utumbi,18,12,0.6666666666666666,0.6666666666666666,1.0,0.485071250072666,1.0
+species::ternate (chromis ternatensis),milimani,17,3,0.17647058823529413,8.529411764705882,0.0,21.817761248174683,82.0
+species::ternate (chromis ternatensis),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::ternate (chromis ternatensis),utumbi,18,8,0.4444444444444444,20.833333333333332,0.0,37.79238952332007,121.0
+species::threadfin (chaetodon auriga),milimani,17,15,0.8823529411764706,1.4705882352941178,2.0,0.7998161553463028,3.0
+species::threadfin (chaetodon auriga),nursery,11,11,1.0,2.0,1.0,1.2649110640673518,4.0
+species::threadfin (chaetodon auriga),utumbi,18,10,0.5555555555555556,0.7222222222222222,1.0,0.7519039015221181,2.0
+species::threespot (apolemichthys trimaculatus),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::threespot (apolemichthys trimaculatus),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::threespot (apolemichthys trimaculatus),utumbi,18,1,0.05555555555555555,0.05555555555555555,0.0,0.23570226039551584,1.0
+species::threespot dascyllus (dascyllus trimaculatus),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::threespot dascyllus (dascyllus trimaculatus),nursery,11,11,1.0,8.0,7.0,5.5677643628300215,20.0
+species::threespot dascyllus (dascyllus trimaculatus),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+species::thumbprint (lethrinus harak),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::thumbprint (lethrinus harak),nursery,11,2,0.18181818181818182,0.2727272727272727,0.0,0.6466697906828633,2.0
+species::thumbprint (lethrinus harak),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+species::titan (balistoides viridescens),milimani,17,10,0.5882352941176471,0.5882352941176471,1.0,0.5072996561958923,1.0
+species::titan (balistoides viridescens),nursery,11,9,0.8181818181818182,1.2727272727272727,1.0,1.1037127426019047,4.0
+species::titan (balistoides viridescens),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+species::trumpetfish (aulostomus chinensis),milimani,17,13,0.7647058823529411,0.7647058823529411,1.0,0.43723731609760313,1.0
+species::trumpetfish (aulostomus chinensis),nursery,11,3,0.2727272727272727,0.36363636363636365,0.0,0.674199862463242,2.0
+species::trumpetfish (aulostomus chinensis),utumbi,18,16,0.8888888888888888,1.1111111111111112,1.0,0.5829830881301376,2.0
+species::tubelip (labrichthys unilineatus),milimani,17,4,0.23529411764705882,0.23529411764705882,0.0,0.4372373160976031,1.0
+species::tubelip (labrichthys unilineatus),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::tubelip (labrichthys unilineatus),utumbi,18,9,0.5,0.5,0.5,0.5144957554275266,1.0
+species::undulated (gymnothorax undulatus),milimani,17,1,0.058823529411764705,0.058823529411764705,0.0,0.242535625036333,1.0
+species::undulated (gymnothorax undulatus),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::undulated (gymnothorax undulatus),utumbi,18,2,0.1111111111111111,0.16666666666666666,0.0,0.5144957554275265,2.0
+species::weber's puller (chromis weberi),milimani,17,1,0.058823529411764705,0.23529411764705882,0.0,0.970142500145332,4.0
+species::weber's puller (chromis weberi),nursery,11,4,0.36363636363636365,0.7272727272727273,0.0,1.2720777563426766,4.0
+species::weber's puller (chromis weberi),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+species::whiteline (stethojulis albovittata),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::whiteline (stethojulis albovittata),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::whiteline (stethojulis albovittata),utumbi,18,2,0.1111111111111111,0.1111111111111111,0.0,0.32338083338177726,1.0
+species::whitetail (acanthurus thompsoni),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::whitetail (acanthurus thompsoni),nursery,11,1,0.09090909090909091,0.18181818181818182,0.0,0.6030226891555273,2.0
+species::whitetail (acanthurus thompsoni),utumbi,18,13,0.7222222222222222,1.3333333333333333,1.0,1.328422328310143,5.0
+species::wirenet (cantherhines pardalis),milimani,17,9,0.5294117647058824,0.7058823529411765,1.0,0.8488746876271654,3.0
+species::wirenet (cantherhines pardalis),nursery,11,1,0.09090909090909091,0.09090909090909091,0.0,0.3015113445777636,1.0
+species::wirenet (cantherhines pardalis),utumbi,18,6,0.3333333333333333,0.3888888888888889,0.0,0.6076849889141857,2.0
+species::yellow-margin (gymnothorax flavimarginatus),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::yellow-margin (gymnothorax flavimarginatus),nursery,11,5,0.45454545454545453,0.6363636363636364,0.0,0.8090398349558906,2.0
+species::yellow-margin (gymnothorax flavimarginatus),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+species::yellowbreast (anampses twistii),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::yellowbreast (anampses twistii),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::yellowbreast (anampses twistii),utumbi,18,8,0.4444444444444444,0.5,0.0,0.6183469424008423,2.0
+species::yellowhead (chaetodon xanthocephalus),milimani,17,7,0.4117647058823529,0.5882352941176471,0.0,0.7952062255644573,2.0
+species::yellowhead (chaetodon xanthocephalus),nursery,11,8,0.7272727272727273,1.4545454545454546,1.0,1.4396969378057567,4.0
+species::yellowhead (chaetodon xanthocephalus),utumbi,18,5,0.2777777777777778,0.3333333333333333,0.0,0.5940885257860046,2.0
+species::yellowmargin (pseudobalistes flavimarginatus),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::yellowmargin (pseudobalistes flavimarginatus),nursery,11,1,0.09090909090909091,0.5454545454545454,0.0,1.8090680674665818,6.0
+species::yellowmargin (pseudobalistes flavimarginatus),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+species::yellowstripe (mulloidichthys flavolineatus),milimani,17,2,0.11764705882352941,0.17647058823529413,0.0,0.5285941398709244,2.0
+species::yellowstripe (mulloidichthys flavolineatus),nursery,11,4,0.36363636363636365,1.6363636363636365,0.0,2.377928816122437,6.0
+species::yellowstripe (mulloidichthys flavolineatus),utumbi,18,0,0.0,0.0,0.0,0.0,0.0
+species::yellowtail (anampses meleagrides),milimani,17,0,0.0,0.0,0.0,0.0,0.0
+species::yellowtail (anampses meleagrides),nursery,11,0,0.0,0.0,0.0,0.0,0.0
+species::yellowtail (anampses meleagrides),utumbi,18,1,0.05555555555555555,0.05555555555555555,0.0,0.23570226039551584,1.0

@@ -1,0 +1,5 @@
+site,flag,koeder,n_videos,mean_total_events,median_total_events,mean_unique_taxa,n_bait_specific_taxa,n_trend_taxa_dominant
+nursery,interested,algae_strings,3,2.6666666666666665,1.0,1.3333333333333333,2,0
+nursery,interested,algaemix,3,10.0,4.0,2.3333333333333335,6,0
+nursery,interested,control,1,0.0,0.0,0.0,0,0
+nursery,interested,mackerel,4,3.5,3.0,1.25,4,0

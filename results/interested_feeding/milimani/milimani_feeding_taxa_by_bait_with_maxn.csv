@@ -1,0 +1,13 @@
+koeder,taxon_key,total_flag_events,n_videos_with_flag,mean_maxn,median_maxn,max_maxn,maxn_occurrence_rate
+fischmix,species::green (amblyglyphidodon indicus),5,1,16.0,16.0,16.0,1.0
+fischmix,species::red (lutjanus bohar),3,1,8.0,8.0,8.0,1.0
+fischmix,family_label::groupers feeding,2,1,2.0,2.0,2.0,1.0
+fischmix,species::goldbar (thalassoma hebraicum),1,1,3.0,3.0,3.0,1.0
+fischmix,species::moon (thalassoma lunare),1,1,3.0,3.0,3.0,1.0
+mackerel,species::green (amblyglyphidodon indicus),9,1,4.0,3.0,8.0,1.0
+mackerel,species::goldbar (thalassoma hebraicum),2,1,2.0,2.0,3.0,1.0
+mackerel,family_label::groupers feeding,1,1,0.3333333333333333,0.0,1.0,0.3333333333333333
+mackerel,species::red (lutjanus bohar),1,1,2.0,2.0,3.0,1.0
+sargassum,species::green (amblyglyphidodon indicus),5,3,6.333333333333333,6.0,9.0,1.0
+sargassum,species::lined bristletooth (ctenochaetus striatus),1,1,4.333333333333333,5.0,5.0,1.0
+ulva_salad,species::green (amblyglyphidodon indicus),1,1,1.0,1.0,1.0,1.0

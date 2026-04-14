@@ -1,0 +1,179 @@
+filename,date,standort,koeder,flag,taxon_key,event_count
+20241026-milimani-ulva_gutweed.csv,20241026,milimani,ulva_gutweed,interested,species::green (amblyglyphidodon indicus),2
+20241027-milimani-ulva_salad.csv,20241027,milimani,ulva_salad,feeding,species::green (amblyglyphidodon indicus),1
+20241124-milimani-mackerel.csv,20241124,milimani,mackerel,feeding,species::green (amblyglyphidodon indicus),9
+20241124-milimani-mackerel.csv,20241124,milimani,mackerel,feeding,family_label::groupers feeding,1
+20241124-milimani-mackerel.csv,20241124,milimani,mackerel,feeding,species::red (lutjanus bohar),1
+20241124-milimani-mackerel.csv,20241124,milimani,mackerel,feeding,species::goldbar (thalassoma hebraicum),2
+20241124-milimani-mackerel.csv,20241124,milimani,mackerel,interested,species::green (amblyglyphidodon indicus),7
+20241124-milimani-mackerel.csv,20241124,milimani,mackerel,interested,species::red (lutjanus bohar),1
+20241124-milimani-mackerel.csv,20241124,milimani,mackerel,interested,family_label::groupers interested,2
+20241124-milimani-mackerel.csv,20241124,milimani,mackerel,interested,species::goldbar (thalassoma hebraicum),2
+20241124-milimani-mackerel.csv,20241124,milimani,mackerel,interested,species::moon (thalassoma lunare),1
+20241127-milimani-sargassum.csv,20241127,milimani,sargassum,feeding,species::green (amblyglyphidodon indicus),2
+20241127-milimani-sargassum.csv,20241127,milimani,sargassum,interested,family_label::groupers interested,1
+20241127-milimani-sargassum.csv,20241127,milimani,sargassum,interested,species::green (amblyglyphidodon indicus),3
+20241127-milimani-sargassum.csv,20241127,milimani,sargassum,interested,species::red (lutjanus bohar),2
+20241127-milimani-sargassum.csv,20241127,milimani,sargassum,interested,species::goldbar (thalassoma hebraicum),1
+20241128-milimani-sargassum.csv,20241128,milimani,sargassum,feeding,species::green (amblyglyphidodon indicus),2
+20241128-milimani-sargassum.csv,20241128,milimani,sargassum,interested,species::green (amblyglyphidodon indicus),9
+20241129-milimani-sargassum.csv,20241129,milimani,sargassum,feeding,species::green (amblyglyphidodon indicus),1
+20241129-milimani-sargassum.csv,20241129,milimani,sargassum,feeding,species::lined bristletooth (ctenochaetus striatus),1
+20241129-milimani-sargassum.csv,20241129,milimani,sargassum,interested,species::green (amblyglyphidodon indicus),1
+20241129-milimani-sargassum.csv,20241129,milimani,sargassum,interested,species::lined bristletooth (ctenochaetus striatus),2
+20241129-milimani-sargassum.csv,20241129,milimani,sargassum,interested,species::red (lutjanus bohar),1
+20241210-milimani-fischmix.csv,20241210,milimani,fischmix,feeding,species::red (lutjanus bohar),3
+20241210-milimani-fischmix.csv,20241210,milimani,fischmix,feeding,family_label::groupers feeding,2
+20241210-milimani-fischmix.csv,20241210,milimani,fischmix,feeding,species::green (amblyglyphidodon indicus),5
+20241210-milimani-fischmix.csv,20241210,milimani,fischmix,feeding,species::moon (thalassoma lunare),1
+20241210-milimani-fischmix.csv,20241210,milimani,fischmix,feeding,species::goldbar (thalassoma hebraicum),1
+20241210-milimani-fischmix.csv,20241210,milimani,fischmix,interested,family_label::groupers interested,3
+20241210-milimani-fischmix.csv,20241210,milimani,fischmix,interested,species::green (amblyglyphidodon indicus),8
+20241210-milimani-fischmix.csv,20241210,milimani,fischmix,interested,species::red (lutjanus bohar),5
+20241210-milimani-fischmix.csv,20241210,milimani,fischmix,interested,species::goldbar (thalassoma hebraicum),1
+20241210-milimani-fischmix.csv,20241210,milimani,fischmix,interested,species::moon (thalassoma lunare),1
+20240106-nursery-mackerel.csv,20240106,nursery,mackerel,feeding,species::longnose (lethrinus olivaceus),1
+20240106-nursery-mackerel.csv,20240106,nursery,mackerel,feeding,species::humpback (lutjanus gibbus),3
+20240223-nursery-mackerel.csv,20240223,nursery,mackerel,feeding,family_label::groupers feeding,3
+20240223-nursery-mackerel.csv,20240223,nursery,mackerel,feeding,species::longfin banner (heniochus acuminatus),3
+20240223-nursery-mackerel.csv,20240223,nursery,mackerel,feeding,species::red (lutjanus bohar),1
+20240223-nursery-mackerel.csv,20240223,nursery,mackerel,feeding,species::humpback (lutjanus gibbus),4
+20240223-nursery-mackerel.csv,20240223,nursery,mackerel,interested,species::humpback (lutjanus gibbus),8
+20241126-nursery-mackerel.csv,20241126,nursery,mackerel,feeding,species::humpback (lutjanus gibbus),5
+20241204-nursery-algae_strings.csv,20241204,nursery,algae_strings,feeding,species::paletail unicorn (naso brevirostris),6
+20241204-nursery-algae_strings.csv,20241204,nursery,algae_strings,feeding,family_label::parrotfishes feeding,4
+20241204-nursery-algae_strings.csv,20241204,nursery,algae_strings,feeding,species::honeycomb (siganus stellatus),2
+20241204-nursery-algae_strings.csv,20241204,nursery,algae_strings,feeding,species::monk (acanthurus gahhm),1
+20241204-nursery-algae_strings.csv,20241204,nursery,algae_strings,feeding,family_label::siganus feeding,3
+20241204-nursery-algae_strings.csv,20241204,nursery,algae_strings,feeding,species::longbarbel (parupeneus macronemus),1
+20241204-nursery-algae_strings.csv,20241204,nursery,algae_strings,interested,family_label::wrasses interested,1
+20241204-nursery-algae_strings.csv,20241204,nursery,algae_strings,interested,species::longbarbel (parupeneus macronemus),5
+20241204-nursery-algae_strings.csv,20241204,nursery,algae_strings,interested,species::red-breasted (cheilinus fasciatus),1
+20241205-nursery-algae_strings.csv,20241205,nursery,algae_strings,feeding,species::paletail unicorn (naso brevirostris),8
+20241205-nursery-algae_strings.csv,20241205,nursery,algae_strings,feeding,species::longbarbel (parupeneus macronemus),1
+20241205-nursery-algae_strings.csv,20241205,nursery,algae_strings,feeding,species::monk (acanthurus gahhm),1
+20241205-nursery-algae_strings.csv,20241205,nursery,algae_strings,feeding,species::blue barred (scarus ghobban),2
+20241205-nursery-algae_strings.csv,20241205,nursery,algae_strings,feeding,species::honeycomb (siganus stellatus),1
+20241205-nursery-algae_strings.csv,20241205,nursery,algae_strings,interested,species::longbarbel (parupeneus macronemus),1
+20241206-nursery-algae_strings.csv,20241206,nursery,algae_strings,feeding,species::paletail unicorn (naso brevirostris),6
+20241206-nursery-algae_strings.csv,20241206,nursery,algae_strings,feeding,species::red-breasted (cheilinus fasciatus),1
+20241206-nursery-algae_strings.csv,20241206,nursery,algae_strings,feeding,family_label::siganus feeding,1
+20241206-nursery-algae_strings.csv,20241206,nursery,algae_strings,feeding,species::honeycomb (siganus stellatus),3
+20241208-nursery-algaemix.csv,20241208,nursery,algaemix,feeding,species::paletail unicorn (naso brevirostris),52
+20241208-nursery-algaemix.csv,20241208,nursery,algaemix,feeding,species::honeycomb (siganus stellatus),1
+20241208-nursery-algaemix.csv,20241208,nursery,algaemix,feeding,species::threadfin (chaetodon auriga),1
+20241208-nursery-algaemix.csv,20241208,nursery,algaemix,interested,species::paletail unicorn (naso brevirostris),23
+20241208-nursery-algaemix.csv,20241208,nursery,algaemix,interested,species::threadfin (chaetodon auriga),1
+20241208-nursery-algaemix.csv,20241208,nursery,algaemix,interested,species::indian longnose (hipposcarus harid),1
+20241208-nursery-algaemix.csv,20241208,nursery,algaemix,interested,species::honeycomb (siganus stellatus),1
+20241209-nursery-algaemix.csv,20241209,nursery,algaemix,feeding,species::paletail unicorn (naso brevirostris),13
+20241209-nursery-algaemix.csv,20241209,nursery,algaemix,feeding,family_label::parrotfishes feeding,1
+20241209-nursery-algaemix.csv,20241209,nursery,algaemix,feeding,species::honeycomb (siganus stellatus),2
+20241209-nursery-algaemix.csv,20241209,nursery,algaemix,interested,species::sailfin tang (zebrasoma desjardinii),2
+20241209-nursery-algaemix.csv,20241209,nursery,algaemix,interested,species::red-breasted (cheilinus fasciatus),1
+20241209-nursery-algaemix.csv,20241209,nursery,algaemix,interested,species::titan (balistoides viridescens),1
+20241210-nursery-algaemix.csv,20241210,nursery,algaemix,feeding,species::paletail unicorn (naso brevirostris),26
+20241210-nursery-algaemix.csv,20241210,nursery,algaemix,feeding,species::humpback (lutjanus gibbus),2
+20241210-nursery-algaemix.csv,20241210,nursery,algaemix,feeding,species::honeycomb (siganus stellatus),1
+20241210-nursery-algaemix.csv,20241210,nursery,algaemix,feeding,species::yellow-margin (gymnothorax flavimarginatus),1
+20241210-nursery-algaemix.csv,20241210,nursery,algaemix,feeding,family_label::parrotfishes feeding,1
+20251212-nursery-mackerel.csv,20251212,nursery,mackerel,feeding,species::red (lutjanus bohar),1
+20251212-nursery-mackerel.csv,20251212,nursery,mackerel,feeding,species::black-lipped (chaetodon kleinii),2
+20251212-nursery-mackerel.csv,20251212,nursery,mackerel,interested,species::red (lutjanus bohar),1
+20251212-nursery-mackerel.csv,20251212,nursery,mackerel,interested,species::humpback (lutjanus gibbus),1
+20251212-nursery-mackerel.csv,20251212,nursery,mackerel,interested,species::black-lipped (chaetodon kleinii),1
+20251212-nursery-mackerel.csv,20251212,nursery,mackerel,interested,species::green (amblyglyphidodon indicus),3
+20240516-utumbi-mackerel.csv,20240516,utumbi,mackerel,feeding,species::longfin banner (heniochus acuminatus),2
+20240516-utumbi-mackerel.csv,20240516,utumbi,mackerel,feeding,species::orange-lined (balistapus undulatus),3
+20240516-utumbi-mackerel.csv,20240516,utumbi,mackerel,feeding,species::undulated (gymnothorax undulatus),1
+20240516-utumbi-mackerel.csv,20240516,utumbi,mackerel,interested,species::moon (thalassoma lunare),2
+20240516-utumbi-mackerel.csv,20240516,utumbi,mackerel,interested,species::goldbar (thalassoma hebraicum),1
+20240516-utumbi-mackerel.csv,20240516,utumbi,mackerel,interested,species::red (lutjanus bohar),1
+20240516-utumbi-mackerel.csv,20240516,utumbi,mackerel,interested,family_label::wrasses interested,1
+20241025-utumbi-ulva_salad.csv,20241025,utumbi,ulva_salad,feeding,species::orange-lined (balistapus undulatus),1
+20241025-utumbi-ulva_salad.csv,20241025,utumbi,ulva_salad,interested,species::orange-lined (balistapus undulatus),1
+20241026-utumbi-mackerel.csv,20241026,utumbi,mackerel,feeding,species::red (lutjanus bohar),1
+20241026-utumbi-mackerel.csv,20241026,utumbi,mackerel,feeding,species::orange-lined (balistapus undulatus),3
+20241026-utumbi-mackerel.csv,20241026,utumbi,mackerel,feeding,species::green (amblyglyphidodon indicus),9
+20241026-utumbi-mackerel.csv,20241026,utumbi,mackerel,feeding,species::moon (thalassoma lunare),3
+20241026-utumbi-mackerel.csv,20241026,utumbi,mackerel,feeding,species::redmouth (aethaloperca rogaa),1
+20241026-utumbi-mackerel.csv,20241026,utumbi,mackerel,feeding,species::blacktip (epinephelus fasciatus),1
+20241026-utumbi-mackerel.csv,20241026,utumbi,mackerel,feeding,family_label::groupers feeding,3
+20241026-utumbi-mackerel.csv,20241026,utumbi,mackerel,interested,species::green (amblyglyphidodon indicus),5
+20241026-utumbi-mackerel.csv,20241026,utumbi,mackerel,interested,species::goldbar (thalassoma hebraicum),1
+20241026-utumbi-mackerel.csv,20241026,utumbi,mackerel,interested,species::redmouth (aethaloperca rogaa),1
+20241026-utumbi-mackerel.csv,20241026,utumbi,mackerel,interested,species::sulfur (pomacentrus sulfureus),1
+20241027-utumbi-ulva_salad.csv,20241027,utumbi,ulva_salad,feeding,species::goldbar (thalassoma hebraicum),1
+20241027-utumbi-ulva_salad.csv,20241027,utumbi,ulva_salad,interested,species::green (amblyglyphidodon indicus),1
+20241027-utumbi-ulva_salad.csv,20241027,utumbi,ulva_salad,interested,species::orange-lined (balistapus undulatus),2
+20241027-utumbi-ulva_salad.csv,20241027,utumbi,ulva_salad,interested,species::red (lutjanus bohar),1
+20241029-utumbi-ulva_gutweed.csv,20241029,utumbi,ulva_gutweed,feeding,species::goldbar (thalassoma hebraicum),1
+20241029-utumbi-ulva_gutweed.csv,20241029,utumbi,ulva_gutweed,interested,species::orange-lined (balistapus undulatus),1
+20241105-utumbi-control.csv,20241105,utumbi,control,feeding,species::green (amblyglyphidodon indicus),1
+20241105-utumbi-control.csv,20241105,utumbi,control,interested,species::green (amblyglyphidodon indicus),1
+20241110-utumbi-ulva_salad.csv,20241110,utumbi,ulva_salad,feeding,species::moon (thalassoma lunare),2
+20241110-utumbi-ulva_salad.csv,20241110,utumbi,ulva_salad,feeding,species::goldbar (thalassoma hebraicum),1
+20241110-utumbi-ulva_salad.csv,20241110,utumbi,ulva_salad,feeding,species::red (lutjanus bohar),1
+20241110-utumbi-ulva_salad.csv,20241110,utumbi,ulva_salad,feeding,family_label::naso feeding,1
+20241110-utumbi-ulva_salad.csv,20241110,utumbi,ulva_salad,interested,species::goldbar (thalassoma hebraicum),1
+20241110-utumbi-ulva_salad.csv,20241110,utumbi,ulva_salad,interested,species::moon (thalassoma lunare),1
+20241110-utumbi-ulva_salad.csv,20241110,utumbi,ulva_salad,interested,species::red (lutjanus bohar),1
+20241112-utumbi-ulva_gutweed.csv,20241112,utumbi,ulva_gutweed,interested,species::orange-lined (balistapus undulatus),1
+20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,feeding,species::orange-lined (balistapus undulatus),3
+20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,feeding,species::goldbar (thalassoma hebraicum),2
+20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,feeding,species::green (amblyglyphidodon indicus),8
+20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,feeding,species::red (lutjanus bohar),1
+20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,feeding,species::redmouth (aethaloperca rogaa),1
+20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,feeding,species::blacktip (epinephelus fasciatus),1
+20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,feeding,species::false-eye (abudefduf sparoides),1
+20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,interested,species::orange-lined (balistapus undulatus),9
+20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,interested,species::goldbar (thalassoma hebraicum),2
+20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,interested,species::green (amblyglyphidodon indicus),10
+20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,interested,species::leopard (cephalopholis leopardus),1
+20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,interested,species::red (lutjanus bohar),1
+20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,interested,species::redmouth (aethaloperca rogaa),1
+20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,interested,species::blacktip (epinephelus fasciatus),1
+20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,interested,species::false-eye (abudefduf sparoides),4
+20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,interested,family_label::groupers interested,3
+20241127-utumbi-sargassum.csv,20241127,utumbi,sargassum,feeding,species::goldbar (thalassoma hebraicum),4
+20241127-utumbi-sargassum.csv,20241127,utumbi,sargassum,feeding,species::green (amblyglyphidodon indicus),1
+20241127-utumbi-sargassum.csv,20241127,utumbi,sargassum,feeding,species::black-lipped (chaetodon kleinii),3
+20241127-utumbi-sargassum.csv,20241127,utumbi,sargassum,feeding,species::red (lutjanus bohar),1
+20241127-utumbi-sargassum.csv,20241127,utumbi,sargassum,feeding,species::moon (thalassoma lunare),1
+20241127-utumbi-sargassum.csv,20241127,utumbi,sargassum,interested,species::redmouth (aethaloperca rogaa),1
+20241127-utumbi-sargassum.csv,20241127,utumbi,sargassum,interested,species::red (lutjanus bohar),1
+20241128-utumbi-sargassum.csv,20241128,utumbi,sargassum,feeding,species::green (amblyglyphidodon indicus),1
+20241128-utumbi-sargassum.csv,20241128,utumbi,sargassum,interested,species::goldbar (thalassoma hebraicum),1
+20241129-utumbi-sargassum.csv,20241129,utumbi,sargassum,feeding,species::green (amblyglyphidodon indicus),1
+20241129-utumbi-sargassum.csv,20241129,utumbi,sargassum,feeding,species::goldbar (thalassoma hebraicum),1
+20241129-utumbi-sargassum.csv,20241129,utumbi,sargassum,interested,species::green (amblyglyphidodon indicus),2
+20241129-utumbi-sargassum.csv,20241129,utumbi,sargassum,interested,species::goldbar (thalassoma hebraicum),1
+20241129-utumbi-sargassum.csv,20241129,utumbi,sargassum,interested,species::red (lutjanus bohar),1
+20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,feeding,species::orange-lined (balistapus undulatus),14
+20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,feeding,species::moon (thalassoma lunare),5
+20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,feeding,species::green (amblyglyphidodon indicus),7
+20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,feeding,family_label::groupers feeding,1
+20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,feeding,species::redmouth (aethaloperca rogaa),1
+20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,feeding,species::red (lutjanus bohar),1
+20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,feeding,species::black-lipped (chaetodon kleinii),1
+20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,feeding,species::freckled (paracirrhites forsteri),1
+20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,interested,species::green (amblyglyphidodon indicus),10
+20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,interested,species::orange-lined (balistapus undulatus),8
+20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,interested,species::moon (thalassoma lunare),2
+20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,interested,family_label::groupers interested,1
+20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,interested,species::undulated (gymnothorax undulatus),1
+20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,interested,species::freckled (paracirrhites forsteri),1
+20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,interested,species::black-lipped (chaetodon kleinii),2
+20241210-utumbi-fischmix.csv,20241210,utumbi,fischmix,feeding,species::moon (thalassoma lunare),2
+20241210-utumbi-fischmix.csv,20241210,utumbi,fischmix,feeding,species::blacktip (epinephelus fasciatus),1
+20241210-utumbi-fischmix.csv,20241210,utumbi,fischmix,feeding,species::orange-lined (balistapus undulatus),3
+20241210-utumbi-fischmix.csv,20241210,utumbi,fischmix,feeding,species::green (amblyglyphidodon indicus),3
+20241210-utumbi-fischmix.csv,20241210,utumbi,fischmix,feeding,species::red (lutjanus bohar),1
+20241210-utumbi-fischmix.csv,20241210,utumbi,fischmix,feeding,species::redmouth (aethaloperca rogaa),1
+20241210-utumbi-fischmix.csv,20241210,utumbi,fischmix,feeding,species::longfin banner (heniochus acuminatus),1
+20241210-utumbi-fischmix.csv,20241210,utumbi,fischmix,feeding,species::black-lipped (chaetodon kleinii),3
+20241210-utumbi-fischmix.csv,20241210,utumbi,fischmix,feeding,species::goldbar (thalassoma hebraicum),1
+20241210-utumbi-fischmix.csv,20241210,utumbi,fischmix,interested,species::green (amblyglyphidodon indicus),5
+20241210-utumbi-fischmix.csv,20241210,utumbi,fischmix,interested,species::orange-lined (balistapus undulatus),1
+20241210-utumbi-fischmix.csv,20241210,utumbi,fischmix,interested,species::black-lipped (chaetodon kleinii),3
+20241210-utumbi-fischmix.csv,20241210,utumbi,fischmix,interested,species::sulfur (pomacentrus sulfureus),2

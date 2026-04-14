@@ -1,0 +1,2 @@
+test,groups,n_videos,n_groups,pseudo_f,p_value,n_perm,significant_0_05,sig_label,note
+"PERMANOVA (Jaccard distance, taxa composition ~ koeder)","control, fischmix, mackerel, sargassum, ulva_gutweed, ulva_salad",17,6,1.3135758208103077,0.02419516096780644,5000,True,*,

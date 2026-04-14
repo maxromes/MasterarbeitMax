@@ -1,0 +1,307 @@
+standort,threshold_occ_rate,taxon_key,occ_rate,dominant_koeder_mean
+milimani,0.5,family_label::parrotfishes (scaridae),1.0,sargassum
+milimani,0.5,species::bird wrasse (gomphosus caeruleus),1.0,fischmix
+milimani,0.5,species::brown tang (zebrasoma scopas),1.0,mackerel
+milimani,0.5,species::indian half-and-half (pycnochromis dimidiatus),1.0,control
+milimani,0.5,species::longbarbel (parupeneus macronemus),1.0,ulva_gutweed
+milimani,0.5,species::orange-lined (balistapus undulatus),1.0,fischmix
+milimani,0.5,species::redmouth (aethaloperca rogaa),1.0,fischmix
+milimani,0.5,species::regal (pygoplites diacanthus),1.0,mackerel
+milimani,0.5,species::sixbar (thalassoma hardwicke),1.0,fischmix
+milimani,0.5,species::brown pigmy (centropyge multispinis),0.9411764705882353,sargassum
+milimani,0.5,species::humpnose bigeye (monotaxis grandoculis),0.9411764705882353,sargassum
+milimani,0.5,species::barred (hemigymnus fasciatus),0.8823529411764706,fischmix
+milimani,0.5,species::bullethead (chlorurus sordidus),0.8823529411764706,ulva_gutweed
+milimani,0.5,species::indian redfin (chaetodon trifasciatus),0.8823529411764706,sargassum
+milimani,0.5,species::threadfin (chaetodon auriga),0.8823529411764706,fischmix
+milimani,0.5,genus::genus chromis,0.8235294117647058,sargassum
+milimani,0.5,species::axilspot hogfish (bodianus axillaris),0.8235294117647058,fischmix
+milimani,0.5,species::checkerboard (halichoeres hortulanus),0.8235294117647058,sargassum
+milimani,0.5,species::trumpetfish (aulostomus chinensis),0.7647058823529411,control
+milimani,0.5,family_label::groupers (serranidae),0.7058823529411765,fischmix
+milimani,0.5,family_label::wrasses (labridae),0.7058823529411765,control
+milimani,0.5,species::honeycomb (siganus stellatus),0.7058823529411765,fischmix
+milimani,0.5,species::mozambique fangblenny (meiacanthus mossambicus),0.7058823529411765,ulva_salad
+milimani,0.5,species::spotted (chaetodon guttatissimus),0.7058823529411765,fischmix
+milimani,0.5,species::black-backed (chaetodon melannotus),0.6470588235294118,mackerel
+milimani,0.5,species::blackeye (hemigymnus melapterus),0.6470588235294118,sargassum
+milimani,0.5,species::paletail unicorn (naso brevirostris),0.6470588235294118,mackerel
+milimani,0.5,species::peacock (cephalopholis argus),0.6470588235294118,fischmix
+milimani,0.5,species::red-breasted (cheilinus fasciatus),0.5882352941176471,mackerel
+milimani,0.5,species::swarthy (scarus niger),0.5882352941176471,sargassum
+milimani,0.5,species::titan (balistoides viridescens),0.5882352941176471,fischmix
+milimani,0.5,species::chevroned (chaetodon trifascialis),0.5294117647058824,ulva_gutweed
+milimani,0.5,species::disappearing (pseudocheilinus evanidus),0.5294117647058824,control
+milimani,0.5,species::longnose (oxymonacanthus longirostris),0.5294117647058824,ulva_salad
+milimani,0.5,species::wirenet (cantherhines pardalis),0.5294117647058824,control
+milimani,0.6,family_label::parrotfishes (scaridae),1.0,sargassum
+milimani,0.6,species::bird wrasse (gomphosus caeruleus),1.0,fischmix
+milimani,0.6,species::brown tang (zebrasoma scopas),1.0,mackerel
+milimani,0.6,species::indian half-and-half (pycnochromis dimidiatus),1.0,control
+milimani,0.6,species::longbarbel (parupeneus macronemus),1.0,ulva_gutweed
+milimani,0.6,species::orange-lined (balistapus undulatus),1.0,fischmix
+milimani,0.6,species::redmouth (aethaloperca rogaa),1.0,fischmix
+milimani,0.6,species::regal (pygoplites diacanthus),1.0,mackerel
+milimani,0.6,species::sixbar (thalassoma hardwicke),1.0,fischmix
+milimani,0.6,species::brown pigmy (centropyge multispinis),0.9411764705882353,sargassum
+milimani,0.6,species::humpnose bigeye (monotaxis grandoculis),0.9411764705882353,sargassum
+milimani,0.6,species::barred (hemigymnus fasciatus),0.8823529411764706,fischmix
+milimani,0.6,species::bullethead (chlorurus sordidus),0.8823529411764706,ulva_gutweed
+milimani,0.6,species::indian redfin (chaetodon trifasciatus),0.8823529411764706,sargassum
+milimani,0.6,species::threadfin (chaetodon auriga),0.8823529411764706,fischmix
+milimani,0.6,genus::genus chromis,0.8235294117647058,sargassum
+milimani,0.6,species::axilspot hogfish (bodianus axillaris),0.8235294117647058,fischmix
+milimani,0.6,species::checkerboard (halichoeres hortulanus),0.8235294117647058,sargassum
+milimani,0.6,species::trumpetfish (aulostomus chinensis),0.7647058823529411,control
+milimani,0.6,family_label::groupers (serranidae),0.7058823529411765,fischmix
+milimani,0.6,family_label::wrasses (labridae),0.7058823529411765,control
+milimani,0.6,species::honeycomb (siganus stellatus),0.7058823529411765,fischmix
+milimani,0.6,species::mozambique fangblenny (meiacanthus mossambicus),0.7058823529411765,ulva_salad
+milimani,0.6,species::spotted (chaetodon guttatissimus),0.7058823529411765,fischmix
+milimani,0.6,species::black-backed (chaetodon melannotus),0.6470588235294118,mackerel
+milimani,0.6,species::blackeye (hemigymnus melapterus),0.6470588235294118,sargassum
+milimani,0.6,species::paletail unicorn (naso brevirostris),0.6470588235294118,mackerel
+milimani,0.6,species::peacock (cephalopholis argus),0.6470588235294118,fischmix
+milimani,0.7,family_label::parrotfishes (scaridae),1.0,sargassum
+milimani,0.7,species::bird wrasse (gomphosus caeruleus),1.0,fischmix
+milimani,0.7,species::brown tang (zebrasoma scopas),1.0,mackerel
+milimani,0.7,species::indian half-and-half (pycnochromis dimidiatus),1.0,control
+milimani,0.7,species::longbarbel (parupeneus macronemus),1.0,ulva_gutweed
+milimani,0.7,species::orange-lined (balistapus undulatus),1.0,fischmix
+milimani,0.7,species::redmouth (aethaloperca rogaa),1.0,fischmix
+milimani,0.7,species::regal (pygoplites diacanthus),1.0,mackerel
+milimani,0.7,species::sixbar (thalassoma hardwicke),1.0,fischmix
+milimani,0.7,species::brown pigmy (centropyge multispinis),0.9411764705882353,sargassum
+milimani,0.7,species::humpnose bigeye (monotaxis grandoculis),0.9411764705882353,sargassum
+milimani,0.7,species::barred (hemigymnus fasciatus),0.8823529411764706,fischmix
+milimani,0.7,species::bullethead (chlorurus sordidus),0.8823529411764706,ulva_gutweed
+milimani,0.7,species::indian redfin (chaetodon trifasciatus),0.8823529411764706,sargassum
+milimani,0.7,species::threadfin (chaetodon auriga),0.8823529411764706,fischmix
+milimani,0.7,genus::genus chromis,0.8235294117647058,sargassum
+milimani,0.7,species::axilspot hogfish (bodianus axillaris),0.8235294117647058,fischmix
+milimani,0.7,species::checkerboard (halichoeres hortulanus),0.8235294117647058,sargassum
+milimani,0.7,species::trumpetfish (aulostomus chinensis),0.7647058823529411,control
+milimani,0.7,family_label::groupers (serranidae),0.7058823529411765,fischmix
+milimani,0.7,family_label::wrasses (labridae),0.7058823529411765,control
+milimani,0.7,species::honeycomb (siganus stellatus),0.7058823529411765,fischmix
+milimani,0.7,species::mozambique fangblenny (meiacanthus mossambicus),0.7058823529411765,ulva_salad
+milimani,0.7,species::spotted (chaetodon guttatissimus),0.7058823529411765,fischmix
+milimani,0.8,family_label::parrotfishes (scaridae),1.0,sargassum
+milimani,0.8,species::bird wrasse (gomphosus caeruleus),1.0,fischmix
+milimani,0.8,species::brown tang (zebrasoma scopas),1.0,mackerel
+milimani,0.8,species::indian half-and-half (pycnochromis dimidiatus),1.0,control
+milimani,0.8,species::longbarbel (parupeneus macronemus),1.0,ulva_gutweed
+milimani,0.8,species::orange-lined (balistapus undulatus),1.0,fischmix
+milimani,0.8,species::redmouth (aethaloperca rogaa),1.0,fischmix
+milimani,0.8,species::regal (pygoplites diacanthus),1.0,mackerel
+milimani,0.8,species::sixbar (thalassoma hardwicke),1.0,fischmix
+milimani,0.8,species::brown pigmy (centropyge multispinis),0.9411764705882353,sargassum
+milimani,0.8,species::humpnose bigeye (monotaxis grandoculis),0.9411764705882353,sargassum
+milimani,0.8,species::barred (hemigymnus fasciatus),0.8823529411764706,fischmix
+milimani,0.8,species::bullethead (chlorurus sordidus),0.8823529411764706,ulva_gutweed
+milimani,0.8,species::indian redfin (chaetodon trifasciatus),0.8823529411764706,sargassum
+milimani,0.8,species::threadfin (chaetodon auriga),0.8823529411764706,fischmix
+milimani,0.8,genus::genus chromis,0.8235294117647058,sargassum
+milimani,0.8,species::axilspot hogfish (bodianus axillaris),0.8235294117647058,fischmix
+milimani,0.8,species::checkerboard (halichoeres hortulanus),0.8235294117647058,sargassum
+milimani,0.9,family_label::parrotfishes (scaridae),1.0,sargassum
+milimani,0.9,species::bird wrasse (gomphosus caeruleus),1.0,fischmix
+milimani,0.9,species::brown tang (zebrasoma scopas),1.0,mackerel
+milimani,0.9,species::indian half-and-half (pycnochromis dimidiatus),1.0,control
+milimani,0.9,species::longbarbel (parupeneus macronemus),1.0,ulva_gutweed
+milimani,0.9,species::orange-lined (balistapus undulatus),1.0,fischmix
+milimani,0.9,species::redmouth (aethaloperca rogaa),1.0,fischmix
+milimani,0.9,species::regal (pygoplites diacanthus),1.0,mackerel
+milimani,0.9,species::sixbar (thalassoma hardwicke),1.0,fischmix
+milimani,0.9,species::brown pigmy (centropyge multispinis),0.9411764705882353,sargassum
+milimani,0.9,species::humpnose bigeye (monotaxis grandoculis),0.9411764705882353,sargassum
+utumbi,0.5,family_label::groupers (serranidae),1.0,mackerel
+utumbi,0.5,family_label::parrotfishes (scaridae),1.0,ulva_salad
+utumbi,0.5,genus::genus soldier,1.0,mackerel
+utumbi,0.5,species::bird wrasse (gomphosus caeruleus),1.0,mackerel
+utumbi,0.5,species::brown pigmy (centropyge multispinis),1.0,ulva_gutweed
+utumbi,0.5,species::bullethead (chlorurus sordidus),1.0,sargassum
+utumbi,0.5,species::indian half-and-half (pycnochromis dimidiatus),1.0,mackerel
+utumbi,0.5,species::longbarbel (parupeneus macronemus),1.0,sargassum
+utumbi,0.5,genus::genus squirrel,0.9444444444444444,ulva_gutweed
+utumbi,0.5,species::disappearing (pseudocheilinus evanidus),0.9444444444444444,mackerel
+utumbi,0.5,species::regal (pygoplites diacanthus),0.9444444444444444,sargassum
+utumbi,0.5,family_label::wrasses (labridae),0.8888888888888888,fischmix
+utumbi,0.5,species::barred (hemigymnus fasciatus),0.8888888888888888,control
+utumbi,0.5,species::indian redfin (chaetodon trifasciatus),0.8888888888888888,mackerel
+utumbi,0.5,species::trumpetfish (aulostomus chinensis),0.8888888888888888,ulva_salad
+utumbi,0.5,genus::genus chromis,0.8333333333333334,mackerel
+utumbi,0.5,species::bicolor (labroides bicolor),0.8333333333333334,mackerel
+utumbi,0.5,species::five-saddle (scarus saber),0.8333333333333334,sargassum
+utumbi,0.5,species::moorish idol (zanclus cornutus),0.8333333333333334,sargassum
+utumbi,0.5,genus::genus naso,0.7777777777777778,control
+utumbi,0.5,species::axilspot hogfish (bodianus axillaris),0.7777777777777778,fischmix
+utumbi,0.5,species::brown tang (zebrasoma scopas),0.7777777777777778,ulva_salad
+utumbi,0.5,species::lined bristletooth (ctenochaetus striatus),0.7777777777777778,fischmix
+utumbi,0.5,species::blackeye (hemigymnus melapterus),0.7222222222222222,mackerel
+utumbi,0.5,species::golden (ctenochaetus truncates),0.7222222222222222,fischmix
+utumbi,0.5,species::red-breasted (cheilinus fasciatus),0.7222222222222222,sargassum
+utumbi,0.5,species::whitetail (acanthurus thompsoni),0.7222222222222222,mackerel
+utumbi,0.5,species::blue-streak (labroides dimidiatus),0.6666666666666666,fischmix
+utumbi,0.5,species::eclipse (chaetodon bennetti),0.6666666666666666,mackerel
+utumbi,0.5,species::linedcheeked (oxycheilinus digramma),0.6666666666666666,sargassum
+utumbi,0.5,species::swarthy (scarus niger),0.6666666666666666,sargassum
+utumbi,0.5,species::checkerboard (halichoeres hortulanus),0.6111111111111112,sargassum
+utumbi,0.5,species::elegant unicorn (naso elegans),0.6111111111111112,ulva_salad
+utumbi,0.5,species::mozambique fangblenny (meiacanthus mossambicus),0.6111111111111112,fischmix
+utumbi,0.5,species::spotted (chaetodon guttatissimus),0.6111111111111112,ulva_salad
+utumbi,0.5,species::humpnose bigeye (monotaxis grandoculis),0.5555555555555556,fischmix
+utumbi,0.5,species::slingjaw (epibulus insidiator),0.5555555555555556,control
+utumbi,0.5,species::threadfin (chaetodon auriga),0.5555555555555556,fischmix
+utumbi,0.5,family_label::fusiliers (caesionidae),0.5,ulva_salad
+utumbi,0.5,species::paletail unicorn (naso brevirostris),0.5,control
+utumbi,0.5,species::tubelip (labrichthys unilineatus),0.5,fischmix
+utumbi,0.6,family_label::groupers (serranidae),1.0,mackerel
+utumbi,0.6,family_label::parrotfishes (scaridae),1.0,ulva_salad
+utumbi,0.6,genus::genus soldier,1.0,mackerel
+utumbi,0.6,species::bird wrasse (gomphosus caeruleus),1.0,mackerel
+utumbi,0.6,species::brown pigmy (centropyge multispinis),1.0,ulva_gutweed
+utumbi,0.6,species::bullethead (chlorurus sordidus),1.0,sargassum
+utumbi,0.6,species::indian half-and-half (pycnochromis dimidiatus),1.0,mackerel
+utumbi,0.6,species::longbarbel (parupeneus macronemus),1.0,sargassum
+utumbi,0.6,genus::genus squirrel,0.9444444444444444,ulva_gutweed
+utumbi,0.6,species::disappearing (pseudocheilinus evanidus),0.9444444444444444,mackerel
+utumbi,0.6,species::regal (pygoplites diacanthus),0.9444444444444444,sargassum
+utumbi,0.6,family_label::wrasses (labridae),0.8888888888888888,fischmix
+utumbi,0.6,species::barred (hemigymnus fasciatus),0.8888888888888888,control
+utumbi,0.6,species::indian redfin (chaetodon trifasciatus),0.8888888888888888,mackerel
+utumbi,0.6,species::trumpetfish (aulostomus chinensis),0.8888888888888888,ulva_salad
+utumbi,0.6,genus::genus chromis,0.8333333333333334,mackerel
+utumbi,0.6,species::bicolor (labroides bicolor),0.8333333333333334,mackerel
+utumbi,0.6,species::five-saddle (scarus saber),0.8333333333333334,sargassum
+utumbi,0.6,species::moorish idol (zanclus cornutus),0.8333333333333334,sargassum
+utumbi,0.6,genus::genus naso,0.7777777777777778,control
+utumbi,0.6,species::axilspot hogfish (bodianus axillaris),0.7777777777777778,fischmix
+utumbi,0.6,species::brown tang (zebrasoma scopas),0.7777777777777778,ulva_salad
+utumbi,0.6,species::lined bristletooth (ctenochaetus striatus),0.7777777777777778,fischmix
+utumbi,0.6,species::blackeye (hemigymnus melapterus),0.7222222222222222,mackerel
+utumbi,0.6,species::golden (ctenochaetus truncates),0.7222222222222222,fischmix
+utumbi,0.6,species::red-breasted (cheilinus fasciatus),0.7222222222222222,sargassum
+utumbi,0.6,species::whitetail (acanthurus thompsoni),0.7222222222222222,mackerel
+utumbi,0.6,species::blue-streak (labroides dimidiatus),0.6666666666666666,fischmix
+utumbi,0.6,species::eclipse (chaetodon bennetti),0.6666666666666666,mackerel
+utumbi,0.6,species::linedcheeked (oxycheilinus digramma),0.6666666666666666,sargassum
+utumbi,0.6,species::swarthy (scarus niger),0.6666666666666666,sargassum
+utumbi,0.6,species::checkerboard (halichoeres hortulanus),0.6111111111111112,sargassum
+utumbi,0.6,species::elegant unicorn (naso elegans),0.6111111111111112,ulva_salad
+utumbi,0.6,species::mozambique fangblenny (meiacanthus mossambicus),0.6111111111111112,fischmix
+utumbi,0.6,species::spotted (chaetodon guttatissimus),0.6111111111111112,ulva_salad
+utumbi,0.7,family_label::groupers (serranidae),1.0,mackerel
+utumbi,0.7,family_label::parrotfishes (scaridae),1.0,ulva_salad
+utumbi,0.7,genus::genus soldier,1.0,mackerel
+utumbi,0.7,species::bird wrasse (gomphosus caeruleus),1.0,mackerel
+utumbi,0.7,species::brown pigmy (centropyge multispinis),1.0,ulva_gutweed
+utumbi,0.7,species::bullethead (chlorurus sordidus),1.0,sargassum
+utumbi,0.7,species::indian half-and-half (pycnochromis dimidiatus),1.0,mackerel
+utumbi,0.7,species::longbarbel (parupeneus macronemus),1.0,sargassum
+utumbi,0.7,genus::genus squirrel,0.9444444444444444,ulva_gutweed
+utumbi,0.7,species::disappearing (pseudocheilinus evanidus),0.9444444444444444,mackerel
+utumbi,0.7,species::regal (pygoplites diacanthus),0.9444444444444444,sargassum
+utumbi,0.7,family_label::wrasses (labridae),0.8888888888888888,fischmix
+utumbi,0.7,species::barred (hemigymnus fasciatus),0.8888888888888888,control
+utumbi,0.7,species::indian redfin (chaetodon trifasciatus),0.8888888888888888,mackerel
+utumbi,0.7,species::trumpetfish (aulostomus chinensis),0.8888888888888888,ulva_salad
+utumbi,0.7,genus::genus chromis,0.8333333333333334,mackerel
+utumbi,0.7,species::bicolor (labroides bicolor),0.8333333333333334,mackerel
+utumbi,0.7,species::five-saddle (scarus saber),0.8333333333333334,sargassum
+utumbi,0.7,species::moorish idol (zanclus cornutus),0.8333333333333334,sargassum
+utumbi,0.7,genus::genus naso,0.7777777777777778,control
+utumbi,0.7,species::axilspot hogfish (bodianus axillaris),0.7777777777777778,fischmix
+utumbi,0.7,species::brown tang (zebrasoma scopas),0.7777777777777778,ulva_salad
+utumbi,0.7,species::lined bristletooth (ctenochaetus striatus),0.7777777777777778,fischmix
+utumbi,0.7,species::blackeye (hemigymnus melapterus),0.7222222222222222,mackerel
+utumbi,0.7,species::golden (ctenochaetus truncates),0.7222222222222222,fischmix
+utumbi,0.7,species::red-breasted (cheilinus fasciatus),0.7222222222222222,sargassum
+utumbi,0.7,species::whitetail (acanthurus thompsoni),0.7222222222222222,mackerel
+utumbi,0.8,family_label::groupers (serranidae),1.0,mackerel
+utumbi,0.8,family_label::parrotfishes (scaridae),1.0,ulva_salad
+utumbi,0.8,genus::genus soldier,1.0,mackerel
+utumbi,0.8,species::bird wrasse (gomphosus caeruleus),1.0,mackerel
+utumbi,0.8,species::brown pigmy (centropyge multispinis),1.0,ulva_gutweed
+utumbi,0.8,species::bullethead (chlorurus sordidus),1.0,sargassum
+utumbi,0.8,species::indian half-and-half (pycnochromis dimidiatus),1.0,mackerel
+utumbi,0.8,species::longbarbel (parupeneus macronemus),1.0,sargassum
+utumbi,0.8,genus::genus squirrel,0.9444444444444444,ulva_gutweed
+utumbi,0.8,species::disappearing (pseudocheilinus evanidus),0.9444444444444444,mackerel
+utumbi,0.8,species::regal (pygoplites diacanthus),0.9444444444444444,sargassum
+utumbi,0.8,family_label::wrasses (labridae),0.8888888888888888,fischmix
+utumbi,0.8,species::barred (hemigymnus fasciatus),0.8888888888888888,control
+utumbi,0.8,species::indian redfin (chaetodon trifasciatus),0.8888888888888888,mackerel
+utumbi,0.8,species::trumpetfish (aulostomus chinensis),0.8888888888888888,ulva_salad
+utumbi,0.8,genus::genus chromis,0.8333333333333334,mackerel
+utumbi,0.8,species::bicolor (labroides bicolor),0.8333333333333334,mackerel
+utumbi,0.8,species::five-saddle (scarus saber),0.8333333333333334,sargassum
+utumbi,0.8,species::moorish idol (zanclus cornutus),0.8333333333333334,sargassum
+utumbi,0.9,family_label::groupers (serranidae),1.0,mackerel
+utumbi,0.9,family_label::parrotfishes (scaridae),1.0,ulva_salad
+utumbi,0.9,genus::genus soldier,1.0,mackerel
+utumbi,0.9,species::bird wrasse (gomphosus caeruleus),1.0,mackerel
+utumbi,0.9,species::brown pigmy (centropyge multispinis),1.0,ulva_gutweed
+utumbi,0.9,species::bullethead (chlorurus sordidus),1.0,sargassum
+utumbi,0.9,species::indian half-and-half (pycnochromis dimidiatus),1.0,mackerel
+utumbi,0.9,species::longbarbel (parupeneus macronemus),1.0,sargassum
+utumbi,0.9,genus::genus squirrel,0.9444444444444444,ulva_gutweed
+utumbi,0.9,species::disappearing (pseudocheilinus evanidus),0.9444444444444444,mackerel
+utumbi,0.9,species::regal (pygoplites diacanthus),0.9444444444444444,sargassum
+nursery,0.5,family_label::parrotfishes (scaridae),1.0,algae_strings
+nursery,0.5,species::threespot dascyllus (dascyllus trimaculatus),1.0,mackerel
+nursery,0.5,species::blackwhite (macolor niger),0.9090909090909091,algae_strings
+nursery,0.5,species::moon (thalassoma lunare),0.9090909090909091,mackerel
+nursery,0.5,family_label::fusiliers (caesionidae),0.8181818181818182,algae_strings
+nursery,0.5,species::arabian monocle (scolopsis ghanam),0.8181818181818182,algaemix
+nursery,0.5,species::black-backed (chaetodon melannotus),0.8181818181818182,algae_strings
+nursery,0.5,family_label::jacks/trevallyes (carangidae),0.7272727272727273,control
+nursery,0.5,species::lined bristletooth (ctenochaetus striatus),0.7272727272727273,control
+nursery,0.5,species::moorish idol (zanclus cornutus),0.7272727272727273,algaemix
+nursery,0.5,species::speckled (parapercis hexophthalma),0.7272727272727273,mackerel
+nursery,0.5,species::yellowhead (chaetodon xanthocephalus),0.7272727272727273,mackerel
+nursery,0.5,genus::genus chromis,0.6363636363636364,algaemix
+nursery,0.5,species::blackspot (lutjanus fulviflamma),0.6363636363636364,mackerel
+nursery,0.5,species::false-eye (abudefduf sparoides),0.6363636363636364,algaemix
+nursery,0.5,species::scissortail sergeant (abudefduf sexfasciatus),0.6363636363636364,algae_strings
+nursery,0.5,family_label::cornetfishes (fistulariidae),0.5454545454545454,algaemix
+nursery,0.5,species::indian redfin (chaetodon trifasciatus),0.5454545454545454,mackerel
+nursery,0.6,family_label::parrotfishes (scaridae),1.0,algae_strings
+nursery,0.6,species::threespot dascyllus (dascyllus trimaculatus),1.0,mackerel
+nursery,0.6,species::blackwhite (macolor niger),0.9090909090909091,algae_strings
+nursery,0.6,species::moon (thalassoma lunare),0.9090909090909091,mackerel
+nursery,0.6,family_label::fusiliers (caesionidae),0.8181818181818182,algae_strings
+nursery,0.6,species::arabian monocle (scolopsis ghanam),0.8181818181818182,algaemix
+nursery,0.6,species::black-backed (chaetodon melannotus),0.8181818181818182,algae_strings
+nursery,0.6,family_label::jacks/trevallyes (carangidae),0.7272727272727273,control
+nursery,0.6,species::lined bristletooth (ctenochaetus striatus),0.7272727272727273,control
+nursery,0.6,species::moorish idol (zanclus cornutus),0.7272727272727273,algaemix
+nursery,0.6,species::speckled (parapercis hexophthalma),0.7272727272727273,mackerel
+nursery,0.6,species::yellowhead (chaetodon xanthocephalus),0.7272727272727273,mackerel
+nursery,0.6,genus::genus chromis,0.6363636363636364,algaemix
+nursery,0.6,species::blackspot (lutjanus fulviflamma),0.6363636363636364,mackerel
+nursery,0.6,species::false-eye (abudefduf sparoides),0.6363636363636364,algaemix
+nursery,0.6,species::scissortail sergeant (abudefduf sexfasciatus),0.6363636363636364,algae_strings
+nursery,0.7,family_label::parrotfishes (scaridae),1.0,algae_strings
+nursery,0.7,species::threespot dascyllus (dascyllus trimaculatus),1.0,mackerel
+nursery,0.7,species::blackwhite (macolor niger),0.9090909090909091,algae_strings
+nursery,0.7,species::moon (thalassoma lunare),0.9090909090909091,mackerel
+nursery,0.7,family_label::fusiliers (caesionidae),0.8181818181818182,algae_strings
+nursery,0.7,species::arabian monocle (scolopsis ghanam),0.8181818181818182,algaemix
+nursery,0.7,species::black-backed (chaetodon melannotus),0.8181818181818182,algae_strings
+nursery,0.7,family_label::jacks/trevallyes (carangidae),0.7272727272727273,control
+nursery,0.7,species::lined bristletooth (ctenochaetus striatus),0.7272727272727273,control
+nursery,0.7,species::moorish idol (zanclus cornutus),0.7272727272727273,algaemix
+nursery,0.7,species::speckled (parapercis hexophthalma),0.7272727272727273,mackerel
+nursery,0.7,species::yellowhead (chaetodon xanthocephalus),0.7272727272727273,mackerel
+nursery,0.8,family_label::parrotfishes (scaridae),1.0,algae_strings
+nursery,0.8,species::threespot dascyllus (dascyllus trimaculatus),1.0,mackerel
+nursery,0.8,species::blackwhite (macolor niger),0.9090909090909091,algae_strings
+nursery,0.8,species::moon (thalassoma lunare),0.9090909090909091,mackerel
+nursery,0.8,family_label::fusiliers (caesionidae),0.8181818181818182,algae_strings
+nursery,0.8,species::arabian monocle (scolopsis ghanam),0.8181818181818182,algaemix
+nursery,0.8,species::black-backed (chaetodon melannotus),0.8181818181818182,algae_strings
+nursery,0.9,family_label::parrotfishes (scaridae),1.0,algae_strings
+nursery,0.9,species::threespot dascyllus (dascyllus trimaculatus),1.0,mackerel
+nursery,0.9,species::blackwhite (macolor niger),0.9090909090909091,algae_strings
+nursery,0.9,species::moon (thalassoma lunare),0.9090909090909091,mackerel

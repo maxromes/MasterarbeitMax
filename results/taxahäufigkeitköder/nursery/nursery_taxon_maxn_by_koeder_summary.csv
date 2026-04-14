@@ -1,0 +1,397 @@
+taxon_key,koeder,n_videos,n_present,occurrence_rate,mean_maxn,median_maxn,std_maxn,max_maxn
+family_label::batfishes (ephippidae),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+family_label::batfishes (ephippidae),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+family_label::batfishes (ephippidae),control,1,1,1.0,1.0,1.0,0.0,1.0
+family_label::batfishes (ephippidae),mackerel,4,0,0.0,0.0,0.0,0.0,0.0
+family_label::blennies (blenniidae),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+family_label::blennies (blenniidae),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+family_label::blennies (blenniidae),control,1,1,1.0,1.0,1.0,0.0,1.0
+family_label::blennies (blenniidae),mackerel,4,1,0.25,0.25,0.0,0.5,1.0
+family_label::cornetfishes (fistulariidae),algae_strings,3,2,0.6666666666666666,0.6666666666666666,1.0,0.5773502691896258,1.0
+family_label::cornetfishes (fistulariidae),algaemix,3,2,0.6666666666666666,2.0,2.0,2.0,4.0
+family_label::cornetfishes (fistulariidae),control,1,0,0.0,0.0,0.0,0.0,0.0
+family_label::cornetfishes (fistulariidae),mackerel,4,2,0.5,1.75,0.5,2.8722813232690143,6.0
+family_label::emperors (lethrinidae),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+family_label::emperors (lethrinidae),algaemix,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+family_label::emperors (lethrinidae),control,1,0,0.0,0.0,0.0,0.0,0.0
+family_label::emperors (lethrinidae),mackerel,4,0,0.0,0.0,0.0,0.0,0.0
+family_label::fusiliers (caesionidae),algae_strings,3,3,1.0,7.0,7.0,3.0,10.0
+family_label::fusiliers (caesionidae),algaemix,3,3,1.0,5.666666666666667,7.0,4.163331998932266,9.0
+family_label::fusiliers (caesionidae),control,1,1,1.0,1.0,1.0,0.0,1.0
+family_label::fusiliers (caesionidae),mackerel,4,2,0.5,2.25,1.0,3.304037933599835,7.0
+family_label::goatfishes (mullidae),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+family_label::goatfishes (mullidae),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+family_label::goatfishes (mullidae),control,1,0,0.0,0.0,0.0,0.0,0.0
+family_label::goatfishes (mullidae),mackerel,4,1,0.25,0.5,0.0,1.0,2.0
+family_label::groupers (serranidae),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+family_label::groupers (serranidae),algaemix,3,2,0.6666666666666666,0.6666666666666666,1.0,0.5773502691896258,1.0
+family_label::groupers (serranidae),control,1,0,0.0,0.0,0.0,0.0,0.0
+family_label::groupers (serranidae),mackerel,4,2,0.5,1.0,0.5,1.4142135623730951,3.0
+family_label::groupers feeding,algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+family_label::groupers feeding,algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+family_label::groupers feeding,control,1,0,0.0,0.0,0.0,0.0,0.0
+family_label::groupers feeding,mackerel,4,1,0.25,0.5,0.0,1.0,2.0
+family_label::jacks/trevallyes (carangidae),algae_strings,3,3,1.0,1.6666666666666667,2.0,0.5773502691896257,2.0
+family_label::jacks/trevallyes (carangidae),algaemix,3,3,1.0,1.3333333333333333,1.0,0.5773502691896257,2.0
+family_label::jacks/trevallyes (carangidae),control,1,1,1.0,6.0,6.0,0.0,6.0
+family_label::jacks/trevallyes (carangidae),mackerel,4,1,0.25,0.25,0.0,0.5,1.0
+family_label::parrotfishes (scaridae),algae_strings,3,3,1.0,11.0,13.0,4.358898943540674,14.0
+family_label::parrotfishes (scaridae),algaemix,3,3,1.0,4.333333333333333,3.0,3.214550253664318,8.0
+family_label::parrotfishes (scaridae),control,1,1,1.0,1.0,1.0,0.0,1.0
+family_label::parrotfishes (scaridae),mackerel,4,4,1.0,7.75,8.5,3.947573094109004,11.0
+family_label::parrotfishes feeding,algae_strings,3,1,0.3333333333333333,1.3333333333333333,0.0,2.3094010767585034,4.0
+family_label::parrotfishes feeding,algaemix,3,2,0.6666666666666666,0.6666666666666666,1.0,0.5773502691896258,1.0
+family_label::parrotfishes feeding,control,1,0,0.0,0.0,0.0,0.0,0.0
+family_label::parrotfishes feeding,mackerel,4,0,0.0,0.0,0.0,0.0,0.0
+family_label::puffers (tetraodontidae),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+family_label::puffers (tetraodontidae),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+family_label::puffers (tetraodontidae),control,1,1,1.0,2.0,2.0,0.0,2.0
+family_label::puffers (tetraodontidae),mackerel,4,0,0.0,0.0,0.0,0.0,0.0
+family_label::siganus feeding,algae_strings,3,2,0.6666666666666666,1.0,1.0,1.0,2.0
+family_label::siganus feeding,algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+family_label::siganus feeding,control,1,0,0.0,0.0,0.0,0.0,0.0
+family_label::siganus feeding,mackerel,4,0,0.0,0.0,0.0,0.0,0.0
+family_label::snappers (lutjanidae),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+family_label::snappers (lutjanidae),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+family_label::snappers (lutjanidae),control,1,1,1.0,1.0,1.0,0.0,1.0
+family_label::snappers (lutjanidae),mackerel,4,0,0.0,0.0,0.0,0.0,0.0
+family_label::triggerfishes (balistidae),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+family_label::triggerfishes (balistidae),algaemix,3,1,0.3333333333333333,1.0,0.0,1.7320508075688772,3.0
+family_label::triggerfishes (balistidae),control,1,0,0.0,0.0,0.0,0.0,0.0
+family_label::triggerfishes (balistidae),mackerel,4,0,0.0,0.0,0.0,0.0,0.0
+family_label::trumpetfishes (aulostomidae),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+family_label::trumpetfishes (aulostomidae),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+family_label::trumpetfishes (aulostomidae),control,1,0,0.0,0.0,0.0,0.0,0.0
+family_label::trumpetfishes (aulostomidae),mackerel,4,1,0.25,0.25,0.0,0.5,1.0
+family_label::wrasses (labridae),algae_strings,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+family_label::wrasses (labridae),algaemix,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+family_label::wrasses (labridae),control,1,0,0.0,0.0,0.0,0.0,0.0
+family_label::wrasses (labridae),mackerel,4,0,0.0,0.0,0.0,0.0,0.0
+family_label::wrasses interested,algae_strings,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+family_label::wrasses interested,algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+family_label::wrasses interested,control,1,0,0.0,0.0,0.0,0.0,0.0
+family_label::wrasses interested,mackerel,4,0,0.0,0.0,0.0,0.0,0.0
+genus::canthigaster,algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+genus::canthigaster,algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+genus::canthigaster,control,1,0,0.0,0.0,0.0,0.0,0.0
+genus::canthigaster,mackerel,4,1,0.25,0.5,0.0,1.0,2.0
+genus::chromis,algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+genus::chromis,algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+genus::chromis,control,1,1,1.0,1.0,1.0,0.0,1.0
+genus::chromis,mackerel,4,1,0.25,0.25,0.0,0.5,1.0
+genus::dascyllus,algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+genus::dascyllus,algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+genus::dascyllus,control,1,0,0.0,0.0,0.0,0.0,0.0
+genus::dascyllus,mackerel,4,3,0.75,6.5,6.5,5.32290647422377,13.0
+genus::genus acanthurus,algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+genus::genus acanthurus,algaemix,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+genus::genus acanthurus,control,1,0,0.0,0.0,0.0,0.0,0.0
+genus::genus acanthurus,mackerel,4,0,0.0,0.0,0.0,0.0,0.0
+genus::genus caesio,algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+genus::genus caesio,algaemix,3,1,0.3333333333333333,1.6666666666666667,0.0,2.8867513459481287,5.0
+genus::genus caesio,control,1,0,0.0,0.0,0.0,0.0,0.0
+genus::genus caesio,mackerel,4,0,0.0,0.0,0.0,0.0,0.0
+genus::genus chromis,algae_strings,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+genus::genus chromis,algaemix,3,3,1.0,3.3333333333333335,4.0,2.081665999466133,5.0
+genus::genus chromis,control,1,0,0.0,0.0,0.0,0.0,0.0
+genus::genus chromis,mackerel,4,3,0.75,1.75,2.0,1.5,3.0
+genus::genus siganus,algae_strings,3,2,0.6666666666666666,1.6666666666666667,2.0,1.5275252316519468,3.0
+genus::genus siganus,algaemix,3,2,0.6666666666666666,2.6666666666666665,1.0,3.785938897200183,7.0
+genus::genus siganus,control,1,0,0.0,0.0,0.0,0.0,0.0
+genus::genus siganus,mackerel,4,0,0.0,0.0,0.0,0.0,0.0
+genus::zebrasoma,algae_strings,3,3,1.0,1.6666666666666667,2.0,0.5773502691896257,2.0
+genus::zebrasoma,algaemix,3,1,0.3333333333333333,0.6666666666666666,0.0,1.1547005383792517,2.0
+genus::zebrasoma,control,1,0,0.0,0.0,0.0,0.0,0.0
+genus::zebrasoma,mackerel,4,0,0.0,0.0,0.0,0.0,0.0
+label::stomatapoda,algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+label::stomatapoda,algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+label::stomatapoda,control,1,1,1.0,1.0,1.0,0.0,1.0
+label::stomatapoda,mackerel,4,0,0.0,0.0,0.0,0.0,0.0
+species::arabian monocle (scolopsis ghanam),algae_strings,3,3,1.0,8.666666666666666,8.0,1.1547005383792517,10.0
+species::arabian monocle (scolopsis ghanam),algaemix,3,3,1.0,14.0,12.0,5.291502622129181,20.0
+species::arabian monocle (scolopsis ghanam),control,1,1,1.0,1.0,1.0,0.0,1.0
+species::arabian monocle (scolopsis ghanam),mackerel,4,2,0.5,2.0,1.0,2.8284271247461903,6.0
+species::bicolor (labroides bicolor),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+species::bicolor (labroides bicolor),algaemix,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+species::bicolor (labroides bicolor),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::bicolor (labroides bicolor),mackerel,4,0,0.0,0.0,0.0,0.0,0.0
+species::bird wrasse (gomphosus caeruleus),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+species::bird wrasse (gomphosus caeruleus),algaemix,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+species::bird wrasse (gomphosus caeruleus),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::bird wrasse (gomphosus caeruleus),mackerel,4,0,0.0,0.0,0.0,0.0,0.0
+species::black saddled toby (canthigaster valentini),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+species::black saddled toby (canthigaster valentini),algaemix,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+species::black saddled toby (canthigaster valentini),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::black saddled toby (canthigaster valentini),mackerel,4,3,0.75,0.75,1.0,0.5,1.0
+species::black-backed (chaetodon melannotus),algae_strings,3,3,1.0,4.333333333333333,2.0,4.932882862316247,10.0
+species::black-backed (chaetodon melannotus),algaemix,3,3,1.0,4.333333333333333,4.0,3.5118845842842465,8.0
+species::black-backed (chaetodon melannotus),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::black-backed (chaetodon melannotus),mackerel,4,3,0.75,1.5,1.5,1.2909944487358056,3.0
+species::black-lipped (chaetodon kleinii),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+species::black-lipped (chaetodon kleinii),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+species::black-lipped (chaetodon kleinii),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::black-lipped (chaetodon kleinii),mackerel,4,3,0.75,1.75,1.0,2.217355782608345,5.0
+species::blackspot (lutjanus fulviflamma),algae_strings,3,2,0.6666666666666666,1.0,1.0,1.0,2.0
+species::blackspot (lutjanus fulviflamma),algaemix,3,3,1.0,4.333333333333333,6.0,2.8867513459481287,6.0
+species::blackspot (lutjanus fulviflamma),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::blackspot (lutjanus fulviflamma),mackerel,4,2,0.5,6.75,4.0,8.99536917900909,19.0
+species::blackspot feeding (lutjanus fulviflamma),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+species::blackspot feeding (lutjanus fulviflamma),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+species::blackspot feeding (lutjanus fulviflamma),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::blackspot feeding (lutjanus fulviflamma),mackerel,4,1,0.25,1.5,0.0,3.0,6.0
+species::blackwhite (macolor niger),algae_strings,3,3,1.0,1.0,1.0,0.0,1.0
+species::blackwhite (macolor niger),algaemix,3,2,0.6666666666666666,0.6666666666666666,1.0,0.5773502691896258,1.0
+species::blackwhite (macolor niger),control,1,1,1.0,1.0,1.0,0.0,1.0
+species::blackwhite (macolor niger),mackerel,4,4,1.0,1.0,1.0,0.0,1.0
+species::blackwhite feeding (macolor niger),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+species::blackwhite feeding (macolor niger),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+species::blackwhite feeding (macolor niger),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::blackwhite feeding (macolor niger),mackerel,4,1,0.25,0.25,0.0,0.5,1.0
+species::blue barred (scarus ghobban),algae_strings,3,3,1.0,4.0,4.0,1.0,5.0
+species::blue barred (scarus ghobban),algaemix,3,3,1.0,2.0,2.0,1.0,3.0
+species::blue barred (scarus ghobban),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::blue barred (scarus ghobban),mackerel,4,1,0.25,0.25,0.0,0.5,1.0
+species::blue-streak (labroides dimidiatus),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+species::blue-streak (labroides dimidiatus),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+species::blue-streak (labroides dimidiatus),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::blue-streak (labroides dimidiatus),mackerel,4,3,0.75,0.75,1.0,0.5,1.0
+species::bluefin (caranx melampygus),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+species::bluefin (caranx melampygus),algaemix,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+species::bluefin (caranx melampygus),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::bluefin (caranx melampygus),mackerel,4,1,0.25,0.25,0.0,0.5,1.0
+species::brassy trevally (caranx papuensis),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+species::brassy trevally (caranx papuensis),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+species::brassy trevally (caranx papuensis),control,1,1,1.0,1.0,1.0,0.0,1.0
+species::brassy trevally (caranx papuensis),mackerel,4,2,0.5,3.25,3.0,3.774917217635375,7.0
+species::brown pigmy (centropyge multispinis),algae_strings,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+species::brown pigmy (centropyge multispinis),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+species::brown pigmy (centropyge multispinis),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::brown pigmy (centropyge multispinis),mackerel,4,0,0.0,0.0,0.0,0.0,0.0
+species::brown tang (zebrasoma scopas),algae_strings,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+species::brown tang (zebrasoma scopas),algaemix,3,3,1.0,1.0,1.0,0.0,1.0
+species::brown tang (zebrasoma scopas),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::brown tang (zebrasoma scopas),mackerel,4,1,0.25,0.25,0.0,0.5,1.0
+species::bullethead (chlorurus sordidus),algae_strings,3,3,1.0,2.0,1.0,1.7320508075688772,4.0
+species::bullethead (chlorurus sordidus),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+species::bullethead (chlorurus sordidus),control,1,1,1.0,1.0,1.0,0.0,1.0
+species::bullethead (chlorurus sordidus),mackerel,4,0,0.0,0.0,0.0,0.0,0.0
+species::checkerboard (halichoeres hortulanus),algae_strings,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+species::checkerboard (halichoeres hortulanus),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+species::checkerboard (halichoeres hortulanus),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::checkerboard (halichoeres hortulanus),mackerel,4,0,0.0,0.0,0.0,0.0,0.0
+species::coral (cephalopholis miniata),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+species::coral (cephalopholis miniata),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+species::coral (cephalopholis miniata),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::coral (cephalopholis miniata),mackerel,4,1,0.25,0.5,0.0,1.0,2.0
+species::disappearing (pseudocheilinus evanidus),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+species::disappearing (pseudocheilinus evanidus),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+species::disappearing (pseudocheilinus evanidus),control,1,1,1.0,1.0,1.0,0.0,1.0
+species::disappearing (pseudocheilinus evanidus),mackerel,4,1,0.25,0.5,0.0,1.0,2.0
+species::emperor (pomacanthus imperator),algae_strings,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+species::emperor (pomacanthus imperator),algaemix,3,1,0.3333333333333333,0.6666666666666666,0.0,1.1547005383792517,2.0
+species::emperor (pomacanthus imperator),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::emperor (pomacanthus imperator),mackerel,4,2,0.5,0.75,0.5,0.9574271077563381,2.0
+species::false-eye (abudefduf sparoides),algae_strings,3,2,0.6666666666666666,0.6666666666666666,1.0,0.5773502691896258,1.0
+species::false-eye (abudefduf sparoides),algaemix,3,3,1.0,1.0,1.0,0.0,1.0
+species::false-eye (abudefduf sparoides),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::false-eye (abudefduf sparoides),mackerel,4,2,0.5,0.5,0.5,0.5773502691896257,1.0
+species::goldbar (thalassoma hebraicum),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+species::goldbar (thalassoma hebraicum),algaemix,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+species::goldbar (thalassoma hebraicum),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::goldbar (thalassoma hebraicum),mackerel,4,0,0.0,0.0,0.0,0.0,0.0
+species::goldsaddle (parupeneus cyclostomus),algae_strings,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+species::goldsaddle (parupeneus cyclostomus),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+species::goldsaddle (parupeneus cyclostomus),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::goldsaddle (parupeneus cyclostomus),mackerel,4,0,0.0,0.0,0.0,0.0,0.0
+species::green (amblyglyphidodon indicus),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+species::green (amblyglyphidodon indicus),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+species::green (amblyglyphidodon indicus),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::green (amblyglyphidodon indicus),mackerel,4,3,0.75,3.0,3.0,2.581988897471611,6.0
+species::halfmoon (sufflamen chrysopterum),algae_strings,3,2,0.6666666666666666,0.6666666666666666,1.0,0.5773502691896258,1.0
+species::halfmoon (sufflamen chrysopterum),algaemix,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+species::halfmoon (sufflamen chrysopterum),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::halfmoon (sufflamen chrysopterum),mackerel,4,0,0.0,0.0,0.0,0.0,0.0
+species::honeycomb (siganus stellatus),algae_strings,3,3,1.0,3.3333333333333335,4.0,1.1547005383792515,4.0
+species::honeycomb (siganus stellatus),algaemix,3,3,1.0,4.0,4.0,0.0,4.0
+species::honeycomb (siganus stellatus),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::honeycomb (siganus stellatus),mackerel,4,2,0.5,1.75,1.0,2.362907813126304,5.0
+species::humpback (lutjanus gibbus),algae_strings,3,3,1.0,18.0,20.0,4.358898943540674,21.0
+species::humpback (lutjanus gibbus),algaemix,3,3,1.0,36.0,43.0,13.892443989449804,45.0
+species::humpback (lutjanus gibbus),control,1,1,1.0,1.0,1.0,0.0,1.0
+species::humpback (lutjanus gibbus),mackerel,4,4,1.0,14.75,12.0,11.757976016304847,30.0
+species::humpnose bigeye (monotaxis grandoculis),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+species::humpnose bigeye (monotaxis grandoculis),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+species::humpnose bigeye (monotaxis grandoculis),control,1,1,1.0,2.0,2.0,0.0,2.0
+species::humpnose bigeye (monotaxis grandoculis),mackerel,4,3,0.75,1.25,1.5,0.9574271077563381,2.0
+species::indian longnose (hipposcarus harid),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+species::indian longnose (hipposcarus harid),algaemix,3,1,0.3333333333333333,1.0,0.0,1.7320508075688772,3.0
+species::indian longnose (hipposcarus harid),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::indian longnose (hipposcarus harid),mackerel,4,0,0.0,0.0,0.0,0.0,0.0
+species::indian redfin (chaetodon trifasciatus),algae_strings,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+species::indian redfin (chaetodon trifasciatus),algaemix,3,2,0.6666666666666666,1.0,1.0,1.0,2.0
+species::indian redfin (chaetodon trifasciatus),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::indian redfin (chaetodon trifasciatus),mackerel,4,3,0.75,1.25,1.5,0.9574271077563381,2.0
+species::lined bristletooth (ctenochaetus striatus),algae_strings,3,2,0.6666666666666666,1.3333333333333333,2.0,1.1547005383792517,2.0
+species::lined bristletooth (ctenochaetus striatus),algaemix,3,2,0.6666666666666666,1.6666666666666667,2.0,1.5275252316519465,3.0
+species::lined bristletooth (ctenochaetus striatus),control,1,1,1.0,4.0,4.0,0.0,4.0
+species::lined bristletooth (ctenochaetus striatus),mackerel,4,3,0.75,2.75,3.0,2.217355782608345,5.0
+species::linedcheeked (oxycheilinus digramma),algae_strings,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+species::linedcheeked (oxycheilinus digramma),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+species::linedcheeked (oxycheilinus digramma),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::linedcheeked (oxycheilinus digramma),mackerel,4,1,0.25,0.25,0.0,0.5,1.0
+species::longbarbel (parupeneus macronemus),algae_strings,3,3,1.0,5.666666666666667,5.0,1.1547005383792517,7.0
+species::longbarbel (parupeneus macronemus),algaemix,3,3,1.0,2.6666666666666665,2.0,1.1547005383792515,4.0
+species::longbarbel (parupeneus macronemus),control,1,1,1.0,2.0,2.0,0.0,2.0
+species::longbarbel (parupeneus macronemus),mackerel,4,4,1.0,3.0,2.5,2.449489742783178,6.0
+species::longfin banner (heniochus acuminatus),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+species::longfin banner (heniochus acuminatus),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+species::longfin banner (heniochus acuminatus),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::longfin banner (heniochus acuminatus),mackerel,4,2,0.5,0.75,0.5,0.9574271077563381,2.0
+species::longnose (lethrinus olivaceus),algae_strings,3,1,0.3333333333333333,0.6666666666666666,0.0,1.1547005383792517,2.0
+species::longnose (lethrinus olivaceus),algaemix,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+species::longnose (lethrinus olivaceus),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::longnose (lethrinus olivaceus),mackerel,4,1,0.25,0.5,0.0,1.0,2.0
+species::mahsena (lethrinus mahsena),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+species::mahsena (lethrinus mahsena),algaemix,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+species::mahsena (lethrinus mahsena),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::mahsena (lethrinus mahsena),mackerel,4,1,0.25,0.25,0.0,0.5,1.0
+species::map (arothron mappa),algae_strings,3,2,0.6666666666666666,0.6666666666666666,1.0,0.5773502691896258,1.0
+species::map (arothron mappa),algaemix,3,1,0.3333333333333333,0.6666666666666666,0.0,1.1547005383792517,2.0
+species::map (arothron mappa),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::map (arothron mappa),mackerel,4,0,0.0,0.0,0.0,0.0,0.0
+species::monk (acanthurus gahhm),algae_strings,3,3,1.0,2.6666666666666665,2.0,1.1547005383792515,4.0
+species::monk (acanthurus gahhm),algaemix,3,3,1.0,2.0,2.0,0.0,2.0
+species::monk (acanthurus gahhm),control,1,1,1.0,8.0,8.0,0.0,8.0
+species::monk (acanthurus gahhm),mackerel,4,4,1.0,2.0,2.0,0.816496580927726,3.0
+species::moon (thalassoma lunare),algae_strings,3,2,0.6666666666666666,0.6666666666666666,1.0,0.5773502691896258,1.0
+species::moon (thalassoma lunare),algaemix,3,3,1.0,1.3333333333333333,1.0,0.5773502691896257,2.0
+species::moon (thalassoma lunare),control,1,1,1.0,1.0,1.0,0.0,1.0
+species::moon (thalassoma lunare),mackerel,4,4,1.0,4.5,3.0,4.509249752822894,11.0
+species::moorish idol (zanclus cornutus),algae_strings,3,3,1.0,1.6666666666666667,2.0,0.5773502691896257,2.0
+species::moorish idol (zanclus cornutus),algaemix,3,3,1.0,4.0,4.0,3.0,7.0
+species::moorish idol (zanclus cornutus),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::moorish idol (zanclus cornutus),mackerel,4,2,0.5,2.25,0.5,3.8622100754188224,8.0
+species::mozambique fangblenny (meiacanthus mossambicus),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+species::mozambique fangblenny (meiacanthus mossambicus),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+species::mozambique fangblenny (meiacanthus mossambicus),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::mozambique fangblenny (meiacanthus mossambicus),mackerel,4,2,0.5,0.75,0.5,0.9574271077563381,2.0
+species::paletail unicorn (naso brevirostris),algae_strings,3,3,1.0,20.0,23.0,5.196152422706632,23.0
+species::paletail unicorn (naso brevirostris),algaemix,3,3,1.0,31.0,32.0,9.539392014169456,40.0
+species::paletail unicorn (naso brevirostris),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::paletail unicorn (naso brevirostris),mackerel,4,3,0.75,3.25,1.5,4.573474244670748,10.0
+species::peacock damsel (pomacentrus pavo),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+species::peacock damsel (pomacentrus pavo),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+species::peacock damsel (pomacentrus pavo),control,1,1,1.0,2.0,2.0,0.0,2.0
+species::peacock damsel (pomacentrus pavo),mackerel,4,1,0.25,1.25,0.0,2.5,5.0
+species::queen (coris formosa),algae_strings,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+species::queen (coris formosa),algaemix,3,2,0.6666666666666666,0.6666666666666666,1.0,0.5773502691896258,1.0
+species::queen (coris formosa),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::queen (coris formosa),mackerel,4,1,0.25,0.25,0.0,0.5,1.0
+species::raccoon (chaetodon lunula),algae_strings,3,2,0.6666666666666666,0.6666666666666666,1.0,0.5773502691896258,1.0
+species::raccoon (chaetodon lunula),algaemix,3,2,0.6666666666666666,0.6666666666666666,1.0,0.5773502691896258,1.0
+species::raccoon (chaetodon lunula),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::raccoon (chaetodon lunula),mackerel,4,1,0.25,0.25,0.0,0.5,1.0
+species::red (lutjanus bohar),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+species::red (lutjanus bohar),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+species::red (lutjanus bohar),control,1,1,1.0,1.0,1.0,0.0,1.0
+species::red (lutjanus bohar),mackerel,4,3,0.75,1.25,1.5,0.9574271077563381,2.0
+species::red-breasted (cheilinus fasciatus),algae_strings,3,3,1.0,1.3333333333333333,1.0,0.5773502691896257,2.0
+species::red-breasted (cheilinus fasciatus),algaemix,3,2,0.6666666666666666,0.6666666666666666,1.0,0.5773502691896258,1.0
+species::red-breasted (cheilinus fasciatus),control,1,1,1.0,1.0,1.0,0.0,1.0
+species::red-breasted (cheilinus fasciatus),mackerel,4,1,0.25,0.25,0.0,0.5,1.0
+species::redmouth (aethaloperca rogaa),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+species::redmouth (aethaloperca rogaa),algaemix,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+species::redmouth (aethaloperca rogaa),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::redmouth (aethaloperca rogaa),mackerel,4,1,0.25,0.25,0.0,0.5,1.0
+species::rockmover (novaculichthys taeniourus),algae_strings,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+species::rockmover (novaculichthys taeniourus),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+species::rockmover (novaculichthys taeniourus),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::rockmover (novaculichthys taeniourus),mackerel,4,0,0.0,0.0,0.0,0.0,0.0
+species::saddleback (chaetodon falcula),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+species::saddleback (chaetodon falcula),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+species::saddleback (chaetodon falcula),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::saddleback (chaetodon falcula),mackerel,4,2,0.5,0.5,0.5,0.5773502691896257,1.0
+species::sailfin tang (zebrasoma desjardinii),algae_strings,3,3,1.0,2.6666666666666665,3.0,0.5773502691896258,3.0
+species::sailfin tang (zebrasoma desjardinii),algaemix,3,3,1.0,2.3333333333333335,2.0,0.5773502691896258,3.0
+species::sailfin tang (zebrasoma desjardinii),control,1,1,1.0,3.0,3.0,0.0,3.0
+species::sailfin tang (zebrasoma desjardinii),mackerel,4,2,0.5,0.5,0.5,0.5773502691896257,1.0
+species::scissortail sergeant (abudefduf sexfasciatus),algae_strings,3,2,0.6666666666666666,2.0,1.0,2.6457513110645907,5.0
+species::scissortail sergeant (abudefduf sexfasciatus),algaemix,3,3,1.0,2.0,2.0,1.0,3.0
+species::scissortail sergeant (abudefduf sexfasciatus),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::scissortail sergeant (abudefduf sexfasciatus),mackerel,4,2,0.5,1.25,1.0,1.5,3.0
+species::scrawled (aluterus scriptus),algae_strings,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+species::scrawled (aluterus scriptus),algaemix,3,2,0.6666666666666666,0.6666666666666666,1.0,0.5773502691896258,1.0
+species::scrawled (aluterus scriptus),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::scrawled (aluterus scriptus),mackerel,4,1,0.25,0.25,0.0,0.5,1.0
+species::sidespot (parupeneus pleurostigma),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+species::sidespot (parupeneus pleurostigma),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+species::sidespot (parupeneus pleurostigma),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::sidespot (parupeneus pleurostigma),mackerel,4,1,0.25,2.0,0.0,4.0,8.0
+species::sixbar (thalassoma hardwicke),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+species::sixbar (thalassoma hardwicke),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+species::sixbar (thalassoma hardwicke),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::sixbar (thalassoma hardwicke),mackerel,4,1,0.25,0.25,0.0,0.5,1.0
+species::snubnose (lethrinus borbonicus),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+species::snubnose (lethrinus borbonicus),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+species::snubnose (lethrinus borbonicus),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::snubnose (lethrinus borbonicus),mackerel,4,3,0.75,0.75,1.0,0.5,1.0
+species::speckled (parapercis hexophthalma),algae_strings,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+species::speckled (parapercis hexophthalma),algaemix,3,2,0.6666666666666666,0.6666666666666666,1.0,0.5773502691896258,1.0
+species::speckled (parapercis hexophthalma),control,1,1,1.0,2.0,2.0,0.0,2.0
+species::speckled (parapercis hexophthalma),mackerel,4,4,1.0,2.25,2.0,1.5,4.0
+species::spotted (diodon hystrix),algae_strings,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+species::spotted (diodon hystrix),algaemix,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+species::spotted (diodon hystrix),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::spotted (diodon hystrix),mackerel,4,1,0.25,0.25,0.0,0.5,1.0
+species::spotted toby (canthigaster solandri),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+species::spotted toby (canthigaster solandri),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+species::spotted toby (canthigaster solandri),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::spotted toby (canthigaster solandri),mackerel,4,1,0.25,0.5,0.0,1.0,2.0
+species::threadfin (chaetodon auriga),algae_strings,3,3,1.0,1.6666666666666667,1.0,1.1547005383792517,3.0
+species::threadfin (chaetodon auriga),algaemix,3,3,1.0,2.6666666666666665,3.0,1.5275252316519465,4.0
+species::threadfin (chaetodon auriga),control,1,1,1.0,1.0,1.0,0.0,1.0
+species::threadfin (chaetodon auriga),mackerel,4,4,1.0,2.0,1.5,1.4142135623730951,4.0
+species::threespot dascyllus (dascyllus trimaculatus),algae_strings,3,3,1.0,6.666666666666667,6.0,2.0816659994661326,9.0
+species::threespot dascyllus (dascyllus trimaculatus),algaemix,3,3,1.0,8.333333333333334,8.0,4.509249752822894,13.0
+species::threespot dascyllus (dascyllus trimaculatus),control,1,1,1.0,1.0,1.0,0.0,1.0
+species::threespot dascyllus (dascyllus trimaculatus),mackerel,4,4,1.0,10.5,10.0,7.767453465154029,20.0
+species::thumbprint (lethrinus harak),algae_strings,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+species::thumbprint (lethrinus harak),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+species::thumbprint (lethrinus harak),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::thumbprint (lethrinus harak),mackerel,4,1,0.25,0.5,0.0,1.0,2.0
+species::titan (balistoides viridescens),algae_strings,3,3,1.0,1.3333333333333333,1.0,0.5773502691896257,2.0
+species::titan (balistoides viridescens),algaemix,3,2,0.6666666666666666,1.6666666666666667,1.0,2.0816659994661326,4.0
+species::titan (balistoides viridescens),control,1,1,1.0,1.0,1.0,0.0,1.0
+species::titan (balistoides viridescens),mackerel,4,3,0.75,1.0,1.0,0.816496580927726,2.0
+species::trumpetfish (aulostomus chinensis),algae_strings,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+species::trumpetfish (aulostomus chinensis),algaemix,3,2,0.6666666666666666,1.0,1.0,1.0,2.0
+species::trumpetfish (aulostomus chinensis),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::trumpetfish (aulostomus chinensis),mackerel,4,0,0.0,0.0,0.0,0.0,0.0
+species::weber's puller (chromis weberi),algae_strings,3,3,1.0,2.3333333333333335,2.0,1.5275252316519465,4.0
+species::weber's puller (chromis weberi),algaemix,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
+species::weber's puller (chromis weberi),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::weber's puller (chromis weberi),mackerel,4,0,0.0,0.0,0.0,0.0,0.0
+species::whitetail (acanthurus thompsoni),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+species::whitetail (acanthurus thompsoni),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+species::whitetail (acanthurus thompsoni),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::whitetail (acanthurus thompsoni),mackerel,4,1,0.25,0.5,0.0,1.0,2.0
+species::wirenet (cantherhines pardalis),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+species::wirenet (cantherhines pardalis),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
+species::wirenet (cantherhines pardalis),control,1,1,1.0,1.0,1.0,0.0,1.0
+species::wirenet (cantherhines pardalis),mackerel,4,0,0.0,0.0,0.0,0.0,0.0
+species::yellow-margin (gymnothorax flavimarginatus),algae_strings,3,3,1.0,1.3333333333333333,1.0,0.5773502691896257,2.0
+species::yellow-margin (gymnothorax flavimarginatus),algaemix,3,2,0.6666666666666666,1.0,1.0,1.0,2.0
+species::yellow-margin (gymnothorax flavimarginatus),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::yellow-margin (gymnothorax flavimarginatus),mackerel,4,0,0.0,0.0,0.0,0.0,0.0
+species::yellowhead (chaetodon xanthocephalus),algae_strings,3,3,1.0,1.6666666666666667,2.0,0.5773502691896257,2.0
+species::yellowhead (chaetodon xanthocephalus),algaemix,3,2,0.6666666666666666,0.6666666666666666,1.0,0.5773502691896258,1.0
+species::yellowhead (chaetodon xanthocephalus),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::yellowhead (chaetodon xanthocephalus),mackerel,4,3,0.75,2.25,2.5,2.0615528128088303,4.0
+species::yellowmargin (pseudobalistes flavimarginatus),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
+species::yellowmargin (pseudobalistes flavimarginatus),algaemix,3,1,0.3333333333333333,2.0,0.0,3.4641016151377544,6.0
+species::yellowmargin (pseudobalistes flavimarginatus),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::yellowmargin (pseudobalistes flavimarginatus),mackerel,4,0,0.0,0.0,0.0,0.0,0.0
+species::yellowstripe (mulloidichthys flavolineatus),algae_strings,3,1,0.3333333333333333,1.6666666666666667,0.0,2.8867513459481287,5.0
+species::yellowstripe (mulloidichthys flavolineatus),algaemix,3,3,1.0,4.333333333333333,4.0,1.5275252316519465,6.0
+species::yellowstripe (mulloidichthys flavolineatus),control,1,0,0.0,0.0,0.0,0.0,0.0
+species::yellowstripe (mulloidichthys flavolineatus),mackerel,4,0,0.0,0.0,0.0,0.0,0.0

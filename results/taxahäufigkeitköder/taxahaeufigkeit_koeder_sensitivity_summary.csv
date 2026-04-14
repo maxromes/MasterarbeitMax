@@ -1,0 +1,13 @@
+standort,n_taxa_tested,n_raw_p_lt_0_05,n_holm_p_lt_0_05,n_fdr_q_lt_0_05,filter,n_taxa_in_filter,n_raw_p_lt_0_05_in_filter,n_fdr_q_lt_0_05_in_filter
+milimani,104,6,0,0,none,104,6,0
+milimani,104,6,0,0,n_videos_present>=2,89,5,0
+milimani,104,6,0,0,n_videos_present>=3,71,5,0
+milimani,104,6,0,0,occ_rate>=0.20,63,4,0
+nursery,99,11,0,0,none,99,11,0
+nursery,99,11,0,0,n_videos_present>=2,69,6,0
+nursery,99,11,0,0,n_videos_present>=3,55,6,0
+nursery,99,11,0,0,occ_rate>=0.20,55,6,0
+utumbi,120,8,0,0,none,120,8,0
+utumbi,120,8,0,0,n_videos_present>=2,100,8,0
+utumbi,120,8,0,0,n_videos_present>=3,85,7,0
+utumbi,120,8,0,0,occ_rate>=0.20,76,6,0

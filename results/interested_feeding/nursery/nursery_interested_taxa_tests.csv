@@ -1,0 +1,14 @@
+taxon_key,n_total,n_koeder,h_stat,p_value,eta_sq,dominant_koeder_mean,lowest_koeder_mean,mean_diff_max_minus_min,mean_algae_strings,occ_algae_strings,mean_algaemix,occ_algaemix,mean_control,occ_control,mean_mackerel,occ_mackerel,p_value_holm,significant_0_05,significant_0_05_holm,sig_label_raw,sig_label_holm
+species::longbarbel (parupeneus macronemus),11,4,5.866666666666677,0.11828047709120539,0.409523809523811,algae_strings,algaemix,2.0,2.0,0.6666666666666666,0.0,0.0,0.0,0.0,0.0,0.0,1.0,False,False,ns,ns
+species::humpback (lutjanus gibbus),11,4,3.8499999999999996,0.2781236138036487,0.12142857142857137,mackerel,algae_strings,2.25,0.0,0.0,0.0,0.0,0.0,0.0,2.25,0.5,1.0,False,False,ns,ns
+family_label::wrasses interested,11,4,2.6666666666666856,0.44592169836311946,0.0,algae_strings,algaemix,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.0,0.0,0.0,0.0,0.0,0.0,1.0,False,False,ns,ns
+species::honeycomb (siganus stellatus),11,4,2.6666666666666856,0.44592169836311946,0.0,algaemix,algae_strings,0.3333333333333333,0.0,0.0,0.3333333333333333,0.3333333333333333,0.0,0.0,0.0,0.0,1.0,False,False,ns,ns
+species::indian longnose (hipposcarus harid),11,4,2.6666666666666856,0.44592169836311946,0.0,algaemix,algae_strings,0.3333333333333333,0.0,0.0,0.3333333333333333,0.3333333333333333,0.0,0.0,0.0,0.0,1.0,False,False,ns,ns
+species::paletail unicorn (naso brevirostris),11,4,2.6666666666666856,0.44592169836311946,0.0,algaemix,algae_strings,7.666666666666667,0.0,0.0,7.666666666666667,0.3333333333333333,0.0,0.0,0.0,0.0,1.0,False,False,ns,ns
+species::sailfin tang (zebrasoma desjardinii),11,4,2.6666666666666856,0.44592169836311946,0.0,algaemix,algae_strings,0.6666666666666666,0.0,0.0,0.6666666666666666,0.3333333333333333,0.0,0.0,0.0,0.0,1.0,False,False,ns,ns
+species::threadfin (chaetodon auriga),11,4,2.6666666666666856,0.44592169836311946,0.0,algaemix,algae_strings,0.3333333333333333,0.0,0.0,0.3333333333333333,0.3333333333333333,0.0,0.0,0.0,0.0,1.0,False,False,ns,ns
+species::titan (balistoides viridescens),11,4,2.6666666666666856,0.44592169836311946,0.0,algaemix,algae_strings,0.3333333333333333,0.0,0.0,0.3333333333333333,0.3333333333333333,0.0,0.0,0.0,0.0,1.0,False,False,ns,ns
+species::red-breasted (cheilinus fasciatus),11,4,1.8518518518518572,0.6037169126946011,0.0,algae_strings,control,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.0,0.0,0.0,0.0,1.0,False,False,ns,ns
+species::black-lipped (chaetodon kleinii),11,4,1.75,0.6258754534605726,0.0,mackerel,algae_strings,0.25,0.0,0.0,0.0,0.0,0.0,0.0,0.25,0.25,1.0,False,False,ns,ns
+species::green (amblyglyphidodon indicus),11,4,1.75,0.6258754534605726,0.0,mackerel,algae_strings,0.75,0.0,0.0,0.0,0.0,0.0,0.0,0.75,0.25,1.0,False,False,ns,ns
+species::red (lutjanus bohar),11,4,1.75,0.6258754534605726,0.0,mackerel,algae_strings,0.25,0.0,0.0,0.0,0.0,0.0,0.0,0.25,0.25,1.0,False,False,ns,ns

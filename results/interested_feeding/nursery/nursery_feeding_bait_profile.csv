@@ -1,0 +1,5 @@
+site,flag,koeder,n_videos,mean_total_events,median_total_events,mean_unique_taxa,n_bait_specific_taxa,n_trend_taxa_dominant
+nursery,feeding,algae_strings,3,13.666666666666666,13.0,5.0,5,1
+nursery,feeding,algaemix,3,33.666666666666664,31.0,3.6666666666666665,2,1
+nursery,feeding,control,1,0.0,0.0,0.0,0,0
+nursery,feeding,mackerel,4,5.75,4.5,2.25,5,0

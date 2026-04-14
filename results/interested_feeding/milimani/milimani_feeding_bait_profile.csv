@@ -1,0 +1,7 @@
+site,flag,koeder,n_videos,mean_total_events,median_total_events,mean_unique_taxa,n_bait_specific_taxa,n_trend_taxa_dominant
+milimani,feeding,control,3,0.0,0.0,0.0,0,0
+milimani,feeding,fischmix,1,12.0,12.0,5.0,1,1
+milimani,feeding,mackerel,3,4.333333333333333,0.0,1.3333333333333333,0,0
+milimani,feeding,sargassum,3,2.0,2.0,1.3333333333333333,1,0
+milimani,feeding,ulva_gutweed,3,0.0,0.0,0.0,0,0
+milimani,feeding,ulva_salad,4,0.25,0.0,0.25,0,0

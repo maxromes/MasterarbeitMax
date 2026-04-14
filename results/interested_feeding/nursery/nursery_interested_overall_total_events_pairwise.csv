@@ -1,0 +1,7 @@
+site,flag,koeder_a,koeder_b,n_a,n_b,mean_total_a,mean_total_b,u_stat,p_value,p_value_holm,significant_0_05,significant_0_05_holm,sig_label_raw,sig_label_holm
+nursery,interested,algae_strings,algaemix,3,3,2.6666666666666665,10.0,3.5,0.8247780950825133,1.0,False,False,ns,ns
+nursery,interested,algae_strings,control,3,1,2.6666666666666665,0.0,2.5,0.6373518882339371,1.0,False,False,ns,ns
+nursery,interested,algae_strings,mackerel,3,4,2.6666666666666665,3.5,6.0,1.0,1.0,False,False,ns,ns
+nursery,interested,algaemix,control,3,1,10.0,0.0,2.5,0.6373518882339371,1.0,False,False,ns,ns
+nursery,interested,algaemix,mackerel,3,4,10.0,3.5,7.0,0.8544450676295319,1.0,False,False,ns,ns
+nursery,interested,control,mackerel,1,4,0.0,3.5,1.0,0.6926327840419602,1.0,False,False,ns,ns

@@ -1,0 +1,17 @@
+taxon_key,n_total,n_koeder,h_stat,p_value,eta_sq,dominant_koeder_mean,lowest_koeder_mean,mean_diff_max_minus_min,mean_algae_strings,occ_algae_strings,mean_algaemix,occ_algaemix,mean_control,occ_control,mean_mackerel,occ_mackerel,p_value_holm,significant_0_05,significant_0_05_holm,sig_label_raw,sig_label_holm
+species::paletail unicorn (naso brevirostris),11,4,9.64824120603015,0.021805509390343192,0.9497487437185929,algaemix,control,30.333333333333332,6.666666666666667,1.0,30.333333333333332,1.0,0.0,0.0,0.0,0.0,0.3488881502454911,True,False,*,ns
+species::honeycomb (siganus stellatus),11,4,8.735042735042734,0.033029160317079344,0.8192918192918192,algae_strings,control,2.0,2.0,1.0,1.3333333333333333,1.0,0.0,0.0,0.0,0.0,0.49543740475619014,True,False,*,ns
+species::monk (acanthurus gahhm),11,4,5.925925925925937,0.1152702344589104,0.4179894179894196,algae_strings,algaemix,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.0,0.0,0.0,0.0,0.0,0.0,1.0,False,False,ns,ns
+species::longbarbel (parupeneus macronemus),11,4,5.925925925925937,0.1152702344589104,0.4179894179894196,algae_strings,algaemix,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.0,0.0,0.0,0.0,0.0,0.0,1.0,False,False,ns,ns
+family_label::siganus feeding,11,4,5.866666666666677,0.11828047709120539,0.409523809523811,algae_strings,algaemix,1.3333333333333333,1.3333333333333333,0.6666666666666666,0.0,0.0,0.0,0.0,0.0,0.0,1.0,False,False,ns,ns
+species::humpback (lutjanus gibbus),11,4,5.162601626016264,0.16027058091663646,0.3089430894308949,mackerel,algae_strings,3.0,0.0,0.0,0.6666666666666666,0.3333333333333333,0.0,0.0,3.0,0.75,1.0,False,False,ns,ns
+species::red (lutjanus bohar),11,4,3.8888888888888893,0.27371478158358786,0.12698412698412703,mackerel,algae_strings,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.5,1.0,False,False,ns,ns
+family_label::parrotfishes feeding,11,4,3.3580246913580276,0.3396479945026112,0.051146384479718233,algae_strings,control,1.3333333333333333,1.3333333333333333,0.3333333333333333,0.6666666666666666,0.6666666666666666,0.0,0.0,0.0,0.0,1.0,False,False,ns,ns
+species::threadfin (chaetodon auriga),11,4,2.6666666666666856,0.44592169836311946,0.0,algaemix,algae_strings,0.3333333333333333,0.0,0.0,0.3333333333333333,0.3333333333333333,0.0,0.0,0.0,0.0,1.0,False,False,ns,ns
+species::yellow-margin (gymnothorax flavimarginatus),11,4,2.6666666666666856,0.44592169836311946,0.0,algaemix,algae_strings,0.3333333333333333,0.0,0.0,0.3333333333333333,0.3333333333333333,0.0,0.0,0.0,0.0,1.0,False,False,ns,ns
+species::blue barred (scarus ghobban),11,4,2.6666666666666856,0.44592169836311946,0.0,algae_strings,algaemix,0.6666666666666666,0.6666666666666666,0.3333333333333333,0.0,0.0,0.0,0.0,0.0,0.0,1.0,False,False,ns,ns
+species::red-breasted (cheilinus fasciatus),11,4,2.6666666666666856,0.44592169836311946,0.0,algae_strings,algaemix,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.0,0.0,0.0,0.0,0.0,0.0,1.0,False,False,ns,ns
+family_label::groupers feeding,11,4,1.75,0.6258754534605726,0.0,mackerel,algae_strings,0.75,0.0,0.0,0.0,0.0,0.0,0.0,0.75,0.25,1.0,False,False,ns,ns
+species::black-lipped (chaetodon kleinii),11,4,1.75,0.6258754534605726,0.0,mackerel,algae_strings,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.25,1.0,False,False,ns,ns
+species::longfin banner (heniochus acuminatus),11,4,1.75,0.6258754534605726,0.0,mackerel,algae_strings,0.75,0.0,0.0,0.0,0.0,0.0,0.0,0.75,0.25,1.0,False,False,ns,ns
+species::longnose (lethrinus olivaceus),11,4,1.75,0.6258754534605726,0.0,mackerel,algae_strings,0.25,0.0,0.0,0.0,0.0,0.0,0.0,0.25,0.25,1.0,False,False,ns,ns

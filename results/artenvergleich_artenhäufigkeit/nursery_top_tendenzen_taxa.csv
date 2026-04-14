@@ -1,0 +1,12 @@
+taxon_key,dominant_koeder,p_value,p_value_holm,ratio,dom_mean_maxn,low_mean_maxn
+family_label::batfishes (ephippidae),control,0.0185661354630432,1.0,inf,1.0,0.0
+family_label::puffers (tetraodontidae),control,0.0185661354630432,1.0,inf,2.0,0.0
+family_label::snappers (lutjanidae),control,0.0185661354630432,1.0,inf,1.0,0.0
+label::stomatapoda,control,0.0185661354630432,1.0,inf,1.0,0.0
+species::wirenet (cantherhines pardalis),control,0.0185661354630432,1.0,inf,1.0,0.0
+species::bullethead (chlorurus sordidus),algae_strings,0.0216228376077033,1.0,inf,2.0,0.0
+species::blue barred (scarus ghobban),algae_strings,0.0348920008996497,1.0,inf,4.0,0.0
+species::arabian monocle (scolopsis ghanam),algaemix,0.0353204346909343,1.0,14.0,14.0,1.0
+species::paletail unicorn (naso brevirostris),algaemix,0.0418822805693427,1.0,inf,31.0,0.0
+species::sailfin tang (zebrasoma desjardinii),control,0.0458768203038344,1.0,6.0,3.0,0.5
+species::weber's puller (chromis weberi),algae_strings,0.0469507172203201,1.0,inf,2.333333333333333,0.0

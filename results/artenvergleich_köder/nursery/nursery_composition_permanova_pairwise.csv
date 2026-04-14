@@ -1,0 +1,7 @@
+group_a,group_b,n_a,n_b,n_videos,pseudo_f,p_value,n_perm,note,p_value_holm,significant_0_05,significant_0_05_holm,sig_label_raw,sig_label_holm
+algae_strings,mackerel,3,4,7,2.737069187768094,0.03499300139972006,5000,,0.20995800839832035,True,False,*,ns
+algaemix,mackerel,3,4,7,2.0928684657800463,0.0619876024795041,5000,,0.3099380123975205,False,False,ns,ns
+control,mackerel,1,4,5,1.2374330607009316,0.1939612077584483,5000,,0.7758448310337932,False,False,ns,ns
+algaemix,control,3,1,4,3.0805780584479145,0.2471505698860228,5000,,0.7758448310337932,False,False,ns,ns
+algae_strings,control,3,1,4,3.219053529578709,0.2561487702459508,5000,,0.7758448310337932,False,False,ns,ns
+algae_strings,algaemix,3,3,6,1.1249443162188537,0.4971005798840232,5000,,0.7758448310337932,False,False,ns,ns

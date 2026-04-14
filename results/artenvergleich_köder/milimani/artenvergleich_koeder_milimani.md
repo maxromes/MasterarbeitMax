@@ -29,6 +29,39 @@
 | fischmix     | ulva_salad   |         47 |         71 |                  39 |           79 |             0.493671 |           0.506329 |          8 |         32 |
 | fischmix     | ulva_gutweed |         47 |         66 |                  36 |           77 |             0.467532 |           0.532468 |         11 |         30 |
 
+## Signifikanztests (Taxa-Zusammensetzung)
+Methodik: PERMANOVA mit Jaccard-Distanzen auf Videoebene (Presence/Absence), Permutationstest.
+Permutationenzahl: 5000, alpha=0.05.
+
+### Globaler Test je Standort
+| test                                                    | groups                                                           |   n_videos |   n_groups |   pseudo_f |   p_value |   n_perm | significant_0_05   | sig_label   | note   |
+|:--------------------------------------------------------|:-----------------------------------------------------------------|-----------:|-----------:|-----------:|----------:|---------:|:-------------------|:------------|:-------|
+| PERMANOVA (Jaccard distance, taxa composition ~ koeder) | control, fischmix, mackerel, sargassum, ulva_gutweed, ulva_salad |         17 |          6 |    1.31358 | 0.0241952 |     5000 | True               | *           |        |
+
+### Paarweise Koeder-Tests
+| group_a      | group_b      |   n_a |   n_b |   n_videos |   pseudo_f |   p_value |   n_perm | note   |   p_value_holm | significant_0_05   | significant_0_05_holm   | sig_label_raw   | sig_label_holm   |
+|:-------------|:-------------|------:|------:|-----------:|-----------:|----------:|---------:|:-------|---------------:|:-------------------|:------------------------|:----------------|:-----------------|
+| sargassum    | ulva_salad   |     3 |     4 |          7 |    1.49656 | 0.0575885 |     5000 |        |       0.863827 | False              | False                   | ns              | ns               |
+| mackerel     | ulva_salad   |     3 |     4 |          7 |    1.37573 | 0.0855829 |     5000 |        |       1        | False              | False                   | ns              | ns               |
+| sargassum    | ulva_gutweed |     3 |     3 |          6 |    1.52672 | 0.0967806 |     5000 |        |       1        | False              | False                   | ns              | ns               |
+| control      | ulva_gutweed |     3 |     3 |          6 |    1.55789 | 0.109978  |     5000 |        |       1        | False              | False                   | ns              | ns               |
+| mackerel     | ulva_gutweed |     3 |     3 |          6 |    1.32453 | 0.193161  |     5000 |        |       1        | False              | False                   | ns              | ns               |
+| fischmix     | ulva_salad   |     1 |     4 |          5 |    1.2868  | 0.196761  |     5000 |        |       1        | False              | False                   | ns              | ns               |
+| fischmix     | ulva_gutweed |     1 |     3 |          4 |    1.58028 | 0.24855   |     5000 |        |       1        | False              | False                   | ns              | ns               |
+| fischmix     | sargassum    |     1 |     3 |          4 |    2.07452 | 0.24875   |     5000 |        |       1        | False              | False                   | ns              | ns               |
+| control      | fischmix     |     3 |     1 |          4 |    1.44388 | 0.257149  |     5000 |        |       1        | False              | False                   | ns              | ns               |
+| mackerel     | sargassum    |     3 |     3 |          6 |    1.264   | 0.29774   |     5000 |        |       1        | False              | False                   | ns              | ns               |
+| control      | mackerel     |     3 |     3 |          6 |    1.26959 | 0.303539  |     5000 |        |       1        | False              | False                   | ns              | ns               |
+| ulva_gutweed | ulva_salad   |     3 |     4 |          7 |    1.10127 | 0.34833   |     5000 |        |       1        | False              | False                   | ns              | ns               |
+| control      | ulva_salad   |     3 |     4 |          7 |    1.0492  | 0.364527  |     5000 |        |       1        | False              | False                   | ns              | ns               |
+| control      | sargassum    |     3 |     3 |          6 |    1.22503 | 0.406719  |     5000 |        |       1        | False              | False                   | ns              | ns               |
+| fischmix     | mackerel     |     1 |     3 |          4 |    0.73645 | 0.75105   |     5000 |        |       1        | False              | False                   | ns              | ns               |
+
+### Interpretation
+- Der globale Test ist signifikant (p=0.0242): Die Taxa-Zusammensetzung unterscheidet sich insgesamt zwischen Koedern.
+- Nach Holm-Korrektur ist kein einzelner paarweiser Koedervergleich signifikant.
+- Hinweis: Kleine Gruppengroessen pro Koeder reduzieren die Teststaerke der paarweisen Analysen.
+
 ## Koederspezifische Taxa (Anzahl)
 | koeder       |   n_bait_specific_taxa |   n_videos |
 |:-------------|-----------------------:|-----------:|

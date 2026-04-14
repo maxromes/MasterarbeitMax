@@ -1,0 +1,7 @@
+taxon_key,dominant_koeder,p_value,p_value_holm,ratio,dom_mean_maxn,low_mean_maxn
+species::blue-green (chromis viridis),fischmix,0.0068440739224204,0.7117836879317279,inf,14.0,0.0
+species::moorish idol (zanclus cornutus),mackerel,0.0145643388437107,1.0,inf,2.333333333333333,0.0
+species::red (lutjanus bohar),fischmix,0.0208256748734007,1.0,32.0,8.0,0.25
+species::green (amblyglyphidodon indicus),fischmix,0.0272699871448464,1.0,16.0,16.0,1.0
+species::black-backed (chaetodon melannotus),mackerel,0.029727223947442,1.0,inf,2.0,0.0
+species::ternate (chromis ternatensis),mackerel,0.0481307464970124,1.0,inf,40.66666666666666,0.0

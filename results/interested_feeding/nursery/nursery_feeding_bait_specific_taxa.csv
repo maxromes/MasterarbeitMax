@@ -1,0 +1,13 @@
+koeder,taxon_key
+mackerel,family_label::groupers feeding
+algae_strings,family_label::siganus feeding
+mackerel,species::black-lipped (chaetodon kleinii)
+algae_strings,species::blue barred (scarus ghobban)
+algae_strings,species::longbarbel (parupeneus macronemus)
+mackerel,species::longfin banner (heniochus acuminatus)
+mackerel,species::longnose (lethrinus olivaceus)
+algae_strings,species::monk (acanthurus gahhm)
+mackerel,species::red (lutjanus bohar)
+algae_strings,species::red-breasted (cheilinus fasciatus)
+algaemix,species::threadfin (chaetodon auriga)
+algaemix,species::yellow-margin (gymnothorax flavimarginatus)
