@@ -1,4 +1,4 @@
 standort,n_taxa_tested_freq,n_raw_sig_taxa_freq,n_holm_sig_taxa_freq,n_raw_sig_pairwise_freq,n_holm_sig_pairwise_freq,composition_global_p,composition_global_sig_0_05,n_raw_sig_pairwise_composition,n_holm_sig_pairwise_composition,n_taxa_with_raw_tendency,n_taxa_with_holm_effect
 milimani,104,6,0,13,0,0.0241951609678064,True,0,0,6,0
 utumbi,120,8,0,16,0,0.0045990801839632,True,0,0,8,0
-nursery,99,11,0,11,0,,False,0,0,11,0
+nursery,99,11,0,11,0,0.0015996800639872,True,1,0,11,0

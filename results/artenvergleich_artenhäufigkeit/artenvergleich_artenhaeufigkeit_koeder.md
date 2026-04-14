@@ -10,7 +10,7 @@ Bestimmt wird, bei welchem Koeder sich Unterschiede zu anderen Koedern zeigen, s
 |:--|--:|--:|--:|--:|--:|:--|
 | milimani | 6 | 0 | 13 | 0 | 0.0242 | True |
 | utumbi | 8 | 0 | 16 | 0 | 0.0046 | True |
-| nursery | 11 | 0 | 11 | 0 | NA | False |
+| nursery | 11 | 0 | 11 | 0 | 0.0016 | True |
 
 Interpretation:
 - Milimani und Utumbi zeigen signifikante globale Unterschiede in der Taxa-Zusammensetzung zwischen Koedern.
@@ -98,23 +98,23 @@ Interpretation:
 ## Standort nursery
 
 ### Gesamtbild
-- Kein separater Kompositionstest aus der Artenvergleich-Analyse verfuegbar (dieser Standort wurde dort nicht separat gerechnet).
+- Kompositionsunterschiede ueber alle Koeder: p=0.0016 (signifikant).
 - Taxa-Haeufigkeit: 11 Roh-Signale, 0 Holm-signifikante Taxa.
 - Paarweise MaxN-Tests: 11 Roh-signifikante Kontraste, 0 nach Holm.
 
 ### Koederprofil je Koeder
 | koeder | dominante Taxa (MaxN) | Roh-Tendenzen unter dominanten Taxa | starke Dominanz (Ratio >= 3) | koederspezifische Taxa (Vorkommen) | mittlere Jaccard-Distanz |
 |:--|--:|--:|--:|--:|--:|
-| algae_strings | 26 | 3 | 24 | NA | NA |
-| algaemix | 28 | 2 | 26 | NA | NA |
-| control | 14 | 6 | 14 | NA | NA |
-| mackerel | 31 | 0 | 31 | NA | NA |
+| algae_strings | 26 | 3 | 24 | 6 | 0.548 |
+| algaemix | 28 | 2 | 26 | 9 | 0.552 |
+| control | 14 | 6 | 14 | 5 | 0.736 |
+| mackerel | 31 | 0 | 31 | 19 | 0.598 |
 
 ### Besonderheiten je Koeder
-- nursery/algae_strings: Profil ausgepraegt; dominante Taxa nach MaxN: 26; davon Roh-Signal (p<0.05): 3; starke Dominanz (Max/Min >= 3): 24; mittleres dominantes MaxN-Niveau: 1.97
-- nursery/algaemix: Profil ausgepraegt; dominante Taxa nach MaxN: 28; davon Roh-Signal (p<0.05): 2; starke Dominanz (Max/Min >= 3): 26; mittleres dominantes MaxN-Niveau: 4.23
-- nursery/control: Profil ausgepraegt; dominante Taxa nach MaxN: 14; davon Roh-Signal (p<0.05): 6; starke Dominanz (Max/Min >= 3): 14; mittleres dominantes MaxN-Niveau: 2.43
-- nursery/mackerel: Profil ausgepraegt; dominante Taxa nach MaxN: 31; davon Roh-Signal (p<0.05): 0; starke Dominanz (Max/Min >= 3): 31; mittleres dominantes MaxN-Niveau: 1.84
+- nursery/algae_strings: Profil ausgepraegt; koederspezifische Taxa (Vorkommen): 6; mittlere Distanz in der Taxa-Zusammensetzung zu anderen Koedern: 0.548; dominante Taxa nach MaxN: 26; davon Roh-Signal (p<0.05): 3; starke Dominanz (Max/Min >= 3): 24; mittleres dominantes MaxN-Niveau: 1.97
+- nursery/algaemix: Profil ausgepraegt; koederspezifische Taxa (Vorkommen): 9; mittlere Distanz in der Taxa-Zusammensetzung zu anderen Koedern: 0.552; dominante Taxa nach MaxN: 28; davon Roh-Signal (p<0.05): 2; starke Dominanz (Max/Min >= 3): 26; mittleres dominantes MaxN-Niveau: 4.23
+- nursery/control: Profil ausgepraegt; koederspezifische Taxa (Vorkommen): 5; mittlere Distanz in der Taxa-Zusammensetzung zu anderen Koedern: 0.736; dominante Taxa nach MaxN: 14; davon Roh-Signal (p<0.05): 6; starke Dominanz (Max/Min >= 3): 14; mittleres dominantes MaxN-Niveau: 2.43
+- nursery/mackerel: Profil ausgepraegt; koederspezifische Taxa (Vorkommen): 19; mittlere Distanz in der Taxa-Zusammensetzung zu anderen Koedern: 0.598; dominante Taxa nach MaxN: 31; davon Roh-Signal (p<0.05): 0; starke Dominanz (Max/Min >= 3): 31; mittleres dominantes MaxN-Niveau: 1.84
 
 ### Wichtigste Taxa-Tendenzen (roh p<0.05, nicht Holm-korrigiert)
 | taxon_key | dominanter koeder | p_value | p_value_holm | ratio max/min | mean_maxn dominant | mean_maxn niedrigster koeder |
@@ -127,6 +127,9 @@ Interpretation:
 | species::bullethead (chlorurus sordidus) | algae_strings | 0.0216 | 1.0000 | inf | 2.00 | 0.00 |
 | species::blue barred (scarus ghobban) | algae_strings | 0.0349 | 1.0000 | inf | 4.00 | 0.00 |
 | species::arabian monocle (scolopsis ghanam) | algaemix | 0.0353 | 1.0000 | 14.00 | 14.00 | 1.00 |
+
+### Staerkster Vorkommenskontrast (Jaccard-Distanz)
+- algaemix vs control: Distanz=0.778, unique_a=43, unique_b=13.
 
 ## Uebergreifende Einordnung (ausfuehrlich)
 Die kombinierte Evidenz aus Vorkommen (Artenvergleich) und Haeufigkeit (MaxN) zeigt ein konsistentes Muster mit zwei Ebenen:

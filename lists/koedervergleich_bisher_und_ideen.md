@@ -1,40 +1,30 @@
-# Koedervergleich: Bisherige Ergebnisse und weitere Analyseideen
+# Koedervergleich: Bisherige Statistik und weitere Ideen
 
-## Bereits abgearbeitet
-1. Standortvergleich (alle 3 Standorte, cut_47min) inklusive Signifikanztests:
-   results/Standortvergleich/standortvergleich.md
-2. Ergebnis: Alle Standortpaare waren signifikant unterschiedlich (global + paarweise), daher keine Replikatbehandlung von Milimani und Utumbi.
-3. Artenvergleich nach Standort (Ueberlappung, exklusive Taxa, Praesenzmuster, Grafiken):
-   results/Artenvergleich_standort/artenvergleich_standort.md
-4. Vollstaendige Liste standortspezifischer Taxa ergaenzt:
-   results/Artenvergleich_standort/artenvergleich_standort.md
-5. Koedervergleich getrennt nach Standort umgesetzt (Milimani/Utumbi separat):
-   results/artenvergleich_köder/artenvergleich_koeder_summary.md
-6. Standort-spezifische Koederberichte + Grafiken erzeugt:
-   results/artenvergleich_köder/milimani/artenvergleich_koeder_milimani.md
-   results/artenvergleich_köder/utumbi/artenvergleich_koeder_utumbi.md
+## Bereits durchgefuehrte Statistik und Berechnungen
+- Standortvergleich der Taxa-Zusammensetzung ueber alle Standorte (cut_47min).
+- Artenvergleich nach Standort mit Ueberlappung, exklusiven Taxa und Praesenzmustern.
+- Koedervergleich getrennt nach Standort fuer Milimani, Utumbi und Nursery.
+- Taxa-Haeufigkeit je Taxon und Standort mit Kruskal-Wallis-Test auf MaxN-Basis.
+- Paarweise Taxa-Haeufigkeitsvergleiche mit Mann-Whitney-U-Tests.
+- Holm-Korrektur fuer taxonweise und paarweise Vergleiche.
+- Taxa-Zusammensetzung je Standort mit globaler PERMANOVA auf Jaccard-Distanz.
+- Paarweise PERMANOVA zwischen Koedern mit Roh-p und Holm-korrigierten p-Werten.
+- Jaccard-Ueberlappung und Jaccard-Distanzen zwischen Koederpaaren.
+- Anzahl koederspezifischer Taxa pro Koeder.
+- Dominanzkennzahlen je Koeder, inklusive Ratio Max/Min >= 3.
+- Kombination von dominante Taxa und koederspezifischen Taxa in einer gemeinsamen Grafik.
+- Auswertung der Annotationen `feeding` und `interested` pro Koeder und Standort.
+- Vergleich der `feeding`- und `interested`-Annotationen gegen `control` ueber Total-Events je Video.
+- Paarweise Mann-Whitney-U-Tests fuer `feeding` und `interested` auf Koederbasis.
+- Roh- und Holm-Korrektur fuer die Verhaltensanalysen.
+- Standortbezogene control-Vergleiche fuer `feeding` und `interested`.
 
-## Wichtige bisherige Koeder-Erkenntnisse
-1. Milimani: hoechste Koeder-Ueberlappung control vs ulva_gutweed (Jaccard 0.697).
-2. Utumbi: hoechste Koeder-Ueberlappung control vs sargassum (Jaccard 0.764).
-3. Taxa in allen Koedern:
-   Milimani 31, Utumbi 43.
-4. Es gibt in beiden Standorten klar koederspezifische Taxa (bereits als Listen exportiert).
-
-## Moegliche weitere statistische Ideen (Koedervergleich)
-1. Signifikanztest der Community-Unterschiede je Standort mit PERMANOVA (Jaccard/Bray-Curtis):
-   Testet, ob sich die gesamte Artenzusammensetzung zwischen Koedern statistisch unterscheidet.
-2. Pruefen der Dispersion mit PERMDISP:
-   Wichtig, um PERMANOVA korrekt zu interpretieren (Unterschiede in Zentroiden vs Streuung).
-3. Paarweise PERMANOVA zwischen Koedern mit FDR/Holm-Korrektur:
-   Gibt konkrete Aussagen, welche Koeder sich innerhalb eines Standorts unterscheiden.
-4. Indikatorarten-Analyse (IndVal) je Koeder:
-   Findet Taxa, die besonders typisch fuer einzelne Koeder sind.
-5. Taxonweise Tests (Praesenz/Absenz) zwischen Koedern:
-   Fisher-Exact oder logistische Modelle pro Taxon, dann multiple Testkorrektur.
-6. Artenreichtum je Video modellieren:
-   GLM/Negative Binomial oder robuste nichtparametrische Tests innerhalb jedes Standorts fuer Koeder-Effekte auf Richness.
-7. Rarefaction/Standardisierung auf Stichprobentiefe:
-   Sinnvoll wegen ungleicher Videoanzahl pro Koeder (z. B. fischmix in Milimani nur n=1).
-8. Konsistenzanalyse zwischen Standorten:
-   Vergleichen, ob derselbe Koeder in Milimani und Utumbi aehnliche Rangfolgen/Community-Effekte zeigt (ohne Replikatannahme).
+## Weitere Analyseideen
+- PERMDISP zur Pruefung von Streuunterschieden.
+- IndVal-Analyse fuer Indikatorarten.
+- Praesenz/Absenz-Tests pro Taxon mit logistischen Modellen oder Fisher-Exact.
+- Artenreichtum pro Video mit GLM oder Negative Binomial.
+- Rarefaction bzw. Stichprobennormalisierung.
+- Konsistenzanalyse zwischen Standorten.
+- Erweiterung der Verhaltensanalyse auf weitere Annotationen oder zeitliche Teilfenster.
+- Sensitivitaetsanalysen fuer unbalancierte Stichprobengroessen.
