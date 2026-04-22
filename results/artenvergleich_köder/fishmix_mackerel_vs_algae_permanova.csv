@@ -1,0 +1,3 @@
+standort,group_a,group_b,koeder_group_a,koeder_group_b,n_videos,n_group_a,n_group_b,pseudo_f,p_value,n_perm,significant_0_05
+milimani,fishmix_mackerel,algae_group,"fischmix,mackerel","ulva_gutweed,sargassum,ulva_salad",14,4,10,1.8303003543357994,0.007998400319936013,5000,True
+utumbi,fishmix_mackerel,algae_group,"fischmix,mackerel","ulva_gutweed,sargassum,ulva_salad",14,5,9,1.7565922247059724,0.004399120175964807,5000,True

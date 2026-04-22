@@ -1,0 +1,7 @@
+level,site_a,site_b,f_stat,p_value,n_a,n_b,p_value_holm,p_value_bh,significant_raw,significant_holm,significant_bh
+species,milimani,utumbi,1.0704894037524249,0.2998,3,3,0.2998,0.2998,False,False,False
+species,milimani,nursery,4.501007993678862,0.0288,3,4,0.0819,0.0432,True,False,True
+species,utumbi,nursery,6.107455630833388,0.0273,3,4,0.0819,0.0432,True,False,True
+family,milimani,utumbi,3.198065364156674,0.1989,3,3,0.1989,0.1989,False,False,False
+family,milimani,nursery,5.855903886734485,0.0288,3,4,0.0819,0.0432,True,False,True
+family,utumbi,nursery,9.263853915246147,0.0273,3,4,0.0819,0.0432,True,False,True

@@ -1,0 +1,8 @@
+video_name,naive_max_minutes,reconstructed_total_minutes,resets_detected,gt_47min_reconstructed
+20240106-nursery-mackerel.csv,8.813867333333333,46.2282411,5,False
+20240108-nursery-control.csv,8.8563489,27.99116916666667,3,False
+20240223-nursery-mackerel.csv,8.859366666666666,48.15898428333333,5,True
+20240515-milimani-mackerel.csv,11.8118,50.42822296319246,5,True
+20240516-utumbi-mackerel.csv,11.645915456666668,70.86719773,8,True
+20241126-nursery-mackerel.csv,11.000185366666667,49.68553766666667,4,True
+20251212-nursery-mackerel.csv,8.859366666666666,46.17784531666666,5,False

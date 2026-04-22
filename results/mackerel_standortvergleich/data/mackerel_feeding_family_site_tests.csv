@@ -1,0 +1,3 @@
+level,metric_source,taxon,mean_milimani,occ_milimani,n_milimani,mean_utumbi,occ_utumbi,n_utumbi,mean_nursery,occ_nursery,n_nursery,h_stat,p_value,epsilon_sq,p_value_holm,p_value_bh,sig_raw,sig_holm,sig_bh,significant_raw,significant_holm,significant_bh
+family,feeding_family_by_taxon,lethrinidae,0.0,0.0,3,0.0,0.0,3,0.25,0.25,4,1.4999999999999907,0.4723665527410169,0.0,0.9447331054820338,0.4723665527410169,ns,ns,ns,False,False,False
+family,feeding_family_by_taxon,lutjanidae,0.0,0.0,3,0.0,0.0,3,0.75,0.25,4,1.4999999999999907,0.4723665527410169,0.0,0.9447331054820338,0.4723665527410169,ns,ns,ns,False,False,False

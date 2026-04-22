@@ -62,6 +62,11 @@ Permutationenzahl: 5000, alpha=0.05.
 - Nach Holm-Korrektur ist kein einzelner paarweiser Koedervergleich signifikant.
 - Hinweis: Kleine Gruppengroessen pro Koeder reduzieren die Teststaerke der paarweisen Analysen.
 
+### Zusatzvergleich: Fischkoeder vs Algenkoeder
+- Gruppierung: `fischmix` + `mackerel` vs `ulva_gutweed` + `sargassum` + `ulva_salad`.
+- Ergebnis (PERMANOVA, Jaccard): pseudo-F=1.7566, p=0.004399, signifikant.
+- Interpretation: Trotz nicht-signifikanter einzelner Paarvergleiche nach Holm zeigt der gruppierte Kontrast einen robusten Unterschied in der Taxa-Zusammensetzung.
+
 ## Koederspezifische Taxa (Anzahl)
 | koeder       |   n_bait_specific_taxa |   n_videos |
 |:-------------|-----------------------:|-----------:|

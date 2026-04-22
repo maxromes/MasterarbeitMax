@@ -1,0 +1,3 @@
+level,test,f_stat,p_value,permutations,n_videos,p_value_holm,p_value_bh,significant_raw,significant_holm,significant_bh
+species,PERMANOVA (Bray-Curtis),3.9799709550174813,0.0015,9999,10,0.0015,0.0015,True,True,True
+family,PERMANOVA (Bray-Curtis),6.577963065797608,0.0007,9999,10,0.0014,0.0014,True,True,True

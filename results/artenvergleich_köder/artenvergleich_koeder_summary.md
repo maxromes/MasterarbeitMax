@@ -15,6 +15,28 @@ Die Koederanalysen wurden getrennt nach Standort gerechnet, da Milimani, Utumbi 
 - nursery: Globaler Unterschied der Taxa-Zusammensetzung zwischen Koedern signifikant (PERMANOVA p=0.0016).
 - In den Standorten mit globaler Signifikanz sind nach Holm-Korrektur keine einzelnen Koederpaare signifikant; die Unterschiede zeigen sich primär als Gesamteffekt ueber alle Koeder.
 
+## Zusatzanalyse: Fischkoeder vs Algenkoeder
+
+Fragestellung:
+- Unterscheidet sich die Taxa-Zusammensetzung zwischen einer zusammengefassten Fischkoedergruppe (`fischmix` + `mackerel`) und einer zusammengefassten Algenkoedergruppe (`ulva_gutweed` + `sargassum` + `ulva_salad`)?
+
+Methodik:
+- PERMANOVA mit Jaccard-Distanzen auf Videoebene (Presence/Absence), analog zur Hauptanalyse.
+- Vergleich nur fuer Milimani und Utumbi (in Nursery fehlt `fischmix`).
+
+Ergebnisse:
+| standort | n_videos | n_fischkoeder | n_algenkoeder | pseudo_f | p_value | signifikant_0_05 |
+|:--|--:|--:|--:|--:|--:|:--|
+| milimani | 14 | 4 | 10 | 1.8303 | 0.007998 | True |
+| utumbi | 14 | 5 | 9 | 1.7566 | 0.004399 | True |
+
+Interpretation:
+- Der gruppierte Vergleich ist in beiden Standorten signifikant.
+- Damit zeigt sich, dass sich fischbasierte Koeder und algenbasierte Koeder in der Taxa-Zusammensetzung klar unterscheiden, obwohl einzelne paarweise Koedervergleiche nach Holm nicht signifikant waren.
+
+Exportdatei:
+- fishmix_mackerel_vs_algae_permanova.csv
+
 ## Berichte pro Standort
 - milimani/artenvergleich_koeder_milimani.md
 - nursery/artenvergleich_koeder_nursery.md
@@ -27,3 +49,6 @@ Die Koederanalysen wurden getrennt nach Standort gerechnet, da Milimani, Utumbi 
 - <standort>_composition_permanova_pairwise.csv
 - <standort>_koederspezifische_taxa_long.csv
 - <standort>_taxa_lists_by_koeder.csv
+
+## Zusaetzliche standortuebergreifende Exportdatei
+- fishmix_mackerel_vs_algae_permanova.csv
