@@ -1,0 +1,7 @@
+feature_type,n_tested,n_sig_bait_bh,n_sig_interaction_bh,median_r2
+diet,4,0,0,0.12122654595958221
+word_group,18,0,0,0.21422591729832913
+family,20,0,0,0.21422591729832913
+genus,45,0,0,0.2270722277179522
+unspecific,12,0,0,0.2615539495403616
+composite_group,16,0,0,0.22689862336520228

@@ -240,3 +240,157 @@ Quelle: [Ubiquitous Non-Behavioral Filter Sensitivity](interested_feeding/ubiqui
 Wenn du eine einzige Schlussfolie brauchst, dann ist diese Formulierung gut geeignet:
 
 > Die staerksten und statistisch robustesten Unterschiede liegen auf der Standort- und Taxa-Haeufigkeitsebene. Koeder beeinflussen die Zusammensetzung der Gemeinschaft klar, aber oft verteilt und nicht als einzelne harte Einzeltaxa-Effekte. Die Verhaltensannotationen `feeding` und `interested` sind biologisch verwandt, liefern aber eine ergaenzende, nicht identische Perspektive.
+
+## 10. Neuer Schwerpunkt: Koedervergleich Fish vs Algae
+
+### 10.1 Zentrale Fragestellung
+
+Die zentrale Frage fuer den Koedervergleich lautet:
+
+> Locken algenbasierte Koeder andere Taxa an als fischbasierte Koeder?
+
+Die Auswertung wurde fuer Milimani und Utumbi getrennt durchgefuehrt und auf mehrere funktionelle Ebenen erweitert:
+
+- Word-Gruppen aus der Ernaehrungstabelle (z. B. `wrasses`, `triggerfishes`, `eels`)
+- Familien (z. B. `Labridae`, `Balistidae`, `Muraenidae`, `Lutjanidae`)
+- Genera (z. B. `zanclus`, `thalassoma`, `balistapus`, `chlorurus`, `naso`)
+- unspezifische Gruppen
+- zusammengesetzte funktionelle Gruppen (z. B. `wrasses_trigger_combo`, `predator_reef_core`, `piscivore_active_hunters`)
+- diets basierend auf der Word-Tabelle (`algae`, `fish`, `invertebrates`, `plankton`)
+
+### 10.2 Die drei Kern-Grafiken
+
+![Signifikanzuebersicht Fish-vs-Algae](funktionsvergleich/figures/fish_vs_algae_significance_summary.png)
+
+![Staerkste signifikante Fish-vs-Algae-Effekte](funktionsvergleich/figures/top_significant_fish_vs_algae_effects.png)
+
+![Rabbitfishes und Unicornfishes nach Koeder](funktionsvergleich/figures/rabbitfishes_unicornfishes_bait_means.png)
+
+### 10.3 Harte Ergebnisse mit Fokus auf Signifikanz
+
+**Globaltest ueber alle Koeder je Feature:**
+
+- Milimani: keine Holm- oder BH-signifikanten Treffer.
+- Utumbi: keine Holm- oder BH-signifikanten Treffer.
+
+**Fish-vs-Algae-Vergleich:**
+
+- Milimani: 4 BH-signifikante Treffer, alle mit Hoeherauspraegung bei Fischkoedern.
+- Utumbi: 20 BH-signifikante Treffer, ebenfalls ausschliesslich mit Hoeherauspraegung bei Fischkoedern.
+- Insgesamt: 24 BH-signifikante Fish-vs-Algae-Effekte, kein robuster Algenvorteil.
+
+**Besonders robuste Gruppen:**
+
+- `wrasses` / `Labridae` in Milimani und Utumbi
+- `triggerfishes` / `Balistidae` in Utumbi
+- `eels` / `Muraenidae` in Utumbi
+- zusammengesetzte Praedatoren-Gruppen wie `wrasses_trigger_combo`, `predator_reef_core`, `snappers_groupers_combo`
+
+### 10.4 Konkrete Rohsignale und Tendenzen
+
+Diese Signale sind nicht Holm/BH-signifikant, sollten aber in der Praesentation als tendenzielle Muster genannt werden:
+
+- Milimani: `moorish_idol`, `zanclidae`, `zanclus`, `lutjanidae`, `lutjanus`, `nocturnal_predator_mixture`
+- Utumbi: `wrasses`, `labridae`, `triggerfishes`, `balistidae`, `fusiliers`, `caesionidae`, `planktivore_core`
+- Algennahe Tendenzen: `chlorurus` in Utumbi, sowie tendenziell `rabbitfishes` / `siganidae` in Utumbi eher algennah als fischnah, aber nicht signifikant
+- Fish-nahe Tendenzen trotz fehlender Signifikanz: `naso` und `acanthuridae` in beiden Standorten, besonders deutlich in Milimani
+
+### 10.5 Interpretation fuer die Kernfrage
+
+- Ja, die Koeder unterscheiden sich funktionell deutlich.
+- Der robuste Unterschied liegt aber vor allem auf der Fischkoeder-Seite.
+- Algenkoeder zeigen keine korrigiert-signifikanten, breit abgesicherten Algenvorteile.
+- Es gibt nur explorative Hinweise auf einzelne algennahe Taxa, vor allem `chlorurus` in Utumbi und tendenziell `rabbitfishes`/`siganidae`.
+- Die klarsten und biologisch plausibelsten Effekte betreffen raeuberische oder opportunistisch-karnivore Gruppen wie `wrasses`, `triggerfishes`, `eels`, `snappers` und die zusammengesetzten Praedatoren-Gruppen.
+
+### 10.6 Was die Folien zeigen sollten
+
+- Eine Folie mit der Signifikanzuebersicht pro Analyseebene
+- Eine Folie mit den staerksten Fish-vs-Algae-Effekten (Effektgroessen)
+- Eine Folie mit den Rabbitfishes/Unicornfishes als gezielte Beispielgruppen
+- Eine Folie mit den Rohsignalen und der Kernaussage: Algenkoeder haben hier keine robust signifikante Sonderrolle
+
+## 11. Wo gibt es noch Lücken in der statistischen Auswertung?
+
+Die drei offenen Punkte wurden inzwischen umgesetzt: Modell mit Standortfaktor, Indikator-/Permutationstest und Sensitivitaetsanalyse. Fuer den Koedervergleich bleiben vor allem diese Punkte offen:
+
+- Keine Mixed-Effects-Modelle auf Videoebene fuer die Frage, ob die Koederwirkung standortabhaengig ist.
+- Keine PERMDISP-Pruefung, ob globale Unterschiede evtl. auch durch Streuungsunterschiede getrieben sind.
+- Keine formale Rarefaction oder Sampling-Normalisierung fuer die funktionellen Vergleichsgruppen.
+- Keine vollstaendige multivariate Modellierung, die Taxon-, Standort- und Koeder-Ebene gemeinsam in einem hierarchischen Rahmen abbildet.
+
+Prioritaet fuer die naechste Auswertung waere deshalb:
+
+1. Ein Mixed-Effects- oder hierarchisches Modell, das Video- und Standorteffekte sauber trennt.
+2. Eine PERMDISP- oder aehnliche Streuungspruefung fuer die Koeder-Zusammensetzung.
+3. Eine Rarefaction bzw. Sampling-Normalisierung, um unbalancierte Stichprobengroessen noch besser abzufedern.
+
+## 12. Kurzfazit fuer die Schlussfolie
+
+> Der Koedervergleich zeigt einen klaren funktionellen Unterschied zwischen Fisch- und Algenkoedern, aber die robusten Signale liegen auf der Fischseite. Algenkoeder locken zwar vereinzelt andere Taxa an, doch diese Tendenzen sind nach Holm- oder BH-Korrektur nicht stabil genug, um als gesicherter Algenvorteil zu gelten.
+
+## 13. Zusatzanalysen zu den offenen Punkten 1-3
+
+### 13.1 Modell mit Standortfaktor
+
+Quelle: [Funktionsvergleich Modell](funktionsvergleich_modell/model_report.md)
+
+![Modell: Signifikanz pro Feature-Typ](funktionsvergleich_modell/figures/model_significance_by_feature_type.png)
+
+Modell:
+
+> log1p(MaxN) ~ bait_type + site + bait_type:site
+
+Kernaussage:
+
+- Nach Standortkontrolle gibt es keine BH-signifikanten Fish-vs-Algae-Effekte und keine BH-signifikanten Interaktionen.
+- Die Rohsignale bleiben aber sehr aehnlich zu den explorativen Ergebnissen aus dem Fish-vs-Algae-Vergleich.
+- Die staerksten rohen Signale liegen bei `moorish_idol`, `zanclidae`, `zanclus`, `wrasses`, `labridae` und `wrasses_trigger_combo`.
+
+Interpretation:
+
+- Das Modell ist konservativ und bestaetigt, dass sich der zentrale Fish-vs-Algae-Befund nicht einfach als Standortartefakt aufloest.
+- Die fehlende BH-Signifikanz heisst nicht, dass kein Effekt vorhanden ist, sondern dass der Effekt im strengen, standortkontrollierten Modell nicht stark genug ist.
+
+### 13.2 Indikator-/Permutationstest
+
+Quelle: [Funktionsvergleich Indicator](funktionsvergleich_indicator/indicator_report.md)
+
+![Signifikante Indikatorgruppen](funktionsvergleich_indicator/figures/indicator_top_groups.png)
+
+Kernaussage:
+
+- BH-signifikante Indikatorgruppen liegen ausschliesslich auf der Fischseite.
+- Besonders robust sind `wrasses`, `triggerfishes`, `labridae`, `balistidae`, `thalassoma`, `balistapus`, `labroides`, `aethaloperca`, `wrasses_trigger_combo`, `predator_reef_core` und `snappers_groupers_combo`.
+- Es gibt keine BH-signifikanten Algenindikatoren.
+
+Interpretation:
+
+- Die Indikatoranalyse staerkt die fish-side Interpretation, weil sie nicht nur Mittelwertsunterschiede, sondern auch Spezifitaet und Vorkommen kombiniert.
+- Die Algen-Seite liefert hoechstens explorative Signale, aber keinen robusten Indikatorbefund.
+
+### 13.3 Sensitivitaetsanalyse
+
+Quelle: [Funktionsvergleich Sensitivity](funktionsvergleich_sensitivity/sensitivity_report.md)
+
+![Sensitivitaet der Signifikanz](funktionsvergleich_sensitivity/figures/sensitivity_significance_counts.png)
+
+Kernaussage:
+
+- Baseline: 0 BH-signifikante bait effects.
+- Ohne dominante Videos: 4 BH-signifikante bait effects.
+- Ohne rare Features: 0 BH-signifikante bait effects.
+- Ohne dominante Videos und ohne rare Features: 4 BH-signifikante bait effects.
+
+Konkret stabile Gruppen im gefilterten Szenario:
+
+- `large ovals`
+- `wrasses`
+- `herbivore_core_families`
+- `wrasses_trigger_combo`
+
+Interpretation:
+
+- Dominante Videos maskieren einige Effekte, aber die Fish-side Signale verschwinden nicht vollstaendig.
+- Das Entfernen seltener Features allein veraendert das Bild kaum.
+- Die robuste Kernbotschaft bleibt: Fish-Koeder zeigen die klareren und staerkeren Signale.
