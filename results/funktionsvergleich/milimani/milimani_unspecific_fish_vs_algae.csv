@@ -1,0 +1,13 @@
+site,feature_type,feature,n_fish,n_algae,mean_fish,mean_algae,median_fish,median_algae,u_stat,p_value,cliffs_delta_fish_minus_algae,higher_side,p_value_holm,p_value_bh,significant_holm,significant_bh
+milimani,unspecific,wrasses,4,10,4.5,2.1,4.5,2.0,39.5,0.0017116376594705583,0.975,fish,0.0205396519136467,0.0205396519136467,True,True
+milimani,unspecific,heavy bodies/large lips,4,10,2.5,1.4,2.0,1.0,29.5,0.15302563021260568,0.475,fish,1.0,0.45706356455328817,False,False
+milimani,unspecific,silvery,4,10,2.5,0.6,1.5,0.0,29.5,0.16865493473715432,0.475,fish,1.0,0.45706356455328817,False,False
+milimani,unspecific,reddish/big eyes,4,10,0.0,0.4,0.0,0.0,12.0,0.1763491717539154,-0.4,algae,1.0,0.45706356455328817,False,False
+milimani,unspecific,large ovals,4,10,28.75,5.0,22.5,5.0,29.5,0.1904431518972034,0.475,fish,1.0,0.45706356455328817,False,False
+milimani,unspecific,elongate sand & burrow dwellers,4,10,1.0,0.5,1.0,0.0,27.5,0.2774314084913646,0.375,fish,1.0,0.5548628169827292,False,False
+milimani,unspecific,odd-shaped swimmers,4,10,2.5,4.1,2.5,3.0,13.0,0.32628240477257175,-0.35,algae,1.0,0.5593412653244088,False,False
+milimani,unspecific,sloping heads,4,10,4.5,4.5,4.0,2.0,24.5,0.56512427212278,0.225,algae,1.0,0.8476864081841701,False,False
+milimani,unspecific,parrotfishes,4,10,7.75,8.0,6.0,5.0,22.5,0.7760964108781581,0.125,algae,1.0,0.8808458123274123,False,False
+milimani,unspecific,blennies,4,10,1.0,1.0,0.5,1.0,18.0,0.8233811102507145,-0.1,algae,1.0,0.8808458123274123,False,False
+milimani,unspecific,small ovals - damselfishes,4,10,70.75,78.1,69.0,57.5,22.0,0.8391608391608392,0.1,algae,1.0,0.8808458123274123,False,False
+milimani,unspecific,disk-shaped/colourful,4,10,3.0,2.9,3.0,3.0,21.5,0.8808458123274123,0.075,fish,1.0,0.8808458123274123,False,False

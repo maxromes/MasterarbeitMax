@@ -1,0 +1,211 @@
+site,feature_type,feature,bait_a,bait_b,n_a,n_b,mean_a,mean_b,u_stat,p_value,cliffs_delta,p_value_holm_within_feature,p_value_bh_within_feature,significant_holm_within_feature,significant_bh_within_feature
+utumbi,unspecific,blennies,control,fischmix,4,2,0.75,1.5,1.5,0.27332167829229814,-0.625,1.0,1.0,False,False
+utumbi,unspecific,blennies,control,mackerel,4,3,0.75,1.0,5.0,0.8436689495519663,-0.16666666666666666,1.0,1.0,False,False
+utumbi,unspecific,blennies,control,sargassum,4,3,0.75,0.6666666666666666,6.5,1.0,0.08333333333333333,1.0,1.0,False,False
+utumbi,unspecific,blennies,control,ulva_gutweed,4,3,0.75,0.6666666666666666,6.5,1.0,0.08333333333333333,1.0,1.0,False,False
+utumbi,unspecific,blennies,control,ulva_salad,4,3,0.75,0.6666666666666666,6.5,1.0,0.08333333333333333,1.0,1.0,False,False
+utumbi,unspecific,blennies,fischmix,mackerel,2,3,1.5,1.0,4.0,0.7609067270751141,0.3333333333333333,1.0,1.0,False,False
+utumbi,unspecific,blennies,fischmix,sargassum,2,3,1.5,0.6666666666666666,5.0,0.3329216080655659,0.6666666666666666,1.0,1.0,False,False
+utumbi,unspecific,blennies,fischmix,ulva_gutweed,2,3,1.5,0.6666666666666666,5.0,0.3329216080655659,0.6666666666666666,1.0,1.0,False,False
+utumbi,unspecific,blennies,fischmix,ulva_salad,2,3,1.5,0.6666666666666666,5.0,0.3329216080655659,0.6666666666666666,1.0,1.0,False,False
+utumbi,unspecific,blennies,mackerel,sargassum,3,3,1.0,0.6666666666666666,5.5,0.8136637157667919,0.2222222222222222,1.0,1.0,False,False
+utumbi,unspecific,blennies,mackerel,ulva_gutweed,3,3,1.0,0.6666666666666666,5.5,0.8136637157667919,0.2222222222222222,1.0,1.0,False,False
+utumbi,unspecific,blennies,mackerel,ulva_salad,3,3,1.0,0.6666666666666666,5.5,0.8136637157667919,0.2222222222222222,1.0,1.0,False,False
+utumbi,unspecific,blennies,sargassum,ulva_gutweed,3,3,0.6666666666666666,0.6666666666666666,4.5,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,blennies,sargassum,ulva_salad,3,3,0.6666666666666666,0.6666666666666666,4.5,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,blennies,ulva_gutweed,ulva_salad,3,3,0.6666666666666666,0.6666666666666666,4.5,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,disk-shaped/colourful,control,fischmix,4,2,2.0,2.0,4.0,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,disk-shaped/colourful,control,mackerel,4,3,2.0,2.0,6.0,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,disk-shaped/colourful,control,sargassum,4,3,2.0,2.0,6.0,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,disk-shaped/colourful,control,ulva_gutweed,4,3,2.0,2.6666666666666665,2.0,0.11752486809663916,-0.6666666666666666,1.0,0.7036212374808162,False,False
+utumbi,unspecific,disk-shaped/colourful,control,ulva_salad,4,3,2.0,2.0,6.0,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,disk-shaped/colourful,fischmix,mackerel,2,3,2.0,2.0,3.0,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,disk-shaped/colourful,fischmix,sargassum,2,3,2.0,2.0,3.0,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,disk-shaped/colourful,fischmix,ulva_gutweed,2,3,2.0,2.6666666666666665,1.0,0.31731050786291415,-0.6666666666666666,1.0,0.9519315235887424,False,False
+utumbi,unspecific,disk-shaped/colourful,fischmix,ulva_salad,2,3,2.0,2.0,3.0,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,disk-shaped/colourful,mackerel,sargassum,3,3,2.0,2.0,4.5,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,disk-shaped/colourful,mackerel,ulva_gutweed,3,3,2.0,2.6666666666666665,1.5,0.18763232999488433,-0.6666666666666666,1.0,0.7036212374808162,False,False
+utumbi,unspecific,disk-shaped/colourful,mackerel,ulva_salad,3,3,2.0,2.0,4.5,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,disk-shaped/colourful,sargassum,ulva_gutweed,3,3,2.0,2.6666666666666665,1.5,0.18763232999488433,-0.6666666666666666,1.0,0.7036212374808162,False,False
+utumbi,unspecific,disk-shaped/colourful,sargassum,ulva_salad,3,3,2.0,2.0,4.5,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,disk-shaped/colourful,ulva_gutweed,ulva_salad,3,3,2.6666666666666665,2.0,7.5,0.18763232999488433,0.6666666666666666,1.0,0.7036212374808162,False,False
+utumbi,unspecific,eels,control,fischmix,4,2,0.0,1.0,0.0,0.050399282871482265,-1.0,0.7559892430722339,0.3518106187404081,False,False
+utumbi,unspecific,eels,control,mackerel,4,3,0.0,1.3333333333333333,2.0,0.11752486809663916,-0.6666666666666666,1.0,0.3518106187404081,False,False
+utumbi,unspecific,eels,control,sargassum,4,3,0.0,0.0,6.0,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,eels,control,ulva_gutweed,4,3,0.0,0.0,6.0,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,eels,control,ulva_salad,4,3,0.0,0.0,6.0,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,eels,fischmix,mackerel,2,3,1.0,1.3333333333333333,2.0,0.7609067270751141,-0.3333333333333333,1.0,1.0,False,False
+utumbi,unspecific,eels,fischmix,sargassum,2,3,1.0,0.0,6.0,0.0955807045456294,1.0,1.0,0.3518106187404081,False,False
+utumbi,unspecific,eels,fischmix,ulva_gutweed,2,3,1.0,0.0,6.0,0.0955807045456294,1.0,1.0,0.3518106187404081,False,False
+utumbi,unspecific,eels,fischmix,ulva_salad,2,3,1.0,0.0,6.0,0.0955807045456294,1.0,1.0,0.3518106187404081,False,False
+utumbi,unspecific,eels,mackerel,sargassum,3,3,1.3333333333333333,0.0,7.5,0.18763232999488433,0.6666666666666666,1.0,0.3518106187404081,False,False
+utumbi,unspecific,eels,mackerel,ulva_gutweed,3,3,1.3333333333333333,0.0,7.5,0.18763232999488433,0.6666666666666666,1.0,0.3518106187404081,False,False
+utumbi,unspecific,eels,mackerel,ulva_salad,3,3,1.3333333333333333,0.0,7.5,0.18763232999488433,0.6666666666666666,1.0,0.3518106187404081,False,False
+utumbi,unspecific,eels,sargassum,ulva_gutweed,3,3,0.0,0.0,4.5,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,eels,sargassum,ulva_salad,3,3,0.0,0.0,4.5,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,eels,ulva_gutweed,ulva_salad,3,3,0.0,0.0,4.5,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,elongate sand & burrow dwellers,control,fischmix,4,2,0.25,0.5,3.0,0.7798546179649191,-0.25,1.0,1.0,False,False
+utumbi,unspecific,elongate sand & burrow dwellers,control,mackerel,4,3,0.25,0.0,7.5,0.5637028616507731,0.25,1.0,0.9395047694179551,False,False
+utumbi,unspecific,elongate sand & burrow dwellers,control,sargassum,4,3,0.25,0.3333333333333333,5.5,1.0,-0.08333333333333333,1.0,1.0,False,False
+utumbi,unspecific,elongate sand & burrow dwellers,control,ulva_gutweed,4,3,0.25,0.0,7.5,0.5637028616507731,0.25,1.0,0.9395047694179551,False,False
+utumbi,unspecific,elongate sand & burrow dwellers,control,ulva_salad,4,3,0.25,0.0,7.5,0.5637028616507731,0.25,1.0,0.9395047694179551,False,False
+utumbi,unspecific,elongate sand & burrow dwellers,fischmix,mackerel,2,3,0.5,0.0,4.5,0.4142161782425252,0.5,1.0,0.9395047694179551,False,False
+utumbi,unspecific,elongate sand & burrow dwellers,fischmix,sargassum,2,3,0.5,0.3333333333333333,3.5,1.0,0.16666666666666666,1.0,1.0,False,False
+utumbi,unspecific,elongate sand & burrow dwellers,fischmix,ulva_gutweed,2,3,0.5,0.0,4.5,0.4142161782425252,0.5,1.0,0.9395047694179551,False,False
+utumbi,unspecific,elongate sand & burrow dwellers,fischmix,ulva_salad,2,3,0.5,0.0,4.5,0.4142161782425252,0.5,1.0,0.9395047694179551,False,False
+utumbi,unspecific,elongate sand & burrow dwellers,mackerel,sargassum,3,3,0.0,0.3333333333333333,3.0,0.5049850750938458,-0.3333333333333333,1.0,0.9395047694179551,False,False
+utumbi,unspecific,elongate sand & burrow dwellers,mackerel,ulva_gutweed,3,3,0.0,0.0,4.5,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,elongate sand & burrow dwellers,mackerel,ulva_salad,3,3,0.0,0.0,4.5,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,elongate sand & burrow dwellers,sargassum,ulva_gutweed,3,3,0.3333333333333333,0.0,6.0,0.5049850750938458,0.3333333333333333,1.0,0.9395047694179551,False,False
+utumbi,unspecific,elongate sand & burrow dwellers,sargassum,ulva_salad,3,3,0.3333333333333333,0.0,6.0,0.5049850750938458,0.3333333333333333,1.0,0.9395047694179551,False,False
+utumbi,unspecific,elongate sand & burrow dwellers,ulva_gutweed,ulva_salad,3,3,0.0,0.0,4.5,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,heavy bodies/large lips,control,fischmix,4,2,1.75,2.5,1.5,0.27332167829229814,-0.625,1.0,0.688616011491608,False,False
+utumbi,unspecific,heavy bodies/large lips,control,mackerel,4,3,1.75,2.3333333333333335,3.0,0.2702893848016986,-0.5,1.0,0.688616011491608,False,False
+utumbi,unspecific,heavy bodies/large lips,control,sargassum,4,3,1.75,2.0,4.5,0.5637028616507731,-0.25,1.0,0.7046285770634664,False,False
+utumbi,unspecific,heavy bodies/large lips,control,ulva_gutweed,4,3,1.75,1.6666666666666667,6.5,1.0,0.08333333333333333,1.0,1.0,False,False
+utumbi,unspecific,heavy bodies/large lips,control,ulva_salad,4,3,1.75,1.3333333333333333,8.5,0.4142161782425252,0.4166666666666667,1.0,0.688616011491608,False,False
+utumbi,unspecific,heavy bodies/large lips,fischmix,mackerel,2,3,2.5,2.3333333333333335,3.5,1.0,0.16666666666666666,1.0,1.0,False,False
+utumbi,unspecific,heavy bodies/large lips,fischmix,sargassum,2,3,2.5,2.0,4.5,0.4142161782425252,0.5,1.0,0.688616011491608,False,False
+utumbi,unspecific,heavy bodies/large lips,fischmix,ulva_gutweed,2,3,2.5,1.6666666666666667,5.0,0.3329216080655659,0.6666666666666666,1.0,0.688616011491608,False,False
+utumbi,unspecific,heavy bodies/large lips,fischmix,ulva_salad,2,3,2.5,1.3333333333333333,5.5,0.2235428745713206,0.8333333333333334,1.0,0.688616011491608,False,False
+utumbi,unspecific,heavy bodies/large lips,mackerel,sargassum,3,3,2.3333333333333335,2.0,6.0,0.5049850750938458,0.3333333333333333,1.0,0.688616011491608,False,False
+utumbi,unspecific,heavy bodies/large lips,mackerel,ulva_gutweed,3,3,2.3333333333333335,1.6666666666666667,7.0,0.3016995824783478,0.5555555555555556,1.0,0.688616011491608,False,False
+utumbi,unspecific,heavy bodies/large lips,mackerel,ulva_salad,3,3,2.3333333333333335,1.3333333333333333,8.0,0.15729920705028502,0.7777777777777778,1.0,0.688616011491608,False,False
+utumbi,unspecific,heavy bodies/large lips,sargassum,ulva_gutweed,3,3,2.0,1.6666666666666667,6.0,0.5049850750938458,0.3333333333333333,1.0,0.688616011491608,False,False
+utumbi,unspecific,heavy bodies/large lips,sargassum,ulva_salad,3,3,2.0,1.3333333333333333,7.5,0.18763232999488433,0.6666666666666666,1.0,0.688616011491608,False,False
+utumbi,unspecific,heavy bodies/large lips,ulva_gutweed,ulva_salad,3,3,1.6666666666666667,1.3333333333333333,6.0,0.6192567541768621,0.3333333333333333,1.0,0.7145270240502255,False,False
+utumbi,unspecific,large ovals,control,fischmix,4,2,10.25,4.0,3.5,1.0,-0.125,1.0,1.0,False,False
+utumbi,unspecific,large ovals,control,mackerel,4,3,10.25,5.666666666666667,7.0,0.8571364155923,0.16666666666666666,1.0,1.0,False,False
+utumbi,unspecific,large ovals,control,sargassum,4,3,10.25,3.0,7.5,0.7162897505408428,0.25,1.0,1.0,False,False
+utumbi,unspecific,large ovals,control,ulva_gutweed,4,3,10.25,3.3333333333333335,6.5,1.0,0.08333333333333333,1.0,1.0,False,False
+utumbi,unspecific,large ovals,control,ulva_salad,4,3,10.25,4.333333333333333,6.0,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,large ovals,fischmix,mackerel,2,3,4.0,5.666666666666667,3.5,1.0,0.16666666666666666,1.0,1.0,False,False
+utumbi,unspecific,large ovals,fischmix,sargassum,2,3,4.0,3.0,4.5,0.5536169919657805,0.5,1.0,1.0,False,False
+utumbi,unspecific,large ovals,fischmix,ulva_gutweed,2,3,4.0,3.3333333333333335,4.0,0.746885633390364,0.3333333333333333,1.0,1.0,False,False
+utumbi,unspecific,large ovals,fischmix,ulva_salad,2,3,4.0,4.333333333333333,3.0,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,large ovals,mackerel,sargassum,3,3,5.666666666666667,3.0,5.0,1.0,0.1111111111111111,1.0,1.0,False,False
+utumbi,unspecific,large ovals,mackerel,ulva_gutweed,3,3,5.666666666666667,3.3333333333333335,4.0,1.0,-0.1111111111111111,1.0,1.0,False,False
+utumbi,unspecific,large ovals,mackerel,ulva_salad,3,3,5.666666666666667,4.333333333333333,4.5,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,large ovals,sargassum,ulva_gutweed,3,3,3.0,3.3333333333333335,3.5,0.8136637157667919,-0.2222222222222222,1.0,1.0,False,False
+utumbi,unspecific,large ovals,sargassum,ulva_salad,3,3,3.0,4.333333333333333,3.0,0.653095114932182,-0.3333333333333333,1.0,1.0,False,False
+utumbi,unspecific,large ovals,ulva_gutweed,ulva_salad,3,3,3.3333333333333335,4.333333333333333,3.5,0.8221867672380183,-0.2222222222222222,1.0,1.0,False,False
+utumbi,unspecific,odd-shaped swimmers,control,fischmix,4,2,2.5,7.5,0.0,0.13333333333333333,-1.0,1.0,0.3333333333333333,False,False
+utumbi,unspecific,odd-shaped swimmers,control,mackerel,4,3,2.5,5.333333333333333,0.0,0.04974599072150299,-1.0,0.7461898608225449,0.29673219395959927,False,False
+utumbi,unspecific,odd-shaped swimmers,control,sargassum,4,3,2.5,5.0,3.0,0.3680655063054846,-0.5,1.0,0.6,False,False
+utumbi,unspecific,odd-shaped swimmers,control,ulva_gutweed,4,3,2.5,2.0,7.5,0.6964664857117763,0.25,1.0,0.8002346072039614,False,False
+utumbi,unspecific,odd-shaped swimmers,control,ulva_salad,4,3,2.5,2.0,7.5,0.6964664857117763,0.25,1.0,0.8002346072039614,False,False
+utumbi,unspecific,odd-shaped swimmers,fischmix,mackerel,2,3,7.5,5.333333333333333,4.0,0.746885633390364,0.3333333333333333,1.0,0.8002346072039614,False,False
+utumbi,unspecific,odd-shaped swimmers,fischmix,sargassum,2,3,7.5,5.0,5.0,0.4,0.6666666666666666,1.0,0.6,False,False
+utumbi,unspecific,odd-shaped swimmers,fischmix,ulva_gutweed,2,3,7.5,2.0,6.0,0.1065831695748876,1.0,1.0,0.3197495087246628,False,False
+utumbi,unspecific,odd-shaped swimmers,fischmix,ulva_salad,2,3,7.5,2.0,6.0,0.1065831695748876,1.0,1.0,0.3197495087246628,False,False
+utumbi,unspecific,odd-shaped swimmers,mackerel,sargassum,3,3,5.333333333333333,5.0,6.0,0.6579050194284821,0.3333333333333333,1.0,0.8002346072039614,False,False
+utumbi,unspecific,odd-shaped swimmers,mackerel,ulva_gutweed,3,3,5.333333333333333,2.0,9.0,0.05934643879191985,1.0,0.8308501430868779,0.29673219395959927,False,False
+utumbi,unspecific,odd-shaped swimmers,mackerel,ulva_salad,3,3,5.333333333333333,2.0,9.0,0.05934643879191985,1.0,0.8308501430868779,0.29673219395959927,False,False
+utumbi,unspecific,odd-shaped swimmers,sargassum,ulva_gutweed,3,3,5.0,2.0,7.5,0.19670560245894686,0.6666666666666666,1.0,0.36882300461052536,False,False
+utumbi,unspecific,odd-shaped swimmers,sargassum,ulva_salad,3,3,5.0,2.0,7.5,0.19670560245894686,0.6666666666666666,1.0,0.36882300461052536,False,False
+utumbi,unspecific,odd-shaped swimmers,ulva_gutweed,ulva_salad,3,3,2.0,2.0,4.5,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,parrotfishes,control,fischmix,4,2,7.0,4.5,5.0,0.8115975090747047,0.25,1.0,1.0,False,False
+utumbi,unspecific,parrotfishes,control,mackerel,4,3,7.0,11.666666666666666,2.5,0.2845026979112075,-0.5833333333333334,1.0,0.7112567447780188,False,False
+utumbi,unspecific,parrotfishes,control,sargassum,4,3,7.0,13.333333333333334,1.0,0.11428571428571428,-0.8333333333333334,1.0,0.7112567447780188,False,False
+utumbi,unspecific,parrotfishes,control,ulva_gutweed,4,3,7.0,9.666666666666666,4.5,0.7212766990291557,-0.25,1.0,0.9835591350397578,False,False
+utumbi,unspecific,parrotfishes,control,ulva_salad,4,3,7.0,33.333333333333336,2.5,0.2845026979112075,-0.5833333333333334,1.0,0.7112567447780188,False,False
+utumbi,unspecific,parrotfishes,fischmix,mackerel,2,3,4.5,11.666666666666666,0.5,0.23613697022165292,-0.8333333333333334,1.0,0.7112567447780188,False,False
+utumbi,unspecific,parrotfishes,fischmix,sargassum,2,3,4.5,13.333333333333334,0.0,0.2,-1.0,1.0,0.7112567447780188,False,False
+utumbi,unspecific,parrotfishes,fischmix,ulva_gutweed,2,3,4.5,9.666666666666666,1.0,0.4,-0.6666666666666666,1.0,0.75,False,False
+utumbi,unspecific,parrotfishes,fischmix,ulva_salad,2,3,4.5,33.333333333333336,0.5,0.23613697022165292,-0.8333333333333334,1.0,0.7112567447780188,False,False
+utumbi,unspecific,parrotfishes,mackerel,sargassum,3,3,11.666666666666666,13.333333333333334,3.0,0.7,-0.3333333333333333,1.0,0.9835591350397578,False,False
+utumbi,unspecific,parrotfishes,mackerel,ulva_gutweed,3,3,11.666666666666666,9.666666666666666,6.0,0.7,0.3333333333333333,1.0,0.9835591350397578,False,False
+utumbi,unspecific,parrotfishes,mackerel,ulva_salad,3,3,11.666666666666666,33.333333333333336,4.5,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,parrotfishes,sargassum,ulva_gutweed,3,3,13.333333333333334,9.666666666666666,7.0,0.4,0.5555555555555556,1.0,0.75,False,False
+utumbi,unspecific,parrotfishes,sargassum,ulva_salad,3,3,13.333333333333334,33.333333333333336,5.0,1.0,0.1111111111111111,1.0,1.0,False,False
+utumbi,unspecific,parrotfishes,ulva_gutweed,ulva_salad,3,3,9.666666666666666,33.333333333333336,4.0,1.0,-0.1111111111111111,1.0,1.0,False,False
+utumbi,unspecific,reddish/big eyes,control,fischmix,4,2,4.25,5.0,3.5,1.0,-0.125,1.0,1.0,False,False
+utumbi,unspecific,reddish/big eyes,control,mackerel,4,3,4.25,5.0,4.5,0.7188163610152827,-0.25,1.0,1.0,False,False
+utumbi,unspecific,reddish/big eyes,control,sargassum,4,3,4.25,4.666666666666667,4.0,0.578403013496116,-0.3333333333333333,1.0,1.0,False,False
+utumbi,unspecific,reddish/big eyes,control,ulva_gutweed,4,3,4.25,5.666666666666667,2.0,0.19474217283959172,-0.6666666666666666,1.0,1.0,False,False
+utumbi,unspecific,reddish/big eyes,control,ulva_salad,4,3,4.25,4.333333333333333,6.0,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,reddish/big eyes,fischmix,mackerel,2,3,5.0,5.0,3.0,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,reddish/big eyes,fischmix,sargassum,2,3,5.0,4.666666666666667,3.0,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,reddish/big eyes,fischmix,ulva_gutweed,2,3,5.0,5.666666666666667,3.0,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,reddish/big eyes,fischmix,ulva_salad,2,3,5.0,4.333333333333333,3.5,1.0,0.16666666666666666,1.0,1.0,False,False
+utumbi,unspecific,reddish/big eyes,mackerel,sargassum,3,3,5.0,4.666666666666667,5.0,1.0,0.1111111111111111,1.0,1.0,False,False
+utumbi,unspecific,reddish/big eyes,mackerel,ulva_gutweed,3,3,5.0,5.666666666666667,3.5,0.8221867672380183,-0.2222222222222222,1.0,1.0,False,False
+utumbi,unspecific,reddish/big eyes,mackerel,ulva_salad,3,3,5.0,4.333333333333333,5.5,0.8247780950825133,0.2222222222222222,1.0,1.0,False,False
+utumbi,unspecific,reddish/big eyes,sargassum,ulva_gutweed,3,3,4.666666666666667,5.666666666666667,1.0,0.15729920705028502,-0.7777777777777778,1.0,1.0,False,False
+utumbi,unspecific,reddish/big eyes,sargassum,ulva_salad,3,3,4.666666666666667,4.333333333333333,5.5,0.8221867672380183,0.2222222222222222,1.0,1.0,False,False
+utumbi,unspecific,reddish/big eyes,ulva_gutweed,ulva_salad,3,3,5.666666666666667,4.333333333333333,7.0,0.3536785173184648,0.5555555555555556,1.0,1.0,False,False
+utumbi,unspecific,silvery,control,fischmix,4,2,0.25,2.0,0.5,0.13361440253771614,-0.875,1.0,0.9356482982005611,False,False
+utumbi,unspecific,silvery,control,mackerel,4,3,0.25,2.0,0.5,0.06396891699082884,-0.9166666666666666,0.9595337548624325,0.9356482982005611,False,False
+utumbi,unspecific,silvery,control,sargassum,4,3,0.25,1.6666666666666667,3.0,0.32412658775761904,-0.5,1.0,0.9356482982005611,False,False
+utumbi,unspecific,silvery,control,ulva_gutweed,4,3,0.25,0.6666666666666666,5.0,0.8254979107046321,-0.16666666666666666,1.0,1.0,False,False
+utumbi,unspecific,silvery,control,ulva_salad,4,3,0.25,2.6666666666666665,2.5,0.24188659940883073,-0.5833333333333334,1.0,0.9356482982005611,False,False
+utumbi,unspecific,silvery,fischmix,mackerel,2,3,2.0,2.0,3.0,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,silvery,fischmix,sargassum,2,3,2.0,1.6666666666666667,3.5,1.0,0.16666666666666666,1.0,1.0,False,False
+utumbi,unspecific,silvery,fischmix,ulva_gutweed,2,3,2.0,0.6666666666666666,5.0,0.3742593192802244,0.6666666666666666,1.0,0.9356482982005611,False,False
+utumbi,unspecific,silvery,fischmix,ulva_salad,2,3,2.0,2.6666666666666665,3.0,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,silvery,mackerel,sargassum,3,3,2.0,1.6666666666666667,5.5,0.8247780950825133,0.2222222222222222,1.0,1.0,False,False
+utumbi,unspecific,silvery,mackerel,ulva_gutweed,3,3,2.0,0.6666666666666666,7.5,0.26115455974183277,0.6666666666666666,1.0,0.9356482982005611,False,False
+utumbi,unspecific,silvery,mackerel,ulva_salad,3,3,2.0,2.6666666666666665,4.5,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,silvery,sargassum,ulva_gutweed,3,3,1.6666666666666667,0.6666666666666666,6.0,0.6428348264908044,0.3333333333333333,1.0,1.0,False,False
+utumbi,unspecific,silvery,sargassum,ulva_salad,3,3,1.6666666666666667,2.6666666666666665,3.5,0.8247780950825133,-0.2222222222222222,1.0,1.0,False,False
+utumbi,unspecific,silvery,ulva_gutweed,ulva_salad,3,3,0.6666666666666666,2.6666666666666665,2.5,0.47950012218695337,-0.4444444444444444,1.0,1.0,False,False
+utumbi,unspecific,slender schoolers/colourful,control,fischmix,4,2,1.0,29.0,0.0,0.09520470468773326,-1.0,0.9520470468773325,0.19984344295291426,False,False
+utumbi,unspecific,slender schoolers/colourful,control,mackerel,4,3,1.0,14.0,6.0,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,slender schoolers/colourful,control,sargassum,4,3,1.0,23.333333333333332,0.0,0.04767810313602185,-1.0,0.7151715470403278,0.19984344295291426,False,False
+utumbi,unspecific,slender schoolers/colourful,control,ulva_gutweed,4,3,1.0,0.0,9.0,0.2635524772829727,0.5,1.0,0.39532871592445906,False,False
+utumbi,unspecific,slender schoolers/colourful,control,ulva_salad,4,3,1.0,74.33333333333333,0.0,0.04767810313602185,-1.0,0.7151715470403278,0.19984344295291426,False,False
+utumbi,unspecific,slender schoolers/colourful,fischmix,mackerel,2,3,29.0,14.0,4.0,0.7670968684102772,0.3333333333333333,1.0,0.8571428571428571,False,False
+utumbi,unspecific,slender schoolers/colourful,fischmix,sargassum,2,3,29.0,23.333333333333332,4.0,0.8,0.3333333333333333,1.0,0.8571428571428571,False,False
+utumbi,unspecific,slender schoolers/colourful,fischmix,ulva_gutweed,2,3,29.0,0.0,6.0,0.1065831695748876,1.0,0.9520470468773325,0.19984344295291426,False,False
+utumbi,unspecific,slender schoolers/colourful,fischmix,ulva_salad,2,3,29.0,74.33333333333333,0.0,0.2,-1.0,1.0,0.3333333333333333,False,False
+utumbi,unspecific,slender schoolers/colourful,mackerel,sargassum,3,3,14.0,23.333333333333332,3.0,0.6579050194284821,-0.3333333333333333,1.0,0.8223812742856027,False,False
+utumbi,unspecific,slender schoolers/colourful,mackerel,ulva_gutweed,3,3,14.0,0.0,6.0,0.5049850750938458,0.3333333333333333,1.0,0.688616011491608,False,False
+utumbi,unspecific,slender schoolers/colourful,mackerel,ulva_salad,3,3,14.0,74.33333333333333,0.0,0.07652250047505922,-1.0,0.8417475052256514,0.19984344295291426,False,False
+utumbi,unspecific,slender schoolers/colourful,sargassum,ulva_gutweed,3,3,23.333333333333332,0.0,9.0,0.06360256962075367,1.0,0.8268334050697976,0.19984344295291426,False,False
+utumbi,unspecific,slender schoolers/colourful,sargassum,ulva_salad,3,3,23.333333333333332,74.33333333333333,0.0,0.1,-1.0,0.9520470468773325,0.19984344295291426,False,False
+utumbi,unspecific,slender schoolers/colourful,ulva_gutweed,ulva_salad,3,3,0.0,74.33333333333333,0.0,0.06360256962075367,-1.0,0.8268334050697976,0.19984344295291426,False,False
+utumbi,unspecific,sloping heads,control,fischmix,4,2,1.0,2.0,0.0,0.050399282871482265,-1.0,0.7559892430722339,0.5876243404831958,False,False
+utumbi,unspecific,sloping heads,control,mackerel,4,3,1.0,2.3333333333333335,2.0,0.11752486809663916,-0.6666666666666666,1.0,0.5876243404831958,False,False
+utumbi,unspecific,sloping heads,control,sargassum,4,3,1.0,1.6666666666666667,2.0,0.11752486809663916,-0.6666666666666666,1.0,0.5876243404831958,False,False
+utumbi,unspecific,sloping heads,control,ulva_gutweed,4,3,1.0,1.6666666666666667,4.0,0.3864762307712327,-0.3333333333333333,1.0,0.8779693004712855,False,False
+utumbi,unspecific,sloping heads,control,ulva_salad,4,3,1.0,1.0,6.0,1.0,0.0,1.0,1.0,False,False
+utumbi,unspecific,sloping heads,fischmix,mackerel,2,3,2.0,2.3333333333333335,2.0,0.7609067270751141,-0.3333333333333333,1.0,0.8779693004712855,False,False
+utumbi,unspecific,sloping heads,fischmix,sargassum,2,3,2.0,1.6666666666666667,4.0,0.6830913983096087,0.3333333333333333,1.0,0.8779693004712855,False,False
+utumbi,unspecific,sloping heads,fischmix,ulva_gutweed,2,3,2.0,1.6666666666666667,4.0,0.7609067270751141,0.3333333333333333,1.0,0.8779693004712855,False,False
+utumbi,unspecific,sloping heads,fischmix,ulva_salad,2,3,2.0,1.0,5.0,0.3329216080655659,0.6666666666666666,1.0,0.8779693004712855,False,False
+utumbi,unspecific,sloping heads,mackerel,sargassum,3,3,2.3333333333333335,1.6666666666666667,6.5,0.4935627897033894,0.4444444444444444,1.0,0.8779693004712855,False,False
+utumbi,unspecific,sloping heads,mackerel,ulva_gutweed,3,3,2.3333333333333335,1.6666666666666667,6.0,0.6192567541768621,0.3333333333333333,1.0,0.8779693004712855,False,False
+utumbi,unspecific,sloping heads,mackerel,ulva_salad,3,3,2.3333333333333335,1.0,7.5,0.26115455974183277,0.6666666666666666,1.0,0.8779693004712855,False,False
+utumbi,unspecific,sloping heads,sargassum,ulva_gutweed,3,3,1.6666666666666667,1.6666666666666667,5.0,1.0,0.1111111111111111,1.0,1.0,False,False
+utumbi,unspecific,sloping heads,sargassum,ulva_salad,3,3,1.6666666666666667,1.0,6.5,0.47950012218695337,0.4444444444444444,1.0,0.8779693004712855,False,False
+utumbi,unspecific,sloping heads,ulva_gutweed,ulva_salad,3,3,1.6666666666666667,1.0,6.0,0.6428348264908044,0.3333333333333333,1.0,0.8779693004712855,False,False
+utumbi,unspecific,small ovals - damselfishes,control,fischmix,4,2,69.5,38.0,7.0,0.26666666666666666,0.75,1.0,0.5714285714285714,False,False
+utumbi,unspecific,small ovals - damselfishes,control,mackerel,4,3,69.5,114.0,1.0,0.11428571428571428,-0.8333333333333334,1.0,0.5,False,False
+utumbi,unspecific,small ovals - damselfishes,control,sargassum,4,3,69.5,50.0,8.0,0.6285714285714286,0.3333333333333333,1.0,0.75,False,False
+utumbi,unspecific,small ovals - damselfishes,control,ulva_gutweed,4,3,69.5,52.333333333333336,7.0,0.8571428571428571,0.16666666666666666,1.0,0.8571428571428571,False,False
+utumbi,unspecific,small ovals - damselfishes,control,ulva_salad,4,3,69.5,86.66666666666667,4.0,0.6285714285714286,-0.3333333333333333,1.0,0.75,False,False
+utumbi,unspecific,small ovals - damselfishes,fischmix,mackerel,2,3,38.0,114.0,0.0,0.2,-1.0,1.0,0.5,False,False
+utumbi,unspecific,small ovals - damselfishes,fischmix,sargassum,2,3,38.0,50.0,1.0,0.4,-0.6666666666666666,1.0,0.6666666666666666,False,False
+utumbi,unspecific,small ovals - damselfishes,fischmix,ulva_gutweed,2,3,38.0,52.333333333333336,1.0,0.4,-0.6666666666666666,1.0,0.6666666666666666,False,False
+utumbi,unspecific,small ovals - damselfishes,fischmix,ulva_salad,2,3,38.0,86.66666666666667,0.0,0.2,-1.0,1.0,0.5,False,False
+utumbi,unspecific,small ovals - damselfishes,mackerel,sargassum,3,3,114.0,50.0,9.0,0.1,1.0,1.0,0.5,False,False
+utumbi,unspecific,small ovals - damselfishes,mackerel,ulva_gutweed,3,3,114.0,52.333333333333336,9.0,0.1,1.0,1.0,0.5,False,False
+utumbi,unspecific,small ovals - damselfishes,mackerel,ulva_salad,3,3,114.0,86.66666666666667,6.0,0.7,0.3333333333333333,1.0,0.75,False,False
+utumbi,unspecific,small ovals - damselfishes,sargassum,ulva_gutweed,3,3,50.0,52.333333333333336,3.0,0.7,-0.3333333333333333,1.0,0.75,False,False
+utumbi,unspecific,small ovals - damselfishes,sargassum,ulva_salad,3,3,50.0,86.66666666666667,1.0,0.2,-0.7777777777777778,1.0,0.5,False,False
+utumbi,unspecific,small ovals - damselfishes,ulva_gutweed,ulva_salad,3,3,52.333333333333336,86.66666666666667,2.5,0.5065551690490403,-0.4444444444444444,1.0,0.75,False,False
+utumbi,unspecific,wrasses,control,fischmix,4,2,2.5,7.5,0.0,0.09520470468773326,-1.0,1.0,0.259678441794564,False,False
+utumbi,unspecific,wrasses,control,mackerel,4,3,2.5,7.333333333333333,0.0,0.04767810313602185,-1.0,0.7151715470403278,0.259678441794564,False,False
+utumbi,unspecific,wrasses,control,sargassum,4,3,2.5,2.6666666666666665,5.0,0.8382564863858263,-0.16666666666666666,1.0,0.8382564863858263,False,False
+utumbi,unspecific,wrasses,control,ulva_gutweed,4,3,2.5,2.0,8.0,0.5667652473884979,0.3333333333333333,1.0,0.6539599008328822,False,False
+utumbi,unspecific,wrasses,control,ulva_salad,4,3,2.5,4.0,1.0,0.0954832320975473,-0.8333333333333334,1.0,0.259678441794564,False,False
+utumbi,unspecific,wrasses,fischmix,mackerel,2,3,7.5,7.333333333333333,4.0,0.8,0.3333333333333333,1.0,0.8382564863858263,False,False
+utumbi,unspecific,wrasses,fischmix,sargassum,2,3,7.5,2.6666666666666665,6.0,0.1386406338132186,1.0,1.0,0.25995118839978487,False,False
+utumbi,unspecific,wrasses,fischmix,ulva_gutweed,2,3,7.5,2.0,6.0,0.2,1.0,1.0,0.2727272727272727,False,False
+utumbi,unspecific,wrasses,fischmix,ulva_salad,2,3,7.5,4.0,6.0,0.2,1.0,1.0,0.2727272727272727,False,False
+utumbi,unspecific,wrasses,mackerel,sargassum,3,3,7.333333333333333,2.6666666666666665,9.0,0.07652250047505922,1.0,1.0,0.259678441794564,False,False
+utumbi,unspecific,wrasses,mackerel,ulva_gutweed,3,3,7.333333333333333,2.0,9.0,0.1,1.0,1.0,0.259678441794564,False,False
+utumbi,unspecific,wrasses,mackerel,ulva_salad,3,3,7.333333333333333,4.0,8.5,0.12118327283746319,0.8888888888888888,1.0,0.259678441794564,False,False
+utumbi,unspecific,wrasses,sargassum,ulva_gutweed,3,3,2.6666666666666665,2.0,6.5,0.47950012218695337,0.4444444444444444,1.0,0.5993751527336917,False,False
+utumbi,unspecific,wrasses,sargassum,ulva_salad,3,3,2.6666666666666665,4.0,1.0,0.16415972847851523,-0.7777777777777778,1.0,0.2727272727272727,False,False
+utumbi,unspecific,wrasses,ulva_gutweed,ulva_salad,3,3,2.0,4.0,0.5,0.12118327283746319,-0.8888888888888888,1.0,0.259678441794564,False,False

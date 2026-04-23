@@ -1,0 +1,17 @@
+site,feature_type,feature,n_fish,n_algae,mean_fish,mean_algae,median_fish,median_algae,u_stat,p_value,cliffs_delta_fish_minus_algae,higher_side,p_value_holm,p_value_bh,significant_holm,significant_bh
+milimani,composite_group,wrasses_trigger_combo,4,10,4.5,2.1,4.5,2.0,39.5,0.0017116376594705583,0.975,fish,0.027386202551528932,0.027386202551528932,True,True
+milimani,composite_group,herbivore_core_families,4,10,31.75,9.2,27.0,7.0,34.0,0.05060281766865969,0.7,fish,0.7590422650298954,0.2914026245634157,False,False
+milimani,composite_group,nocturnal_predator_mixture,4,10,3.5,1.0,2.5,1.0,33.5,0.05596935100099164,0.675,fish,0.7835709140138829,0.2914026245634157,False,False
+milimani,composite_group,omnivore_box_puffer_file,4,10,1.25,2.2,1.5,2.0,8.5,0.08283044339807957,-0.575,algae,1.0,0.2914026245634157,False,False
+milimani,composite_group,piscivore_active_hunters,4,10,3.5,1.5,2.5,1.0,30.0,0.14570131228170785,0.5,fish,1.0,0.2914026245634157,False,False
+milimani,composite_group,snappers_groupers_combo,4,10,3.5,1.5,2.5,1.0,30.0,0.14570131228170785,0.5,fish,1.0,0.2914026245634157,False,False
+milimani,composite_group,predator_reef_core,4,10,3.5,1.5,2.5,1.0,30.0,0.14570131228170785,0.5,fish,1.0,0.2914026245634157,False,False
+milimani,composite_group,piscivore_core_families,4,10,3.5,1.5,2.5,1.0,30.0,0.14570131228170785,0.5,fish,1.0,0.2914026245634157,False,False
+milimani,composite_group,invertivore_general,4,10,3.0,5.2,2.5,4.5,14.0,0.43001086562919255,-0.3,algae,1.0,0.6880173850067081,False,False
+milimani,composite_group,invertivore_benthic_core,4,10,3.0,5.2,2.5,4.5,14.0,0.43001086562919255,-0.3,algae,1.0,0.6880173850067081,False,False
+milimani,composite_group,fish_oriented_diet_mode,4,10,4.75,5.0,4.0,3.5,23.0,0.7210148360791631,0.15,algae,1.0,0.8855198579393164,False,False
+milimani,composite_group,bioeroder_set,4,10,7.75,8.0,6.0,5.0,22.5,0.7760964108781581,0.125,algae,1.0,0.8855198579393164,False,False
+milimani,composite_group,algae_oriented_diet_mode,4,10,70.75,78.3,69.0,57.5,22.0,0.8391608391608392,0.1,algae,1.0,0.8855198579393164,False,False
+milimani,composite_group,herbivore_extended_with_damselfishes,4,10,70.75,78.3,69.0,57.5,22.0,0.8391608391608392,0.1,algae,1.0,0.8855198579393164,False,False
+milimani,composite_group,plankton_oriented_diet_mode,4,10,70.75,78.1,69.0,57.5,22.0,0.8391608391608392,0.1,algae,1.0,0.8855198579393164,False,False
+milimani,composite_group,invertebrate_oriented_diet_mode,4,10,5.25,5.5,5.0,4.5,21.5,0.8855198579393164,0.075,algae,1.0,0.8855198579393164,False,False

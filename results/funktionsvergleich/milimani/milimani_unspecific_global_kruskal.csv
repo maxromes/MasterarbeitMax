@@ -1,0 +1,13 @@
+site,feature_type,feature,n_total,n_baits,h_stat,p_value,eta_sq,dominant_bait,weakest_bait,mean_diff_max_minus_min,p_value_holm,p_value_bh,significant_holm,significant_bh
+milimani,unspecific,wrasses,17,6,11.555555555555557,0.04141218591170972,0.5959595959595961,fischmix,ulva_gutweed,4.0,0.4969462309405166,0.4969462309405166,False,False
+milimani,unspecific,large ovals,17,6,9.715789473684207,0.0837005948168812,0.4287081339712916,mackerel,fischmix,34.333333333333336,0.9207065429856932,0.5022035689012873,False,False
+milimani,unspecific,blennies,17,6,7.69223744292237,0.17403257557099772,0.2447488584474882,ulva_salad,fischmix,1.75,1.0,0.5188284060752059,False,False
+milimani,unspecific,reddish/big eyes,17,6,6.933333333333337,0.22564579895460157,0.1757575757575761,sargassum,fischmix,0.6666666666666666,1.0,0.5188284060752059,False,False
+milimani,unspecific,silvery,17,6,6.542324246771877,0.2569624996423509,0.14021129516107977,fischmix,sargassum,7.0,1.0,0.5188284060752059,False,False
+milimani,unspecific,heavy bodies/large lips,17,6,6.101426307448495,0.2964744577040607,0.10012966431349955,fischmix,ulva_gutweed,4.0,1.0,0.5188284060752059,False,False
+milimani,unspecific,elongate sand & burrow dwellers,17,6,5.704040404040397,0.3360902486551878,0.06400367309458152,fischmix,ulva_gutweed,1.0,1.0,0.5188284060752059,False,False
+milimani,unspecific,sloping heads,17,6,5.611394557823131,0.34588560405013724,0.05558132343846642,sargassum,ulva_gutweed,6.0,1.0,0.5188284060752059,False,False
+milimani,unspecific,odd-shaped swimmers,17,6,4.256906077348063,0.5130513210430128,0.0,sargassum,control,4.333333333333333,1.0,0.6454910458496691,False,False
+milimani,unspecific,parrotfishes,17,6,4.080331262939954,0.5379092048747243,0.0,sargassum,control,9.333333333333334,1.0,0.6454910458496691,False,False
+milimani,unspecific,small ovals - damselfishes,17,6,3.5337423312883454,0.6182882483297394,0.0,sargassum,ulva_gutweed,76.66666666666666,1.0,0.6744962709051703,False,False
+milimani,unspecific,disk-shaped/colourful,17,6,2.3720279720279636,0.7956322920465548,0.0,sargassum,control,1.0,1.0,0.7956322920465548,False,False

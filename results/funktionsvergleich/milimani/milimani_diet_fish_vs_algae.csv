@@ -1,0 +1,5 @@
+site,feature_type,feature,n_fish,n_algae,mean_fish,mean_algae,median_fish,median_algae,u_stat,p_value,cliffs_delta_fish_minus_algae,higher_side,p_value_holm,p_value_bh,significant_holm,significant_bh
+milimani,diet,fish,4,10,4.75,5.0,4.0,3.5,23.0,0.7210148360791631,0.15,algae,1.0,0.8855198579393164,False,False
+milimani,diet,algae,4,10,70.75,78.3,69.0,57.5,22.0,0.8391608391608392,0.1,algae,1.0,0.8855198579393164,False,False
+milimani,diet,plankton,4,10,70.75,78.1,69.0,57.5,22.0,0.8391608391608392,0.1,algae,1.0,0.8855198579393164,False,False
+milimani,diet,invertebrates,4,10,5.25,5.5,5.0,4.5,21.5,0.8855198579393164,0.075,algae,1.0,0.8855198579393164,False,False

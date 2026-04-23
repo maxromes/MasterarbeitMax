@@ -1,0 +1,18 @@
+composite_group,beschreibung
+algae_oriented_diet_mode,Alle Taxa mit Algenbezug gemaess Word-Diet-Mapping
+bioeroder_set,Bioeroder/Hard-substrate feeder: Scaridae + Balistidae
+fish_oriented_diet_mode,Alle Taxa mit Fischbezug gemaess Word-Diet-Mapping
+herbivore_core_families,"Kern-Herbivore (Familien): Siganidae, Acanthuridae, Scaridae, Blenniidae"
+herbivore_extended_with_damselfishes,Erweiterte Herbivore: rabbitfishes/surgeonfishes/parrotfishes/blennies + small_ovals_damselfishes
+invertebrate_oriented_diet_mode,Alle Taxa mit Wirbellosenbezug gemaess Word-Diet-Mapping
+invertivore_benthic_core,"Benthos-Invertivore: Mullidae, Haemulidae, Balistidae, Diodontidae, Nemipteridae, Lethrinidae"
+invertivore_general,"Breite Invertivore (Word): goatfishes, sweetlips, triggerfishes, porcupinefishes, coral_breams, emperors, hawkfishes"
+nocturnal_predator_mixture,"Nachtaktive Jaeger-Mischung: eels, snappers, bigeyes, soldier_squirrelfishes"
+omnivore_box_puffer_file,"Omnivore/Tendenz-gemischt: Ostraciidae, Tetraodontidae, Monacanthidae"
+piscivore_active_hunters,"Aktive/ambush Fischjaeger: groupers_large, eels, snappers, barracudas, trumpetfishes, cornetfishes, jacks_trevallies"
+piscivore_core_families,"Kern-Piscivore (Familien): Serranidae, Lutjanidae, Muraenidae, Sphyraenidae, Aulostomidae, Fistulariidae"
+planktivore_core,"Planktivore Kernfamilien: Apogonidae, Caesionidae, Pempheridae (+ Anthias als Word-Gruppe)"
+plankton_oriented_diet_mode,Alle Taxa mit Planktonbezug gemaess Word-Diet-Mapping
+predator_reef_core,"Riff-Praedatoren (familienbasiert): Lutjanidae, Serranidae, Muraenidae, Sphyraenidae, Synanceiidae, Antennariidae"
+snappers_groupers_combo,Kombination Lutjanidae + Serranidae (Snappers + Groupers)
+wrasses_trigger_combo,Kombination Labridae + Balistidae (Wrasses + Triggerfishes)

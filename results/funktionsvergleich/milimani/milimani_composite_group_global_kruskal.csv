@@ -1,0 +1,17 @@
+site,feature_type,feature,n_total,n_baits,h_stat,p_value,eta_sq,dominant_bait,weakest_bait,mean_diff_max_minus_min,p_value_holm,p_value_bh,significant_holm,significant_bh
+milimani,composite_group,nocturnal_predator_mixture,17,6,13.287836583101209,0.02082567487340071,0.7534396893728371,fischmix,ulva_salad,7.75,0.33321079797441133,0.290540696567778,False,False
+milimani,composite_group,wrasses_trigger_combo,17,6,11.555555555555557,0.04141218591170972,0.5959595959595961,fischmix,ulva_gutweed,4.0,0.6211827886756458,0.290540696567778,False,False
+milimani,composite_group,herbivore_core_families,17,6,10.848095849379538,0.054476380606458374,0.5316450772163216,mackerel,control,36.0,0.7626693284904172,0.290540696567778,False,False
+milimani,composite_group,invertebrate_oriented_diet_mode,17,6,8.293198141106886,0.14080004431682377,0.29938164919153515,sargassum,ulva_salad,6.5,1.0,0.33273366224223067,False,False
+milimani,composite_group,piscivore_active_hunters,17,6,7.821234567901237,0.16636683112111533,0.25647586980920334,fischmix,ulva_gutweed,7.0,1.0,0.33273366224223067,False,False
+milimani,composite_group,piscivore_core_families,17,6,7.821234567901237,0.16636683112111533,0.25647586980920334,fischmix,ulva_gutweed,7.0,1.0,0.33273366224223067,False,False
+milimani,composite_group,predator_reef_core,17,6,7.821234567901237,0.16636683112111533,0.25647586980920334,fischmix,ulva_gutweed,7.0,1.0,0.33273366224223067,False,False
+milimani,composite_group,snappers_groupers_combo,17,6,7.821234567901237,0.16636683112111533,0.25647586980920334,fischmix,ulva_gutweed,7.0,1.0,0.33273366224223067,False,False
+milimani,composite_group,fish_oriented_diet_mode,17,6,6.790092359361886,0.23672530609220466,0.16273566903289868,sargassum,ulva_salad,6.333333333333334,1.0,0.42084498860836383,False,False
+milimani,composite_group,invertivore_benthic_core,17,6,6.172808132147395,0.2897653098410645,0.10661892110430865,sargassum,fischmix,7.0,1.0,0.4214768143142757,False,False
+milimani,composite_group,invertivore_general,17,6,6.172808132147395,0.2897653098410645,0.10661892110430865,sargassum,fischmix,7.0,1.0,0.4214768143142757,False,False
+milimani,composite_group,omnivore_box_puffer_file,17,6,5.4152046783625725,0.36733360431869516,0.03774587985114295,ulva_salad,fischmix,1.5,1.0,0.48977813909159357,False,False
+milimani,composite_group,bioeroder_set,17,6,4.080331262939954,0.5379092048747243,0.0,sargassum,control,9.333333333333334,1.0,0.6182882483297394,False,False
+milimani,composite_group,algae_oriented_diet_mode,17,6,3.5337423312883454,0.6182882483297394,0.0,sargassum,ulva_gutweed,76.66666666666666,1.0,0.6182882483297394,False,False
+milimani,composite_group,herbivore_extended_with_damselfishes,17,6,3.5337423312883454,0.6182882483297394,0.0,sargassum,ulva_gutweed,76.66666666666666,1.0,0.6182882483297394,False,False
+milimani,composite_group,plankton_oriented_diet_mode,17,6,3.5337423312883454,0.6182882483297394,0.0,sargassum,ulva_gutweed,76.66666666666666,1.0,0.6182882483297394,False,False

@@ -1,0 +1,5 @@
+site,feature_type,feature,n_fish,n_algae,mean_fish,mean_algae,median_fish,median_algae,u_stat,p_value,cliffs_delta_fish_minus_algae,higher_side,p_value_holm,p_value_bh,significant_holm,significant_bh
+utumbi,diet,invertebrates,5,9,8.0,4.111111111111111,7.0,4.0,42.0,0.010504435951754392,0.8666666666666667,fish,0.04201774380701757,0.02894529768302767,True,True
+utumbi,diet,fish,5,9,3.0,2.111111111111111,3.0,2.0,38.5,0.014472648841513835,0.7111111111111111,fish,0.043417946524541506,0.02894529768302767,True,True
+utumbi,diet,algae,5,9,83.6,63.0,94.0,56.0,26.0,0.688832256734949,0.15555555555555556,fish,1.0,0.6993006993006993,False,False
+utumbi,diet,plankton,5,9,83.6,66.44444444444444,94.0,62.0,26.0,0.6993006993006993,0.15555555555555556,fish,1.0,0.6993006993006993,False,False

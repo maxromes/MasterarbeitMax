@@ -1,0 +1,5 @@
+site,feature_type,feature,n_total,n_baits,h_stat,p_value,eta_sq,dominant_bait,weakest_bait,mean_diff_max_minus_min,p_value_holm,p_value_bh,significant_holm,significant_bh
+milimani,diet,invertebrates,17,6,8.293198141106886,0.14080004431682377,0.29938164919153515,sargassum,ulva_salad,6.5,0.5632001772672951,0.4734506121844093,False,False
+milimani,diet,fish,17,6,6.790092359361886,0.23672530609220466,0.16273566903289868,sargassum,ulva_salad,6.333333333333334,0.710175918276614,0.4734506121844093,False,False
+milimani,diet,algae,17,6,3.5337423312883454,0.6182882483297394,0.0,sargassum,ulva_gutweed,76.66666666666666,1.0,0.6182882483297394,False,False
+milimani,diet,plankton,17,6,3.5337423312883454,0.6182882483297394,0.0,sargassum,ulva_gutweed,76.66666666666666,1.0,0.6182882483297394,False,False
