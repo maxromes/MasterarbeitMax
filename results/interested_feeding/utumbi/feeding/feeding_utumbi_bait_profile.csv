@@ -1,0 +1,7 @@
+koeder,n_videos,mean_total_feeding_events,median_total_feeding_events,mean_unique_feeding_taxa,n_bait_specific_taxa,n_trend_taxa_dominant
+control,4,0.25,0.0,0.25,0,0
+fischmix,2,23.5,23.5,8.5,1,3
+mackerel,3,14.666666666666666,17.0,5.666666666666667,2,1
+sargassum,3,4.333333333333333,2.0,2.6666666666666665,0,0
+ulva_gutweed,3,0.3333333333333333,0.0,0.3333333333333333,0,0
+ulva_salad,3,2.3333333333333335,1.0,2.0,1,0

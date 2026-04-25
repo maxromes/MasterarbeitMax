@@ -32,9 +32,11 @@ if str(SCRIPT_DIR) not in sys.path:
 import funktionsvergleich_koeder_cut47min as base  # type: ignore
 
 CUT_ROOT = ROOT / "normalized_reports" / "cut_47min" / "Annotation_reports_coral_reef"
+NURSERY_CUT_ROOT = ROOT / "normalized_reports" / "cut_47min" / "Annotation_reports_Nursery"
 MODEL_OUT = ROOT / "results" / "funktionsvergleich_modell"
 INDICATOR_OUT = ROOT / "results" / "funktionsvergleich_indicator"
 SENS_OUT = ROOT / "results" / "funktionsvergleich_sensitivity"
+NURSERY_SENS_OUT = ROOT / "results" / "nursery_methodik_vergleich" / "funktionsvergleich_sensitivity"
 
 TARGET_SITES = ["milimani", "utumbi"]
 TARGET_BAIT_TYPES = {"fish", "algae"}
@@ -86,16 +88,24 @@ def parse_video_metadata(filename: str) -> Tuple[str, str, str]:
     return (date, standort.lower(), koeder.lower())
 
 
-def build_video_table() -> pd.DataFrame:
+def build_video_table_for_dataset(
+    cut_root: Path,
+    target_sites: Sequence[str],
+    allowed_baits: Sequence[str],
+) -> pd.DataFrame:
     rows: List[Dict[str, object]] = []
-    for csv_path in sorted(CUT_ROOT.glob("*.csv")):
+    site_set = set(target_sites)
+    bait_set = set(allowed_baits)
+    for csv_path in sorted(cut_root.glob("*.csv")):
         _, site, bait = parse_video_metadata(csv_path.name)
-        if site not in TARGET_SITES or bait not in {"mackerel", "fischmix", "sargassum", "ulva_salad", "ulva_gutweed"}:
+        if site not in site_set or bait not in bait_set:
             continue
 
         raw = pd.read_csv(csv_path, engine="python", on_bad_lines="skip")
-        non_behavioral = raw.loc[~(raw.get("feeding", "").astype(str).str.lower().isin(["1", "true", "t", "yes", "y"]))]
-        non_behavioral = non_behavioral.loc[~(non_behavioral.get("interested", "").astype(str).str.lower().isin(["1", "true", "t", "yes", "y"]))]
+        behavior_tokens = {"1", "true", "t", "yes", "y", "feeding", "interested"}
+        feeding_marked = raw.get("feeding", "").astype(str).str.strip().str.lower().isin(behavior_tokens)
+        interested_marked = raw.get("interested", "").astype(str).str.strip().str.lower().isin(behavior_tokens)
+        non_behavioral = raw.loc[~(feeding_marked | interested_marked)]
         # backstop for missing boolean columns or string parsing
         if non_behavioral.empty:
             non_behavioral = raw.copy()
@@ -106,11 +116,28 @@ def build_video_table() -> pd.DataFrame:
 
     df = pd.DataFrame(rows)
     if df.empty:
-        raise RuntimeError("Keine Videos fuer Milimani/Utumbi gefunden.")
+        site_label = ", ".join(target_sites)
+        raise RuntimeError(f"Keine Videos fuer Standorte gefunden: {site_label}")
     return df[df["bait_type"].isin(TARGET_BAIT_TYPES)].copy().reset_index(drop=True)
 
 
-def get_feature_list(videos: pd.DataFrame, feature_type: str) -> List[str]:
+def build_video_table() -> pd.DataFrame:
+    return build_video_table_for_dataset(
+        cut_root=CUT_ROOT,
+        target_sites=TARGET_SITES,
+        allowed_baits=["mackerel", "fischmix", "sargassum", "ulva_salad", "ulva_gutweed"],
+    )
+
+
+def build_video_table_nursery() -> pd.DataFrame:
+    return build_video_table_for_dataset(
+        cut_root=NURSERY_CUT_ROOT,
+        target_sites=["nursery"],
+        allowed_baits=["mackerel", "algaemix", "algae_strings"],
+    )
+
+
+def get_feature_list(videos: pd.DataFrame, feature_type: str, required_sites: Sequence[str] = TARGET_SITES) -> List[str]:
     features = sorted(
         set().union(
             *videos["maxn_by_type"].map(lambda d: set(d.get(feature_type, {}).keys())).tolist()
@@ -120,13 +147,14 @@ def get_feature_list(videos: pd.DataFrame, feature_type: str) -> List[str]:
     for feature in features:
         present = 0
         bait_present = {bait: 0 for bait in TARGET_BAIT_TYPES}
-        site_present = {site: 0 for site in TARGET_SITES}
+        site_present = {site: 0 for site in required_sites}
         for row in videos.itertuples(index=False):
             value = float(row.maxn_by_type.get(feature_type, {}).get(feature, 0))
             if value > 0:
                 present += 1
                 bait_present[row.bait_type] += 1
-                site_present[row.site] += 1
+                if row.site in site_present:
+                    site_present[row.site] += 1
         if present >= MIN_PRESENT and all(v >= MIN_PER_SITE for v in bait_present.values()) and all(v >= 1 for v in site_present.values()):
             keep.append(feature)
     return keep
@@ -459,12 +487,18 @@ def run_indicator_analysis(videos: pd.DataFrame) -> pd.DataFrame:
     return combined
 
 
-def apply_filters(videos: pd.DataFrame, remove_dominant: bool, remove_rare: bool, feature_type: str = "word_group") -> Tuple[pd.DataFrame, List[str]]:
+def apply_filters(
+    videos: pd.DataFrame,
+    remove_dominant: bool,
+    remove_rare: bool,
+    feature_type: str = "word_group",
+    required_sites: Sequence[str] = TARGET_SITES,
+) -> Tuple[pd.DataFrame, List[str]]:
     filtered = videos.copy()
     if remove_dominant:
         thresholds = {}
         keep_idx = []
-        for site in TARGET_SITES:
+        for site in required_sites:
             site_df = filtered[filtered["site"] == site].copy()
             if site_df.empty:
                 continue
@@ -472,7 +506,7 @@ def apply_filters(videos: pd.DataFrame, remove_dominant: bool, remove_rare: bool
             keep_idx.extend(site_df[site_df["n_rows"] <= cutoff].index.tolist())
         filtered = filtered.loc[sorted(set(keep_idx))].copy()
 
-    features = get_feature_list(filtered, feature_type)
+    features = get_feature_list(filtered, feature_type, required_sites=required_sites)
     if remove_rare and features:
         keep = []
         for feature in features:
@@ -486,9 +520,14 @@ def apply_filters(videos: pd.DataFrame, remove_dominant: bool, remove_rare: bool
     return filtered.reset_index(drop=True), features
 
 
-def run_sensitivity_analysis(videos: pd.DataFrame, base_model: pd.DataFrame) -> pd.DataFrame:
-    SENS_OUT.mkdir(parents=True, exist_ok=True)
-    fig_dir = SENS_OUT / "figures"
+def run_sensitivity_analysis(
+    videos: pd.DataFrame,
+    out_dir: Path,
+    analysis_title: str,
+    required_sites: Sequence[str] = TARGET_SITES,
+) -> pd.DataFrame:
+    out_dir.mkdir(parents=True, exist_ok=True)
+    fig_dir = out_dir / "figures"
     fig_dir.mkdir(parents=True, exist_ok=True)
 
     scenarios = [
@@ -501,12 +540,16 @@ def run_sensitivity_analysis(videos: pd.DataFrame, base_model: pd.DataFrame) -> 
     key_rows: List[Dict[str, object]] = []
 
     for name, drop_dom, drop_rare in scenarios:
-        filt_videos, _ = apply_filters(videos, drop_dom, drop_rare, feature_type="word_group")
+        filt_videos, _ = apply_filters(
+            videos,
+            drop_dom,
+            drop_rare,
+            feature_type="word_group",
+            required_sites=required_sites,
+        )
         scenario_frames: List[pd.DataFrame] = []
         for feature_type in FEATURE_TYPES:
-            feats = get_feature_list(filt_videos, feature_type)
-            if drop_rare:
-                feats = [f for f in feats if f in get_feature_list(filt_videos, feature_type)]
+            feats = get_feature_list(filt_videos, feature_type, required_sites=required_sites)
             if not feats:
                 continue
             mat = build_matrix(filt_videos, feature_type, feats)
@@ -521,7 +564,7 @@ def run_sensitivity_analysis(videos: pd.DataFrame, base_model: pd.DataFrame) -> 
             df["sig_interaction_bh"] = df["p_bh_interaction"] < ALPHA
             scenario_frames.append(df)
         scenario_df = pd.concat(scenario_frames, ignore_index=True) if scenario_frames else pd.DataFrame()
-        scenario_df.to_csv(SENS_OUT / f"{name}_model_results.csv", index=False)
+        scenario_df.to_csv(out_dir / f"{name}_model_results.csv", index=False)
         summary_rows.append(
             {
                 "scenario": name,
@@ -551,15 +594,15 @@ def run_sensitivity_analysis(videos: pd.DataFrame, base_model: pd.DataFrame) -> 
 
     summary = pd.DataFrame(summary_rows)
     key_df = pd.DataFrame(key_rows)
-    summary.to_csv(SENS_OUT / "sensitivity_overview.csv", index=False)
-    key_df.to_csv(SENS_OUT / "sensitivity_key_features.csv", index=False)
+    summary.to_csv(out_dir / "sensitivity_overview.csv", index=False)
+    key_df.to_csv(out_dir / "sensitivity_key_features.csv", index=False)
 
     if not summary.empty:
         fig, ax = plt.subplots(figsize=(8.5, 4.5))
         ax.bar(summary["scenario"], summary["n_sig_bait_bh"], color="#2f6b8f", label="bait effect")
         ax.bar(summary["scenario"], summary["n_sig_interaction_bh"], bottom=summary["n_sig_bait_bh"], color="#d46a3a", label="interaction")
         ax.set_ylabel("BH-signifikante Features")
-        ax.set_title("Sensitivitaet des Fish-vs-Algae-Modells")
+        ax.set_title(f"Sensitivitaet des Fish-vs-Algae-Modells ({analysis_title})")
         ax.tick_params(axis="x", rotation=25)
         ax.legend(frameon=False)
         ax.spines["top"].set_visible(False)
@@ -569,7 +612,7 @@ def run_sensitivity_analysis(videos: pd.DataFrame, base_model: pd.DataFrame) -> 
         plt.close(fig)
 
     lines: List[str] = []
-    lines.append("# Sensitivitaetsanalyse fuer Fish-vs-Algae")
+    lines.append(f"# Sensitivitaetsanalyse fuer Fish-vs-Algae ({analysis_title})")
     lines.append("")
     lines.append("Szenarien: Baseline, ohne dominante Videos, ohne seltene Features, kombiniert.")
     lines.append("")
@@ -582,7 +625,7 @@ def run_sensitivity_analysis(videos: pd.DataFrame, base_model: pd.DataFrame) -> 
         lines.append("- Die Fish-vs-Algae-Signale bleiben unter den Filtern erhalten, verlieren aber erwartungsgemaess etwas an Testanzahl.")
         lines.append("- Dominante Videos und seltene Features erklaeren die Hauptergebnisse nicht allein.")
         lines.append("- Die robustesten Gruppen werden in den Kern-Features weiter beobachtet, wenn sie im Filterset enthalten bleiben.")
-    (SENS_OUT / "sensitivity_report.md").write_text("\n".join(lines), encoding="utf-8")
+    (out_dir / "sensitivity_report.md").write_text("\n".join(lines), encoding="utf-8")
     return summary
 
 
@@ -590,7 +633,16 @@ def main() -> None:
     videos = build_video_table()
     model_df, model_overview = run_model_analysis(videos)
     indicator_df = run_indicator_analysis(videos)
-    sensitivity_df = run_sensitivity_analysis(videos, model_df)
+    sensitivity_df = run_sensitivity_analysis(videos, out_dir=SENS_OUT, analysis_title="Milimani + Utumbi")
+
+    # Zusaetzlich: identischer Sensitivitaetslauf fuer den Standort Nursery.
+    nursery_videos = build_video_table_nursery()
+    run_sensitivity_analysis(
+        nursery_videos,
+        out_dir=NURSERY_SENS_OUT,
+        analysis_title="Nursery",
+        required_sites=["nursery"],
+    )
 
     # compact combined overview for quick reading
     combined_report = ROOT / "results" / "funktionsvergleich_offene_punkte_1_3.md"

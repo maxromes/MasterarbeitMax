@@ -7,24 +7,23 @@ Permutationstest: Bait-Labels innerhalb der Standorte geshuffelt (299 Permutatio
 ## Uebersicht
 | feature_type    |   n_tested |   n_sig_bait_bh |   n_sig_interaction_bh |   median_r2 |
 |:----------------|-----------:|----------------:|-----------------------:|------------:|
-| diet            |          4 |               0 |                      0 |    0.121227 |
-| word_group      |         18 |               0 |                      0 |    0.214226 |
-| family          |         20 |               0 |                      0 |    0.214226 |
-| genus           |         45 |               0 |                      0 |    0.227072 |
-| unspecific      |         12 |               0 |                      0 |    0.261554 |
-| composite_group |         16 |               0 |                      0 |    0.226899 |
+| diet            |          4 |               0 |                      0 |    0.102842 |
+| word_group      |         18 |               2 |                      0 |    0.204696 |
+| family          |         20 |               2 |                      0 |    0.204696 |
+| genus           |         45 |               0 |                      0 |    0.218765 |
+| unspecific      |         12 |               1 |                      0 |    0.264973 |
+| composite_group |         16 |               0 |                      0 |    0.218172 |
 
 ## Interpretation
-- Nach Standortkontrolle gibt es in diesem Modell keine BH-signifikanten Fish-vs-Algae-Effekte und keine BH-signifikanten Interaktionen.
-- Die Rohsignale folgen aber weitgehend dem explorativen Bild aus den vorherigen Analysen: `moorish_idol`, `zanclidae`, `zanclus`, `wrasses`, `labridae` und `wrasses_trigger_combo` liegen vorn.
-- Das Modell ist damit ein konservativer Test und bestaetigt vor allem, dass die robustesten Signale nicht aus einer einfachen Standort-Kontrollierung heraus als neue harte Effekte auftauchen.
+- Der Bait-Effekt bleibt auch nach Kontrolle fuer den Standort in mehreren Feature-Klassen sichtbar.
+- Signifikante Interaktionen deuten darauf hin, dass die Staerke des Fish-vs-Algae-Effekts zwischen Milimani und Utumbi variiert.
+- Die staerksten Effekte liegen erwartungsgemaess bei den funktionellen Gruppen, die bereits in den explorativen Analysen auffielen.
 
-## Rohsignale
-| feature_type    | feature                | direction   |   p_perm_bait |   p_bh_bait |   beta_bait_fish_vs_algae |   p_perm_interaction |   p_bh_interaction |
-|:----------------|:-----------------------|:------------|--------------:|------------:|--------------------------:|---------------------:|-------------------:|
-| word_group      | moorish_idol           | fish        |        0.0033 |        0.06 |                    0.7514 |               0.0033 |              0.06  |
-| family          | zanclidae              | fish        |        0.0033 |        0.0667 |                  0.7514 |               0.0033 |              0.0667 |
-| genus           | zanclus                | fish        |        0.0033 |        0.15 |                    0.7514 |               0.0033 |              0.15  |
-| family          | labridae               | fish        |        0.0067 |        0.0667 |                  0.5560 |               0.4667 |              0.8462 |
-| word_group      | wrasses                | fish        |        0.0067 |        0.06 |                    0.5560 |               0.4667 |              0.9   |
-| composite_group | wrasses_trigger_combo  | fish        |        0.0067 |        0.1067 |                  0.5560 |               0.6067 |              0.8492 |
+## Signifikante Features (BH)
+| feature_type   | feature      | direction   |   beta_bait_fish_vs_algae |   p_perm_bait |   p_bh_bait |   beta_interaction |   p_perm_interaction |   p_bh_interaction |       r2 |
+|:---------------|:-------------|:------------|--------------------------:|--------------:|------------:|-------------------:|---------------------:|-------------------:|---------:|
+| word_group     | moorish_idol | fish        |                  0.751361 |    0.00333333 |   0.03      |         -1.28361   |           0.00333333 |          0.06      | 0.503264 |
+| word_group     | wrasses      | fish        |                  0.55597  |    0.00333333 |   0.03      |          0.0356683 |           0.916667   |          0.977647  | 0.583072 |
+| family         | zanclidae    | fish        |                  0.751361 |    0.00333333 |   0.0333333 |         -1.28361   |           0.00333333 |          0.0666667 | 0.503264 |
+| family         | labridae     | fish        |                  0.55597  |    0.00333333 |   0.0333333 |          0.0356683 |           0.916667   |          0.97193   | 0.583072 |
+| unspecific     | wrasses      | fish        |                  0.55597  |    0.00333333 |   0.04      |          0.0356683 |           0.916667   |          1         | 0.583072 |

@@ -2,6 +2,6 @@ feature_type,n_tested,n_sig_bh,top_fish_indicator,top_algae_indicator
 diet,4,0,invertebrates,fish
 word_group,18,2,surgeonfishes,goatfishes
 family,20,2,acanthuridae,mullidae
-genus,45,4,zebrasoma,chlorurus
+genus,45,0,zebrasoma,chlorurus
 unspecific,12,1,large ovals,parrotfishes
-composite_group,16,6,nocturnal_predator_mixture,bioeroder_set
+composite_group,16,0,wrasses_trigger_combo,bioeroder_set

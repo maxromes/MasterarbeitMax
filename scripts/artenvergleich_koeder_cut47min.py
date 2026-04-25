@@ -40,7 +40,9 @@ def is_truthy(value: object) -> bool:
     if value is None:
         return False
     text = str(value).strip().lower()
-    return text in {"1", "true", "t", "yes", "y"}
+    if text in {"", "0", "false", "f", "no", "n", "none", "null", "nan"}:
+        return False
+    return True
 
 
 def clean_text(value: object) -> str:

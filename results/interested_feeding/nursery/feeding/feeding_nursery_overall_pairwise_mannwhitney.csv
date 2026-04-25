@@ -1,0 +1,7 @@
+koeder_a,koeder_b,n_a,n_b,mean_total_a,mean_total_b,u_stat,p_value,p_value_holm,p_value_bh,significant_holm,significant_bh,sig_label_raw,sig_label_holm
+algae_strings,algaemix,3,3,13.666666666666666,33.666666666666664,1.0,0.2,0.8,0.4000000000000001,False,False,ns,ns
+algae_strings,control,3,1,13.666666666666666,0.0,3.0,0.5,1.0,0.5,False,False,ns,ns
+algae_strings,mackerel,3,4,13.666666666666666,5.75,11.5,0.07446183141740546,0.37230915708702733,0.22338549425221638,False,False,ns,ns
+algaemix,control,3,1,33.666666666666664,0.0,3.0,0.5,1.0,0.5,False,False,ns,ns
+algaemix,mackerel,3,4,33.666666666666664,5.75,12.0,0.05714285714285714,0.34285714285714286,0.22338549425221638,False,False,ns,ns
+control,mackerel,1,4,0.0,5.75,0.0,0.4,1.0,0.5,False,False,ns,ns

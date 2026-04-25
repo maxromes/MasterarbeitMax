@@ -58,7 +58,9 @@ def clean_text(value: object) -> str:
 
 def is_truthy(value: object) -> bool:
     text = clean_text(value).lower()
-    return text in {"1", "true", "t", "yes", "y"}
+    if text in {"", "0", "false", "f", "no", "n", "none", "null", "nan"}:
+        return False
+    return True
 
 
 def parse_video_meta(filename: str) -> Tuple[str, str, str]:

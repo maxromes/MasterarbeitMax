@@ -1,0 +1,5 @@
+site,feature_type,feature,n_fish,n_algae,mean_fish,mean_algae,median_fish,median_algae,u_stat,p_value,cliffs_delta_fish_minus_algae,higher_side,p_value_holm,p_value_bh,significant_holm,significant_bh
+nursery,diet,algae,4,6,12.5,25.5,12.0,23.0,1.0,0.024741043348195647,-0.9166666666666666,algae,0.09896417339278259,0.09896417339278259,False,False
+nursery,diet,fish,4,6,15.25,27.0,13.0,20.5,5.0,0.16452181748948447,-0.5833333333333334,algae,0.4935654524684534,0.21936242331931263,False,False
+nursery,diet,invertebrates,4,6,15.25,27.0,13.0,20.5,5.0,0.16452181748948447,-0.5833333333333334,algae,0.4935654524684534,0.21936242331931263,False,False
+nursery,diet,plankton,4,6,11.25,8.5,10.0,8.5,14.0,0.7476367448647483,0.16666666666666666,fish,0.7476367448647483,0.7476367448647483,False,False

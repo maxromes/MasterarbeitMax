@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Funktioneller Koedervergleich (cut_47min) fuer Milimani und Utumbi.
+Funktioneller Koedervergleich (cut_47min) fuer Milimani, Utumbi und Nursery.
 
 Ziel:
 - Nutzt die Ernaehrungs-Informationen aus der Word-Tabelle
@@ -38,9 +38,10 @@ from scipy import stats
 
 ROOT = Path(__file__).resolve().parents[1]
 CUT_ROOT = ROOT / "normalized_reports" / "cut_47min" / "Annotation_reports_coral_reef"
+NURSERY_CUT_ROOT = ROOT / "normalized_reports" / "cut_47min" / "Annotation_reports_Nursery"
 OUT_DIR = ROOT / "results" / "funktionsvergleich"
 
-TARGET_SITES = ["milimani", "utumbi"]
+TARGET_SITES = ["milimani", "utumbi", "nursery"]
 ALPHA = 0.05
 
 # Koeder-Typen fuer die gezielte Fish-vs-Algae-Analyse
@@ -50,6 +51,8 @@ BAIT_TYPE = {
     "sargassum": "algae",
     "ulva_salad": "algae",
     "ulva_gutweed": "algae",
+    "algaemix": "algae",
+    "algae_strings": "algae",
     "control": "control",
 }
 
@@ -247,7 +250,9 @@ def is_truthy(value: object) -> bool:
     if value is None:
         return False
     text = str(value).strip().lower()
-    return text in {"1", "true", "t", "yes", "y"}
+    if text in {"", "0", "false", "f", "no", "n", "none", "null", "nan"}:
+        return False
+    return True
 
 
 def parse_video_metadata(filename: str) -> Tuple[str, str, str]:
@@ -632,9 +637,11 @@ def write_summary_report(
     all_pairwise: List[pd.DataFrame],
 ) -> None:
     md_lines: List[str] = []
-    md_lines.append("# Funktionsvergleich: Koederunterschiede in Milimani und Utumbi")
+    md_lines.append("# Funktionsvergleich: Koederunterschiede in Milimani, Utumbi und Nursery")
     md_lines.append("")
-    md_lines.append("Datengrundlage: normalized_reports/cut_47min/Annotation_reports_coral_reef")
+    md_lines.append(
+        "Datengrundlage: normalized_reports/cut_47min/Annotation_reports_coral_reef und normalized_reports/cut_47min/Annotation_reports_Nursery"
+    )
     md_lines.append("")
     md_lines.append("Verwendete Korrekturen fuer multiples Testen: Holm und Benjamini-Hochberg (FDR/BH).")
     md_lines.append("")
@@ -766,7 +773,8 @@ def main() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
     video_rows: List[Dict[str, object]] = []
-    for csv_path in sorted(CUT_ROOT.glob("*.csv")):
+    source_files = sorted(CUT_ROOT.glob("*.csv")) + sorted(NURSERY_CUT_ROOT.glob("*.csv"))
+    for csv_path in source_files:
         date, site, _ = parse_video_metadata(csv_path.name)
         if not date or site not in TARGET_SITES:
             continue
@@ -774,7 +782,7 @@ def main() -> None:
 
     videos = pd.DataFrame(video_rows)
     if videos.empty:
-        raise RuntimeError("Keine Videos fuer milimani/utumbi gefunden.")
+        raise RuntimeError("Keine Videos fuer milimani/utumbi/nursery gefunden.")
 
     feature_settings = {
         "diet": {"min_present_videos": 1, "min_baits": 2},

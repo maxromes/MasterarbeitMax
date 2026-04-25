@@ -1,0 +1,151 @@
+taxon_key,koeder_a,koeder_b,n_a,n_b,mean_a,mean_b,u_stat,p_value,p_value_holm_within_taxon,p_value_bh_within_taxon,significant_holm_within_taxon,significant_bh_within_taxon
+family_label::groupers feeding,control,fischmix,4,2,0.0,0.5,2.0,0.2888443663464849,1.0,0.946847015800961,False,False
+family_label::groupers feeding,control,mackerel,4,3,0.0,1.0,4.0,0.3864762307712327,1.0,0.946847015800961,False,False
+family_label::groupers feeding,control,sargassum,4,3,0.0,0.0,6.0,1.0,1.0,1.0,False,False
+family_label::groupers feeding,control,ulva_gutweed,4,3,0.0,0.0,6.0,1.0,1.0,1.0,False,False
+family_label::groupers feeding,control,ulva_salad,4,3,0.0,0.0,6.0,1.0,1.0,1.0,False,False
+family_label::groupers feeding,fischmix,mackerel,2,3,0.5,1.0,3.0,1.0,1.0,1.0,False,False
+family_label::groupers feeding,fischmix,sargassum,2,3,0.5,0.0,4.5,0.4142161782425252,1.0,0.946847015800961,False,False
+family_label::groupers feeding,fischmix,ulva_gutweed,2,3,0.5,0.0,4.5,0.4142161782425252,1.0,0.946847015800961,False,False
+family_label::groupers feeding,fischmix,ulva_salad,2,3,0.5,0.0,4.5,0.4142161782425252,1.0,0.946847015800961,False,False
+family_label::groupers feeding,mackerel,sargassum,3,3,1.0,0.0,6.0,0.5049850750938458,1.0,0.946847015800961,False,False
+family_label::groupers feeding,mackerel,ulva_gutweed,3,3,1.0,0.0,6.0,0.5049850750938458,1.0,0.946847015800961,False,False
+family_label::groupers feeding,mackerel,ulva_salad,3,3,1.0,0.0,6.0,0.5049850750938458,1.0,0.946847015800961,False,False
+family_label::groupers feeding,sargassum,ulva_gutweed,3,3,0.0,0.0,4.5,1.0,1.0,1.0,False,False
+family_label::groupers feeding,sargassum,ulva_salad,3,3,0.0,0.0,4.5,1.0,1.0,1.0,False,False
+family_label::groupers feeding,ulva_gutweed,ulva_salad,3,3,0.0,0.0,4.5,1.0,1.0,1.0,False,False
+species::black-lipped (chaetodon kleinii),control,fischmix,4,2,0.0,2.0,0.0,0.0552342537180638,0.828513805770957,0.3996868859058285,False,False
+species::black-lipped (chaetodon kleinii),control,mackerel,4,3,0.0,0.0,6.0,1.0,1.0,1.0,False,False
+species::black-lipped (chaetodon kleinii),control,sargassum,4,3,0.0,1.0,4.0,0.3864762307712327,1.0,0.9046707562622888,False,False
+species::black-lipped (chaetodon kleinii),control,ulva_gutweed,4,3,0.0,0.0,6.0,1.0,1.0,1.0,False,False
+species::black-lipped (chaetodon kleinii),control,ulva_salad,4,3,0.0,0.0,6.0,1.0,1.0,1.0,False,False
+species::black-lipped (chaetodon kleinii),fischmix,mackerel,2,3,2.0,0.0,6.0,0.1065831695748876,1.0,0.3996868859058285,False,False
+species::black-lipped (chaetodon kleinii),fischmix,sargassum,2,3,2.0,1.0,4.5,0.5428024537573732,1.0,0.9046707562622888,False,False
+species::black-lipped (chaetodon kleinii),fischmix,ulva_gutweed,2,3,2.0,0.0,6.0,0.1065831695748876,1.0,0.3996868859058285,False,False
+species::black-lipped (chaetodon kleinii),fischmix,ulva_salad,2,3,2.0,0.0,6.0,0.1065831695748876,1.0,0.3996868859058285,False,False
+species::black-lipped (chaetodon kleinii),mackerel,sargassum,3,3,0.0,1.0,3.0,0.5049850750938458,1.0,0.9046707562622888,False,False
+species::black-lipped (chaetodon kleinii),mackerel,ulva_gutweed,3,3,0.0,0.0,4.5,1.0,1.0,1.0,False,False
+species::black-lipped (chaetodon kleinii),mackerel,ulva_salad,3,3,0.0,0.0,4.5,1.0,1.0,1.0,False,False
+species::black-lipped (chaetodon kleinii),sargassum,ulva_gutweed,3,3,1.0,0.0,6.0,0.5049850750938458,1.0,0.9046707562622888,False,False
+species::black-lipped (chaetodon kleinii),sargassum,ulva_salad,3,3,1.0,0.0,6.0,0.5049850750938458,1.0,0.9046707562622888,False,False
+species::black-lipped (chaetodon kleinii),ulva_gutweed,ulva_salad,3,3,0.0,0.0,4.5,1.0,1.0,1.0,False,False
+species::blacktip (epinephelus fasciatus),control,fischmix,4,2,0.0,0.5,2.0,0.2888443663464849,1.0,0.7766553342047348,False,False
+species::blacktip (epinephelus fasciatus),control,mackerel,4,3,0.0,0.6666666666666666,2.0,0.11752486809663916,1.0,0.7036212374808162,False,False
+species::blacktip (epinephelus fasciatus),control,sargassum,4,3,0.0,0.0,6.0,1.0,1.0,1.0,False,False
+species::blacktip (epinephelus fasciatus),control,ulva_gutweed,4,3,0.0,0.0,6.0,1.0,1.0,1.0,False,False
+species::blacktip (epinephelus fasciatus),control,ulva_salad,4,3,0.0,0.0,6.0,1.0,1.0,1.0,False,False
+species::blacktip (epinephelus fasciatus),fischmix,mackerel,2,3,0.5,0.6666666666666666,2.5,1.0,1.0,1.0,False,False
+species::blacktip (epinephelus fasciatus),fischmix,sargassum,2,3,0.5,0.0,4.5,0.4142161782425252,1.0,0.7766553342047348,False,False
+species::blacktip (epinephelus fasciatus),fischmix,ulva_gutweed,2,3,0.5,0.0,4.5,0.4142161782425252,1.0,0.7766553342047348,False,False
+species::blacktip (epinephelus fasciatus),fischmix,ulva_salad,2,3,0.5,0.0,4.5,0.4142161782425252,1.0,0.7766553342047348,False,False
+species::blacktip (epinephelus fasciatus),mackerel,sargassum,3,3,0.6666666666666666,0.0,7.5,0.18763232999488433,1.0,0.7036212374808162,False,False
+species::blacktip (epinephelus fasciatus),mackerel,ulva_gutweed,3,3,0.6666666666666666,0.0,7.5,0.18763232999488433,1.0,0.7036212374808162,False,False
+species::blacktip (epinephelus fasciatus),mackerel,ulva_salad,3,3,0.6666666666666666,0.0,7.5,0.18763232999488433,1.0,0.7036212374808162,False,False
+species::blacktip (epinephelus fasciatus),sargassum,ulva_gutweed,3,3,0.0,0.0,4.5,1.0,1.0,1.0,False,False
+species::blacktip (epinephelus fasciatus),sargassum,ulva_salad,3,3,0.0,0.0,4.5,1.0,1.0,1.0,False,False
+species::blacktip (epinephelus fasciatus),ulva_gutweed,ulva_salad,3,3,0.0,0.0,4.5,1.0,1.0,1.0,False,False
+species::goldbar (thalassoma hebraicum),control,fischmix,4,2,0.0,0.5,2.0,0.2888443663464849,1.0,1.0,False,False
+species::goldbar (thalassoma hebraicum),control,mackerel,4,3,0.0,0.6666666666666666,4.0,0.3864762307712327,1.0,1.0,False,False
+species::goldbar (thalassoma hebraicum),control,sargassum,4,3,0.0,1.6666666666666667,2.0,0.12274468232592091,1.0,0.9205851174444069,False,False
+species::goldbar (thalassoma hebraicum),control,ulva_gutweed,4,3,0.0,0.3333333333333333,4.0,0.3864762307712327,1.0,1.0,False,False
+species::goldbar (thalassoma hebraicum),control,ulva_salad,4,3,0.0,0.6666666666666666,2.0,0.11752486809663916,1.0,0.9205851174444069,False,False
+species::goldbar (thalassoma hebraicum),fischmix,mackerel,2,3,0.5,0.6666666666666666,3.0,1.0,1.0,1.0,False,False
+species::goldbar (thalassoma hebraicum),fischmix,sargassum,2,3,0.5,1.6666666666666667,2.0,0.7609067270751141,1.0,1.0,False,False
+species::goldbar (thalassoma hebraicum),fischmix,ulva_gutweed,2,3,0.5,0.3333333333333333,3.5,1.0,1.0,1.0,False,False
+species::goldbar (thalassoma hebraicum),fischmix,ulva_salad,2,3,0.5,0.6666666666666666,2.5,1.0,1.0,1.0,False,False
+species::goldbar (thalassoma hebraicum),mackerel,sargassum,3,3,0.6666666666666666,1.6666666666666667,3.0,0.6428348264908044,1.0,1.0,False,False
+species::goldbar (thalassoma hebraicum),mackerel,ulva_gutweed,3,3,0.6666666666666666,0.3333333333333333,5.0,1.0,1.0,1.0,False,False
+species::goldbar (thalassoma hebraicum),mackerel,ulva_salad,3,3,0.6666666666666666,0.6666666666666666,4.0,1.0,1.0,1.0,False,False
+species::goldbar (thalassoma hebraicum),sargassum,ulva_gutweed,3,3,1.6666666666666667,0.3333333333333333,6.5,0.47950012218695337,1.0,1.0,False,False
+species::goldbar (thalassoma hebraicum),sargassum,ulva_salad,3,3,1.6666666666666667,0.6666666666666666,5.5,0.8136637157667919,1.0,1.0,False,False
+species::goldbar (thalassoma hebraicum),ulva_gutweed,ulva_salad,3,3,0.3333333333333333,0.6666666666666666,3.0,0.6192567541768621,1.0,1.0,False,False
+species::green (amblyglyphidodon indicus),control,fischmix,4,2,0.25,5.0,0.0,0.08515236916112591,1.0,0.22839250623190202,False,False
+species::green (amblyglyphidodon indicus),control,mackerel,4,3,0.25,5.666666666666667,2.5,0.24188659940883073,1.0,0.3628298991132461,False,False
+species::green (amblyglyphidodon indicus),control,sargassum,4,3,0.25,1.0,1.5,0.10247043485974937,1.0,0.22839250623190202,False,False
+species::green (amblyglyphidodon indicus),control,ulva_gutweed,4,3,0.25,0.0,7.5,0.5637028616507731,1.0,0.7046285770634664,False,False
+species::green (amblyglyphidodon indicus),control,ulva_salad,4,3,0.25,0.0,7.5,0.5637028616507731,1.0,0.7046285770634664,False,False
+species::green (amblyglyphidodon indicus),fischmix,mackerel,2,3,5.0,5.666666666666667,2.0,0.8,1.0,0.8571428571428571,False,False
+species::green (amblyglyphidodon indicus),fischmix,sargassum,2,3,5.0,1.0,6.0,0.1065831695748876,1.0,0.22839250623190202,False,False
+species::green (amblyglyphidodon indicus),fischmix,ulva_gutweed,2,3,5.0,0.0,6.0,0.1065831695748876,1.0,0.22839250623190202,False,False
+species::green (amblyglyphidodon indicus),fischmix,ulva_salad,2,3,5.0,0.0,6.0,0.1065831695748876,1.0,0.22839250623190202,False,False
+species::green (amblyglyphidodon indicus),mackerel,sargassum,3,3,5.666666666666667,1.0,6.0,0.6428348264908044,1.0,0.7417324921047742,False,False
+species::green (amblyglyphidodon indicus),mackerel,ulva_gutweed,3,3,5.666666666666667,0.0,7.5,0.19670560245894686,1.0,0.3278426707649114,False,False
+species::green (amblyglyphidodon indicus),mackerel,ulva_salad,3,3,5.666666666666667,0.0,7.5,0.19670560245894686,1.0,0.3278426707649114,False,False
+species::green (amblyglyphidodon indicus),sargassum,ulva_gutweed,3,3,1.0,0.0,9.0,0.04685417760387376,0.7028126640581064,0.22839250623190202,False,False
+species::green (amblyglyphidodon indicus),sargassum,ulva_salad,3,3,1.0,0.0,9.0,0.04685417760387376,0.7028126640581064,0.22839250623190202,False,False
+species::green (amblyglyphidodon indicus),ulva_gutweed,ulva_salad,3,3,0.0,0.0,4.5,1.0,1.0,1.0,False,False
+species::longfin banner (heniochus acuminatus),control,fischmix,4,2,0.0,0.5,2.0,0.2888443663464849,1.0,0.946847015800961,False,False
+species::longfin banner (heniochus acuminatus),control,mackerel,4,3,0.0,0.6666666666666666,4.0,0.3864762307712327,1.0,0.946847015800961,False,False
+species::longfin banner (heniochus acuminatus),control,sargassum,4,3,0.0,0.0,6.0,1.0,1.0,1.0,False,False
+species::longfin banner (heniochus acuminatus),control,ulva_gutweed,4,3,0.0,0.0,6.0,1.0,1.0,1.0,False,False
+species::longfin banner (heniochus acuminatus),control,ulva_salad,4,3,0.0,0.0,6.0,1.0,1.0,1.0,False,False
+species::longfin banner (heniochus acuminatus),fischmix,mackerel,2,3,0.5,0.6666666666666666,3.0,1.0,1.0,1.0,False,False
+species::longfin banner (heniochus acuminatus),fischmix,sargassum,2,3,0.5,0.0,4.5,0.4142161782425252,1.0,0.946847015800961,False,False
+species::longfin banner (heniochus acuminatus),fischmix,ulva_gutweed,2,3,0.5,0.0,4.5,0.4142161782425252,1.0,0.946847015800961,False,False
+species::longfin banner (heniochus acuminatus),fischmix,ulva_salad,2,3,0.5,0.0,4.5,0.4142161782425252,1.0,0.946847015800961,False,False
+species::longfin banner (heniochus acuminatus),mackerel,sargassum,3,3,0.6666666666666666,0.0,6.0,0.5049850750938458,1.0,0.946847015800961,False,False
+species::longfin banner (heniochus acuminatus),mackerel,ulva_gutweed,3,3,0.6666666666666666,0.0,6.0,0.5049850750938458,1.0,0.946847015800961,False,False
+species::longfin banner (heniochus acuminatus),mackerel,ulva_salad,3,3,0.6666666666666666,0.0,6.0,0.5049850750938458,1.0,0.946847015800961,False,False
+species::longfin banner (heniochus acuminatus),sargassum,ulva_gutweed,3,3,0.0,0.0,4.5,1.0,1.0,1.0,False,False
+species::longfin banner (heniochus acuminatus),sargassum,ulva_salad,3,3,0.0,0.0,4.5,1.0,1.0,1.0,False,False
+species::longfin banner (heniochus acuminatus),ulva_gutweed,ulva_salad,3,3,0.0,0.0,4.5,1.0,1.0,1.0,False,False
+species::moon (thalassoma lunare),control,fischmix,4,2,0.0,3.5,0.0,0.0552342537180638,0.828513805770957,0.688616011491608,False,False
+species::moon (thalassoma lunare),control,mackerel,4,3,0.0,1.0,4.0,0.3864762307712327,1.0,0.688616011491608,False,False
+species::moon (thalassoma lunare),control,sargassum,4,3,0.0,0.3333333333333333,4.0,0.3864762307712327,1.0,0.688616011491608,False,False
+species::moon (thalassoma lunare),control,ulva_gutweed,4,3,0.0,0.0,6.0,1.0,1.0,1.0,False,False
+species::moon (thalassoma lunare),control,ulva_salad,4,3,0.0,0.6666666666666666,4.0,0.3864762307712327,1.0,0.688616011491608,False,False
+species::moon (thalassoma lunare),fischmix,mackerel,2,3,3.5,1.0,5.0,0.3742593192802244,1.0,0.688616011491608,False,False
+species::moon (thalassoma lunare),fischmix,sargassum,2,3,3.5,0.3333333333333333,6.0,0.1386406338132186,1.0,0.688616011491608,False,False
+species::moon (thalassoma lunare),fischmix,ulva_gutweed,2,3,3.5,0.0,6.0,0.1065831695748876,1.0,0.688616011491608,False,False
+species::moon (thalassoma lunare),fischmix,ulva_salad,2,3,3.5,0.6666666666666666,5.5,0.2235428745713206,1.0,0.688616011491608,False,False
+species::moon (thalassoma lunare),mackerel,sargassum,3,3,1.0,0.3333333333333333,5.0,1.0,1.0,1.0,False,False
+species::moon (thalassoma lunare),mackerel,ulva_gutweed,3,3,1.0,0.0,6.0,0.5049850750938458,1.0,0.688616011491608,False,False
+species::moon (thalassoma lunare),mackerel,ulva_salad,3,3,1.0,0.6666666666666666,5.0,1.0,1.0,1.0,False,False
+species::moon (thalassoma lunare),sargassum,ulva_gutweed,3,3,0.3333333333333333,0.0,6.0,0.5049850750938458,1.0,0.688616011491608,False,False
+species::moon (thalassoma lunare),sargassum,ulva_salad,3,3,0.3333333333333333,0.6666666666666666,4.0,1.0,1.0,1.0,False,False
+species::moon (thalassoma lunare),ulva_gutweed,ulva_salad,3,3,0.0,0.6666666666666666,3.0,0.5049850750938458,1.0,0.688616011491608,False,False
+species::orange-lined (balistapus undulatus),control,fischmix,4,2,0.0,8.5,0.0,0.0552342537180638,0.6628110446167657,0.17803931637575957,False,False
+species::orange-lined (balistapus undulatus),control,mackerel,4,3,0.0,3.0,0.0,0.024744672046398936,0.371170080695984,0.17803931637575957,False,False
+species::orange-lined (balistapus undulatus),control,sargassum,4,3,0.0,0.0,6.0,1.0,1.0,1.0,False,False
+species::orange-lined (balistapus undulatus),control,ulva_gutweed,4,3,0.0,0.0,6.0,1.0,1.0,1.0,False,False
+species::orange-lined (balistapus undulatus),control,ulva_salad,4,3,0.0,0.3333333333333333,4.0,0.3864762307712327,1.0,0.6213242673637878,False,False
+species::orange-lined (balistapus undulatus),fischmix,mackerel,2,3,8.5,3.0,4.5,0.4142161782425252,1.0,0.6213242673637878,False,False
+species::orange-lined (balistapus undulatus),fischmix,sargassum,2,3,8.5,0.0,6.0,0.1065831695748876,1.0,0.22839250623190202,False,False
+species::orange-lined (balistapus undulatus),fischmix,ulva_gutweed,2,3,8.5,0.0,6.0,0.1065831695748876,1.0,0.22839250623190202,False,False
+species::orange-lined (balistapus undulatus),fischmix,ulva_salad,2,3,8.5,0.3333333333333333,6.0,0.1386406338132186,1.0,0.25995118839978487,False,False
+species::orange-lined (balistapus undulatus),mackerel,sargassum,3,3,3.0,0.0,9.0,0.04685417760387376,0.6559584864542326,0.17803931637575957,False,False
+species::orange-lined (balistapus undulatus),mackerel,ulva_gutweed,3,3,3.0,0.0,9.0,0.04685417760387376,0.6559584864542326,0.17803931637575957,False,False
+species::orange-lined (balistapus undulatus),mackerel,ulva_salad,3,3,3.0,0.3333333333333333,9.0,0.05934643879191985,0.6628110446167657,0.17803931637575957,False,False
+species::orange-lined (balistapus undulatus),sargassum,ulva_gutweed,3,3,0.0,0.0,4.5,1.0,1.0,1.0,False,False
+species::orange-lined (balistapus undulatus),sargassum,ulva_salad,3,3,0.0,0.3333333333333333,3.0,0.5049850750938458,1.0,0.6312313438673073,False,False
+species::orange-lined (balistapus undulatus),ulva_gutweed,ulva_salad,3,3,0.0,0.3333333333333333,3.0,0.5049850750938458,1.0,0.6312313438673073,False,False
+species::red (lutjanus bohar),control,fischmix,4,2,0.0,1.0,0.0,0.050399282871482265,0.7559892430722339,0.5876243404831958,False,False
+species::red (lutjanus bohar),control,mackerel,4,3,0.0,0.6666666666666666,2.0,0.11752486809663916,1.0,0.5876243404831958,False,False
+species::red (lutjanus bohar),control,sargassum,4,3,0.0,0.3333333333333333,4.0,0.3864762307712327,1.0,0.7246429326960614,False,False
+species::red (lutjanus bohar),control,ulva_gutweed,4,3,0.0,0.0,6.0,1.0,1.0,1.0,False,False
+species::red (lutjanus bohar),control,ulva_salad,4,3,0.0,0.3333333333333333,4.0,0.3864762307712327,1.0,0.7246429326960614,False,False
+species::red (lutjanus bohar),fischmix,mackerel,2,3,1.0,0.6666666666666666,4.0,0.6830913983096087,1.0,0.7881823826649332,False,False
+species::red (lutjanus bohar),fischmix,sargassum,2,3,1.0,0.3333333333333333,5.0,0.31731050786291415,1.0,0.7246429326960614,False,False
+species::red (lutjanus bohar),fischmix,ulva_gutweed,2,3,1.0,0.0,6.0,0.0955807045456294,1.0,0.5876243404831958,False,False
+species::red (lutjanus bohar),fischmix,ulva_salad,2,3,1.0,0.3333333333333333,5.0,0.31731050786291415,1.0,0.7246429326960614,False,False
+species::red (lutjanus bohar),mackerel,sargassum,3,3,0.6666666666666666,0.3333333333333333,6.0,0.6192567541768621,1.0,0.7740709427210777,False,False
+species::red (lutjanus bohar),mackerel,ulva_gutweed,3,3,0.6666666666666666,0.0,7.5,0.18763232999488433,1.0,0.7036212374808162,False,False
+species::red (lutjanus bohar),mackerel,ulva_salad,3,3,0.6666666666666666,0.3333333333333333,6.0,0.6192567541768621,1.0,0.7740709427210777,False,False
+species::red (lutjanus bohar),sargassum,ulva_gutweed,3,3,0.3333333333333333,0.0,6.0,0.5049850750938458,1.0,0.7574776126407687,False,False
+species::red (lutjanus bohar),sargassum,ulva_salad,3,3,0.3333333333333333,0.3333333333333333,4.5,1.0,1.0,1.0,False,False
+species::red (lutjanus bohar),ulva_gutweed,ulva_salad,3,3,0.0,0.3333333333333333,3.0,0.5049850750938458,1.0,0.7574776126407687,False,False
+species::redmouth (aethaloperca rogaa),control,fischmix,4,2,0.0,1.0,0.0,0.050399282871482265,0.7559892430722339,0.3518106187404081,False,False
+species::redmouth (aethaloperca rogaa),control,mackerel,4,3,0.0,0.6666666666666666,2.0,0.11752486809663916,1.0,0.3518106187404081,False,False
+species::redmouth (aethaloperca rogaa),control,sargassum,4,3,0.0,0.0,6.0,1.0,1.0,1.0,False,False
+species::redmouth (aethaloperca rogaa),control,ulva_gutweed,4,3,0.0,0.0,6.0,1.0,1.0,1.0,False,False
+species::redmouth (aethaloperca rogaa),control,ulva_salad,4,3,0.0,0.0,6.0,1.0,1.0,1.0,False,False
+species::redmouth (aethaloperca rogaa),fischmix,mackerel,2,3,1.0,0.6666666666666666,4.0,0.6830913983096087,1.0,1.0,False,False
+species::redmouth (aethaloperca rogaa),fischmix,sargassum,2,3,1.0,0.0,6.0,0.0955807045456294,1.0,0.3518106187404081,False,False
+species::redmouth (aethaloperca rogaa),fischmix,ulva_gutweed,2,3,1.0,0.0,6.0,0.0955807045456294,1.0,0.3518106187404081,False,False
+species::redmouth (aethaloperca rogaa),fischmix,ulva_salad,2,3,1.0,0.0,6.0,0.0955807045456294,1.0,0.3518106187404081,False,False
+species::redmouth (aethaloperca rogaa),mackerel,sargassum,3,3,0.6666666666666666,0.0,7.5,0.18763232999488433,1.0,0.3518106187404081,False,False
+species::redmouth (aethaloperca rogaa),mackerel,ulva_gutweed,3,3,0.6666666666666666,0.0,7.5,0.18763232999488433,1.0,0.3518106187404081,False,False
+species::redmouth (aethaloperca rogaa),mackerel,ulva_salad,3,3,0.6666666666666666,0.0,7.5,0.18763232999488433,1.0,0.3518106187404081,False,False
+species::redmouth (aethaloperca rogaa),sargassum,ulva_gutweed,3,3,0.0,0.0,4.5,1.0,1.0,1.0,False,False
+species::redmouth (aethaloperca rogaa),sargassum,ulva_salad,3,3,0.0,0.0,4.5,1.0,1.0,1.0,False,False
+species::redmouth (aethaloperca rogaa),ulva_gutweed,ulva_salad,3,3,0.0,0.0,4.5,1.0,1.0,1.0,False,False

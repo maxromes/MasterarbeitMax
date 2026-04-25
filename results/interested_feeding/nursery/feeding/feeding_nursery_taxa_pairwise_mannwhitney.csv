@@ -1,0 +1,25 @@
+taxon_key,koeder_a,koeder_b,n_a,n_b,mean_a,mean_b,u_stat,p_value,p_value_holm_within_taxon,p_value_bh_within_taxon,significant_holm_within_taxon,significant_bh_within_taxon
+family_label::parrotfishes feeding,algae_strings,algaemix,3,3,1.3333333333333333,0.6666666666666666,4.0,1.0,1.0,1.0,False,False
+family_label::parrotfishes feeding,algae_strings,control,3,1,1.3333333333333333,0.0,2.0,1.0,1.0,1.0,False,False
+family_label::parrotfishes feeding,algae_strings,mackerel,3,4,1.3333333333333333,0.0,8.0,0.3864762307712327,1.0,1.0,False,False
+family_label::parrotfishes feeding,algaemix,control,3,1,0.6666666666666666,0.0,2.5,0.6170750774519738,1.0,1.0,False,False
+family_label::parrotfishes feeding,algaemix,mackerel,3,4,0.6666666666666666,0.0,10.0,0.11752486809663916,0.705149208579835,0.705149208579835,False,False
+family_label::parrotfishes feeding,control,mackerel,1,4,0.0,0.0,2.0,1.0,1.0,1.0,False,False
+species::honeycomb (siganus stellatus),algae_strings,algaemix,3,3,2.0,1.3333333333333333,6.5,0.47950012218695337,1.0,0.6,False,False
+species::honeycomb (siganus stellatus),algae_strings,control,3,1,2.0,0.0,3.0,0.5,1.0,0.6,False,False
+species::honeycomb (siganus stellatus),algae_strings,mackerel,3,4,2.0,0.0,12.0,0.03191120476963876,0.18039169936986965,0.09573361430891628,False,False
+species::honeycomb (siganus stellatus),algaemix,control,3,1,1.3333333333333333,0.0,3.0,0.3457785861511603,1.0,0.6,False,False
+species::honeycomb (siganus stellatus),algaemix,mackerel,3,4,1.3333333333333333,0.0,12.0,0.030065283228311607,0.18039169936986965,0.09573361430891628,False,False
+species::honeycomb (siganus stellatus),control,mackerel,1,4,0.0,0.0,2.0,1.0,1.0,1.0,False,False
+species::humpback (lutjanus gibbus),algae_strings,algaemix,3,3,0.0,0.6666666666666666,3.0,0.5049850750938458,1.0,0.7574776126407687,False,False
+species::humpback (lutjanus gibbus),algae_strings,control,3,1,0.0,0.0,1.5,1.0,1.0,1.0,False,False
+species::humpback (lutjanus gibbus),algae_strings,mackerel,3,4,0.0,3.0,1.5,0.11867034556458322,0.7120220733874993,0.5972695564446139,False,False
+species::humpback (lutjanus gibbus),algaemix,control,3,1,0.6666666666666666,0.0,2.0,1.0,1.0,1.0,False,False
+species::humpback (lutjanus gibbus),algaemix,mackerel,3,4,0.6666666666666666,3.0,2.0,0.19908985214820463,0.9954492607410231,0.5972695564446139,False,False
+species::humpback (lutjanus gibbus),control,mackerel,1,4,0.0,3.0,0.5,0.468159909854428,1.0,0.7574776126407687,False,False
+species::paletail unicorn (naso brevirostris),algae_strings,algaemix,3,3,6.666666666666667,30.333333333333332,0.0,0.07652250047505922,0.3060900019002369,0.15304500095011844,False,False
+species::paletail unicorn (naso brevirostris),algae_strings,control,3,1,6.666666666666667,0.0,3.0,0.3457785861511603,1.0,0.5186678792267405,False,False
+species::paletail unicorn (naso brevirostris),algae_strings,mackerel,3,4,6.666666666666667,0.0,12.0,0.030065283228311607,0.18039169936986965,0.09573361430891628,False,False
+species::paletail unicorn (naso brevirostris),algaemix,control,3,1,30.333333333333332,0.0,3.0,0.5,1.0,0.6,False,False
+species::paletail unicorn (naso brevirostris),algaemix,mackerel,3,4,30.333333333333332,0.0,12.0,0.03191120476963876,0.18039169936986965,0.09573361430891628,False,False
+species::paletail unicorn (naso brevirostris),control,mackerel,1,4,0.0,0.0,2.0,1.0,1.0,1.0,False,False

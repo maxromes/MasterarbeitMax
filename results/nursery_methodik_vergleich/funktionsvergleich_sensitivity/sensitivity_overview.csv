@@ -1,0 +1,5 @@
+scenario,n_videos,n_sig_bait_bh,n_sig_interaction_bh,n_tested
+baseline,10,3,0,88
+no_dominant_videos,9,5,0,77
+no_rare_features,10,3,0,88
+no_dominant_and_no_rare,9,5,0,77

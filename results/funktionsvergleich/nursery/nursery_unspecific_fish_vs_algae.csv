@@ -1,0 +1,14 @@
+site,feature_type,feature,n_fish,n_algae,mean_fish,mean_algae,median_fish,median_algae,u_stat,p_value,cliffs_delta_fish_minus_algae,higher_side,p_value_holm,p_value_bh,significant_holm,significant_bh
+nursery,unspecific,large ovals,4,6,5.5,25.5,4.5,23.0,0.0,0.013921913328143975,-1.0,algae,0.18098487326587168,0.18098487326587168,False,False
+nursery,unspecific,eels,4,6,0.0,1.1666666666666667,0.0,1.0,2.0,0.027890529120246504,-0.8333333333333334,algae,0.33468634944295805,0.18128843928160226,False,False
+nursery,unspecific,elongate sand & burrow dwellers,4,6,2.25,0.5,2.0,0.5,21.0,0.04995152987720942,0.75,fish,0.5494668286493036,0.21645662946790747,False,False
+nursery,unspecific,blennies,4,6,0.75,0.0,0.5,0.0,18.0,0.09420988683387367,0.5,fish,0.9420988683387367,0.2714894145714877,False,False
+nursery,unspecific,slender schoolers/colourful,4,6,2.25,6.333333333333333,1.0,7.0,4.0,0.10441900560441834,-0.6666666666666666,algae,0.9420988683387367,0.2714894145714877,False,False
+nursery,unspecific,wrasses,4,6,4.5,1.3333333333333333,3.0,1.0,19.0,0.13384426438062583,0.5833333333333334,fish,1.0,0.2899959061580226,False,False
+nursery,unspecific,sloping heads,4,6,15.25,27.0,13.0,20.5,5.0,0.16452181748948447,-0.5833333333333334,algae,1.0,0.3055405181947569,False,False
+nursery,unspecific,heavy bodies/large lips,4,6,1.25,0.3333333333333333,1.0,0.0,18.0,0.19485064860886947,0.5,fish,1.0,0.3166323039894129,False,False
+nursery,unspecific,small ovals - damselfishes,4,6,11.25,7.5,10.0,7.0,16.0,0.45279320612018226,0.3333333333333333,fish,1.0,0.6540346310624855,False,False
+nursery,unspecific,odd-shaped swimmers,4,6,4.5,5.333333333333333,4.0,5.5,10.0,0.7445914305172062,-0.16666666666666666,algae,1.0,0.9679688596723681,False,False
+nursery,unspecific,silvery,4,6,3.5,1.5,3.5,1.5,13.5,0.8236404621038199,0.125,fish,1.0,0.9733932733954235,False,False
+nursery,unspecific,disk-shaped/colourful,4,6,4.0,4.833333333333333,4.5,3.5,12.5,1.0,0.041666666666666664,algae,1.0,1.0,False,False
+nursery,unspecific,parrotfishes,4,6,7.75,7.833333333333333,8.5,7.0,11.5,1.0,-0.041666666666666664,algae,1.0,1.0,False,False

@@ -1,0 +1,5 @@
+taxon_key,n_total,n_koeder,h_stat,p_value,eta_sq,dominant_koeder_mean,weakest_koeder_mean,mean_diff_max_minus_min,mean_control,mean_fischmix,mean_mackerel,mean_sargassum,mean_ulva_gutweed,mean_ulva_salad,p_value_holm,p_value_bh,significant_holm,significant_bh
+family_label::groupers feeding,17,6,10.666666666666652,0.05840454674201416,0.5151515151515138,fischmix,control,2.0,0.0,2.0,0.3333333333333333,0.0,0.0,0.0,0.23361818696805664,0.0994984623808772,False,False
+species::red (lutjanus bohar),17,6,10.666666666666652,0.05840454674201416,0.5151515151515138,fischmix,control,3.0,0.0,3.0,0.3333333333333333,0.0,0.0,0.0,0.23361818696805664,0.0994984623808772,False,False
+species::green (amblyglyphidodon indicus),17,6,9.803591470258125,0.08099556570258924,0.4366901336598295,fischmix,control,5.0,0.0,5.0,3.0,1.6666666666666667,0.0,0.25,0.23361818696805664,0.0994984623808772,False,False
+species::goldbar (thalassoma hebraicum),17,6,9.24999999999999,0.0994984623808772,0.3863636363636354,fischmix,control,1.0,0.0,1.0,0.6666666666666666,0.0,0.0,0.0,0.23361818696805664,0.0994984623808772,False,False

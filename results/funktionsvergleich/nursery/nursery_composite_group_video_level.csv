@@ -1,0 +1,12 @@
+filename,site,bait,bait_type,algae_oriented_diet_mode,bioeroder_set,fish_oriented_diet_mode,herbivore_core_families,herbivore_extended_with_damselfishes,invertebrate_oriented_diet_mode,invertivore_benthic_core,invertivore_general,nocturnal_predator_mixture,omnivore_box_puffer_file,piscivore_active_hunters,piscivore_core_families,planktivore_core,plankton_oriented_diet_mode,predator_reef_core,snappers_groupers_combo,wrasses_trigger_combo
+20240106-nursery-mackerel.csv,nursery,mackerel,fish,6.0,6.0,5.0,6.0,6.0,5.0,2.0,2.0,5.0,2.0,5.0,5.0,0.0,5.0,5.0,5.0,4.0
+20240108-nursery-control.csv,nursery,control,control,8.0,1.0,6.0,8.0,8.0,2.0,2.0,2.0,1.0,2.0,6.0,1.0,1.0,2.0,1.0,1.0,1.0
+20240223-nursery-mackerel.csv,nursery,mackerel,fish,13.0,3.0,18.0,3.0,13.0,18.0,4.0,4.0,18.0,0.0,18.0,18.0,7.0,13.0,18.0,18.0,11.0
+20241126-nursery-mackerel.csv,nursery,mackerel,fish,20.0,11.0,30.0,11.0,20.0,30.0,8.0,8.0,30.0,1.0,30.0,30.0,0.0,20.0,30.0,30.0,1.0
+20241204-nursery-algae_strings.csv,nursery,algae_strings,algae,23.0,13.0,21.0,23.0,23.0,21.0,10.0,10.0,21.0,1.0,21.0,21.0,10.0,10.0,21.0,21.0,1.0
+20241205-nursery-algae_strings.csv,nursery,algae_strings,algae,14.0,14.0,13.0,14.0,14.0,13.0,8.0,8.0,13.0,0.0,13.0,13.0,4.0,9.0,13.0,13.0,2.0
+20241206-nursery-algae_strings.csv,nursery,algae_strings,algae,23.0,6.0,20.0,23.0,23.0,20.0,8.0,8.0,20.0,1.0,20.0,20.0,7.0,7.0,20.0,20.0,1.0
+20241208-nursery-algaemix.csv,nursery,algaemix,algae,40.0,6.0,43.0,40.0,40.0,43.0,10.0,10.0,43.0,1.0,43.0,43.0,9.0,13.0,43.0,43.0,6.0
+20241209-nursery-algaemix.csv,nursery,algaemix,algae,32.0,4.0,45.0,32.0,32.0,45.0,20.0,20.0,45.0,1.0,45.0,45.0,7.0,8.0,45.0,45.0,4.0
+20241210-nursery-algaemix.csv,nursery,algaemix,algae,21.0,8.0,20.0,21.0,21.0,20.0,12.0,12.0,20.0,2.0,20.0,20.0,1.0,4.0,20.0,20.0,3.0
+20251212-nursery-mackerel.csv,nursery,mackerel,fish,11.0,11.0,8.0,11.0,11.0,8.0,2.0,2.0,8.0,2.0,8.0,8.0,2.0,7.0,8.0,8.0,2.0

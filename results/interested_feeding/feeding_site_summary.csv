@@ -1,0 +1,4 @@
+site,n_videos,n_baits,n_taxa_tested,n_raw_sig_taxa,n_holm_sig_taxa,overall_total_events_p,overall_total_events_sig,nursery_algaemix_vs_mackerel_p,nursery_algaemix_vs_mackerel_p_holm,nursery_algaemix_vs_mackerel_sig_holm
+milimani,17,6,4,0,0,0.07028796003985642,False,,,
+nursery,11,4,4,2,0,0.038430638404691506,True,0.05714285714285714,0.34285714285714286,False
+utumbi,18,6,10,4,0,0.014548434906480194,True,,,

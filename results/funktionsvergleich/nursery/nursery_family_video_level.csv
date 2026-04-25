@@ -1,0 +1,12 @@
+filename,site,bait,bait_type,acanthuridae,aulostomidae,balistidae,blenniidae,caesionidae,carangidae,chaetodontidae,diodontidae,fistulariidae,labridae,lethrinidae,lutjanidae,monacanthidae,mullidae,muraenidae,nemipteridae,pinguipedidae,pomacanthidae,pomacentridae,scaridae,serranidae,siganidae,tetraodontidae,zanclidae
+20240106-nursery-mackerel.csv,nursery,mackerel,fish,5.0,0.0,2.0,1.0,0.0,7.0,1.0,0.0,0.0,4.0,2.0,5.0,0.0,1.0,0.0,2.0,4.0,2.0,5.0,6.0,0.0,0.0,2.0,0.0
+20240108-nursery-control.csv,nursery,control,control,8.0,0.0,1.0,1.0,1.0,6.0,1.0,0.0,0.0,1.0,2.0,1.0,1.0,2.0,0.0,1.0,2.0,0.0,2.0,1.0,0.0,0.0,2.0,0.0
+20240223-nursery-mackerel.csv,nursery,mackerel,fish,3.0,0.0,1.0,0.0,7.0,0.0,5.0,0.0,6.0,11.0,2.0,18.0,0.0,4.0,0.0,0.0,3.0,1.0,13.0,3.0,3.0,0.0,0.0,1.0
+20241126-nursery-mackerel.csv,nursery,mackerel,fish,10.0,1.0,0.0,0.0,0.0,1.0,5.0,0.0,1.0,1.0,2.0,30.0,0.0,8.0,0.0,6.0,1.0,0.0,20.0,11.0,1.0,5.0,1.0,8.0
+20241204-nursery-algae_strings.csv,nursery,algae_strings,algae,23.0,0.0,1.0,0.0,10.0,2.0,2.0,0.0,0.0,1.0,0.0,21.0,1.0,5.0,1.0,10.0,1.0,1.0,6.0,13.0,0.0,4.0,1.0,1.0
+20241205-nursery-algae_strings.csv,nursery,algae_strings,algae,14.0,0.0,2.0,0.0,4.0,2.0,10.0,1.0,1.0,2.0,0.0,13.0,0.0,7.0,2.0,8.0,0.0,1.0,9.0,14.0,0.0,2.0,0.0,2.0
+20241206-nursery-algae_strings.csv,nursery,algae_strings,algae,23.0,1.0,1.0,0.0,7.0,1.0,2.0,0.0,1.0,1.0,2.0,20.0,0.0,5.0,1.0,8.0,0.0,0.0,5.0,6.0,0.0,4.0,1.0,2.0
+20241208-nursery-algaemix.csv,nursery,algaemix,algae,40.0,2.0,6.0,0.0,9.0,1.0,8.0,0.0,4.0,1.0,0.0,43.0,1.0,4.0,0.0,10.0,1.0,2.0,13.0,3.0,1.0,4.0,0.0,4.0
+20241209-nursery-algaemix.csv,nursery,algaemix,algae,32.0,0.0,4.0,0.0,7.0,1.0,3.0,1.0,2.0,1.0,0.0,45.0,1.0,6.0,1.0,20.0,1.0,0.0,8.0,3.0,1.0,7.0,1.0,1.0
+20241210-nursery-algaemix.csv,nursery,algaemix,algae,21.0,1.0,3.0,0.0,1.0,2.0,4.0,0.0,0.0,2.0,1.0,20.0,0.0,3.0,2.0,12.0,0.0,0.0,4.0,8.0,0.0,4.0,2.0,7.0
+20251212-nursery-mackerel.csv,nursery,mackerel,fish,4.0,0.0,1.0,2.0,2.0,6.0,4.0,1.0,0.0,2.0,0.0,8.0,1.0,2.0,0.0,0.0,1.0,0.0,7.0,11.0,1.0,2.0,2.0,0.0

@@ -1,0 +1,5 @@
+koeder,n_videos,mean_total_feeding_events,median_total_feeding_events,mean_unique_feeding_taxa,n_bait_specific_taxa,n_trend_taxa_dominant
+algae_strings,3,13.666666666666666,13.0,5.0,5,1
+algaemix,3,33.666666666666664,31.0,3.6666666666666665,2,1
+control,1,0.0,0.0,0.0,0,0
+mackerel,4,5.75,4.5,2.25,5,0

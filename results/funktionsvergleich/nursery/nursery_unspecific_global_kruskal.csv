@@ -1,0 +1,14 @@
+site,feature_type,feature,n_total,n_baits,h_stat,p_value,eta_sq,dominant_bait,weakest_bait,mean_diff_max_minus_min,p_value_holm,p_value_bh,significant_holm,significant_bh
+nursery,unspecific,large ovals,11,4,8.028919330289193,0.04541779601801822,0.7184170471841705,algaemix,mackerel,25.5,0.5904313482342369,0.3167665720356708,False,False
+nursery,unspecific,eels,11,4,6.740740740740741,0.08063676823195812,0.5343915343915345,algae_strings,control,1.3333333333333333,0.9676412187834974,0.3167665720356708,False,False
+nursery,unspecific,elongate sand & burrow dwellers,11,4,5.705782312925165,0.12683571223570292,0.3865403304178807,mackerel,algae_strings,1.9166666666666667,1.0,0.3167665720356708,False,False
+nursery,unspecific,sloping heads,11,4,5.608828006088283,0.13227246932982287,0.37268971515546895,algaemix,control,34.0,1.0,0.3167665720356708,False,False
+nursery,unspecific,parrotfishes,11,4,5.418613707165111,0.14358826916125816,0.34551624388073016,algae_strings,control,10.0,1.0,0.3167665720356708,False,False
+nursery,unspecific,blennies,11,4,4.93518518518519,0.17660519338548056,0.27645502645502706,control,algae_strings,1.0,1.0,0.3167665720356708,False,False
+nursery,unspecific,slender schoolers/colourful,11,4,4.709119496855347,0.19437871319546807,0.24415992812219248,algae_strings,control,7.0,1.0,0.3167665720356708,False,False
+nursery,unspecific,heavy bodies/large lips,11,4,4.702380952380954,0.19493327509887437,0.2431972789115649,mackerel,algae_strings,1.25,1.0,0.3167665720356708,False,False
+nursery,unspecific,wrasses,11,4,3.349447513812157,0.3408195543317189,0.049921073401736696,mackerel,control,3.5,1.0,0.47114905797799,False,False
+nursery,unspecific,small ovals - damselfishes,11,4,3.1957186544342484,0.36242235229076153,0.0279598077763212,mackerel,control,9.25,1.0,0.47114905797799,False,False
+nursery,unspecific,disk-shaped/colourful,11,4,2.8952492211838043,0.40805924519408976,0.0,algaemix,control,4.0,1.0,0.4822518352293788,False,False
+nursery,unspecific,odd-shaped swimmers,11,4,1.9510268562401298,0.5826332236509131,0.0,algae_strings,control,3.666666666666667,1.0,0.6311859922884892,False,False
+nursery,unspecific,silvery,11,4,0.7823129251700743,0.8536927016824493,0.0,mackerel,control,2.5,1.0,0.8536927016824494,False,False

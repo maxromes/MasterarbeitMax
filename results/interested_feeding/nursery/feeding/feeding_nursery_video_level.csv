@@ -1,0 +1,12 @@
+filename,date,standort,koeder,total_feeding_events,feeding_unique_taxa
+20240106-nursery-mackerel.csv,20240106,nursery,mackerel,4,2
+20240108-nursery-control.csv,20240108,nursery,control,0,0
+20240223-nursery-mackerel.csv,20240223,nursery,mackerel,11,4
+20241126-nursery-mackerel.csv,20241126,nursery,mackerel,5,1
+20241204-nursery-algae_strings.csv,20241204,nursery,algae_strings,17,6
+20241205-nursery-algae_strings.csv,20241205,nursery,algae_strings,13,5
+20241206-nursery-algae_strings.csv,20241206,nursery,algae_strings,11,4
+20241208-nursery-algaemix.csv,20241208,nursery,algaemix,54,3
+20241209-nursery-algaemix.csv,20241209,nursery,algaemix,16,3
+20241210-nursery-algaemix.csv,20241210,nursery,algaemix,31,5
+20251212-nursery-mackerel.csv,20251212,nursery,mackerel,3,2
