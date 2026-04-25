@@ -65,11 +65,12 @@ Diese Version ist als direkte Foliengrundlage gedacht. Sie reduziert die lange V
 
 - Auch nach staerkerer Filterung entstehen keine neuen Holm-signifikanten Taxa
 - Die fehlende Einzelsignifikanz ist also stabil
+- Fokussierter Nursery-Check (`algaemix` vs `mackerel`, Feeding, 2 Taxa): sehr starke Effekte (`cliffs_delta=1.0`), Holm knapp nicht signifikant, BH signifikant
 - Staerkste Signale: Standort > Koederzusammensetzung > Verhalten auf Taxa-Ebene
 
 ### Schlussbotschaft
 
-> Die staerksten und statistisch robustesten Unterschiede liegen auf der Standort- und Taxa-Haeufigkeitsebene. Koeder beeinflussen die Zusammensetzung klar, aber oft verteilt und nicht als einzelne harte Einzeltaxa-Effekte. `feeding` und `interested` sind biologisch verwandt, liefern aber eine ergaenzende, nicht identische Perspektive.
+> Die staerksten und statistisch robustesten Unterschiede liegen auf der Standort- und Taxa-Haeufigkeitsebene. Koeder beeinflussen die Zusammensetzung klar, aber oft verteilt und nicht als einzelne harte Einzeltaxa-Effekte. In der fokussierten Nursery-Pruefung zeigen einzelne Feeding-Taxa sehr starke Unterschiede (`algaemix` > `mackerel`), die unter Holm knapp, unter BH jedoch signifikant sind.
 
 ## Empfohlene Folienreihenfolge
 

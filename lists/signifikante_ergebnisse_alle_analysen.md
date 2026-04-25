@@ -112,6 +112,17 @@ Die Koeeder verschieben die Gemeinschaftsstruktur als Gesamteffekt klar. Dass ei
 Interpretation:
 Auf Verhaltensebene existieren standortabhaengige globale Koeedereffekte (v. a. Utumbi). Robuste Einzeltaxon-Effekte sind selten; das passt zu hoher Variabilitaet und kleineren Teilstichproben je Koeeder.
 
+### 4.3 Fokussierte Sensitivitaet Nursery (Feeding, algaemix vs mackerel)
+Fokus-Taxa: `species::paletail unicorn (naso brevirostris)`, `species::honeycomb (siganus stellatus)`
+
+| Taxon | Effektmuster | MW exact p | MW Holm (2 Taxa) | Permutation p | Permutation Holm (2 Taxa) | Fisher p (Praesenz) | Fisher Holm (2 Taxa) | BH (Permutation/Fisher) |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| species::paletail unicorn (naso brevirostris) | algaemix 3/3 positiv vs mackerel 0/4, Cliff's Delta=1.0 | 0.0571 | 0.1143 | 0.0268 | 0.0536 | 0.0286 | 0.0571 | 0.0268 / 0.0286 |
+| species::honeycomb (siganus stellatus) | algaemix 3/3 positiv vs mackerel 0/4, Cliff's Delta=1.0 | 0.0571 | 0.1143 | 0.0268 | 0.0536 | 0.0286 | 0.0571 | 0.0268 / 0.0286 |
+
+Interpretation:
+Biologisch sind die Effekte sehr stark und konsistent (vollstaendige Trennung, Delta=1.0). Unter strenger Holm-Kontrolle bleiben die Tests knapp ueber der Schwelle, unter BH/FDR fuer die 2 vorab definierten Fokus-Taxa sind die Signale signifikant. Das ist ein "starkes, knapp nicht Holm-robustes" Signal bei kleinem n (3 vs 4 Videos).
+
 ## 5) Funktionsvergleich Fish-vs-Algae (Holm/BH-signifikant)
 
 Hinweis:

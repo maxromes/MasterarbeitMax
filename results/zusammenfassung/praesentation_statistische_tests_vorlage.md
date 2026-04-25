@@ -9,6 +9,7 @@ Die Daten zeigen ein klares, aber je nach Analyseebene unterschiedlich starkes M
 - Auf Standortebene unterscheiden sich die Fischgemeinschaften deutlich in der Taxa-Haeufigkeit (MaxN).
 - Auf Koeder-Ebene ist die Zusammensetzung der Taxa pro Standort zwar global unterschiedlich, aber einzelne Koederpaare bleiben nach Holm-Korrektur meist nicht signifikant.
 - Die Verhaltensannotationen `feeding` und `interested` sind miteinander verwandt, aber nicht identisch. Sie zeigen teils ueberschneidende, teils standortspezifische Signale.
+- In einer fokussierten Nursery-Sensitivitaet (`algaemix` vs `mackerel`, Feeding, 2 vordefinierte Taxa) zeigen sich sehr starke Effekte; Holm bleibt knapp ueber 0.05, BH ist signifikant.
 - Auch strengere Sensitivitaetsanalysen fuehren nicht zu neuen robusten Taxa-Effekten; die Hauptergebnisse bleiben stabil.
 
 ## 2. Welche statistischen Tests wurden durchgefuehrt?
@@ -143,6 +144,24 @@ Quelle: [Interested/Feeding Gesamtuebersicht](../interested_feeding/interested_f
 
 > Die Verhaltensannotationen `feeding` und `interested` beschreiben verwandte, aber nicht deckungsgleiche Prozesse. Gemeinsamkeit ist klar vorhanden, aber nicht stark genug, um dieselbe biologische Aussage zu ersetzen.
 
+### 3.4.1 Zusatz: fokussierte Nursery-Sensitivitaet (`algaemix` vs `mackerel`, Feeding)
+
+Quelle: [Nursery Fokus-Sensitivitaet](../interested_feeding/nursery/feeding/feeding_nursery_algaemix_vs_mackerel_focus_taxa_sensitivity.md)
+
+Untersuchte Fokus-Taxa:
+- `species::paletail unicorn (naso brevirostris)`
+- `species::honeycomb (siganus stellatus)`
+
+Kernaussagen:
+- Vollstaendige Trennung in der Praesenz: `algaemix` 3/3 positive Videos vs `mackerel` 0/4.
+- Effektstaerke sehr hoch: `cliffs_delta = 1.0` fuer beide Taxa.
+- Exakter Mann-Whitney: p=0.0571, Holm(2)=0.1143.
+- Permutation/Fisher: p=0.0268 bzw. 0.0286; Holm(2)=0.0536 bzw. 0.0571 (knapp nicht signifikant), BH(2) signifikant.
+
+Vortragsreife Formulierung:
+
+> Fuer zwei biologisch priorisierte Nursery-Taxa ist der Effekt zwischen `algaemix` und `mackerel` sehr stark und konsistent. Unter strenger Holm-Kontrolle bleibt er knapp ueber der Schwelle, unter BH/FDR wird er signifikant.
+
 ### 3.5 Sensitivitaetsanalyse mit strengerer Taxa-Filterung
 
 Quelle: [Ubiquitous Non-Behavioral Filter Sensitivity](interested_feeding/ubiquitous_nonbehavioral_filter_sensitivity.md)
@@ -255,6 +274,7 @@ Kommt `family_label::groupers (serranidae)` bei den Koedern `mackerel` und `fisc
 
 - Filterung aendert das Hauptbild nicht
 - Keine neuen Holm-signifikanten Taxa
+- Fokussierte Nursery-Pruefung zeigt starke Effekte bei 2 Taxa, Holm knapp nicht signifikant, BH signifikant
 
 ### Folie 9: Fazit
 
@@ -278,4 +298,4 @@ Kommt `family_label::groupers (serranidae)` bei den Koedern `mackerel` und `fisc
 
 Wenn du eine einzige Schlussfolie brauchst, dann ist diese Formulierung gut geeignet:
 
-> Die staerksten und statistisch robustesten Unterschiede liegen auf der Standort- und Taxa-Haeufigkeitsebene. Koeder beeinflussen die Zusammensetzung der Gemeinschaft klar, aber oft verteilt und nicht als einzelne harte Einzeltaxa-Effekte. Die Verhaltensannotationen `feeding` und `interested` sind biologisch verwandt, liefern aber eine ergaenzende, nicht identische Perspektive.
+> Die staerksten und statistisch robustesten Unterschiede liegen auf der Standort- und Taxa-Haeufigkeitsebene. Koeder beeinflussen die Zusammensetzung der Gemeinschaft klar, aber oft verteilt und nicht als einzelne harte Einzeltaxa-Effekte. In der fokussierten Nursery-Analyse zeigen zwei Feeding-Taxa sehr starke Unterschiede (`algaemix` > `mackerel`), die unter Holm knapp, unter BH jedoch signifikant sind.

@@ -34,8 +34,10 @@
 - Utumbi zeigte ein breiteres Muster mit `wrasses`, `triggerfishes`, `eels`, `balistidae`, `muraenidae`, `snappers_groupers_combo`, `predator_reef_core` und weiteren zusammengesetzten Gruppen.
 - Keine robusten Algenvorteile nach Holm oder BH; Algennahe Tendenzen bleiben explorativ (`chlorurus` in Utumbi, tendenziell `rabbitfishes`/`siganidae` in Utumbi).
 - Das standortkontrollierte Modell ergab keine BH-signifikanten Fish-vs-Algae-Effekte, aber die Rohsignale blieben konsistent mit den explorativen Mustern.
+- Das standortkontrollierte Modell ergab 5 BH-signifikante Fish-vs-Algae-Bait-Effekte (`moorish_idol`, `wrasses`, `zanclidae`, `labridae`, `wrasses` in `unspecific`), aber keine BH-signifikanten Interaktionen mit Standort.
 - Die Indikatoranalyse fand BH-signifikante Fischindikatoren wie `wrasses`, `triggerfishes`, `labridae`, `balistidae`, `thalassoma`, `balistapus`, `labroides`, `aethaloperca`, `wrasses_trigger_combo`, `predator_reef_core` und `snappers_groupers_combo`.
 - In der Sensitivitaet blieben nach Entfernen dominanter Videos 4 Fish-side Effekte signifikant: `large ovals`, `wrasses`, `herbivore_core_families`, `wrasses_trigger_combo`.
+- Neue fokussierte Nursery-Sensitivitaet (`algaemix` vs `mackerel`, Feeding, 2 vordefinierte Taxa): sehr starke Effekte (`cliffs_delta=1.0`, Praesenz 3/3 vs 0/4), Holm knapp nicht signifikant, BH signifikant (Permutation/Fisher).
 
 ## Welche Rohsignale und Tendenzen wurden beobachtet?
 - Milimani: `moorish_idol`, `zanclidae`, `zanclus`, `lutjanidae`, `lutjanus`, `nocturnal_predator_mixture`.

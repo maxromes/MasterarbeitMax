@@ -32,6 +32,16 @@
 - Pro Standort finden sich detaillierte Listen bait-spezifischer Taxa sowie Top-Taxa-Trends in den jeweiligen Site-Reports.
 - Besonders relevant sind Taxa, die (a) bait-spezifisch auftreten und (b) gleichzeitig trendhaft als dominanter Koeder in den MaxN-Event-Tests erscheinen.
 
+## Fokusupdate Nursery: algaemix vs mackerel (feeding)
+- Fuer `species::paletail unicorn (naso brevirostris)` und `species::honeycomb (siganus stellatus)` zeigt sich eine vollstaendige Trennung: algaemix 3/3 positive Videos, mackerel 0/4 positive Videos.
+- Effektstaerke: `cliffs_delta = 1.0` bei beiden Taxa.
+- Exakter Mann-Whitney: p=0.0571 je Taxon; Holm(2 Taxa)=0.1143 (nicht signifikant).
+- Permutationstest und Fisher-Exact zeigen p=0.0268 bzw. p=0.0286; Holm(2 Taxa)=0.0536 bzw. 0.0571 (knapp nicht signifikant), BH(2 Taxa) signifikant.
+- Interpretation: biologisch sehr starkes Signal, inferenzstatistisch unter Holm-konservativer Lesart knapp nicht robust; unter BH/FDR fuer die vorab definierten 2 Fokus-Taxa signifikant.
+
+Quelle:
+- nursery/feeding/feeding_nursery_algaemix_vs_mackerel_focus_taxa_sensitivity.md
+
 ## Berichte pro Standort
 - milimani/interested_feeding_milimani.md
 - nursery/interested_feeding_nursery.md
