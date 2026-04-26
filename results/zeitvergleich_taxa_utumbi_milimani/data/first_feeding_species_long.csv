@@ -1,0 +1,65 @@
+filename,date,standort,koeder,taxon,first_feeding_species_sec
+20241027-milimani-ulva_salad.csv,20241027,milimani,ulva_salad,green (amblyglyphidodon indicus),16.71269684396612
+20241124-milimani-mackerel.csv,20241124,milimani,mackerel,green (amblyglyphidodon indicus),1617.1951979
+20241124-milimani-mackerel.csv,20241124,milimani,mackerel,family::serranidae,1941.1256872
+20241124-milimani-mackerel.csv,20241124,milimani,mackerel,red (lutjanus bohar),1949.9703977
+20241124-milimani-mackerel.csv,20241124,milimani,mackerel,goldbar (thalassoma hebraicum),2027.6168142
+20241127-milimani-sargassum.csv,20241127,milimani,sargassum,green (amblyglyphidodon indicus),350.3214107660018
+20241128-milimani-sargassum.csv,20241128,milimani,sargassum,green (amblyglyphidodon indicus),32.7299388
+20241129-milimani-sargassum.csv,20241129,milimani,sargassum,green (amblyglyphidodon indicus),24.6604014
+20241129-milimani-sargassum.csv,20241129,milimani,sargassum,lined bristletooth (ctenochaetus striatus),634.3270385
+20241210-milimani-fischmix.csv,20241210,milimani,fischmix,red (lutjanus bohar),30.2732865
+20241210-milimani-fischmix.csv,20241210,milimani,fischmix,family::serranidae,31.0688594
+20241210-milimani-fischmix.csv,20241210,milimani,fischmix,green (amblyglyphidodon indicus),45.0955514
+20241210-milimani-fischmix.csv,20241210,milimani,fischmix,moon (thalassoma lunare),960.5888855
+20241210-milimani-fischmix.csv,20241210,milimani,fischmix,goldbar (thalassoma hebraicum),960.5888855
+20240516-utumbi-mackerel.csv,20240516,utumbi,mackerel,longfin banner (heniochus acuminatus),429.3164273
+20240516-utumbi-mackerel.csv,20240516,utumbi,mackerel,orange-lined (balistapus undulatus),438.6585539
+20240516-utumbi-mackerel.csv,20240516,utumbi,mackerel,undulated (gymnothorax undulatus),63.5145584
+20241025-utumbi-ulva_salad.csv,20241025,utumbi,ulva_salad,orange-lined (balistapus undulatus),809.312176
+20241026-utumbi-mackerel.csv,20241026,utumbi,mackerel,red (lutjanus bohar),14.261746
+20241026-utumbi-mackerel.csv,20241026,utumbi,mackerel,orange-lined (balistapus undulatus),28.116642
+20241026-utumbi-mackerel.csv,20241026,utumbi,mackerel,green (amblyglyphidodon indicus),38.21198
+20241026-utumbi-mackerel.csv,20241026,utumbi,mackerel,moon (thalassoma lunare),110.340903
+20241026-utumbi-mackerel.csv,20241026,utumbi,mackerel,redmouth (aethaloperca rogaa),286.510086
+20241026-utumbi-mackerel.csv,20241026,utumbi,mackerel,blacktip (epinephelus fasciatus),1474.815667
+20241026-utumbi-mackerel.csv,20241026,utumbi,mackerel,family::serranidae,1773.135573
+20241027-utumbi-ulva_salad.csv,20241027,utumbi,ulva_salad,goldbar (thalassoma hebraicum),190.53693522436708
+20241029-utumbi-ulva_gutweed.csv,20241029,utumbi,ulva_gutweed,goldbar (thalassoma hebraicum),34.42999936033562
+20241105-utumbi-control.csv,20241105,utumbi,control,green (amblyglyphidodon indicus),1613.888892
+20241110-utumbi-ulva_salad.csv,20241110,utumbi,ulva_salad,moon (thalassoma lunare),215.2176507
+20241110-utumbi-ulva_salad.csv,20241110,utumbi,ulva_salad,goldbar (thalassoma hebraicum),221.6401597
+20241110-utumbi-ulva_salad.csv,20241110,utumbi,ulva_salad,red (lutjanus bohar),228.5089376
+20241110-utumbi-ulva_salad.csv,20241110,utumbi,ulva_salad,family::acanthuridae,385.8092227
+20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,orange-lined (balistapus undulatus),13.1345466
+20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,goldbar (thalassoma hebraicum),20.4398457
+20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,green (amblyglyphidodon indicus),21.7903577
+20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,red (lutjanus bohar),140.6495725
+20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,redmouth (aethaloperca rogaa),248.7270108
+20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,blacktip (epinephelus fasciatus),1107.5628111
+20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,false-eye (abudefduf sparoides),2778.3775161
+20241127-utumbi-sargassum.csv,20241127,utumbi,sargassum,goldbar (thalassoma hebraicum),23.22250219365688
+20241127-utumbi-sargassum.csv,20241127,utumbi,sargassum,green (amblyglyphidodon indicus),29.277657898000193
+20241127-utumbi-sargassum.csv,20241127,utumbi,sargassum,black-lipped (chaetodon kleinii),489.9408343863329
+20241127-utumbi-sargassum.csv,20241127,utumbi,sargassum,red (lutjanus bohar),1058.399866572
+20241127-utumbi-sargassum.csv,20241127,utumbi,sargassum,moon (thalassoma lunare),1700.4343395259998
+20241128-utumbi-sargassum.csv,20241128,utumbi,sargassum,green (amblyglyphidodon indicus),7.638701
+20241129-utumbi-sargassum.csv,20241129,utumbi,sargassum,green (amblyglyphidodon indicus),15.8151862
+20241129-utumbi-sargassum.csv,20241129,utumbi,sargassum,goldbar (thalassoma hebraicum),66.4775688
+20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,orange-lined (balistapus undulatus),7.1501172
+20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,moon (thalassoma lunare),10.2499038
+20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,green (amblyglyphidodon indicus),28.2403461
+20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,family::serranidae,281.7256917
+20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,redmouth (aethaloperca rogaa),346.8726927
+20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,red (lutjanus bohar),423.8436565
+20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,black-lipped (chaetodon kleinii),1271.1665227
+20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,freckled (paracirrhites forsteri),2107.582768
+20241210-utumbi-fischmix.csv,20241210,utumbi,fischmix,moon (thalassoma lunare),16.5866369
+20241210-utumbi-fischmix.csv,20241210,utumbi,fischmix,blacktip (epinephelus fasciatus),19.864441
+20241210-utumbi-fischmix.csv,20241210,utumbi,fischmix,orange-lined (balistapus undulatus),71.493425
+20241210-utumbi-fischmix.csv,20241210,utumbi,fischmix,green (amblyglyphidodon indicus),95.2927428
+20241210-utumbi-fischmix.csv,20241210,utumbi,fischmix,red (lutjanus bohar),157.701639
+20241210-utumbi-fischmix.csv,20241210,utumbi,fischmix,redmouth (aethaloperca rogaa),199.9216807
+20241210-utumbi-fischmix.csv,20241210,utumbi,fischmix,longfin banner (heniochus acuminatus),520.8392784
+20241210-utumbi-fischmix.csv,20241210,utumbi,fischmix,black-lipped (chaetodon kleinii),1050.0164697
+20241210-utumbi-fischmix.csv,20241210,utumbi,fischmix,goldbar (thalassoma hebraicum),2556.2017571

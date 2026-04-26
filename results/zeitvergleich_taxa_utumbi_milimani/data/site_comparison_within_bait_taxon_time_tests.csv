@@ -1,0 +1,162 @@
+koeder,taxon,metric,n_utumbi,n_milimani,u_stat,p_value,cliffs_delta,median_utumbi_sec,median_milimani_sec,median_diff_utumbi_minus_milimani_sec,p_value_holm,p_value_bh,sig_raw_0_05,sig_holm_0_05,sig_bh_0_05
+control,green (amblyglyphidodon indicus),first_seen_species_sec,4,3,0.0,0.05714285714285714,-1.0,5.326368,12.0670377,-6.7406697,1.0,0.7999999999999999,False,False,False
+control,lined bristletooth (ctenochaetus striatus),first_seen_species_sec,3,3,9.0,0.1,1.0,126.9241308,29.1002713,97.8238595,1.0,0.7999999999999999,False,False,False
+control,red (lutjanus bohar),first_seen_species_sec,3,3,0.0,0.1,-1.0,34.948840909338095,307.8270548,-272.87821389066187,1.0,0.7999999999999999,False,False,False
+control,brown tang (zebrasoma scopas),first_seen_species_sec,3,3,8.0,0.2,0.7777777777777778,51.8874147,17.8237233,34.063691399999996,1.0,0.7999999999999999,False,False,False
+control,genus::genus naso,first_seen_species_sec,3,2,0.0,0.2,-1.0,15.044228,1777.436614058,-1762.392386058,1.0,0.7999999999999999,False,False,False
+control,moon (thalassoma lunare),first_seen_species_sec,3,3,1.0,0.2,-0.7777777777777778,9.3793198,767.2723860383304,-757.8930662383304,1.0,0.7999999999999999,False,False,False
+control,slingjaw (epibulus insidiator),first_seen_species_sec,3,2,0.0,0.2,-1.0,704.513994,2380.12285435,-1675.6088603500002,1.0,0.7999999999999999,False,False,False
+control,barred (hemigymnus fasciatus),first_seen_species_sec,4,3,2.0,0.22857142857142856,-0.6666666666666666,151.5903500080047,738.0178471,-586.4274970919953,1.0,0.7999999999999999,False,False,False
+control,threadfin (chaetodon auriga),first_seen_species_sec,2,2,4.0,0.3333333333333333,1.0,404.9935011,244.4403578,160.55314330000002,1.0,0.9230769230769231,False,False,False
+control,genus::genus chromis,first_seen_species_sec,3,3,2.0,0.4,-0.5555555555555556,29.34743575233805,195.4923296,-166.14489384766196,1.0,0.9230769230769231,False,False,False
+control,trumpetfish (aulostomus chinensis),first_seen_species_sec,4,3,3.0,0.4,-0.5,538.4569724075,863.3761973,-324.9192248925,1.0,0.9230769230769231,False,False,False
+control,axilspot hogfish (bodianus axillaris),first_seen_species_sec,4,2,2.0,0.5333333333333333,-0.5,1047.7456839005013,1650.5535233770001,-602.8078394764989,1.0,0.9230769230769231,False,False,False
+control,brown pigmy (centropyge multispinis),first_seen_species_sec,4,3,8.0,0.6285714285714286,0.3333333333333333,244.27755237583068,70.1456603,174.13189207583068,1.0,0.9230769230769231,False,False,False
+control,goldbar (thalassoma hebraicum),first_seen_species_sec,4,3,4.0,0.6285714285714286,-0.3333333333333333,70.19451175,205.7453708,-135.55085904999999,1.0,0.9230769230769231,False,False,False
+control,indian half-and-half (pycnochromis dimidiatus),first_seen_species_sec,4,3,8.0,0.6285714285714286,0.3333333333333333,9.80729055,3.209767893,6.597522656999999,1.0,0.9230769230769231,False,False,False
+control,checkerboard (halichoeres hortulanus),first_seen_species_sec,2,2,1.0,0.6666666666666666,-0.5,773.1205246418332,1612.51327435,-839.3927497081669,1.0,0.9230769230769231,False,False,False
+control,mozambique fangblenny (meiacanthus mossambicus),first_seen_species_sec,3,3,6.0,0.7,0.3333333333333333,415.1363679653262,377.7917990743323,37.34456889099391,1.0,0.9230769230769231,False,False,False
+control,bullethead (chlorurus sordidus),first_seen_species_sec,4,2,5.0,0.8,0.25,390.67212685000004,341.35808940000004,49.31403745,1.0,0.9230769230769231,False,False,False
+control,family::labridae,first_seen_species_sec,4,2,3.0,0.8,-0.25,293.5682139,473.3520472,-179.78383330000003,1.0,0.9230769230769231,False,False,False
+control,bird wrasse (gomphosus caeruleus),first_seen_species_sec,4,3,5.0,0.8571428571428571,-0.16666666666666666,99.3075167,257.1605286,-157.8530119,1.0,0.9230769230769231,False,False,False
+control,disappearing (pseudocheilinus evanidus),first_seen_species_sec,4,3,7.0,0.8571428571428571,0.16666666666666666,639.6616447499999,294.52590959899857,345.13573515100137,1.0,0.9230769230769231,False,False,False
+control,family::scaridae,first_seen_species_sec,4,3,7.0,0.8571428571428571,0.16666666666666666,119.57099588766984,45.8503169,73.72067898766983,1.0,0.9230769230769231,False,False,False
+control,longbarbel (parupeneus macronemus),first_seen_species_sec,4,3,5.0,0.8571428571428571,-0.16666666666666666,227.8868348,254.23305119566797,-26.346216395667966,1.0,0.9230769230769231,False,False,False
+control,orange-lined (balistapus undulatus),first_seen_species_sec,4,3,5.0,0.8571428571428571,-0.16666666666666666,201.91682675,185.20584438266786,16.71098236733215,1.0,0.9230769230769231,False,False,False
+control,redmouth (aethaloperca rogaa),first_seen_species_sec,4,3,5.0,0.8571428571428571,-0.16666666666666666,1177.6814622000002,2000.7503167,-823.0688544999998,1.0,0.9230769230769231,False,False,False
+control,regal (pygoplites diacanthus),first_seen_species_sec,4,3,7.0,0.8571428571428571,0.16666666666666666,327.94339979999995,297.77025437366655,30.173145426333406,1.0,0.9230769230769231,False,False,False
+control,family::serranidae,first_seen_species_sec,4,2,4.0,1.0,0.0,554.6237495,898.81944335,-344.19569385,1.0,1.0,False,False,False
+control,indian redfin (chaetodon trifasciatus),first_seen_species_sec,3,3,5.0,1.0,0.1111111111111111,1145.3824048,1116.4051388,28.977265999999872,1.0,1.0,False,False,False
+mackerel,family::scaridae,first_seen_species_sec,3,3,0.0,0.1,-1.0,11.8718128,102.3203656,-90.4485528,1.0,0.9142857142857144,False,False,False
+mackerel,indian half-and-half (pycnochromis dimidiatus),first_seen_species_sec,3,3,0.0,0.1,-1.0,10.9464675,21.493698,-10.547230499999998,1.0,0.9142857142857144,False,False,False
+mackerel,orange-lined (balistapus undulatus),first_seen_species_sec,3,3,0.0,0.1,-1.0,0.9149364,211.6415972,-210.72666080000002,1.0,0.9142857142857144,False,False,False
+mackerel,black-backed (chaetodon melannotus),first_seen_species_sec,2,3,6.0,0.2,1.0,917.8948593745033,363.9348747,553.9599846745033,1.0,0.9142857142857144,False,False,False
+mackerel,family::serranidae,first_seen_species_sec,3,2,0.0,0.2,-1.0,121.4046108,588.0367788,-466.632168,1.0,0.9142857142857144,False,False,False
+mackerel,lined bristletooth (ctenochaetus striatus),first_seen_species_sec,2,3,6.0,0.2,1.0,55.98388555,18.9049891,37.078896449999995,1.0,0.9142857142857144,False,False,False
+mackerel,red (lutjanus bohar),first_seen_species_sec,3,3,1.0,0.2,-0.7777777777777778,140.6495725,434.287024718,-293.637452218,1.0,0.9142857142857144,False,False,False
+mackerel,trumpetfish (aulostomus chinensis),first_seen_species_sec,2,2,4.0,0.3333333333333333,1.0,1061.4575304648713,488.325208459,573.1323220058713,1.0,1.0,False,False,False
+mackerel,genus::genus chromis,first_seen_species_sec,3,2,5.0,0.4,0.6666666666666666,68.3211896,54.976353700000004,13.344835899999993,1.0,1.0,False,False,False
+mackerel,red-breasted (cheilinus fasciatus),first_seen_species_sec,3,3,2.0,0.4,-0.5555555555555556,1061.7360598422524,1674.9465713,-613.2105114577475,1.0,1.0,False,False,False
+mackerel,sixbar (thalassoma hardwicke),first_seen_species_sec,2,3,5.0,0.4,0.6666666666666666,779.7276013,66.9557265,712.7718748,1.0,1.0,False,False,False
+mackerel,axilspot hogfish (bodianus axillaris),first_seen_species_sec,2,2,1.0,0.6666666666666666,-0.5,689.4691628,782.6817908,-93.212628,1.0,1.0,False,False,False
+mackerel,honeycomb (siganus stellatus),first_seen_species_sec,2,2,3.0,0.6666666666666666,0.5,574.06400475,328.5008628,245.56314195,1.0,1.0,False,False,False
+mackerel,humpnose bigeye (monotaxis grandoculis),first_seen_species_sec,2,2,1.0,0.6666666666666666,-0.5,192.18586280000002,422.34431075,-230.15844794999995,1.0,1.0,False,False,False
+mackerel,barred (hemigymnus fasciatus),first_seen_species_sec,3,3,6.0,0.7,0.3333333333333333,1083.0599668,805.3503222,277.70964459999993,1.0,1.0,False,False,False
+mackerel,brown tang (zebrasoma scopas),first_seen_species_sec,3,3,3.0,0.7,-0.3333333333333333,30.4567426,75.9625189,-45.50577630000001,1.0,1.0,False,False,False
+mackerel,green (amblyglyphidodon indicus),first_seen_species_sec,3,3,3.0,0.7,-0.3333333333333333,0.3511248,1.9399333,-1.5888085,1.0,1.0,False,False,False
+mackerel,redmouth (aethaloperca rogaa),first_seen_species_sec,3,3,3.0,0.7,-0.3333333333333333,221.6790611,436.3707184,-214.69165729999997,1.0,1.0,False,False,False
+mackerel,blackeye (hemigymnus melapterus),first_seen_species_sec,3,2,4.0,0.8,0.3333333333333333,299.0879971,458.81639635,-159.72839925,1.0,1.0,False,False,False
+mackerel,brown pigmy (centropyge multispinis),first_seen_species_sec,3,2,4.0,0.8,0.3333333333333333,286.1244522,70.62576405,215.49868815000002,1.0,1.0,False,False,False
+mackerel,bullethead (chlorurus sordidus),first_seen_species_sec,3,2,4.0,0.8,0.3333333333333333,429.3807010889994,286.76768135,142.6130197389994,1.0,1.0,False,False,False
+mackerel,family::labridae,first_seen_species_sec,3,2,2.0,0.8,-0.3333333333333333,125.1096489,831.8864745999999,-706.7768256999999,1.0,1.0,False,False,False
+mackerel,bird wrasse (gomphosus caeruleus),first_seen_species_sec,3,3,4.0,1.0,-0.1111111111111111,49.6090288,35.9906364,13.618392399999998,1.0,1.0,False,False,False
+mackerel,goldbar (thalassoma hebraicum),first_seen_species_sec,3,3,5.0,1.0,0.1111111111111111,20.4398457,15.2657329,5.1741128,1.0,1.0,False,False,False
+mackerel,humpback unicorn (naso brachycentron),first_seen_species_sec,2,2,2.0,1.0,0.0,595.90528565,620.4549336,-24.549647950000008,1.0,1.0,False,False,False
+mackerel,indian redfin (chaetodon trifasciatus),first_seen_species_sec,3,3,5.0,1.0,0.1111111111111111,1190.7128382,341.3577496,849.3550886,1.0,1.0,False,False,False
+mackerel,longbarbel (parupeneus macronemus),first_seen_species_sec,3,3,4.0,1.0,-0.1111111111111111,185.2148441,256.7524756,-71.53763150000003,1.0,1.0,False,False,False
+mackerel,moon (thalassoma lunare),first_seen_species_sec,3,3,5.0,1.0,0.1111111111111111,125.1096489,60.4091343,64.70051459999999,1.0,1.0,False,False,False
+mackerel,paletail unicorn (naso brevirostris),first_seen_species_sec,2,3,3.0,1.0,0.0,141.38760445,178.354427,-36.96682254999999,1.0,1.0,False,False,False
+mackerel,regal (pygoplites diacanthus),first_seen_species_sec,3,3,4.0,1.0,-0.1111111111111111,290.7123584987468,310.0168388,-19.304480301253193,1.0,1.0,False,False,False
+mackerel,swarthy (scarus niger),first_seen_species_sec,2,2,2.0,1.0,0.0,1115.7479227455053,520.9032638,594.8446589455053,1.0,1.0,False,False,False
+mackerel,ternate (chromis ternatensis),first_seen_species_sec,2,2,2.0,1.0,0.0,578.4429055961241,1329.1133302141664,-750.6704246180423,1.0,1.0,False,False,False
+sargassum,orange-lined (balistapus undulatus),first_seen_species_sec,3,3,0.0,0.1,-1.0,1.0400213,144.4153288,-143.3753075,1.0,0.7111111111111111,False,False,False
+sargassum,redmouth (aethaloperca rogaa),first_seen_species_sec,3,3,0.0,0.1,-1.0,47.56232898433357,864.4383636,-816.8760346156664,1.0,0.7111111111111111,False,False,False
+sargassum,family::serranidae,first_seen_species_sec,3,3,1.0,0.2,-0.7777777777777778,25.1183093,105.5682589,-80.4499496,1.0,0.7111111111111111,False,False,False
+sargassum,genus::genus chromis,first_seen_species_sec,3,3,8.0,0.2,0.7777777777777778,879.4504780766629,5.9294707,873.5210073766629,1.0,0.7111111111111111,False,False,False
+sargassum,genus::genus soldier,first_seen_species_sec,3,2,0.0,0.2,-1.0,41.483588670999694,1488.809038574168,-1447.3254499031682,1.0,0.7111111111111111,False,False,False
+sargassum,green (amblyglyphidodon indicus),first_seen_species_sec,3,3,1.0,0.2,-0.7777777777777778,1.0400213,8.0520457,-7.0120244000000005,1.0,0.7111111111111111,False,False,False
+sargassum,lined bristletooth (ctenochaetus striatus),first_seen_species_sec,2,3,6.0,0.2,1.0,977.1597746723334,73.9545878,903.2051868723333,1.0,0.7111111111111111,False,False,False
+sargassum,moon (thalassoma lunare),first_seen_species_sec,3,3,1.0,0.2,-0.7777777777777778,22.0593777,166.4773253,-144.4179476,1.0,0.7111111111111111,False,False,False
+sargassum,paletail unicorn (naso brevirostris),first_seen_species_sec,3,3,8.0,0.2,0.7777777777777778,657.4619848,154.3575509,503.1044339,1.0,0.7111111111111111,False,False,False
+sargassum,barred (hemigymnus fasciatus),first_seen_species_sec,2,2,4.0,0.3333333333333333,1.0,1243.762277445,131.98761045,1111.7746669950002,1.0,0.8533333333333334,False,False,False
+sargassum,blackeye (hemigymnus melapterus),first_seen_species_sec,3,3,7.0,0.4,0.5555555555555556,1910.9453132,1109.9974694,800.9478438000001,1.0,0.8533333333333334,False,False,False
+sargassum,brown pigmy (centropyge multispinis),first_seen_species_sec,3,3,7.0,0.4,0.5555555555555556,175.63856849100307,90.7264935,84.91207499100307,1.0,0.8533333333333334,False,False,False
+sargassum,brown tang (zebrasoma scopas),first_seen_species_sec,3,3,7.0,0.4,0.5555555555555556,293.5322277,112.1059575,181.42627020000003,1.0,0.8533333333333334,False,False,False
+sargassum,sixbar (thalassoma hardwicke),first_seen_species_sec,2,3,5.0,0.4,0.6666666666666666,580.2685674076672,5.145656403,575.1229110046672,1.0,0.8533333333333334,False,False,False
+sargassum,trumpetfish (aulostomus chinensis),first_seen_species_sec,3,3,2.0,0.4,-0.5555555555555556,329.8010063,1160.36034,-830.5593337,1.0,0.8533333333333334,False,False,False
+sargassum,spotted (chaetodon guttatissimus),first_seen_species_sec,2,2,3.0,0.6666666666666666,0.5,1085.0402458,916.4207481916698,168.61949760833033,1.0,0.8959999999999999,False,False,False
+sargassum,checkerboard (halichoeres hortulanus),first_seen_species_sec,3,3,6.0,0.7,0.3333333333333333,1816.0956479,730.6271349,1085.4685129999998,1.0,0.8959999999999999,False,False,False
+sargassum,family::scaridae,first_seen_species_sec,3,3,3.0,0.7,-0.3333333333333333,17.66342832,98.6689748,-81.00554647999999,1.0,0.8959999999999999,False,False,False
+sargassum,goldbar (thalassoma hebraicum),first_seen_species_sec,3,3,6.0,0.7,0.3333333333333333,5.8229328,1.3444848263337725,4.478447973666228,1.0,0.8959999999999999,False,False,False
+sargassum,indian half-and-half (pycnochromis dimidiatus),first_seen_species_sec,3,3,3.0,0.7,-0.3333333333333333,17.66342832,39.18758101466427,-21.524152694664267,1.0,0.8959999999999999,False,False,False
+sargassum,longbarbel (parupeneus macronemus),first_seen_species_sec,3,3,6.0,0.7,0.3333333333333333,519.6061115039932,125.1244142,394.48169730399326,1.0,0.8959999999999999,False,False,False
+sargassum,red (lutjanus bohar),first_seen_species_sec,3,3,3.0,0.7,-0.3333333333333333,1.3612594,40.983949,-39.6226896,1.0,0.8959999999999999,False,False,False
+sargassum,red-breasted (cheilinus fasciatus),first_seen_species_sec,3,3,6.0,0.7,0.3333333333333333,1238.9991609990202,936.8055959136647,302.19356508535554,1.0,0.8959999999999999,False,False,False
+sargassum,swarthy (scarus niger),first_seen_species_sec,3,3,3.0,0.7,-0.3333333333333333,157.4702394,1210.8676821,-1053.3974426999998,1.0,0.8959999999999999,False,False,False
+sargassum,threadfin (chaetodon auriga),first_seen_species_sec,3,3,3.0,0.7,-0.3333333333333333,1077.5839972,1708.0232636,-630.4392664,1.0,0.8959999999999999,False,False,False
+sargassum,axilspot hogfish (bodianus axillaris),first_seen_species_sec,2,3,4.0,0.8,0.3333333333333333,659.0842933,816.450993,-157.36669970000003,1.0,0.9481481481481482,False,False,False
+sargassum,saddleback (chaetodon falcula),first_seen_species_sec,2,3,4.0,0.8,0.3333333333333333,1022.4994803,968.2932969,54.206183399999986,1.0,0.9481481481481482,False,False,False
+sargassum,bird wrasse (gomphosus caeruleus),first_seen_species_sec,3,3,4.0,1.0,-0.1111111111111111,68.1867988,75.0407004,-6.8539016,1.0,1.0,False,False,False
+sargassum,bullethead (chlorurus sordidus),first_seen_species_sec,3,3,5.0,1.0,0.1111111111111111,315.4754087,210.1336205,105.3417882,1.0,1.0,False,False,False
+sargassum,humpnose bigeye (monotaxis grandoculis),first_seen_species_sec,2,3,3.0,1.0,0.0,1025.4283971500001,759.8618716,265.56652555000016,1.0,1.0,False,False,False
+sargassum,indian redfin (chaetodon trifasciatus),first_seen_species_sec,3,3,5.0,1.0,0.1111111111111111,523.7023452860033,573.4676362,-49.76529091399675,1.0,1.0,False,False,False
+sargassum,regal (pygoplites diacanthus),first_seen_species_sec,3,3,5.0,1.0,0.1111111111111111,113.79916998033677,270.3084167,-156.50924671966322,1.0,1.0,False,False,False
+ulva_gutweed,orange-lined (balistapus undulatus),first_seen_species_sec,3,3,0.0,0.1,-1.0,26.04309202066592,125.3298112376692,-99.28671921700328,1.0,0.66,False,False,False
+ulva_gutweed,red (lutjanus bohar),first_seen_species_sec,3,3,0.0,0.1,-1.0,43.150305223000046,601.732568708,-558.582263485,1.0,0.66,False,False,False
+ulva_gutweed,checkerboard (halichoeres hortulanus),first_seen_species_sec,3,3,8.0,0.2,0.7777777777777778,275.53615107966067,108.54506197433335,166.99108910532732,1.0,0.66,False,False,False
+ulva_gutweed,disappearing (pseudocheilinus evanidus),first_seen_species_sec,3,2,0.0,0.2,-1.0,170.557026,1217.8058406668338,-1047.2488146668338,1.0,0.66,False,False,False
+ulva_gutweed,genus::genus naso,first_seen_species_sec,3,3,1.0,0.2,-0.7777777777777778,332.17298079066677,1021.8637644316666,-689.6907836409998,1.0,0.66,False,False,False
+ulva_gutweed,genus::genus soldier,first_seen_species_sec,3,2,0.0,0.2,-1.0,67.13443691000319,1474.2694800505005,-1407.1350431404974,1.0,0.66,False,False,False
+ulva_gutweed,genus::genus squirrel,first_seen_species_sec,3,2,0.0,0.2,-1.0,158.03468932133202,1164.5334393936664,-1006.4987500723344,1.0,0.66,False,False,False
+ulva_gutweed,lined bristletooth (ctenochaetus striatus),first_seen_species_sec,2,3,6.0,0.2,1.0,137.91913425582783,15.11011471500042,122.8090195408274,1.0,0.66,False,False,False
+ulva_gutweed,moorish idol (zanclus cornutus),first_seen_species_sec,3,3,1.0,0.2,-0.7777777777777778,926.8628415106715,2280.914648,-1354.0518064893286,1.0,0.66,False,False,False
+ulva_gutweed,trumpetfish (aulostomus chinensis),first_seen_species_sec,3,2,0.0,0.2,-1.0,739.4739825,1791.904532435333,-1052.4305499353331,1.0,0.66,False,False,False
+ulva_gutweed,freckled (paracirrhites forsteri),first_seen_species_sec,2,2,0.0,0.3333333333333333,-1.0,694.0002513,1940.1420567748328,-1246.1418054748328,1.0,0.8800000000000001,False,False,False
+ulva_gutweed,genus::genus chromis,first_seen_species_sec,2,2,4.0,0.3333333333333333,1.0,418.2239142623349,35.939559077333485,382.28435518500146,1.0,0.8800000000000001,False,False,False
+ulva_gutweed,green (amblyglyphidodon indicus),first_seen_species_sec,3,3,2.0,0.4,-0.5555555555555556,1.4388417,5.6695121,-4.2306704,1.0,0.8800000000000001,False,False,False
+ulva_gutweed,regal (pygoplites diacanthus),first_seen_species_sec,3,3,7.0,0.4,0.5555555555555556,480.4914592926672,257.7467130656668,222.74474622700035,1.0,0.8800000000000001,False,False,False
+ulva_gutweed,swarthy (scarus niger),first_seen_species_sec,3,2,5.0,0.4,0.6666666666666666,2118.4473689396664,836.9395203283343,1281.507848611332,1.0,0.8800000000000001,False,False,False
+ulva_gutweed,linedcheeked (oxycheilinus digramma),first_seen_species_sec,2,2,3.0,0.6666666666666666,0.5,1094.90595715,576.07951205,518.8264451,1.0,1.0,False,False,False
+ulva_gutweed,family::scaridae,first_seen_species_sec,3,3,3.0,0.7,-0.3333333333333333,26.4669741,132.6967058,-106.22973169999999,1.0,1.0,False,False,False
+ulva_gutweed,goldbar (thalassoma hebraicum),first_seen_species_sec,3,3,6.0,0.7,0.3333333333333333,14.8458514,13.841021264667564,1.004830135332437,1.0,1.0,False,False,False
+ulva_gutweed,longbarbel (parupeneus macronemus),first_seen_species_sec,3,3,6.0,0.7,0.3333333333333333,111.78388040865435,68.73839944832659,43.045480960327765,1.0,1.0,False,False,False
+ulva_gutweed,family::labridae,first_seen_species_sec,3,2,2.0,0.8,-0.3333333333333333,106.1901634,237.4486920603344,-131.25852866033438,1.0,1.0,False,False,False
+ulva_gutweed,family::serranidae,first_seen_species_sec,3,2,4.0,0.8,0.3333333333333333,829.4267150329998,641.548563891168,187.87815114183184,1.0,1.0,False,False,False
+ulva_gutweed,indian redfin (chaetodon trifasciatus),first_seen_species_sec,3,2,4.0,0.8,0.3333333333333333,1148.877245746,747.1711401203331,401.70610562566685,1.0,1.0,False,False,False
+ulva_gutweed,spotted (chaetodon guttatissimus),first_seen_species_sec,2,3,4.0,0.8,0.3333333333333333,1496.42869215,1404.3203260643334,92.1083660856666,1.0,1.0,False,False,False
+ulva_gutweed,axilspot hogfish (bodianus axillaris),first_seen_species_sec,2,2,2.0,1.0,0.0,544.198220697999,1029.6976781300007,-485.4994574320017,1.0,1.0,False,False,False
+ulva_gutweed,barred (hemigymnus fasciatus),first_seen_species_sec,3,3,4.0,1.0,-0.1111111111111111,300.7368548486646,421.79925488366456,-121.06240003499994,1.0,1.0,False,False,False
+ulva_gutweed,bird wrasse (gomphosus caeruleus),first_seen_species_sec,3,3,4.0,1.0,-0.1111111111111111,259.90517189832656,230.69628204333657,29.20888985498999,1.0,1.0,False,False,False
+ulva_gutweed,brown pigmy (centropyge multispinis),first_seen_species_sec,3,3,4.0,1.0,-0.1111111111111111,304.5480775,298.23054259133147,6.317534908668506,1.0,1.0,False,False,False
+ulva_gutweed,bullethead (chlorurus sordidus),first_seen_species_sec,3,3,4.0,1.0,-0.1111111111111111,142.3696873,312.6181410486629,-170.24845374866288,1.0,1.0,False,False,False
+ulva_gutweed,honeycomb (siganus stellatus),first_seen_species_sec,3,3,4.0,1.0,-0.1111111111111111,915.3834821,992.9341893876667,-77.55070728766668,1.0,1.0,False,False,False
+ulva_gutweed,humpnose bigeye (monotaxis grandoculis),first_seen_species_sec,2,3,3.0,1.0,0.0,391.0604477924978,408.10683601199895,-17.046388219501125,1.0,1.0,False,False,False
+ulva_gutweed,indian half-and-half (pycnochromis dimidiatus),first_seen_species_sec,3,3,4.0,1.0,-0.1111111111111111,12.6590656,6.841126666335424,5.817938933664576,1.0,1.0,False,False,False
+ulva_gutweed,red-breasted (cheilinus fasciatus),first_seen_species_sec,2,2,2.0,1.0,0.0,200.88761749999998,605.365043762833,-404.47742626283303,1.0,1.0,False,False,False
+ulva_gutweed,redmouth (aethaloperca rogaa),first_seen_species_sec,3,3,4.0,1.0,-0.1111111111111111,446.359034,655.765143,-209.40610899999996,1.0,1.0,False,False,False
+ulva_salad,lined bristletooth (ctenochaetus striatus),first_seen_species_sec,3,4,12.0,0.05714285714285714,1.0,138.11510604224966,27.72399945,110.39110659224966,1.0,0.9333333333333333,False,False,False
+ulva_salad,orange-lined (balistapus undulatus),first_seen_species_sec,3,4,0.0,0.05714285714285714,-1.0,20.740275427661718,237.83357132487416,-217.09329589721244,1.0,0.9333333333333333,False,False,False
+ulva_salad,brown pigmy (centropyge multispinis),first_seen_species_sec,3,4,11.0,0.11428571428571428,0.8333333333333334,347.665735138304,143.6295962,204.036138938304,1.0,0.9333333333333333,False,False,False
+ulva_salad,brown tang (zebrasoma scopas),first_seen_species_sec,3,4,11.0,0.11428571428571428,0.8333333333333334,455.0564202,10.3095204625,444.7468997375,1.0,0.9333333333333333,False,False,False
+ulva_salad,green (amblyglyphidodon indicus),first_seen_species_sec,2,4,0.0,0.13333333333333333,-1.0,2.2599837110000003,38.152712328668215,-35.89272861766821,1.0,0.9333333333333333,False,False,False
+ulva_salad,family::labridae,first_seen_species_sec,3,2,0.0,0.2,-1.0,286.9590458,1497.2176347793143,-1210.2585889793143,1.0,0.9333333333333333,False,False,False
+ulva_salad,longbarbel (parupeneus macronemus),first_seen_species_sec,3,4,10.0,0.22857142857142856,0.6666666666666666,200.1788602486593,123.51461889999999,76.66424134865932,1.0,0.9333333333333333,False,False,False
+ulva_salad,leopard (cephalopholis leopardus),first_seen_species_sec,2,2,0.0,0.3333333333333333,-1.0,42.188712,1596.4096808,-1554.2209688,1.0,0.9333333333333333,False,False,False
+ulva_salad,paletail unicorn (naso brevirostris),first_seen_species_sec,2,2,0.0,0.3333333333333333,-1.0,296.9330013219999,1315.4832711,-1018.550269778,1.0,0.9333333333333333,False,False,False
+ulva_salad,barred (hemigymnus fasciatus),first_seen_species_sec,3,3,7.0,0.4,0.5555555555555556,1247.4849517,343.7992804,903.6856713,1.0,0.9333333333333333,False,False,False
+ulva_salad,disappearing (pseudocheilinus evanidus),first_seen_species_sec,3,2,1.0,0.4,-0.6666666666666666,183.2743781753013,834.9501978999999,-651.6758197246986,1.0,0.9333333333333333,False,False,False
+ulva_salad,family::scaridae,first_seen_species_sec,3,4,9.0,0.4,0.5,184.93162733366705,54.95804291683631,129.97358441683073,1.0,0.9333333333333333,False,False,False
+ulva_salad,family::serranidae,first_seen_species_sec,3,2,1.0,0.4,-0.6666666666666666,143.1149,1443.2486392113333,-1300.1337392113332,1.0,0.9333333333333333,False,False,False
+ulva_salad,spotted (chaetodon guttatissimus),first_seen_species_sec,3,3,2.0,0.4,-0.5555555555555556,1427.1699701,1886.4471,-459.2771299000001,1.0,0.9333333333333333,False,False,False
+ulva_salad,trumpetfish (aulostomus chinensis),first_seen_species_sec,3,3,2.0,0.4,-0.5555555555555556,688.0842618,1643.5871212,-955.5028593999999,1.0,0.9333333333333333,False,False,False
+ulva_salad,bullethead (chlorurus sordidus),first_seen_species_sec,3,4,8.0,0.6285714285714286,0.3333333333333333,544.076134138001,490.2959488,53.78018533800093,1.0,1.0,False,False,False
+ulva_salad,indian half-and-half (pycnochromis dimidiatus),first_seen_species_sec,3,4,8.0,0.6285714285714286,0.3333333333333333,23.3356829,37.74228015,-14.40659725,1.0,1.0,False,False,False
+ulva_salad,family::acanthuridae,first_seen_species_sec,2,2,3.0,0.6666666666666666,0.5,1238.5900192535012,736.1571948999999,502.43282435350125,1.0,1.0,False,False,False
+ulva_salad,slingjaw (epibulus insidiator),first_seen_species_sec,2,2,1.0,0.6666666666666666,-0.5,1222.4196020255,1900.7964590000001,-678.3768569745002,1.0,1.0,False,False,False
+ulva_salad,yellowhead (chaetodon xanthocephalus),first_seen_species_sec,2,2,3.0,0.6666666666666666,0.5,1764.8871136141952,1138.29348915,626.5936244641953,1.0,1.0,False,False,False
+ulva_salad,goldbar (thalassoma hebraicum),first_seen_species_sec,3,3,3.0,0.7,-0.3333333333333333,10.520502750000007,54.828761,-44.308258249999994,1.0,1.0,False,False,False
+ulva_salad,checkerboard (halichoeres hortulanus),first_seen_species_sec,2,3,4.0,0.8,0.3333333333333333,616.0831009275233,236.2942712,379.7888297275233,1.0,1.0,False,False,False
+ulva_salad,freckled (paracirrhites forsteri),first_seen_species_sec,3,2,2.0,0.8,-0.3333333333333333,543.3851418922909,1582.9366962000001,-1039.5515543077092,1.0,1.0,False,False,False
+ulva_salad,genus::genus naso,first_seen_species_sec,3,2,2.0,0.8,-0.3333333333333333,585.2583567253379,693.7567575773419,-108.49840085200401,1.0,1.0,False,False,False
+ulva_salad,indian redfin (chaetodon trifasciatus),first_seen_species_sec,2,3,4.0,0.8,0.3333333333333333,1391.3771393244965,629.013882221576,762.3632571029206,1.0,1.0,False,False,False
+ulva_salad,mozambique fangblenny (meiacanthus mossambicus),first_seen_species_sec,2,4,3.0,0.8,-0.25,305.99294221598456,515.2381827244925,-209.24524050850795,1.0,1.0,False,False,False
+ulva_salad,redmouth (aethaloperca rogaa),first_seen_species_sec,3,4,7.0,0.8571428571428571,0.16666666666666666,742.1143898,823.6553739956763,-81.54098419567629,1.0,1.0,False,False,False
+ulva_salad,axilspot hogfish (bodianus axillaris),first_seen_species_sec,2,4,4.0,1.0,0.0,360.00876522047497,93.43747744999999,266.571287770475,1.0,1.0,False,False,False
+ulva_salad,bird wrasse (gomphosus caeruleus),first_seen_species_sec,3,4,6.0,1.0,0.0,176.1666679562707,318.79746775,-142.63079979372932,1.0,1.0,False,False,False
+ulva_salad,blackeye (hemigymnus melapterus),first_seen_species_sec,3,3,4.0,1.0,-0.1111111111111111,917.1025985,518.0946787,399.00791979999997,1.0,1.0,False,False,False
+ulva_salad,genus::genus chromis,first_seen_species_sec,2,3,3.0,1.0,0.0,1260.0197200999999,172.4612787,1087.5584413999998,1.0,1.0,False,False,False
+ulva_salad,moon (thalassoma lunare),first_seen_species_sec,3,2,3.0,1.0,0.0,4.118648322,905.6502475,-901.531599178,1.0,1.0,False,False,False
+ulva_salad,regal (pygoplites diacanthus),first_seen_species_sec,2,4,4.0,1.0,0.0,896.7658243511441,896.1179059034605,0.6479184476836508,1.0,1.0,False,False,False
+ulva_salad,sidespot (parupeneus pleurostigma),first_seen_species_sec,2,2,2.0,1.0,0.0,1309.9140322374724,1184.7700824154897,125.14394982198269,1.0,1.0,False,False,False
+ulva_salad,swarthy (scarus niger),first_seen_species_sec,2,2,2.0,1.0,0.0,646.1091354705035,709.9593684896936,-63.850233019190114,1.0,1.0,False,False,False
+sargassum,green (amblyglyphidodon indicus),first_feeding_species_sec,3,3,1.0,0.2,-0.7777777777777778,15.8151862,32.7299388,-16.9147526,0.2,0.2,False,False,False

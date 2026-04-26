@@ -1,0 +1,3 @@
+factor,groups,n_total,n_groups,h_stat,p_value_kw,p_value_perm,eta_squared,epsilon_squared,significant_kw_0_05,significant_perm_0_05,n_permutations
+standort,"milimani, nursery, utumbi",46,3,25.959300634200265,2.3067975965579146e-06,0.0001999600079984003,0.5571930380046574,0.5097723539191545,True,True,5000
+koeder,"algae_strings, algaemix, control, fischmix, mackerel, sargassum, ulva_gutweed, ulva_salad",46,8,11.252220551610865,0.12798940628105704,0.11177764447110577,0.11190054083186486,0.09047277769384819,False,False,5000

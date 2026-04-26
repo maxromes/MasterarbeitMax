@@ -1,72 +1,72 @@
 section,item,value,standort,koeder,koeder_farbe,koeder_hex,species_richness,rows_used,rows_total,is_short_video,n_videos,mean_species_richness,median_species_richness,sd_species_richness,min_species_richness,max_species_richness,rank,h_stat,p_value,significant,note,p_value_holm
-summary,text,"Die Analyse umfasst 46 cut_47min-Videos. Der globale Standorteffekt ist signifikant (p=2.859e-06), waehrend der globale Koedereffekt nicht signifikant ist (p=0.1291). Das kuerzere Sondervideo 20240108-nursery-control.csv ist durchgehend markiert.",,,,,,,,,,,,,,,,,,,,
+summary,text,"Die Analyse umfasst 46 cut_47min-Videos. Der globale Standorteffekt ist signifikant (p=2.307e-06), waehrend der globale Koedereffekt nicht signifikant ist (p=0.128). Das kuerzere Sondervideo 20240108-nursery-control.csv ist durchgehend markiert.",,,,,,,,,,,,,,,,,,,,
 videos_grouped,20240515-milimani-mackerel.csv,,milimani,mackerel,🔵,#1f77b4,53.0,375.0,375.0,False,,,,,,,,,,,,
-videos_grouped,20240516-utumbi-mackerel.csv,,utumbi,mackerel,🔵,#1f77b4,62.0,529.0,529.0,False,,,,,,,,,,,,
+videos_grouped,20240516-utumbi-mackerel.csv,,utumbi,mackerel,🔵,#1f77b4,61.0,518.0,529.0,False,,,,,,,,,,,,
 videos_grouped,20241025-milimani-mackerel.csv,,milimani,mackerel,🔵,#1f77b4,34.0,259.0,259.0,False,,,,,,,,,,,,
-videos_grouped,20241025-utumbi-ulva_salad.csv,,utumbi,ulva_salad,🟢,#2ca02c,48.0,527.0,527.0,False,,,,,,,,,,,,
-videos_grouped,20241026-milimani-ulva_gutweed.csv,,milimani,ulva_gutweed,🩵,#17becf,39.0,128.0,128.0,False,,,,,,,,,,,,
-videos_grouped,20241026-utumbi-mackerel.csv,,utumbi,mackerel,🔵,#1f77b4,50.0,395.0,395.0,False,,,,,,,,,,,,
-videos_grouped,20241027-milimani-ulva_salad.csv,,milimani,ulva_salad,🟢,#2ca02c,40.0,106.0,106.0,False,,,,,,,,,,,,
-videos_grouped,20241027-utumbi-ulva_salad.csv,,utumbi,ulva_salad,🟢,#2ca02c,55.0,381.0,381.0,False,,,,,,,,,,,,
+videos_grouped,20241025-utumbi-ulva_salad.csv,,utumbi,ulva_salad,🟢,#2ca02c,48.0,525.0,527.0,False,,,,,,,,,,,,
+videos_grouped,20241026-milimani-ulva_gutweed.csv,,milimani,ulva_gutweed,🩵,#17becf,39.0,126.0,128.0,False,,,,,,,,,,,,
+videos_grouped,20241026-utumbi-mackerel.csv,,utumbi,mackerel,🔵,#1f77b4,49.0,366.0,395.0,False,,,,,,,,,,,,
+videos_grouped,20241027-milimani-ulva_salad.csv,,milimani,ulva_salad,🟢,#2ca02c,40.0,105.0,106.0,False,,,,,,,,,,,,
+videos_grouped,20241027-utumbi-ulva_salad.csv,,utumbi,ulva_salad,🟢,#2ca02c,55.0,376.0,381.0,False,,,,,,,,,,,,
 videos_grouped,20241029-milimani-ulva_gutweed.csv,,milimani,ulva_gutweed,🩵,#17becf,49.0,149.0,149.0,False,,,,,,,,,,,,
-videos_grouped,20241029-utumbi-ulva_gutweed.csv,,utumbi,ulva_gutweed,🩵,#17becf,50.0,367.0,367.0,False,,,,,,,,,,,,
+videos_grouped,20241029-utumbi-ulva_gutweed.csv,,utumbi,ulva_gutweed,🩵,#17becf,50.0,365.0,367.0,False,,,,,,,,,,,,
 videos_grouped,20241030-milimani-ulva_gutweed.csv,,milimani,ulva_gutweed,🩵,#17becf,46.0,181.0,181.0,False,,,,,,,,,,,,
 videos_grouped,20241030-utumbi-ulva_gutweed.csv,,utumbi,ulva_gutweed,🩵,#17becf,54.0,227.0,227.0,False,,,,,,,,,,,,
 videos_grouped,20241105-milimani-ulva_salad.csv,,milimani,ulva_salad,🟢,#2ca02c,31.0,100.0,100.0,False,,,,,,,,,,,,
-videos_grouped,20241105-utumbi-control.csv,,utumbi,control,⚪,#7f7f7f,44.0,398.0,398.0,False,,,,,,,,,,,,
+videos_grouped,20241105-utumbi-control.csv,,utumbi,control,⚪,#7f7f7f,44.0,396.0,398.0,False,,,,,,,,,,,,
 videos_grouped,20241110-milimani-ulva_salad.csv,,milimani,ulva_salad,🟢,#2ca02c,57.0,320.0,320.0,False,,,,,,,,,,,,
-videos_grouped,20241110-utumbi-ulva_salad.csv,,utumbi,ulva_salad,🟢,#2ca02c,53.0,316.0,316.0,False,,,,,,,,,,,,
+videos_grouped,20241110-utumbi-ulva_salad.csv,,utumbi,ulva_salad,🟢,#2ca02c,52.0,308.0,316.0,False,,,,,,,,,,,,
 videos_grouped,20241111-milimani-control.csv,,milimani,control,⚪,#7f7f7f,46.0,334.0,334.0,False,,,,,,,,,,,,
 videos_grouped,20241111-utumbi-control.csv,,utumbi,control,⚪,#7f7f7f,50.0,219.0,219.0,False,,,,,,,,,,,,
 videos_grouped,20241112-milimani-ulva_salad.csv,,milimani,ulva_salad,🟢,#2ca02c,43.0,268.0,268.0,False,,,,,,,,,,,,
-videos_grouped,20241112-utumbi-ulva_gutweed.csv,,utumbi,ulva_gutweed,🩵,#17becf,55.0,213.0,213.0,False,,,,,,,,,,,,
+videos_grouped,20241112-utumbi-ulva_gutweed.csv,,utumbi,ulva_gutweed,🩵,#17becf,55.0,212.0,213.0,False,,,,,,,,,,,,
 videos_grouped,20241114-milimani-control.csv,,milimani,control,⚪,#7f7f7f,36.0,180.0,180.0,False,,,,,,,,,,,,
 videos_grouped,20241114-utumbi-control.csv,,utumbi,control,⚪,#7f7f7f,43.0,135.0,135.0,False,,,,,,,,,,,,
 videos_grouped,20241115-milimani-control.csv,,milimani,control,⚪,#7f7f7f,45.0,148.0,148.0,False,,,,,,,,,,,,
 videos_grouped,20241115-utumbi-control.csv,,utumbi,control,⚪,#7f7f7f,54.0,235.0,235.0,False,,,,,,,,,,,,
-videos_grouped,20241124-milimani-mackerel.csv,,milimani,mackerel,🔵,#1f77b4,59.0,287.0,287.0,False,,,,,,,,,,,,
-videos_grouped,20241124-utumbi-mackerel.csv,,utumbi,mackerel,🔵,#1f77b4,51.0,343.0,343.0,False,,,,,,,,,,,,
-videos_grouped,20241127-milimani-sargassum.csv,,milimani,sargassum,🟠,#ff7f0e,44.0,214.0,214.0,False,,,,,,,,,,,,
-videos_grouped,20241127-utumbi-sargassum.csv,,utumbi,sargassum,🟠,#ff7f0e,54.0,293.0,293.0,False,,,,,,,,,,,,
-videos_grouped,20241128-milimani-sargassum.csv,,milimani,sargassum,🟠,#ff7f0e,46.0,391.0,391.0,False,,,,,,,,,,,,
-videos_grouped,20241128-utumbi-sargassum.csv,,utumbi,sargassum,🟠,#ff7f0e,61.0,235.0,235.0,False,,,,,,,,,,,,
-videos_grouped,20241129-milimani-sargassum.csv,,milimani,sargassum,🟠,#ff7f0e,46.0,320.0,320.0,False,,,,,,,,,,,,
-videos_grouped,20241129-utumbi-sargassum.csv,,utumbi,sargassum,🟠,#ff7f0e,56.0,251.0,251.0,False,,,,,,,,,,,,
-videos_grouped,20241209-utumbi-fischmix.csv,,utumbi,fischmix,🔴,#d62728,63.0,373.0,373.0,False,,,,,,,,,,,,
-videos_grouped,20241210-milimani-fischmix.csv,,milimani,fischmix,🔴,#d62728,47.0,409.0,409.0,False,,,,,,,,,,,,
-videos_grouped,20241210-utumbi-fischmix.csv,,utumbi,fischmix,🔴,#d62728,52.0,249.0,249.0,False,,,,,,,,,,,,
+videos_grouped,20241124-milimani-mackerel.csv,,milimani,mackerel,🔵,#1f77b4,57.0,261.0,287.0,False,,,,,,,,,,,,
+videos_grouped,20241124-utumbi-mackerel.csv,,utumbi,mackerel,🔵,#1f77b4,50.0,294.0,343.0,False,,,,,,,,,,,,
+videos_grouped,20241127-milimani-sargassum.csv,,milimani,sargassum,🟠,#ff7f0e,43.0,205.0,214.0,False,,,,,,,,,,,,
+videos_grouped,20241127-utumbi-sargassum.csv,,utumbi,sargassum,🟠,#ff7f0e,54.0,281.0,293.0,False,,,,,,,,,,,,
+videos_grouped,20241128-milimani-sargassum.csv,,milimani,sargassum,🟠,#ff7f0e,46.0,380.0,391.0,False,,,,,,,,,,,,
+videos_grouped,20241128-utumbi-sargassum.csv,,utumbi,sargassum,🟠,#ff7f0e,61.0,233.0,235.0,False,,,,,,,,,,,,
+videos_grouped,20241129-milimani-sargassum.csv,,milimani,sargassum,🟠,#ff7f0e,46.0,314.0,320.0,False,,,,,,,,,,,,
+videos_grouped,20241129-utumbi-sargassum.csv,,utumbi,sargassum,🟠,#ff7f0e,56.0,245.0,251.0,False,,,,,,,,,,,,
+videos_grouped,20241209-utumbi-fischmix.csv,,utumbi,fischmix,🔴,#d62728,60.0,317.0,373.0,False,,,,,,,,,,,,
+videos_grouped,20241210-milimani-fischmix.csv,,milimani,fischmix,🔴,#d62728,45.0,379.0,409.0,False,,,,,,,,,,,,
+videos_grouped,20241210-utumbi-fischmix.csv,,utumbi,fischmix,🔴,#d62728,52.0,222.0,249.0,False,,,,,,,,,,,,
 videos_grouped,20240106-nursery-mackerel.csv,,nursery,mackerel,🔵,#1f77b4,29.0,103.0,107.0,False,,,,,,,,,,,,
 videos_grouped,20240108-nursery-control.csv,,nursery,control,⚪,#7f7f7f,29.0,69.0,69.0,True,,,,,,,,,,,,
-videos_grouped,20240223-nursery-mackerel.csv,,nursery,mackerel,🔵,#1f77b4,34.0,211.0,211.0,False,,,,,,,,,,,,
-videos_grouped,20241126-nursery-mackerel.csv,,nursery,mackerel,🔵,#1f77b4,41.0,361.0,361.0,False,,,,,,,,,,,,
-videos_grouped,20241204-nursery-algae_strings.csv,,nursery,algae_strings,🟣,#9467bd,41.0,224.0,224.0,False,,,,,,,,,,,,
-videos_grouped,20241205-nursery-algae_strings.csv,,nursery,algae_strings,🟣,#9467bd,34.0,204.0,204.0,False,,,,,,,,,,,,
-videos_grouped,20241206-nursery-algae_strings.csv,,nursery,algae_strings,🟣,#9467bd,36.0,168.0,168.0,False,,,,,,,,,,,,
-videos_grouped,20241208-nursery-algaemix.csv,,nursery,algaemix,🟤,#8c564b,43.0,420.0,420.0,False,,,,,,,,,,,,
-videos_grouped,20241209-nursery-algaemix.csv,,nursery,algaemix,🟤,#8c564b,42.0,303.0,303.0,False,,,,,,,,,,,,
-videos_grouped,20241210-nursery-algaemix.csv,,nursery,algaemix,🟤,#8c564b,34.0,201.0,201.0,False,,,,,,,,,,,,
-videos_grouped,20251212-nursery-mackerel.csv,,nursery,mackerel,🔵,#1f77b4,36.0,159.0,159.0,False,,,,,,,,,,,,
+videos_grouped,20240223-nursery-mackerel.csv,,nursery,mackerel,🔵,#1f77b4,33.0,192.0,211.0,False,,,,,,,,,,,,
+videos_grouped,20241126-nursery-mackerel.csv,,nursery,mackerel,🔵,#1f77b4,41.0,356.0,361.0,False,,,,,,,,,,,,
+videos_grouped,20241204-nursery-algae_strings.csv,,nursery,algae_strings,🟣,#9467bd,38.0,200.0,224.0,False,,,,,,,,,,,,
+videos_grouped,20241205-nursery-algae_strings.csv,,nursery,algae_strings,🟣,#9467bd,34.0,190.0,204.0,False,,,,,,,,,,,,
+videos_grouped,20241206-nursery-algae_strings.csv,,nursery,algae_strings,🟣,#9467bd,35.0,157.0,168.0,False,,,,,,,,,,,,
+videos_grouped,20241208-nursery-algaemix.csv,,nursery,algaemix,🟤,#8c564b,43.0,340.0,420.0,False,,,,,,,,,,,,
+videos_grouped,20241209-nursery-algaemix.csv,,nursery,algaemix,🟤,#8c564b,41.0,283.0,303.0,False,,,,,,,,,,,,
+videos_grouped,20241210-nursery-algaemix.csv,,nursery,algaemix,🟤,#8c564b,33.0,170.0,201.0,False,,,,,,,,,,,,
+videos_grouped,20251212-nursery-mackerel.csv,,nursery,mackerel,🔵,#1f77b4,36.0,150.0,159.0,False,,,,,,,,,,,,
 grouped_stats,milimani|control,,milimani,control,,,,,,,3.0,42.333333333333336,45.0,5.507570547286101,36.0,46.0,,,,,,
-grouped_stats,milimani|fischmix,,milimani,fischmix,,,,,,,1.0,47.0,47.0,0.0,47.0,47.0,,,,,,
-grouped_stats,milimani|mackerel,,milimani,mackerel,,,,,,,3.0,48.666666666666664,53.0,13.051181300301263,34.0,59.0,,,,,,
-grouped_stats,milimani|sargassum,,milimani,sargassum,,,,,,,3.0,45.333333333333336,46.0,1.154700538379251,44.0,46.0,,,,,,
+grouped_stats,milimani|fischmix,,milimani,fischmix,,,,,,,1.0,45.0,45.0,0.0,45.0,45.0,,,,,,
+grouped_stats,milimani|mackerel,,milimani,mackerel,,,,,,,3.0,48.0,53.0,12.288205727444508,34.0,57.0,,,,,,
+grouped_stats,milimani|sargassum,,milimani,sargassum,,,,,,,3.0,45.0,46.0,1.7320508075688772,43.0,46.0,,,,,,
 grouped_stats,milimani|ulva_gutweed,,milimani,ulva_gutweed,,,,,,,3.0,44.666666666666664,46.0,5.131601439446884,39.0,49.0,,,,,,
 grouped_stats,milimani|ulva_salad,,milimani,ulva_salad,,,,,,,4.0,42.75,41.5,10.781929326423914,31.0,57.0,,,,,,
-grouped_stats,nursery|algae_strings,,nursery,algae_strings,,,,,,,3.0,37.0,36.0,3.605551275463989,34.0,41.0,,,,,,
-grouped_stats,nursery|algaemix,,nursery,algaemix,,,,,,,3.0,39.666666666666664,42.0,4.932882862316246,34.0,43.0,,,,,,
+grouped_stats,nursery|algae_strings,,nursery,algae_strings,,,,,,,3.0,35.666666666666664,35.0,2.0816659994661326,34.0,38.0,,,,,,
+grouped_stats,nursery|algaemix,,nursery,algaemix,,,,,,,3.0,39.0,41.0,5.291502622129181,33.0,43.0,,,,,,
 grouped_stats,nursery|control,,nursery,control,,,,,,,1.0,29.0,29.0,0.0,29.0,29.0,,,,,,
-grouped_stats,nursery|mackerel,,nursery,mackerel,,,,,,,4.0,35.0,35.0,4.966554808583781,29.0,41.0,,,,,,
+grouped_stats,nursery|mackerel,,nursery,mackerel,,,,,,,4.0,34.75,34.5,5.0579969684978385,29.0,41.0,,,,,,
 grouped_stats,utumbi|control,,utumbi,control,,,,,,,4.0,47.75,47.0,5.188127472091127,43.0,54.0,,,,,,
-grouped_stats,utumbi|fischmix,,utumbi,fischmix,,,,,,,2.0,57.5,57.5,7.7781745930520225,52.0,63.0,,,,,,
-grouped_stats,utumbi|mackerel,,utumbi,mackerel,,,,,,,3.0,54.333333333333336,51.0,6.658328118479393,50.0,62.0,,,,,,
+grouped_stats,utumbi|fischmix,,utumbi,fischmix,,,,,,,2.0,56.0,56.0,5.656854249492381,52.0,60.0,,,,,,
+grouped_stats,utumbi|mackerel,,utumbi,mackerel,,,,,,,3.0,53.333333333333336,50.0,6.658328118479393,49.0,61.0,,,,,,
 grouped_stats,utumbi|sargassum,,utumbi,sargassum,,,,,,,3.0,57.0,56.0,3.605551275463989,54.0,61.0,,,,,,
 grouped_stats,utumbi|ulva_gutweed,,utumbi,ulva_gutweed,,,,,,,3.0,53.0,54.0,2.6457513110645907,50.0,55.0,,,,,,
-grouped_stats,utumbi|ulva_salad,,utumbi,ulva_salad,,,,,,,3.0,52.0,53.0,3.605551275463989,48.0,55.0,,,,,,
-ranking_all_46,20241209-utumbi-fischmix.csv,,utumbi,fischmix,,,63.0,,,False,,,,,,,1.0,,,,,
-ranking_all_46,20240516-utumbi-mackerel.csv,,utumbi,mackerel,,,62.0,,,False,,,,,,,2.0,,,,,
-ranking_all_46,20241128-utumbi-sargassum.csv,,utumbi,sargassum,,,61.0,,,False,,,,,,,3.0,,,,,
-ranking_all_46,20241124-milimani-mackerel.csv,,milimani,mackerel,,,59.0,,,False,,,,,,,4.0,,,,,
-ranking_all_46,20241110-milimani-ulva_salad.csv,,milimani,ulva_salad,,,57.0,,,False,,,,,,,5.0,,,,,
+grouped_stats,utumbi|ulva_salad,,utumbi,ulva_salad,,,,,,,3.0,51.666666666666664,52.0,3.5118845842842465,48.0,55.0,,,,,,
+ranking_all_46,20240516-utumbi-mackerel.csv,,utumbi,mackerel,,,61.0,,,False,,,,,,,1.0,,,,,
+ranking_all_46,20241128-utumbi-sargassum.csv,,utumbi,sargassum,,,61.0,,,False,,,,,,,2.0,,,,,
+ranking_all_46,20241209-utumbi-fischmix.csv,,utumbi,fischmix,,,60.0,,,False,,,,,,,3.0,,,,,
+ranking_all_46,20241110-milimani-ulva_salad.csv,,milimani,ulva_salad,,,57.0,,,False,,,,,,,4.0,,,,,
+ranking_all_46,20241124-milimani-mackerel.csv,,milimani,mackerel,,,57.0,,,False,,,,,,,5.0,,,,,
 ranking_all_46,20241129-utumbi-sargassum.csv,,utumbi,sargassum,,,56.0,,,False,,,,,,,6.0,,,,,
 ranking_all_46,20241027-utumbi-ulva_salad.csv,,utumbi,ulva_salad,,,55.0,,,False,,,,,,,7.0,,,,,
 ranking_all_46,20241112-utumbi-ulva_gutweed.csv,,utumbi,ulva_gutweed,,,55.0,,,False,,,,,,,8.0,,,,,
@@ -74,101 +74,101 @@ ranking_all_46,20241030-utumbi-ulva_gutweed.csv,,utumbi,ulva_gutweed,,,54.0,,,Fa
 ranking_all_46,20241115-utumbi-control.csv,,utumbi,control,,,54.0,,,False,,,,,,,10.0,,,,,
 ranking_all_46,20241127-utumbi-sargassum.csv,,utumbi,sargassum,,,54.0,,,False,,,,,,,11.0,,,,,
 ranking_all_46,20240515-milimani-mackerel.csv,,milimani,mackerel,,,53.0,,,False,,,,,,,12.0,,,,,
-ranking_all_46,20241110-utumbi-ulva_salad.csv,,utumbi,ulva_salad,,,53.0,,,False,,,,,,,13.0,,,,,
+ranking_all_46,20241110-utumbi-ulva_salad.csv,,utumbi,ulva_salad,,,52.0,,,False,,,,,,,13.0,,,,,
 ranking_all_46,20241210-utumbi-fischmix.csv,,utumbi,fischmix,,,52.0,,,False,,,,,,,14.0,,,,,
-ranking_all_46,20241124-utumbi-mackerel.csv,,utumbi,mackerel,,,51.0,,,False,,,,,,,15.0,,,,,
-ranking_all_46,20241026-utumbi-mackerel.csv,,utumbi,mackerel,,,50.0,,,False,,,,,,,16.0,,,,,
-ranking_all_46,20241029-utumbi-ulva_gutweed.csv,,utumbi,ulva_gutweed,,,50.0,,,False,,,,,,,17.0,,,,,
-ranking_all_46,20241111-utumbi-control.csv,,utumbi,control,,,50.0,,,False,,,,,,,18.0,,,,,
+ranking_all_46,20241029-utumbi-ulva_gutweed.csv,,utumbi,ulva_gutweed,,,50.0,,,False,,,,,,,15.0,,,,,
+ranking_all_46,20241111-utumbi-control.csv,,utumbi,control,,,50.0,,,False,,,,,,,16.0,,,,,
+ranking_all_46,20241124-utumbi-mackerel.csv,,utumbi,mackerel,,,50.0,,,False,,,,,,,17.0,,,,,
+ranking_all_46,20241026-utumbi-mackerel.csv,,utumbi,mackerel,,,49.0,,,False,,,,,,,18.0,,,,,
 ranking_all_46,20241029-milimani-ulva_gutweed.csv,,milimani,ulva_gutweed,,,49.0,,,False,,,,,,,19.0,,,,,
 ranking_all_46,20241025-utumbi-ulva_salad.csv,,utumbi,ulva_salad,,,48.0,,,False,,,,,,,20.0,,,,,
-ranking_all_46,20241210-milimani-fischmix.csv,,milimani,fischmix,,,47.0,,,False,,,,,,,21.0,,,,,
-ranking_all_46,20241030-milimani-ulva_gutweed.csv,,milimani,ulva_gutweed,,,46.0,,,False,,,,,,,22.0,,,,,
-ranking_all_46,20241111-milimani-control.csv,,milimani,control,,,46.0,,,False,,,,,,,23.0,,,,,
-ranking_all_46,20241128-milimani-sargassum.csv,,milimani,sargassum,,,46.0,,,False,,,,,,,24.0,,,,,
-ranking_all_46,20241129-milimani-sargassum.csv,,milimani,sargassum,,,46.0,,,False,,,,,,,25.0,,,,,
-ranking_all_46,20241115-milimani-control.csv,,milimani,control,,,45.0,,,False,,,,,,,26.0,,,,,
+ranking_all_46,20241030-milimani-ulva_gutweed.csv,,milimani,ulva_gutweed,,,46.0,,,False,,,,,,,21.0,,,,,
+ranking_all_46,20241111-milimani-control.csv,,milimani,control,,,46.0,,,False,,,,,,,22.0,,,,,
+ranking_all_46,20241128-milimani-sargassum.csv,,milimani,sargassum,,,46.0,,,False,,,,,,,23.0,,,,,
+ranking_all_46,20241129-milimani-sargassum.csv,,milimani,sargassum,,,46.0,,,False,,,,,,,24.0,,,,,
+ranking_all_46,20241115-milimani-control.csv,,milimani,control,,,45.0,,,False,,,,,,,25.0,,,,,
+ranking_all_46,20241210-milimani-fischmix.csv,,milimani,fischmix,,,45.0,,,False,,,,,,,26.0,,,,,
 ranking_all_46,20241105-utumbi-control.csv,,utumbi,control,,,44.0,,,False,,,,,,,27.0,,,,,
-ranking_all_46,20241127-milimani-sargassum.csv,,milimani,sargassum,,,44.0,,,False,,,,,,,28.0,,,,,
-ranking_all_46,20241112-milimani-ulva_salad.csv,,milimani,ulva_salad,,,43.0,,,False,,,,,,,29.0,,,,,
-ranking_all_46,20241114-utumbi-control.csv,,utumbi,control,,,43.0,,,False,,,,,,,30.0,,,,,
+ranking_all_46,20241112-milimani-ulva_salad.csv,,milimani,ulva_salad,,,43.0,,,False,,,,,,,28.0,,,,,
+ranking_all_46,20241114-utumbi-control.csv,,utumbi,control,,,43.0,,,False,,,,,,,29.0,,,,,
+ranking_all_46,20241127-milimani-sargassum.csv,,milimani,sargassum,,,43.0,,,False,,,,,,,30.0,,,,,
 ranking_all_46,20241208-nursery-algaemix.csv,,nursery,algaemix,,,43.0,,,False,,,,,,,31.0,,,,,
-ranking_all_46,20241209-nursery-algaemix.csv,,nursery,algaemix,,,42.0,,,False,,,,,,,32.0,,,,,
-ranking_all_46,20241126-nursery-mackerel.csv,,nursery,mackerel,,,41.0,,,False,,,,,,,33.0,,,,,
-ranking_all_46,20241204-nursery-algae_strings.csv,,nursery,algae_strings,,,41.0,,,False,,,,,,,34.0,,,,,
-ranking_all_46,20241027-milimani-ulva_salad.csv,,milimani,ulva_salad,,,40.0,,,False,,,,,,,35.0,,,,,
-ranking_all_46,20241026-milimani-ulva_gutweed.csv,,milimani,ulva_gutweed,,,39.0,,,False,,,,,,,36.0,,,,,
+ranking_all_46,20241126-nursery-mackerel.csv,,nursery,mackerel,,,41.0,,,False,,,,,,,32.0,,,,,
+ranking_all_46,20241209-nursery-algaemix.csv,,nursery,algaemix,,,41.0,,,False,,,,,,,33.0,,,,,
+ranking_all_46,20241027-milimani-ulva_salad.csv,,milimani,ulva_salad,,,40.0,,,False,,,,,,,34.0,,,,,
+ranking_all_46,20241026-milimani-ulva_gutweed.csv,,milimani,ulva_gutweed,,,39.0,,,False,,,,,,,35.0,,,,,
+ranking_all_46,20241204-nursery-algae_strings.csv,,nursery,algae_strings,,,38.0,,,False,,,,,,,36.0,,,,,
 ranking_all_46,20241114-milimani-control.csv,,milimani,control,,,36.0,,,False,,,,,,,37.0,,,,,
-ranking_all_46,20241206-nursery-algae_strings.csv,,nursery,algae_strings,,,36.0,,,False,,,,,,,38.0,,,,,
-ranking_all_46,20251212-nursery-mackerel.csv,,nursery,mackerel,,,36.0,,,False,,,,,,,39.0,,,,,
-ranking_all_46,20240223-nursery-mackerel.csv,,nursery,mackerel,,,34.0,,,False,,,,,,,40.0,,,,,
-ranking_all_46,20241025-milimani-mackerel.csv,,milimani,mackerel,,,34.0,,,False,,,,,,,41.0,,,,,
-ranking_all_46,20241205-nursery-algae_strings.csv,,nursery,algae_strings,,,34.0,,,False,,,,,,,42.0,,,,,
-ranking_all_46,20241210-nursery-algaemix.csv,,nursery,algaemix,,,34.0,,,False,,,,,,,43.0,,,,,
+ranking_all_46,20251212-nursery-mackerel.csv,,nursery,mackerel,,,36.0,,,False,,,,,,,38.0,,,,,
+ranking_all_46,20241206-nursery-algae_strings.csv,,nursery,algae_strings,,,35.0,,,False,,,,,,,39.0,,,,,
+ranking_all_46,20241025-milimani-mackerel.csv,,milimani,mackerel,,,34.0,,,False,,,,,,,40.0,,,,,
+ranking_all_46,20241205-nursery-algae_strings.csv,,nursery,algae_strings,,,34.0,,,False,,,,,,,41.0,,,,,
+ranking_all_46,20240223-nursery-mackerel.csv,,nursery,mackerel,,,33.0,,,False,,,,,,,42.0,,,,,
+ranking_all_46,20241210-nursery-algaemix.csv,,nursery,algaemix,,,33.0,,,False,,,,,,,43.0,,,,,
 ranking_all_46,20241105-milimani-ulva_salad.csv,,milimani,ulva_salad,,,31.0,,,False,,,,,,,44.0,,,,,
 ranking_all_46,20240106-nursery-mackerel.csv,,nursery,mackerel,,,29.0,,,False,,,,,,,45.0,,,,,
 ranking_all_46,20240108-nursery-control.csv,,nursery,control,,,29.0,,,True,,,,,,,46.0,,,,,
-global_significance,Kruskal-Wallis (standort),"milimani, nursery, utumbi",,,,,,,,,,,,,,,,25.530087570399175,2.8589853031324563e-06,Ja,,
-global_significance,Kruskal-Wallis (koeder),"algae_strings, algaemix, control, fischmix, mackerel, sargassum, ulva_gutweed, ulva_salad",,,,,,,,,,,,,,,,11.22411354643256,0.12913765491916696,Nein,,
-pairwise_standort,nursery vs utumbi,,,,,,,,,,,,,,,,,,1.0146702619223898e-05,True,,3.0440107857671694e-05
-pairwise_standort,milimani vs utumbi,,,,,,,,,,,,,,,,,,0.0013439732787524667,True,,0.0026879465575049334
-pairwise_standort,milimani vs nursery,,,,,,,,,,,,,,,,,,0.0029341476514441922,True,,0.0029341476514441922
-pairwise_koeder,algae_strings vs sargassum,,,,,,,,,,,,,,,,,,0.02753189387562954,False,,0.7708930285176271
-pairwise_koeder,algaemix vs sargassum,,,,,,,,,,,,,,,,,,0.02753189387562954,False,,0.7708930285176271
-pairwise_koeder,algae_strings vs ulva_gutweed,,,,,,,,,,,,,,,,,,0.047619047619047616,False,,1.0
-pairwise_koeder,control vs sargassum,,,,,,,,,,,,,,,,,,0.0793536548044685,False,,1.0
-pairwise_koeder,control vs fischmix,,,,,,,,,,,,,,,,,,0.08484848484848484,False,,1.0
+global_significance,Kruskal-Wallis (standort),"milimani, nursery, utumbi",,,,,,,,,,,,,,,,25.959300634200265,2.3067975965579146e-06,Ja,,
+global_significance,Kruskal-Wallis (koeder),"algae_strings, algaemix, control, fischmix, mackerel, sargassum, ulva_gutweed, ulva_salad",,,,,,,,,,,,,,,,11.252220551610865,0.12798940628105704,Nein,,
+pairwise_standort,nursery vs utumbi,,,,,,,,,,,,,,,,,,1.0198005987336323e-05,True,,3.059401796200897e-05
+pairwise_standort,milimani vs utumbi,,,,,,,,,,,,,,,,,,0.0013376704235981897,True,,0.0026753408471963795
+pairwise_standort,milimani vs nursery,,,,,,,,,,,,,,,,,,0.0018480410472125675,True,,0.0026753408471963795
+pairwise_koeder,algae_strings vs ulva_gutweed,,,,,,,,,,,,,,,,,,0.023809523809523808,False,,0.6666666666666666
+pairwise_koeder,algae_strings vs sargassum,,,,,,,,,,,,,,,,,,0.02753189387562954,False,,0.7433611346419976
+pairwise_koeder,algaemix vs sargassum,,,,,,,,,,,,,,,,,,0.03724916580683398,False,,0.9684783109776836
 pairwise_koeder,algaemix vs ulva_gutweed,,,,,,,,,,,,,,,,,,0.09523809523809523,False,,1.0
 pairwise_koeder,algae_strings vs fischmix,,,,,,,,,,,,,,,,,,0.1,False,,1.0
 pairwise_koeder,algaemix vs fischmix,,,,,,,,,,,,,,,,,,0.1,False,,1.0
-pairwise_koeder,algae_strings vs control,,,,,,,,,,,,,,,,,,0.1521073186608581,False,,1.0
+pairwise_koeder,control vs sargassum,,,,,,,,,,,,,,,,,,0.10427137390803749,False,,1.0
+pairwise_koeder,algae_strings vs ulva_salad,,,,,,,,,,,,,,,,,,0.11666666666666667,False,,1.0
+pairwise_koeder,algae_strings vs control,,,,,,,,,,,,,,,,,,0.13333333333333333,False,,1.0
+pairwise_koeder,control vs fischmix,,,,,,,,,,,,,,,,,,0.1521073186608581,False,,1.0
 pairwise_koeder,control vs ulva_gutweed,,,,,,,,,,,,,,,,,,0.15421536911474204,False,,1.0
-pairwise_koeder,algae_strings vs ulva_salad,,,,,,,,,,,,,,,,,,0.18333333333333335,False,,1.0
 pairwise_koeder,algaemix vs control,,,,,,,,,,,,,,,,,,0.21962048310852822,False,,1.0
-pairwise_koeder,fischmix vs mackerel,,,,,,,,,,,,,,,,,,0.2712393922355023,False,,1.0
-pairwise_koeder,mackerel vs sargassum,,,,,,,,,,,,,,,,,,0.3021009997053824,False,,1.0
+pairwise_koeder,mackerel vs sargassum,,,,,,,,,,,,,,,,,,0.2773680065076949,False,,1.0
 pairwise_koeder,algaemix vs ulva_salad,,,,,,,,,,,,,,,,,,0.3035889878768999,False,,1.0
-pairwise_koeder,sargassum vs ulva_salad,,,,,,,,,,,,,,,,,,0.4314014169471778,False,,1.0
-pairwise_koeder,algae_strings vs mackerel,,,,,,,,,,,,,,,,,,0.44308959434213335,False,,1.0
+pairwise_koeder,fischmix vs mackerel,,,,,,,,,,,,,,,,,,0.3706293706293706,False,,1.0
+pairwise_koeder,algae_strings vs mackerel,,,,,,,,,,,,,,,,,,0.3973756041536246,False,,1.0
+pairwise_koeder,fischmix vs ulva_salad,,,,,,,,,,,,,,,,,,0.4236224903690263,False,,1.0
+pairwise_koeder,sargassum vs ulva_salad,,,,,,,,,,,,,,,,,,0.47383319059283024,False,,1.0
+pairwise_koeder,mackerel vs ulva_gutweed,,,,,,,,,,,,,,,,,,0.480148909827134,False,,1.0
 pairwise_koeder,control vs ulva_salad,,,,,,,,,,,,,,,,,,0.4870641534695065,False,,1.0
-pairwise_koeder,algae_strings vs algaemix,,,,,,,,,,,,,,,,,,0.5065551690490403,False,,1.0
-pairwise_koeder,fischmix vs ulva_salad,,,,,,,,,,,,,,,,,,0.5166666666666666,False,,1.0
-pairwise_koeder,fischmix vs sargassum,,,,,,,,,,,,,,,,,,0.5168531939054699,False,,1.0
-pairwise_koeder,fischmix vs ulva_gutweed,,,,,,,,,,,,,,,,,,0.5476190476190476,False,,1.0
-pairwise_koeder,mackerel vs ulva_gutweed,,,,,,,,,,,,,,,,,,0.587043433313228,False,,1.0
-pairwise_koeder,algaemix vs mackerel,,,,,,,,,,,,,,,,,,0.6708962389950937,False,,1.0
+pairwise_koeder,algaemix vs mackerel,,,,,,,,,,,,,,,,,,0.5530205443297598,False,,1.0
+pairwise_koeder,algae_strings vs algaemix,,,,,,,,,,,,,,,,,,0.7,False,,1.0
+pairwise_koeder,fischmix vs ulva_gutweed,,,,,,,,,,,,,,,,,,0.7142857142857142,False,,1.0
 pairwise_koeder,sargassum vs ulva_gutweed,,,,,,,,,,,,,,,,,,0.7466248114708864,False,,1.0
-pairwise_koeder,mackerel vs ulva_salad,,,,,,,,,,,,,,,,,,0.7694231921623174,False,,1.0
-pairwise_koeder,control vs mackerel,,,,,,,,,,,,,,,,,,0.858665974046007,False,,1.0
+pairwise_koeder,mackerel vs ulva_salad,,,,,,,,,,,,,,,,,,0.7695606907748618,False,,1.0
 pairwise_koeder,ulva_gutweed vs ulva_salad,,,,,,,,,,,,,,,,,,0.8862477072704644,False,,1.0
-site_global_koeder_significance,milimani,"control, mackerel, sargassum, ulva_gutweed, ulva_salad",,,,,,,,,,,,,,,,1.5708955223880732,0.8140133351937504,False,,
-site_global_koeder_significance,nursery,"algae_strings, algaemix, mackerel",,,,,,,,,,,,,,,,1.8584905660377342,0.39485159915350887,False,,
-site_global_koeder_significance,utumbi,"control, fischmix, mackerel, sargassum, ulva_gutweed, ulva_salad",,,,,,,,,,,,,,,,6.336631944444438,0.2748271637060062,False,,
-site_pairwise_koeder,milimani: sargassum vs ulva_salad,,,,,,,,,,,,,,,,,,0.3724558699813696,False,,1.0
+pairwise_koeder,control vs mackerel,,,,,,,,,,,,,,,,,,0.9290897031196561,False,,1.0
+pairwise_koeder,fischmix vs sargassum,,,,,,,,,,,,,,,,,,1.0,False,,1.0
+site_global_koeder_significance,milimani,"control, mackerel, sargassum, ulva_gutweed, ulva_salad",,,,,,,,,,,,,,,,1.30239520958084,0.8609690178864478,False,,
+site_global_koeder_significance,nursery,"algae_strings, algaemix, mackerel",,,,,,,,,,,,,,,,1.196319018404906,0.5498226489543845,False,,
+site_global_koeder_significance,utumbi,"control, fischmix, mackerel, sargassum, ulva_gutweed, ulva_salad",,,,,,,,,,,,,,,,6.277400835073068,0.2801546872680136,False,,
+site_pairwise_koeder,milimani: sargassum vs ulva_salad,,,,,,,,,,,,,,,,,,0.47147432485129004,False,,1.0
 site_pairwise_koeder,milimani: control vs ulva_gutweed,,,,,,,,,,,,,,,,,,0.5065551690490403,False,,1.0
-site_pairwise_koeder,milimani: mackerel vs ulva_salad,,,,,,,,,,,,,,,,,,0.6285714285714286,False,,1.0
 site_pairwise_koeder,milimani: control vs sargassum,,,,,,,,,,,,,,,,,,0.6428348264908044,False,,1.0
 site_pairwise_koeder,milimani: mackerel vs sargassum,,,,,,,,,,,,,,,,,,0.6579050194284821,False,,1.0
 site_pairwise_koeder,milimani: control vs mackerel,,,,,,,,,,,,,,,,,,0.7,False,,1.0
 site_pairwise_koeder,milimani: mackerel vs ulva_gutweed,,,,,,,,,,,,,,,,,,0.7,False,,1.0
+site_pairwise_koeder,milimani: mackerel vs ulva_salad,,,,,,,,,,,,,,,,,,0.7212766990291557,False,,1.0
 site_pairwise_koeder,milimani: control vs ulva_salad,,,,,,,,,,,,,,,,,,0.8571428571428571,False,,1.0
 site_pairwise_koeder,milimani: ulva_gutweed vs ulva_salad,,,,,,,,,,,,,,,,,,0.8571428571428571,False,,1.0
 site_pairwise_koeder,milimani: sargassum vs ulva_gutweed,,,,,,,,,,,,,,,,,,1.0,False,,1.0
-site_pairwise_koeder,nursery: algaemix vs mackerel,,,,,,,,,,,,,,,,,,0.2845026979112075,False,,0.8535080937336226
-site_pairwise_koeder,nursery: algae_strings vs algaemix,,,,,,,,,,,,,,,,,,0.5065551690490403,False,,1.0
-site_pairwise_koeder,nursery: algae_strings vs mackerel,,,,,,,,,,,,,,,,,,0.7162897505408428,False,,1.0
+site_pairwise_koeder,nursery: algaemix vs mackerel,,,,,,,,,,,,,,,,,,0.3680655063054846,False,,1.0
+site_pairwise_koeder,nursery: algae_strings vs algaemix,,,,,,,,,,,,,,,,,,0.7,False,,1.0
+site_pairwise_koeder,nursery: algae_strings vs mackerel,,,,,,,,,,,,,,,,,,0.8571428571428571,False,,1.0
 site_pairwise_koeder,utumbi: control vs sargassum,,,,,,,,,,,,,,,,,,0.07446183141740546,False,,1.0
 site_pairwise_koeder,utumbi: sargassum vs ulva_salad,,,,,,,,,,,,,,,,,,0.2,False,,1.0
 site_pairwise_koeder,utumbi: control vs ulva_gutweed,,,,,,,,,,,,,,,,,,0.20761741115484578,False,,1.0
 site_pairwise_koeder,utumbi: control vs fischmix,,,,,,,,,,,,,,,,,,0.26666666666666666,False,,1.0
 site_pairwise_koeder,utumbi: sargassum vs ulva_gutweed,,,,,,,,,,,,,,,,,,0.26828588367711736,False,,1.0
-site_pairwise_koeder,utumbi: control vs mackerel,,,,,,,,,,,,,,,,,,0.2845026979112075,False,,1.0
 site_pairwise_koeder,utumbi: control vs ulva_salad,,,,,,,,,,,,,,,,,,0.4,False,,1.0
-site_pairwise_koeder,utumbi: fischmix vs mackerel,,,,,,,,,,,,,,,,,,0.4,False,,1.0
-site_pairwise_koeder,utumbi: mackerel vs sargassum,,,,,,,,,,,,,,,,,,0.7,False,,1.0
+site_pairwise_koeder,utumbi: control vs mackerel,,,,,,,,,,,,,,,,,,0.4755326595969013,False,,1.0
+site_pairwise_koeder,utumbi: mackerel vs sargassum,,,,,,,,,,,,,,,,,,0.5065551690490403,False,,1.0
+site_pairwise_koeder,utumbi: fischmix vs ulva_salad,,,,,,,,,,,,,,,,,,0.5536169919657805,False,,1.0
+site_pairwise_koeder,utumbi: fischmix vs mackerel,,,,,,,,,,,,,,,,,,0.8,False,,1.0
+site_pairwise_koeder,utumbi: fischmix vs sargassum,,,,,,,,,,,,,,,,,,0.8,False,,1.0
 site_pairwise_koeder,utumbi: fischmix vs ulva_gutweed,,,,,,,,,,,,,,,,,,0.8,False,,1.0
-site_pairwise_koeder,utumbi: fischmix vs ulva_salad,,,,,,,,,,,,,,,,,,0.8,False,,1.0
+site_pairwise_koeder,utumbi: mackerel vs ulva_gutweed,,,,,,,,,,,,,,,,,,0.8247780950825133,False,,1.0
 site_pairwise_koeder,utumbi: ulva_gutweed vs ulva_salad,,,,,,,,,,,,,,,,,,0.8247780950825133,False,,1.0
-site_pairwise_koeder,utumbi: fischmix vs sargassum,,,,,,,,,,,,,,,,,,1.0,False,,1.0
-site_pairwise_koeder,utumbi: mackerel vs ulva_gutweed,,,,,,,,,,,,,,,,,,1.0,False,,1.0
 site_pairwise_koeder,utumbi: mackerel vs ulva_salad,,,,,,,,,,,,,,,,,,1.0,False,,1.0
