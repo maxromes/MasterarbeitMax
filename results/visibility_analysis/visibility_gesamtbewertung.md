@@ -20,6 +20,13 @@ Verwendete Quellen in diesem Ordner:
 - visibility_additional_tests_summary.md (Robustheits- und Sensitivitaetstests)
 - visibility_site_stratified_tests_summary.md (standort-stratifiziert)
 
+## Abbildungen (neu)
+
+- Rohzusammenhaenge (Spearman mit BH-q): `figures/visibility_raw_correlations.png`
+- Adjustierte Effekte mit 95%-CI: `figures/visibility_adjusted_effects_forest.png`
+- Robustheitschecks (BH-q Heatmap): `figures/visibility_robustness_qvalues_heatmap.png`
+- Standort-stratifizierte Permutations-p-Werte: `figures/visibility_site_stratified_permutation_pvalues.png`
+
 ## 2) Ergebnisse im Ueberblick
 
 ### 2.1 Bivariate Zusammenhaenge (ohne Adjustierung)

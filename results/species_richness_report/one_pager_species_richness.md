@@ -10,21 +10,21 @@
 - Das kuerzere Sondervideo 20240108-nursery-control.csv ist in den Ergebnissen explizit markiert.
 
 ## Signifikanz (alpha = 0.05)
-- Kruskal-Wallis Standort: p = 2.859e-06 -> signifikant
-- Kruskal-Wallis Koeder: p = 0.1291 -> nicht signifikant
+- Kruskal-Wallis Standort: p = 2.307e-06 -> signifikant
+- Kruskal-Wallis Koeder: p = 0.1280 -> nicht signifikant
 - Paarweise Standorttests (Mann-Whitney U, Holm-korrigiert):
-  - nursery vs utumbi: p_holm = 3.044e-05 (signifikant)
-  - milimani vs utumbi: p_holm = 0.002688 (signifikant)
-  - milimani vs nursery: p_holm = 0.002934 (signifikant)
+  - nursery vs utumbi: p_holm = 3.059e-05 (signifikant)
+  - milimani vs utumbi: p_holm = 0.002675 (signifikant)
+  - milimani vs nursery: p_holm = 0.002675 (signifikant)
 
 ## Top 10 Videos nach Species Richness
 | Rang | Video | Standort | Koeder | Richness |
 |---:|---|---|---|---:|
-| 1 | 20241209-utumbi-fischmix.csv | utumbi | fischmix | 63 |
-| 2 | 20240516-utumbi-mackerel.csv | utumbi | mackerel | 62 |
-| 3 | 20241128-utumbi-sargassum.csv | utumbi | sargassum | 61 |
-| 4 | 20241124-milimani-mackerel.csv | milimani | mackerel | 59 |
-| 5 | 20241110-milimani-ulva_salad.csv | milimani | ulva_salad | 57 |
+| 1 | 20240516-utumbi-mackerel.csv | utumbi | mackerel | 61 |
+| 2 | 20241128-utumbi-sargassum.csv | utumbi | sargassum | 61 |
+| 3 | 20241209-utumbi-fischmix.csv | utumbi | fischmix | 60 |
+| 4 | 20241110-milimani-ulva_salad.csv | milimani | ulva_salad | 57 |
+| 5 | 20241124-milimani-mackerel.csv | milimani | mackerel | 57 |
 | 6 | 20241129-utumbi-sargassum.csv | utumbi | sargassum | 56 |
 | 7 | 20241027-utumbi-ulva_salad.csv | utumbi | ulva_salad | 55 |
 | 8 | 20241112-utumbi-ulva_gutweed.csv | utumbi | ulva_gutweed | 55 |
