@@ -1,376 +1,366 @@
-# Praesentation: Statistische Tests und zentrale Ergebnisse (Mastervorlage)
+# Statistische Gesamtauswertung: Standort, Koeder, Verhalten und Sichtweite
 
 Stand: 2026-04-27
-Zweck: Diese Datei ist eine direkt nutzbare Blaupause fuer eine PowerPoint-Praesentation.
-Zielgruppe: Fachpublikum (Statistik + Oekologie), aber auch fuer gemischtes Publikum geeignet.
+
+Diese Datei ist eine fachliche Gesamtdarstellung der wichtigsten statistischen Befunde.
+Der Schwerpunkt liegt auf:
+- robusten, multipeltest-korrigierten Ergebnissen
+- konkreten Beispielbefunden mit Zahlen
+- klarer Trennung zwischen Signifikanz und Tendenz
 
 ---
 
 ## Inhaltsverzeichnis
 
-1. Ziel der Praesentation
-2. Executive Summary (1 Slide)
-3. Datengrundlage und Analyseprinzipien
-4. Methodenueberblick (welcher Test fuer welche Frage)
-5. Ergebnisblock A: Standorteffekte (robusteste Signale)
-6. Ergebnisblock B: Koedereffekte in Zusammensetzung und Haeufigkeit
-7. Ergebnisblock C: Verhalten (`feeding` vs `interested`)
-8. Ergebnisblock D: Fish-vs-Algae Funktionsvergleich
-9. Ergebnisblock E: Sichtweite (Visibility)
-10. Robustheit, Grenzen und offene methodische Punkte
-11. Schlussfolgerungen und Handlungsempfehlungen
-12. Folienplan (Slide-by-Slide, direkt umsetzbar)
-13. Anhang: Quellen, QA-Checkliste und Backup-Folien
+1. Datengrundlage und methodische Leitlinien
+2. Robust signifikante Hauptergebnisse
+3. Konkrete Beispiele fuer signifikante Effekte
+4. Konkrete Beispiele fuer Tendenzen (nicht robust signifikant)
+5. Fish-vs-Algae: robuste und explorative Muster
+6. Verhalten (`feeding` und `interested`): robuste und grenzwertige Befunde
+7. Sichtweite (Visibility): bivariates Signal vs. adjustierte Modelle
+8. Gesamtinterpretation und Priorisierung der Evidenz
+9. Methodische Grenzen und offene Punkte
+10. Quellenverzeichnis
 
 ---
 
-## 1. Ziel der Praesentation
-
-Die Praesentation soll drei Dinge leisten:
-
-- Klar trennen zwischen robusten Befunden und explorativen Signalen.
-- Methodisch sauber erklaeren, warum bestimmte Effekte nach Korrektur bleiben oder verschwinden.
-- Eine belastbare Hauptbotschaft formulieren, die mit den Reports konsistent ist.
-
-Vorgeschlagene Leitfrage:
-
-> Wie stark praegen Standort, Koeder, Verhalten und Sichtweite die beobachteten Gemeinschafts- und Haeufigkeitsmuster?
-
----
-
-## 2. Executive Summary (1 Slide)
-
-Kernaussagen in 5 Punkten:
-
-- Standorteffekte sind der robusteste Befund.
-  - 161 getestete Taxa, 93 roh signifikant, 36 Holm-signifikant.
-  - Quelle: [taxahäufigkeitstandord/taxahaeufigkeit_standort.md](taxahäufigkeitstandord/taxahaeufigkeit_standort.md)
-
-- Koeder beeinflussen die Zusammensetzung global, aber Einzeltaxa bleiben meist nicht Holm-robust.
-  - Globale PERMANOVA in allen 3 Standorten signifikant.
-  - Quelle: [artenvergleich_köder/artenvergleich_koeder_summary.md](artenvergleich_köder/artenvergleich_koeder_summary.md)
-
-- Fish-vs-Algae zeigt robuste Signale v. a. auf der fish-Seite (insb. Utumbi).
-  - Quelle: [funktionsvergleich/funktionsvergleich_bericht.md](funktionsvergleich/funktionsvergleich_bericht.md)
-
-- `feeding` und `interested` sind verwandt, aber nicht identisch.
-  - Quelle: [interested_feeding/interested_feeding_summary.md](interested_feeding/interested_feeding_summary.md)
-
-- Visibility ist bivariat sichtbar, aber adjustiert nicht robust signifikant.
-  - Quelle: [visibility_analysis/visibility_gesamtbewertung.md](visibility_analysis/visibility_gesamtbewertung.md)
-
-Ein-Satz fuer die erste Folie:
-
-> Die staerksten und robustesten Unterschiede liegen auf Standort- und Gemeinschaftsebene; Koeder- und Verhaltenseffekte sind vorhanden, aber differenzierter und je nach Testfamilie weniger stabil.
-
----
-
-## 3. Datengrundlage und Analyseprinzipien
+## 1. Datengrundlage und methodische Leitlinien
 
 Datengrundlage:
-
-- 46 Videos (cut_47min)
+- 46 Videos (`cut_47min`)
 - Standorte: Milimani, Utumbi, Nursery
-- Mehrere Analyseebenen: Taxon-Haeufigkeit (MaxN), Zusammensetzung, Verhalten, Sichtweite
+- Zielgroessen: Taxa-Haeufigkeit (MaxN), Taxa-Zusammensetzung, Verhaltensereignisse (`feeding`, `interested`), Sichtweite
 
-Analyseprinzipien:
+Methodischer Rahmen:
+- Taxonweise Gruppenvergleiche: Kruskal-Wallis (global), Mann-Whitney U (paarweise)
+- Multiple Tests: primaer Holm; in Sensitivitaeten zusaetzlich BH/FDR
+- Kompositionsanalyse: PERMANOVA auf Jaccard-Distanzen
+- Sichtanalyse: bivariate Korrelationen sowie adjustierte Modelle mit Standort- und Koederkontrolle
 
-- Nichtparametrische Tests fuer viele Taxonvergleiche (Kruskal-Wallis, Mann-Whitney U).
-- Multiple-Testing-Korrektur standardmaessig mit Holm; zusaetzlich BH/FDR in Sensitivitaeten.
-- Kompositionelle Tests via PERMANOVA auf Jaccard-Distanzen.
-- Sichtanalyse getrennt in bivariat und adjustiert (Standort + Koeder als Kovariaten).
-
-Wichtiger methodischer Satz fuer den Vortrag:
-
-> Roh-p-Werte zeigen Suchsignale; inferenzielle Kernaussagen basieren auf korrigierten p-/q-Werten.
-
----
-
-## 4. Methodenueberblick (welcher Test fuer welche Frage)
-
-| Fragestellung | Primaerer Test | Korrektur | Was bedeutet ein positiver Befund? |
-|:--|:--|:--|:--|
-| Unterscheiden sich Taxa-Haeufigkeiten zwischen Standorten? | Kruskal-Wallis je Taxon | Holm | Standortabhaengige MaxN-Struktur |
-| Welche Gruppen unterscheiden sich paarweise? | Mann-Whitney U | Holm je Taxon | Konkrete Gruppenunterschiede |
-| Unterscheiden sich Koeder in der Zusammensetzung? | PERMANOVA (Jaccard) | Paarweise Holm | Globaler/paarspezifischer Kompositionseffekt |
-| Sind `feeding` und `interested` konsistent? | Spearman/Pearson + Taxonvergleiche | Holm/BH | Verhaltenskategorien laufen gemeinsam oder getrennt |
-| Ist Sichtweite ein unabhaengiger Treiber? | Spearman (bivariat), OLS+HC3+Permutation (adjustiert) | BH/Holm/BY/Bonf. | Sicht bleibt auch nach Kovariatenkontrolle wirksam |
+Interpretationsregel:
+- "Robust" = nach Korrektur signifikant
+- "Tendenz" = roh signifikant oder konsistenter Richtungseffekt ohne robuste Korrektur-Signifikanz
 
 ---
 
-## 5. Ergebnisblock A: Standorteffekte (robusteste Signale)
+## 2. Robust signifikante Hauptergebnisse
 
-Quelle: [taxahäufigkeitstandord/taxahaeufigkeit_standort.md](taxahäufigkeitstandord/taxahaeufigkeit_standort.md)
+### 2.1 Standorteffekte auf Taxa-Haeufigkeit (MaxN)
+
+Quelle: [taxahaeufigkeitstandord/taxahaeufigkeit_standort.md](taxahäufigkeitstandord/taxahaeufigkeit_standort.md)
 
 Zentrale Kennzahlen:
+- Getestete Taxa: 161
+- Roh signifikant: 93
+- Holm-signifikant: 36
+- Anteil Holm-signifikant: 22.36%
 
-- `n_taxa_tested = 161`
-- `n_significant_raw_p_lt_0_05 = 93`
-- `n_significant_holm_p_lt_0_05 = 36`
+Einordnung:
+- Das ist der robusteste Befund ueber alle Analysen.
+- Standort ist ein starker strukturierender Faktor fuer Haeufigkeiten.
 
-Interpretation fuer Folien:
+### 2.2 Koederunterschiede in der Zusammensetzung (global)
 
-- Der Standorteffekt ist statistisch robust und biologisch gross.
-- Das ist kein Randbefund, sondern die tragende Struktur im Datensatz.
-- Standorte duerfen nicht als austauschbare Replikate behandelt werden.
+Quelle: [artenvergleich_koeder/artenvergleich_koeder_summary.md](artenvergleich_köder/artenvergleich_koeder_summary.md)
 
-Empfohlene Visuals:
+PERMANOVA (global je Standort):
+- Milimani: p = 0.0242 (signifikant)
+- Utumbi: p = 0.0046 (signifikant)
+- Nursery: p = 0.0016 (signifikant)
 
-- Heatmap/Barplot der signifikanten Taxa nach Standort
-- Auszug Top-Taxa mit Effektgroessen und Richtung
+Einordnung:
+- Koeder verschieben die Zusammensetzung der beobachteten Gemeinschaft in allen Standorten.
+- Der robuste Effekt liegt auf globaler Ebene, nicht zwingend in einzelnen Paarvergleichen.
 
-Sprechtext (30-40 Sekunden):
-
-> Wenn wir auf die Taxa-Haeufigkeit schauen, ist der Standorteffekt klar dominant: 36 Taxa bleiben auch nach Holm-Korrektur signifikant. Das ist die robusteste Evidenz im gesamten Projekt.
-
----
-
-## 6. Ergebnisblock B: Koedereffekte in Zusammensetzung und Haeufigkeit
-
-### 6.1 Koedervergleich: Taxa-Haeufigkeit (MaxN)
-
-Quelle: [taxahäufigkeitköder/taxahaeufigkeit_koeder_summary.md](taxahäufigkeitköder/taxahaeufigkeit_koeder_summary.md)
-
-Kernergebnis:
-
-- Milimani: 104 Taxa getestet, 6 roh signifikant, 0 Holm-signifikant
-- Nursery: 99 Taxa getestet, 11 roh signifikant, 0 Holm-signifikant
-- Utumbi: 120 Taxa getestet, 8 roh signifikant, 0 Holm-signifikant
-
-Interpretation:
-
-- Es gibt Hinweise auf Koedereffekte, aber taxonweise keine robuste Holm-Evidenz.
-- Das Muster ist eher verteilt (viele kleine Unterschiede) statt punktuell (wenige sehr starke Taxa).
-
-### 6.2 Koedervergleich: Zusammensetzung (PERMANOVA)
-
-Quelle: [artenvergleich_köder/artenvergleich_koeder_summary.md](artenvergleich_köder/artenvergleich_koeder_summary.md)
-
-Kernergebnis:
-
-- Milimani global signifikant (`p = 0.0242`)
-- Utumbi global signifikant (`p = 0.0046`)
-- Nursery global signifikant (`p = 0.0016`)
-
-Interpretation:
-
-- Koeder verschieben die Gemeinschaftszusammensetzung global in allen Standorten.
-- Paarweise Einzelvergleiche bleiben nach Holm oft nicht signifikant.
-
-Sprechtext (45 Sekunden):
-
-> Bei Koedern sehen wir ein zweistufiges Bild: global kompositionell klar signifikant, aber auf Einzeltaxon-Ebene konservativ gerechnet nicht robust. Das passt zu einem breiten, verteilten Koedereffekt.
-
----
-
-## 7. Ergebnisblock C: Verhalten (`feeding` vs `interested`)
-
-Quelle: [interested_feeding/interested_feeding_summary.md](interested_feeding/interested_feeding_summary.md)
-
-Kernergebnis:
-
-- `feeding` zeigt mehr Rohsignale als `interested`.
-- Holm-robuste Einzeltaxa sind selten.
-- Event-basierte Globaltests sind standortabhaengig teils signifikant.
-
-Interpretation:
-
-- Beide Verhaltensflags sind verwandt, aber funktional nicht deckungsgleich.
-- `feeding` ist oft das schaerfere Signal.
-
-Praktischer Foliensatz:
-
-> `feeding` und `interested` sollten zusammen berichtet, aber nicht gleichgesetzt werden.
-
----
-
-## 8. Ergebnisblock D: Fish-vs-Algae Funktionsvergleich
+### 2.3 Fish-vs-Algae (Funktionsvergleich)
 
 Quelle: [funktionsvergleich/funktionsvergleich_bericht.md](funktionsvergleich/funktionsvergleich_bericht.md)
 
-Kernergebnis:
+Robuste Richtung:
+- Signifikante Fish-vs-Algae-Befunde zeigen ueberwiegend `higher_side = fish`.
+- Besonders deutlich in Utumbi mit mehreren BH-signifikanten Funktionsgruppen.
 
-- Global ueber alle Koeder: keine Holm/BH-signifikanten Gruppen.
-- Im direkten Fish-vs-Algae-Vergleich: mehrere BH-signifikante Gruppen, insbesondere in Utumbi.
-- Signifikante Gruppen liegen ueberwiegend auf der fish-Seite (`higher_side = fish`).
-
-Interpretation:
-
-- Die Richtung des Effekts ist konsistent: fish-basiert > algae-basiert fuer viele Funktionsgruppen.
-- Algennahe Effekte erscheinen eher explorativ als robust inferenziell.
-
-Empfohlene Figuren:
-
-- Signifikanzsummary Fish-vs-Algae
-- Top-Effektgroessen (Cliff's Delta)
-
-Sprechtext (40 Sekunden):
-
-> Der Fish-vs-Algae-Vergleich zeigt den klarsten Koedereffekt in Richtung fish-basierter Koeder, vor allem in Utumbi. Das ist kein universeller Taxon-Einzeleffekt, aber ein konsistentes Funktionsmuster.
-
----
-
-## 9. Ergebnisblock E: Sichtweite (Visibility)
+### 2.4 Visibility (adjustiert)
 
 Quellen:
-
 - [visibility_analysis/visibility_summary.md](visibility_analysis/visibility_summary.md)
 - [visibility_analysis/visibility_adjusted_summary.md](visibility_analysis/visibility_adjusted_summary.md)
 - [visibility_analysis/visibility_gesamtbewertung.md](visibility_analysis/visibility_gesamtbewertung.md)
 
-Kernergebnis:
+Robuster Schluss:
+- Bivariat sind Zusammenhaenge mit MaxN und Richness sichtbar.
+- Nach Kontrolle fuer Standort + Koeder bleibt kein robuster, unabhaengiger Sicht-Effekt.
 
-- Bivariat: positive Zusammenhaenge mit `maxn_video_peak` und `species_richness`.
-- Adjustiert (`+ standort + koeder`): kein robuster Sicht-Effekt auf die 3 Endpunkte.
-- Zusatztests (Permutation, Quadratik, Quantilsregression, multiple Korrekturen) bestaetigen den Nullbefund.
+---
+
+## 3. Konkrete Beispiele fuer signifikante Effekte
+
+### 3.1 Standortvergleich (taxonweise, Holm-korrigiert signifikant)
+
+Quelle: [taxahaeufigkeitstandord/taxahaeufigkeit_standort.md](taxahäufigkeitstandord/taxahaeufigkeit_standort.md)
+
+Beispiel A:
+- Taxon: `species::humpback (lutjanus gibbus)`
+- Kruskal-Wallis: p = 2.91e-10, Holm p = 4.69e-08
+- Mittelwerte: Milimani 0.00, Utumbi 0.00, Nursery 20.18
+- Interpretation: sehr starker standortspezifischer Schwerpunkt in Nursery
+
+Beispiel B:
+- Taxon: `species::threespot dascyllus (dascyllus trimaculatus)`
+- Kruskal-Wallis: p = 2.91e-10, Holm p = 4.69e-08
+- Mittelwerte: Milimani 0.00, Utumbi 0.00, Nursery 8.00
+- Interpretation: klarer Standortkontrast mit Konzentration in Nursery
+
+Beispiel C:
+- Taxon: `genus::genus soldier`
+- Kruskal-Wallis: p = 8.77e-09, Holm p = 1.38e-06
+- Mittelwerte: Milimani 0.29, Utumbi 3.17, Nursery 0.00
+- Interpretation: deutliches Utumbi-Signal
+
+Beispiel D:
+- Taxon: `species::arabian monocle (scolopsis ghanam)`
+- Kruskal-Wallis: p = 2.36e-05, Holm p = 0.00326
+- Mittelwerte: Milimani 0.12, Utumbi 0.44, Nursery 7.00
+- Interpretation: starker Nursery-Schwerpunkt
+
+### 3.2 Kompositionsvergleich nach Koeder (global signifikant)
+
+Quelle: [artenvergleich_koeder/artenvergleich_koeder_summary.md](artenvergleich_köder/artenvergleich_koeder_summary.md)
+
+Beispiel A:
+- Standort: Utumbi
+- PERMANOVA global: p = 0.0046
+- Top-Overlap-Paar: control vs sargassum (Jaccard 0.764)
+- Interpretation: trotz teils hoher Ueberlappung bleibt die Gesamtstruktur zwischen Koedern signifikant verschieden
+
+Beispiel B:
+- Standort: Nursery
+- PERMANOVA global: p = 0.0016
+- Top-Overlap-Paar: algae_strings vs algaemix (Jaccard 0.662)
+- Interpretation: Koedereffekt auf Zusammensetzung ist auch in Nursery robust
+
+### 3.3 Fish-vs-Algae (BH-signifikante Einzelfeatures)
+
+Quelle: [funktionsvergleich/funktionsvergleich_bericht.md](funktionsvergleich/funktionsvergleich_bericht.md)
+
+Beispiel A (Milimani):
+- Feature: `wrasses` (unspecific)
+- p = 0.00171, Holm p = 0.02054, BH p = 0.02054
+- Richtung: fish > algae
+- Effektgroesse: Cliff's Delta = 0.975
+
+Beispiel B (Utumbi):
+- Feature: `eels` (unspecific)
+- p = 0.00336, Holm p = 0.04703, BH p = 0.02569
+- Richtung: fish > algae
+- Effektgroesse: Cliff's Delta = 0.800
+
+Beispiel C (Utumbi):
+- Feature: `wrasses` (word_group)
+- p = 0.00367, BH p = 0.02814
+- Richtung: fish > algae
+- Effektgroesse: Cliff's Delta = 0.978
+
+Beispiel D (Utumbi):
+- Feature: `invertebrates` (diet)
+- p = 0.01050, Holm p = 0.04202, BH p = 0.02895
+- Richtung: fish > algae
+- Effektgroesse: Cliff's Delta = 0.867
+
+### 3.4 Visibility: konkrete bivariate Signifikanz
+
+Quelle: [visibility_analysis/visibility_summary.md](visibility_analysis/visibility_summary.md)
+
+Beispiel A:
+- `visibility_mean` vs `species_richness`
+- Spearman rho = 0.563, p = 4.61e-05, BH q = 1.38e-04
+- Interpretation: starker positiver Rohzusammenhang
+
+Beispiel B:
+- `visibility_mean` vs `maxn_video_peak`
+- Spearman rho = 0.467, p = 0.00108, BH q = 0.00161
+- Interpretation: moderater positiver Rohzusammenhang
+
+---
+
+## 4. Konkrete Beispiele fuer Tendenzen (nicht robust signifikant)
+
+### 4.1 Koeder-Haeufigkeit je Standort: Rohsignal ohne Holm-Robustheit
+
+Quelle: [taxahaeufigkeitkoeder/taxahaeufigkeit_koeder_summary.md](taxahäufigkeitköder/taxahaeufigkeit_koeder_summary.md)
+
+Gesamtmuster:
+- Milimani: 6 Rohsignale, 0 Holm-signifikant
+- Nursery: 11 Rohsignale, 0 Holm-signifikant
+- Utumbi: 8 Rohsignale, 0 Holm-signifikant
+
+Konkrete Tendenzbeispiele aus den Top-Rohsignalen:
+- Milimani: `species::blue-green (chromis viridis)`
+- Milimani: `species::moorish idol (zanclus cornutus)`
+- Utumbi: `species::longnose (lethrinus olivaceus)`
+- Utumbi: `species::orange-lined (balistapus undulatus)`
+- Nursery: `family_label::puffers (tetraodontidae)`
 
 Interpretation:
+- Es gibt wiederholt gerichtete Koederhinweise, aber keine ausreichende Robustheit nach strenger Korrektur.
 
-- Sichtweite ist relevanter Messkontext, aber kein unabhaengiger Treiber nach Kovariatenkontrolle.
+### 4.2 Globaltest ohne robuste paarweise Signifikanz
 
-Sprechtext (35 Sekunden):
+Quelle: [artenvergleich_koeder/artenvergleich_koeder_summary.md](artenvergleich_köder/artenvergleich_koeder_summary.md)
 
-> Sichtweite erklaert Rohmuster mit, traegt aber in den adjustierten Modellen keine robuste eigenstaendige Signalwirkung.
+Muster:
+- Globale PERMANOVA je Standort signifikant.
+- Paarweise Koedervergleiche nach Holm meist nicht signifikant.
 
----
+Interpretation:
+- Effekt ist verteilt ueber mehrere Koederbeziehungen.
+- Kein einzelnes Paar traegt die komplette Evidenz.
 
-## 10. Robustheit, Grenzen und offene methodische Punkte
+### 4.3 Visibility: bivariates Signal verschwindet nach Adjustierung
 
-### 10.1 Was ist robust?
+Quelle: [visibility_analysis/visibility_adjusted_summary.md](visibility_analysis/visibility_adjusted_summary.md)
 
-- Standorteffekt (Taxa-Haeufigkeit) ist robust.
-- Globale Koederunterschiede in der Zusammensetzung sind robust.
-- Visibility-Nullbefund nach Adjustierung ist robust.
+Konkrete Beispiele:
+- `species_richness`: Beta = 0.004, p(HC3) = 0.734, q = 0.739
+- `maxn_video_peak`: Beta = 0.030, p(HC3) = 0.483, q = 0.739
+- `first_seen_median_sec`: Beta = -0.017, p(HC3) = 0.739, q = 0.739
 
-### 10.2 Wo sind Grenzen?
-
-- Viele parallele Taxon-Tests reduzieren Power nach Korrektur.
-- Unbalancierte Koederverteilung je Standort.
-- Kleine Zellgroessen in einigen standort-spezifischen Vergleichen.
-
-### 10.3 Offene Punkte fuer naechste Runde
-
-- Mixed-Effects / hierarchische Modelle fuer Video- und Standortstruktur.
-- PERMDISP als Streuungscheck fuer PERMANOVA-Befunde.
-- Seltenheits-/Sampling-Normalisierung (Rarefaction-Ansatz, falls methodisch gewuenscht).
+Interpretation:
+- Konfundierung durch Standort/Koeder ist plausibel.
+- Rohzusammenhang ist nicht gleich unabhaengiger Treibereffekt.
 
 ---
 
-## 11. Schlussfolgerungen und Handlungsempfehlungen
+## 5. Fish-vs-Algae: robuste und explorative Muster
 
-Empfohlene Schlussbotschaft:
+Quelle: [funktionsvergleich/funktionsvergleich_bericht.md](funktionsvergleich/funktionsvergleich_bericht.md)
 
-> Der zentrale Treiber ist der Standort. Koeder veraendern die Gemeinschaft global, aber meist als verteiltes Muster statt als einzelne harte Taxon-Signale. Sichtweite wirkt vor allem als Kontextfaktor, nicht als unabhaengiger Treiber nach Adjustierung.
+### 5.1 Robuste Muster
 
-Praxisempfehlungen fuer Berichterstattung:
+- Mehrere BH-signifikante Features mit Richtung fish > algae.
+- In Utumbi sind robuste Signale ueber mehrere Feature-Typen verteilt:
+  - `word_group`, `family`, `diet`, `composite_group`, `unspecific`
 
-- Primaer: Standort- und globale Kompositionsbefunde.
-- Sekundaer: Fish-vs-Algae Funktionsmuster mit klarer Trennung zwischen robust und explorativ.
-- Transparenz: Roh- und korrigierte Signale immer nebeneinander zeigen.
+### 5.2 Explorative Muster
 
----
+Top-Rohsignale (global ueber Koeder), ohne Holm/BH-Robustheit:
+- Milimani: `moorish_idol`, `zanclidae`, `zanclus`, `lutjanidae`, `lutjanus`
+- Utumbi: `wrasses_trigger_combo`, `wrasses`, `labridae`, `triggerfishes`, `balistidae`
+- Nursery: `chlorurus` (explorativ auffaellig)
 
-## 12. Folienplan (Slide-by-Slide, direkt umsetzbar)
-
-Hinweis: Dieser Plan ist fuer 16 Folien ausgelegt (ca. 15-20 Minuten Vortrag).
-
-### Folie 1 - Titel und Leitfrage
-
-- Titel: "Statistische Gesamtauswertung: Standort, Koeder, Verhalten und Sicht"
-- Untertitel: Datensatz, Zeitraum, Team
-- Kernfrage (1 Satz)
-
-### Folie 2 - Agenda
-
-- 5 Bloecke: Daten, Methoden, Hauptergebnisse, Robustheit, Fazit
-
-### Folie 3 - Datengrundlage
-
-- 46 Videos
-- 3 Standorte
-- Endpunkte und Ebenen
-
-### Folie 4 - Methodenlandkarte
-
-- Tabelle "Frage -> Test -> Korrektur"
-- Ein Satz zu Holm vs BH
-
-### Folie 5 - Standorteffekt: Uebersicht
-
-- 161 / 93 / 36 Kennzahlen gross darstellen
-- Kurzinterpretation
-
-### Folie 6 - Standorteffekt: Beispiele
-
-- Top signifikante Taxa (3-6 Beispiele)
-- Richtung pro Standort
-
-### Folie 7 - Koeder-Haeufigkeit
-
-- Pro Standort: roh signifikant vs Holm signifikant
-- Aussage: keine Holm-robusten Einzeltaxa
-
-### Folie 8 - Koeder-Komposition
-
-- PERMANOVA p-Werte je Standort
-- Aussage: global signifikant in allen Standorten
-
-### Folie 9 - Fish-vs-Algae (Konzept)
-
-- Vergleichslogik
-- Warum zusaetzlich zur Standardanalyse?
-
-### Folie 10 - Fish-vs-Algae (Ergebnisse)
-
-- Anzahl BH-signifikanter Gruppen nach Standort/Feature-Typ
-- Fokus auf `higher_side = fish`
-
-### Folie 11 - Verhalten feeding vs interested
-
-- Gegenueberstellung: Signifikanzmuster und Korrelationen
-- Kernaussage: verwandt, nicht identisch
-
-### Folie 12 - Visibility: bivariater vs adjustierter Blick
-
-- Links: bivariater Zusammenhang
-- Rechts: adjustierte Modelle mit Nullbefund
-
-### Folie 13 - Robustheit und Sensitivitaet
-
-- Welche Zusatzanalysen gemacht?
-- Was blieb stabil?
-
-### Folie 14 - Grenzen und Unsicherheiten
-
-- Kleine n in Teilanalysen
-- Multiple Tests
-- Design-/Balance-Aspekte
-
-### Folie 15 - Schlussfolgerung
-
-- 3 Kernsaetze
-- Prioritaeten fuer Interpretation
-
-### Folie 16 - Next Steps
-
-- 3 methodische Prioritaeten
-- 1 praktische Empfehlung fuer die naechste Datenerhebung
+Kernaussage:
+- Robuste Richtung fish > algae ist klar.
+- Einzelne algennahe Hinweise existieren, bleiben aber explorativ.
 
 ---
 
-## 13. Anhang: Quellen, QA-Checkliste und Backup-Folien
+## 6. Verhalten (`feeding` und `interested`): robuste und grenzwertige Befunde
 
-### 13.1 Primarquellen (im Vortrag referenzierbar)
+Quelle: [interested_feeding/interested_feeding_summary.md](interested_feeding/interested_feeding_summary.md)
+
+### 6.1 Signifikante bzw. robuste Anteile
+
+- Milimani: 1 Holm-signifikantes Feeding-Taxon
+- Nursery: 2 Rohsignale Feeding, aber 0 Holm-signifikant
+- Utumbi: mehrere Rohsignale in Feeding/Interested, aber 0 Holm-signifikant auf Taxonebene
+
+### 6.2 Konkretes Grenzfall-Beispiel (vorab fokussierte Taxa)
+
+Quelle: [interested_feeding/nursery/feeding/feeding_nursery_algaemix_vs_mackerel_focus_taxa_sensitivity.md](interested_feeding/nursery/feeding/feeding_nursery_algaemix_vs_mackerel_focus_taxa_sensitivity.md)
+
+Fokus-Taxa:
+- `species::paletail unicorn (naso brevirostris)`
+- `species::honeycomb (siganus stellatus)`
+
+Beobachtung:
+- algaemix: 3/3 positive Videos
+- mackerel: 0/4 positive Videos
+- Cliff's Delta = 1.0 (maximaler Richtungseffekt)
+
+Tests:
+- Mann-Whitney p = 0.0571 je Taxon; Holm(2) = 0.1143
+- Permutation p = 0.0268; Holm(2) = 0.0536
+- Fisher p = 0.0286; Holm(2) = 0.0571
+
+Interpretation:
+- Sehr starkes biologisches Trennmuster, aber unter Holm knapp ueber 0.05.
+- Beispiel fuer "starke Tendenz" ohne formale Holm-Robustheit.
+
+---
+
+## 7. Sichtweite (Visibility): bivariates Signal vs. adjustierte Modelle
+
+Quellen:
+- [visibility_analysis/visibility_summary.md](visibility_analysis/visibility_summary.md)
+- [visibility_analysis/visibility_adjusted_summary.md](visibility_analysis/visibility_adjusted_summary.md)
+- [visibility_analysis/visibility_gesamtbewertung.md](visibility_analysis/visibility_gesamtbewertung.md)
+
+### 7.1 Bivariat (signifikant)
+
+- `species_richness`: rho = 0.563, BH q = 0.000138
+- `maxn_video_peak`: rho = 0.467, BH q = 0.00161
+- `first_seen_median_sec`: kein signifikanter Zusammenhang
+
+### 7.2 Adjustiert (nicht robust signifikant)
+
+- Kein Endpunkt mit robustem Sicht-Effekt nach Kontrolle fuer Standort + Koeder.
+- Zusatztests (blockierte Permutation, Nichtlinearitaet, Quantilsregression) bestaetigen das Gesamtbild.
+
+Kernaussage:
+- Sicht hat deskriptive Relevanz im Rohmuster.
+- Fuer inferenzielle Aussagen ist Standort-/Koederkontrolle entscheidend.
+
+---
+
+## 8. Gesamtinterpretation und Priorisierung der Evidenz
+
+Prioritaet 1 (hoch robust):
+- Standorteffekte auf Taxa-Haeufigkeit
+- Globale Koederunterschiede in der Zusammensetzung
+
+Prioritaet 2 (robust, aber enger gefasst):
+- Fish-vs-Algae-Effekte in mehreren Funktionsgruppen, vor allem fish > algae
+
+Prioritaet 3 (kontext- und trendorientiert):
+- Verhalten (`feeding`/`interested`) mit standortabhaengigen und teils grenzwertigen Signalen
+- Visibility: bivariates Signal ohne robusten unabhaengigen Effekt nach Adjustierung
+
+Pragmatische Lesart:
+- Standort ist der staerkste Erklaerer.
+- Koeder wirkt, aber oft als verteiltes Muster.
+- Verhaltens- und Sichtdaten sind wichtig fuer Kontext und Mechanismus, tragen aber weniger robuste Einzelsignale.
+
+---
+
+## 9. Methodische Grenzen und offene Punkte
+
+1. Multiple-Test-Belastung bei hoher Taxonzahl
+- Viele parallele Tests reduzieren die Chance auf korrigierte Signifikanz fuer Einzeleffekte.
+
+2. Unbalancierte Zellgroessen
+- Unterschiedliche n je Standort/Koeder erschweren feinaufgeloeste Inferenz.
+
+3. Kompositionelle Streuung
+- Ergaenzende PERMDISP-Pruefungen koennen global signifikante PERMANOVA-Befunde weiter absichern.
+
+4. Hierarchische Modellierung
+- Mixed-Effects-Modelle koennen Video-, Standort- und Koederebene integrierter trennen.
+
+---
+
+## 10. Quellenverzeichnis
 
 - Standort-Haeufigkeit:
-  - [taxahäufigkeitstandord/taxahaeufigkeit_standort.md](taxahäufigkeitstandord/taxahaeufigkeit_standort.md)
+  - [taxahaeufigkeitstandord/taxahaeufigkeit_standort.md](taxahäufigkeitstandord/taxahaeufigkeit_standort.md)
 - Koeder-Haeufigkeit:
-  - [taxahäufigkeitköder/taxahaeufigkeit_koeder_summary.md](taxahäufigkeitköder/taxahaeufigkeit_koeder_summary.md)
+  - [taxahaeufigkeitkoeder/taxahaeufigkeit_koeder_summary.md](taxahäufigkeitköder/taxahaeufigkeit_koeder_summary.md)
 - Koeder-Komposition:
-  - [artenvergleich_köder/artenvergleich_koeder_summary.md](artenvergleich_köder/artenvergleich_koeder_summary.md)
+  - [artenvergleich_koeder/artenvergleich_koeder_summary.md](artenvergleich_köder/artenvergleich_koeder_summary.md)
 - Verhalten:
   - [interested_feeding/interested_feeding_summary.md](interested_feeding/interested_feeding_summary.md)
   - [interested_feeding/ubiquitous_nonbehavioral_filter_sensitivity.md](interested_feeding/ubiquitous_nonbehavioral_filter_sensitivity.md)
+  - [interested_feeding/nursery/feeding/feeding_nursery_algaemix_vs_mackerel_focus_taxa_sensitivity.md](interested_feeding/nursery/feeding/feeding_nursery_algaemix_vs_mackerel_focus_taxa_sensitivity.md)
 - Funktionsvergleich:
   - [funktionsvergleich/funktionsvergleich_bericht.md](funktionsvergleich/funktionsvergleich_bericht.md)
 - Sichtanalyse:
@@ -378,41 +368,12 @@ Hinweis: Dieser Plan ist fuer 16 Folien ausgelegt (ca. 15-20 Minuten Vortrag).
   - [visibility_analysis/visibility_adjusted_summary.md](visibility_analysis/visibility_adjusted_summary.md)
   - [visibility_analysis/visibility_gesamtbewertung.md](visibility_analysis/visibility_gesamtbewertung.md)
 
-### 13.2 QA-Checkliste vor dem Export in PowerPoint
-
-- Stimmen alle Zahlen mit den aktuellen Report-Dateien ueberein?
-- Sind Roh- und korrigierte Signale klar getrennt beschriftet?
-- Ist bei jeder Statistik die Testfamilie genannt?
-- Haben alle Plots Achsenbeschriftungen, n und Legenden?
-- Ist die Schlussfolie konsistent mit den robusten (korrigierten) Befunden?
-
-### 13.3 Backup-Folien (empfohlen)
-
-- Backup A: Vollstaendige Testmatrix pro Standort
-- Backup B: Tabelle aller BH-signifikanten Fish-vs-Algae-Features
-- Backup C: Visibility-Detailtabellen (HC3, Permutation, partielle Spearman)
-- Backup D: Sensitivitaetsanalysen mit alternativen Filtern
-
 ---
 
-## Plausibilitaets- und Vollstaendigkeitscheck dieser Vorlage
+## Plausibilitaetsnotiz
 
-Diese Vorlage wurde gegen die aktuellen Kernreports geprueft und auf direkte Foliennutzbarkeit umgebaut.
+Diese Fassung trennt bewusst zwischen:
+- robusten Aussagen (korrigiert signifikant) und
+- Tendenzaussagen (roh signifikant, grenzwertig oder konsistent gerichtet).
 
-Plausibilitaet:
-
-- Schluesselzahlen (z. B. 161/93/36; 0 Holm-signifikante Taxa im Koeder-Haeufigkeitsvergleich) sind konsistent mit den zitierten Summary-Dateien.
-- Visibility-Interpretation folgt dem aktuellen adjustierten Nullbefund.
-- Aussagen trennen robust (korrigiert signifikant) und explorativ (roh signifikant).
-
-Vollstaendigkeit:
-
-- Alle zentralen Ergebnisbloeke enthalten: Standort, Koeder, Verhalten, Fish-vs-Algae, Visibility, Robustheit.
-- Ein durchgaengiger Folienplan mit Sprechtext und Priorisierung ist enthalten.
-- Quellen- und QA-Bereich fuer finalen PowerPoint-Bau ist enthalten.
-
-Direkt-nutzbar-fuer-PowerPoint:
-
-- Du kannst die 16 Folien 1:1 aus Abschnitt 12 uebernehmen.
-- Abschnitt 2 liefert die Intro-Slide; Abschnitt 11 die Schlussfolie.
-- Abschnitt 13 dient als Appendix und als Check vor finalem Export.
+Damit sind Ueberinterpretationen einzelner Rohsignale vermeidbar, ohne informative Muster zu verlieren.
