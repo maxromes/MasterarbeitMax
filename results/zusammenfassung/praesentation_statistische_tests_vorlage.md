@@ -11,6 +11,7 @@ Die Daten zeigen ein klares, aber je nach Analyseebene unterschiedlich starkes M
 - Die Verhaltensannotationen `feeding` und `interested` sind miteinander verwandt, aber nicht identisch. Sie zeigen teils ueberschneidende, teils standortspezifische Signale.
 - In einer fokussierten Nursery-Sensitivitaet (`algaemix` vs `mackerel`, Feeding, 2 vordefinierte Taxa) zeigen sich sehr starke Effekte; Holm bleibt knapp ueber 0.05, BH ist signifikant.
 - Auch strengere Sensitivitaetsanalysen fuehren nicht zu neuen robusten Taxa-Effekten; die Hauptergebnisse bleiben stabil.
+- Sichtanalysen: bivariate Sicht-Signale fuer MaxN/Richness sind vorhanden, bleiben aber nach Kontrolle fuer Standort+Koeder und in Robustheitschecks nicht robust signifikant.
 
 ## 2. Welche statistischen Tests wurden durchgefuehrt?
 
@@ -194,6 +195,20 @@ Kommt `family_label::groupers (serranidae)` bei den Koedern `mackerel` und `fisc
 **Vortragsreife Formulierung:**
 
 > Groupers zeigen eine plausible Vorliebe fuer `mackerel` und `fischmix`, aber die Stichprobe reicht nicht fuer einen signifikanten Nachweis pro Standort.
+
+### 3.7 Sichtanalyse (Visibility)
+
+Quelle: [Sicht-Gesamtbewertung](../visibility_analysis/visibility_gesamtbewertung.md)
+
+Kernaussagen:
+- Bivariat zeigt Sicht positive Zusammenhaenge mit `maxn_video_peak` und `species_richness`.
+- In adjustierten Modellen (`+ standort + koeder`) bleibt kein robuster Sicht-Effekt.
+- Zusatztests (blockierte Permutation, Quadratik, Quantilsregression, Holm/BH/Bonferroni/BY) bestaetigen den Nullbefund.
+- Standort-stratifiziert ebenfalls kein robuster Sicht-Effekt; bei kleinem n sind HC3-CIs teils instabil, permutationbasierte Befunde bleiben konsistent.
+
+Vortragsreife Formulierung:
+
+> Sicht beeinflusst die Rohbeobachtung, erklaert aber nach Kontrolle von Standort und Koeder die Endpunkte nicht eigenstaendig robust.
 
 ## 5. Wo liegen die staerksten Signale?
 

@@ -10,6 +10,7 @@ Die Daten zeigen ein klares, aber je nach Analyseebene unterschiedlich starkes M
 - Auf Koeder-Ebene ist die Zusammensetzung der Taxa pro Standort zwar global unterschiedlich, aber einzelne Koederpaare bleiben nach Holm-Korrektur meist nicht signifikant.
 - Die Verhaltensannotationen `feeding` und `interested` sind miteinander verwandt, aber nicht identisch. Sie zeigen teils ueberschneidende, teils standortspezifische Signale.
 - Auch strengere Sensitivitaetsanalysen fuehren nicht zu neuen robusten Taxa-Effekten; die Hauptergebnisse bleiben stabil.
+- Sichtanalysen: bivariate Sicht-Signale fuer MaxN/Richness sind vorhanden, bleiben aber nach Kontrolle fuer Standort+Koeder und in Robustheitschecks nicht robust signifikant.
 
 ## 2. Welche statistischen Tests wurden durchgefuehrt?
 
@@ -328,6 +329,24 @@ Prioritaet fuer die naechste Auswertung waere deshalb:
 ## 12. Kurzfazit fuer die Schlussfolie
 
 > Der Koedervergleich zeigt einen klaren funktionellen Unterschied zwischen Fisch- und Algenkoedern, aber die robusten Signale liegen auf der Fischseite. Algenkoeder locken zwar vereinzelt andere Taxa an, doch diese Tendenzen sind nach Holm- oder BH-Korrektur nicht stabil genug, um als gesicherter Algenvorteil zu gelten.
+
+## 12a. Sichtanalyse (Visibility) fuer die Praesentation
+
+Quelle: [Sicht-Gesamtbewertung](visibility_analysis/visibility_gesamtbewertung.md)
+
+Kernaussagen:
+- Bivariat zeigt Sicht positive Zusammenhaenge mit `maxn_video_peak` und `species_richness`.
+- In adjustierten Modellen (`+ standort + koeder`) bleibt kein robuster Sicht-Effekt.
+- Zusatztests (blockierte Permutation, Quadratik, Quantilsregression, Holm/BH/Bonferroni/BY) bestaetigen den Nullbefund.
+- Standort-stratifiziert ebenfalls kein robuster Sicht-Effekt; bei kleinem n sind HC3-CIs teils instabil, permutationbasierte Befunde bleiben konsistent.
+
+Vortragsreife Formulierung:
+
+> Sicht beeinflusst die Rohbeobachtung, erklaert aber nach Kontrolle von Standort und Koeder die Endpunkte nicht eigenstaendig robust.
+
+Ein-Satz fuer die Schlussfolie:
+
+> Sicht ist als Messkontext relevant, aber nach Kovariatenkontrolle kein eigenstaendiger Treiber der Hauptendpunkte.
 
 ## 13. Zusatzanalysen zu den offenen Punkten 1-3
 

@@ -183,6 +183,22 @@ def main() -> None:
         f.write("- Der zuvor beobachtete bivariate Zusammenhang mit MaxN und Species Richness wird damit weitgehend durch Standort-/Koedereffekte erklaert.\n")
         f.write("- Fuer Schlussfolgerungen sollten primaer die adjustierten Effektschaetzungen berichtet werden.\n")
 
+        f.write("\n## Weitere Tests (Robustheit)\n\n")
+        f.write("Zusatzanalysen wurden in results/visibility_analysis/visibility_additional_tests_summary.md dokumentiert. Kurzfassung:\n\n")
+        f.write("- Blockierter Permutationstest (Permutation innerhalb Standort x Koeder) bestaetigt die Nullbefunde fuer alle Endpunkte (alle unadjustierten p >= 0.418; BH-q >= 0.721).\n")
+        f.write("- Nichtlinearitaetstest (Quadratik-Term der Sichtweite) zeigt keinen Hinweis auf gekruemmte Zusammenhaenge (alle p >= 0.667; BH-q = 0.988).\n")
+        f.write("- Median-Quantilsregression zeigt nur fuer first_seen_median_sec ein nominales Signal (p = 0.031), das nach Mehrfachtest-Korrektur nicht robust bleibt (BH-q = 0.093; Holm-q = 0.093; Bonferroni-q = 0.093).\n")
+        f.write("- Ergebnisstabilitaet ueber Korrekturverfahren: BH, Holm, Bonferroni und BY fuehren durchgehend zur gleichen inhaltlichen Schlussfolgerung (kein robuster Sicht-Effekt).\n")
+
+        f.write("\n## Standort-stratifizierte Zusatzanalyse\n\n")
+        f.write("Die standortweise Analyse ist in results/visibility_analysis/visibility_site_stratified_tests_summary.md dokumentiert.\n\n")
+        f.write("- Auch getrennt nach milimani, nursery und utumbi bleibt kein robuster Sicht-Effekt nach Korrektur fuer multiples Testen bestehen.\n")
+        f.write("- Blockierte Permutationstests innerhalb Koeder bestaetigen ebenfalls die Nullbefunde (alle BH-q = 1.0).\n")
+        f.write("- Damit gibt es keinen Hinweis, dass der Sicht-Effekt nur lokal in einem einzelnen Standort auftritt.\n\n")
+        f.write("Hinweis zur Praezision:\n\n")
+        f.write("- Pro Standort sind die Stichproben klein (n = 11 bis 18) bei gleichzeitig mehreren Koeder-Kategorien.\n")
+        f.write("- Daher sind standortweise HC3-Intervalle teilweise numerisch instabil (teilweise +/- unendlich); die Permutationsergebnisse sind hier die robustere Orientierung.\n")
+
 
 if __name__ == "__main__":
     main()

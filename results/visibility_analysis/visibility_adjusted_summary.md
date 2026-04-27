@@ -34,11 +34,11 @@ Stand: 2026-04-27
 
 ## Weitere Tests (Robustheit)
 
-Zusatzanalysen wurden in `results/visibility_analysis/visibility_additional_tests_summary.md` dokumentiert. Kurzfassung:
+Zusatzanalysen wurden in results/visibility_analysis/visibility_additional_tests_summary.md dokumentiert. Kurzfassung:
 
 - Blockierter Permutationstest (Permutation innerhalb Standort x Koeder) bestaetigt die Nullbefunde fuer alle Endpunkte (alle unadjustierten p >= 0.418; BH-q >= 0.721).
 - Nichtlinearitaetstest (Quadratik-Term der Sichtweite) zeigt keinen Hinweis auf gekruemmte Zusammenhaenge (alle p >= 0.667; BH-q = 0.988).
-- Median-Quantilsregression zeigt nur fuer `first_seen_median_sec` ein nominales Signal (p = 0.031), das nach Mehrfachtest-Korrektur nicht robust bleibt (BH-q = 0.093; Holm-q = 0.093; Bonferroni-q = 0.093).
+- Median-Quantilsregression zeigt nur fuer first_seen_median_sec ein nominales Signal (p = 0.031), das nach Mehrfachtest-Korrektur nicht robust bleibt (BH-q = 0.093; Holm-q = 0.093; Bonferroni-q = 0.093).
 - Ergebnisstabilitaet ueber Korrekturverfahren: BH, Holm, Bonferroni und BY fuehren durchgehend zur gleichen inhaltlichen Schlussfolgerung (kein robuster Sicht-Effekt).
 
 ## Standort-stratifizierte Zusatzanalyse

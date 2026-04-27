@@ -1,6 +1,6 @@
 # Vollstaendige Liste signifikanter Ergebnisse aus allen bisherigen Analysen
 
-Stand: 2026-04-25
+Stand: 2026-04-27
 
 ## Leseschluessel
 - Robust signifikant: nach Mehrfachtestkorrektur (Holm oder BH/FDR) signifikant.
@@ -194,6 +194,30 @@ Ein Teil der Fish-vs-Algae-Signale bleibt auch unter Standortkontrolle erhalten.
 - Taxa-Haeufigkeit nach Koeeder (pro Standort): 0 Holm-signifikante Taxa in Milimani, Utumbi und Nursery.
 - Sensitivitaetsanalyse (FDR + Vorkommensfilter) dieser Koeeder-MaxN-Tests: weiterhin 0 FDR-signifikante Taxa in allen Standorten.
 - Viele Rohsignale bleiben somit plausibel, aber inferenzstatistisch explorativ.
+- Sichtanalysen (bivariat vs adjustiert): Rohsignale fuer MaxN und Species Richness sind vorhanden, verschwinden aber robust nach Kontrolle fuer Standort und Koeder (HC3/Permutation/partielle Spearman, Zusatztests und standort-stratifizierte Modelle).
+
+## 9) Sicht-Analysen (Update 2026-04-27)
+
+### Bivariat (deskriptiv)
+| Metrik | Spearman rho | p | BH-q | Einordnung |
+|---|---:|---:|---:|---|
+| maxn_video_peak | 0.467 | 0.00108 | 0.00161 | roh/FDR-signifikant |
+| species_richness | 0.563 | 0.000046 | 0.000138 | roh/FDR-signifikant |
+| first_seen_median_sec | 0.160 | 0.289 | 0.289 | nicht signifikant |
+
+### Adjustiert (primaer)
+| Modellfamilie | Kernergebnis |
+|---|---|
+| OLS + HC3 + Standort+Koeder | kein robuster Sicht-Effekt |
+| Permutationstest (global/blockiert) | kein robuster Sicht-Effekt |
+| Partielle Spearman-Korrelation | kein robuster Sicht-Effekt |
+| Nichtlinearitaet (Quadratik) | kein robuster Sicht-Effekt |
+| Quantilsregression (Median) | nominales Signal fuer First Seen, aber nicht multipeltest-robust (BH-q=0.093) |
+| Standort-stratifiziert | kein robuster Sicht-Effekt in irgendeinem Standort |
+
+Kurzinterpretation:
+- Die Sicht zeigt in Rohanalysen einen plausiblen Detektierbarkeitszusammenhang.
+- Nach Kontrolle der starken Gruppenstruktur (Standort/Koeder) bleibt kein unabhaengiger Sicht-Effekt robust bestehen.
 
 ## Gesamteinschaetzung
 Die robustesten und konsistentesten Signale liegen auf zwei Ebenen:

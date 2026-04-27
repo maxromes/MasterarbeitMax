@@ -90,6 +90,11 @@ def main() -> None:
         message="divide by zero encountered in divide",
         category=RuntimeWarning,
     )
+    warnings.filterwarnings(
+        "ignore",
+        message="invalid value encountered in divide",
+        category=RuntimeWarning,
+    )
 
     df = pd.read_csv(INPUT)
     df = df[df["visibility_mean"].notna()].copy()
