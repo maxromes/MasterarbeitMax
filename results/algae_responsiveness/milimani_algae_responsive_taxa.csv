@@ -1,0 +1,15 @@
+taxon,family,is_herbivore,algae_n_videos,fish_n_videos,algae_median,fish_median,algae_mean,fish_mean,median_diff_algae_minus_fish,mean_diff_algae_minus_fish,p_value,cliffs_delta_algae_minus_fish,p_value_holm,p_value_bh
+genus::genus naso,,False,10,4,0.5,0.0,0.6,0.0,0.5,0.6,0.05595640321758872,0.5,0.7833896450462421,0.3363502647275755
+species::slingjaw (epibulus insidiator),,False,10,4,0.5,0.0,0.6,0.0,0.5,0.6,0.05595640321758872,0.5,0.7833896450462421,0.3363502647275755
+species::chevroned (chaetodon trifascialis),,False,10,4,1.0,0.0,0.7,0.25,1.0,0.44999999999999996,0.08092954673205605,0.45,0.9711545607846725,0.3363502647275755
+species::bullethead (chlorurus sordidus),,False,10,4,2.5,1.5,2.6,2.25,1.0,0.3500000000000001,0.19109646115255968,0.325,1.0,0.3363502647275755
+species::brown pigmy (centropyge multispinis),,False,10,4,2.5,1.5,2.5,1.75,1.0,0.75,0.1922001512729003,0.325,1.0,0.3363502647275755
+family_label::puffers (tetraodontidae),puffers (tetraodontidae),False,10,4,1.0,0.0,0.9,0.5,1.0,0.4,0.18153116784286943,0.325,1.0,0.3363502647275755
+species::blackeye (hemigymnus melapterus),,False,10,4,1.0,0.5,0.8,0.5,0.5,0.30000000000000004,0.16071425494927238,0.3,1.0,0.3363502647275755
+species::trumpetfish (aulostomus chinensis),,False,10,4,1.0,0.5,0.8,0.5,0.5,0.30000000000000004,0.16071425494927238,0.3,1.0,0.3363502647275755
+species::swarthy (scarus niger),,False,10,4,1.0,0.5,0.7,0.5,0.5,0.19999999999999996,0.27595996842916476,0.2,1.0,0.3939553947787308
+genus::genus chromis,,False,10,4,49.5,28.0,61.5,35.75,21.5,25.75,0.3095363816118599,0.2,1.0,0.3939553947787308
+species::lined bristletooth (ctenochaetus striatus),,False,10,4,4.0,3.5,4.2,4.25,0.5,-0.04999999999999982,0.3021313617489584,0.2,1.0,0.3939553947787308
+species::disappearing (pseudocheilinus evanidus),,False,10,4,0.5,0.0,0.8,1.0,0.5,-0.19999999999999996,0.3762431905460753,0.125,1.0,0.43895038897042116
+species::mozambique fangblenny (meiacanthus mossambicus),,False,10,4,1.0,0.5,1.0,1.0,0.5,0.0,0.41169055512535724,0.1,1.0,0.4433590593657693
+family_label::parrotfishes (scaridae),parrotfishes (scaridae),False,10,4,5.0,4.5,7.7,6.75,0.5,0.9500000000000002,0.4716895028304442,0.05,1.0,0.47168950283044414
