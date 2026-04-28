@@ -1,0 +1,13 @@
+site,family,family_common,algae_n_videos,fish_n_videos,algae_maxn_median,fish_maxn_median,algae_maxn_mean,fish_maxn_mean,median_diff_algae_minus_fish,mean_diff_algae_minus_fish,p_value,cliffs_delta,p_value_holm
+milimani,acanthuridae,surgeonfishes (Acanthuridae),10,4,5.0,22.5,5.0,28.75,-17.5,-23.75,0.9271298774200044,-0.475,1.0
+milimani,blenniidae,blennies (Blenniidae),10,4,1.0,0.5,1.0,1.0,0.5,0.0,0.41169055512535724,0.1,1.0
+milimani,scaridae,parrotfishes (Scaridae),10,4,5.0,6.0,7.9,7.75,-1.0,0.15000000000000036,0.6910492790095024,-0.15,1.0
+milimani,siganidae,rabbitfishes (Siganidae),10,4,2.0,2.0,1.4,1.5,0.0,-0.10000000000000009,0.6065800168216238,-0.05,1.0
+utumbi,acanthuridae,surgeonfishes (Acanthuridae),9,5,3.0,3.0,2.888888888888889,5.0,0.0,-2.111111111111111,0.8542271115420151,-0.3111111111111111,1.0
+utumbi,blenniidae,blennies (Blenniidae),9,5,1.0,1.0,0.6666666666666666,1.2,0.0,-0.5333333333333333,0.922779991342866,-0.4,1.0
+utumbi,scaridae,parrotfishes (Scaridae),9,5,11.0,7.0,18.77777777777778,8.8,4.0,9.977777777777778,0.17426018598551823,0.3333333333333333,0.6970407439420729
+utumbi,siganidae,rabbitfishes (Siganidae),9,5,2.0,1.0,1.6666666666666667,0.8,1.0,0.8666666666666667,0.284497648076765,0.2,0.853492944230295
+nursery,acanthuridae,surgeonfishes (Acanthuridae),6,4,22.0,4.5,23.333333333333332,5.5,17.5,17.833333333333332,0.006960956664071987,1.0,0.02784382665628795
+nursery,blenniidae,blennies (Blenniidae),6,4,0.0,0.5,0.0,0.75,-0.5,-0.75,0.9760292728307393,-0.5,1.0
+nursery,scaridae,parrotfishes (Scaridae),6,4,7.0,8.5,7.666666666666667,7.75,-1.5,-0.08333333333333304,0.5428367073514132,0.0,1.0
+nursery,siganidae,rabbitfishes (Siganidae),6,4,4.0,1.0,4.0,1.75,3.0,2.25,0.11241961790395649,0.5,0.3372588537118695
