@@ -1,6 +1,6 @@
 # Statistische Gesamtauswertung: Standort, Koeder, Verhalten und funktionelle Reaktionen
 
-Stand: 2026-04-28
+Stand: 2026-08-11
 
 Diese Datei ist eine fachliche Gesamtdarstellung der wichtigsten statistischen Befunde.
 Der Schwerpunkt liegt auf:
@@ -40,6 +40,7 @@ Methodischer Rahmen:
 - Taxonweise Gruppenvergleiche: Kruskal-Wallis (global), Mann-Whitney U (paarweise)
 - Multiple Tests: primaer Holm; in Sensitivitaeten zusaetzlich BH/FDR
 - Kompositionsanalyse: PERMANOVA auf Jaccard-Distanzen
+- Bait × Standort-Interaktion: lineares Permutationsmodell auf log1p(MaxN) mit `bait_type + site + bait_type:site`, wobei Bait-Labels innerhalb der Standorte permutiert werden
 - Sichtanalyse: bivariate Korrelationen sowie adjustierte Modelle mit Standort- und Koederkontrolle
 
 Interpretationsregel:
@@ -589,6 +590,33 @@ Milimani
 1. Algenfressende Taxa koennen bei Algenkoedern tatsaechlich mehr Feeding zeigen.
 2. Das ist am klarsten in Nursery sichtbar.
 3. Die Wirkung ist nicht universell, sondern standortabhaengig.
+
+### 6.5 Zusätzlicher fehlender Test: Bait × Standort-Interaktion bei Herbivoren
+
+Die bisherige Interpretation war durch einzelne Standort- und Familienanalysen gut nachvollziehbar, aber noch nicht vollstaendig auf die zentrale Frage ausgerichtet: Ist der Algenkoeder-Effekt wirklich staerker als der Fischkoeder-Effekt, und variiert er zwischen Standorten?
+
+Um genau diese Frage zu beantworten, wurde ein zusatzlicher, standort-stratifizierter Permutationstest ausgefuehrt:
+
+- Modell: `log1p(MaxN) ~ bait_type + site + bait_type:site`
+- Bait-Labels wurden innerhalb der Standorte permutiert (site-stratifizierte Nullhypothese)
+- getestet fuer die vier a priori Herbivore-Familien: Acanthuridae, Siganidae, Scaridae, Blenniidae
+
+Ergebnisse:
+- Acanthuridae: Bait-Effekt p_perm = 0.0024, Bait × Standort-Interaktion p_perm = 0.0004
+- Siganidae: Bait-Effekt p_perm = 0.1012, Interaktion p_perm = 0.1768
+- Scaridae: Bait-Effekt p_perm = 0.8408, Interaktion p_perm = 0.6897
+- Blenniidae: Bait-Effekt p_perm = 0.1168, Interaktion p_perm = 0.2977
+
+Interpretation:
+- Der Effekt ist fuer Acanthuridae nur dann robust, wenn Standort und Bait gemeinsam modelliert werden.
+- Gerade bei Acanthuridae ist die Wirkung nicht universell, sondern klar standortabhaengig: Der Algenkoeder-Effekt ist im Nursery-Kontext stark, in Milimani/Utumbi nicht vergleichbar stark.
+- Fuer Siganidae, Scaridae und Blenniidae bleibt die Evidenz nach Interaktionskontrolle schwach oder nicht robust.
+
+Diese Prüfung schliesst die wichtigste methodische Luecke: Die bisherige Auswertung konnte zeigen, dass dort ein Effekt vorliegt, aber sie konnte nicht komplett abbilden, dass dieser Effekt durch Standortkontexte bestimmt wird. Die Daten sprechen damit fuer eine context-dependent herbivore response statt fuer eine generische, allstandorts gueltige Algenkoeder-Wirkung.
+
+**Biologische Schlussfolgerung:**
+- Der Effekt ist nicht "global", sondern "standort-spezifisch und familienabhängig".
+- Dies ist konsistent mit der Gesamtinterpretation, dass die Hypothese in Nursery eindeutig am staerksten unterstuetzt wird, in den Korallenriff-Standorten aber nur Tendenzen oder keine robusten Nachweise zeigt.
 
 ---
 
