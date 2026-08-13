@@ -1,0 +1,13 @@
+signal,label,family,sites,n_algae_total,n_algae_present,n_fish_total,n_fish_present,algae_presence_rate,fish_presence_rate,table,odds_ratio,fisher_p,expected_direction,fisher_p_bh,sig_bh_0_05
+coral_muraenidae,Coral reef: Muraenidae,muraenidae,"milimani, utumbi",19,0,9,5,0.0,0.5555555555555556,"[[ 0 19]
+ [ 5  4]]",0.0,0.001282051282051282,fish > algae,0.007692307692307693,True
+coral_siganidae,Coral reef: Siganidae,siganidae,"milimani, utumbi",19,12,9,6,0.631578947368421,0.6666666666666666,"[[12  7]
+ [ 6  3]]",0.8571428571428571,0.7222661396574441,algae > fish,1.0,False
+coral_balistidae,Coral reef: Balistidae,balistidae,"milimani, utumbi",19,19,9,9,1.0,1.0,"[[19  0]
+ [ 9  0]]",,1.0,fish > algae,1.0,False
+coral_labridae,Coral reef: Labridae,labridae,"milimani, utumbi",19,19,9,9,1.0,1.0,"[[19  0]
+ [ 9  0]]",,1.0,fish > algae,1.0,False
+coral_scaridae,Coral reef: Scaridae,scaridae,"milimani, utumbi",19,19,9,9,1.0,1.0,"[[19  0]
+ [ 9  0]]",,1.0,algae > fish,1.0,False
+nursery_acanthuridae,Nursery: Acanthuridae,acanthuridae,nursery,6,6,4,4,1.0,1.0,"[[6 0]
+ [4 0]]",,1.0,algae > fish,1.0,False

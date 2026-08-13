@@ -200,6 +200,25 @@ Beispiel B:
 - Spearman rho = 0.467, p = 0.00108, BH q = 0.00161
 - Interpretation: moderater positiver Rohzusammenhang
 
+### 3.5 Species-Richness-Standortvergleich als zusaetzlicher robuster Standortanker
+
+Quelle: [Standortvergleich/standortvergleich.md](Standortvergleich/standortvergleich.md)
+
+Globaltest:
+- Kruskal-Wallis species_richness ~ standort: H = 25.96, p = 2.31e-06
+
+Paarweise (Holm-korrigiert, alle signifikant):
+- Utumbi vs Nursery: p_Holm = 3.06e-05, Cliff's Delta = 0.995
+- Utumbi vs Milimani: p_Holm = 0.00268, Cliff's Delta = 0.637
+- Milimani vs Nursery: p_Holm = 0.00268, Cliff's Delta = 0.711
+
+Koeder-kontrollierter Zusatztest:
+- Stratifizierter Permutationstest (Utumbi vs Milimani | by bait): p = 0.0008
+
+Interpretation:
+- Die Standortstruktur bleibt auch bei koeder-kontrollierter Pruefung klar bestehen.
+- Das stuetzt die Kernaussage, dass Standort der dominierende Treiber ist, nochmals unabhaengig von den taxonweisen MaxN-Tests.
+
 ---
 
 ## 4. Konkrete Beispiele fuer Tendenzen und unklare Befunde
@@ -248,6 +267,22 @@ Interpretation:
 - Konfundierung durch Standort/Koeder ist plausibel.
 - Rohzusammenhang ist nicht gleich unabhaengiger Treibereffekt.
 
+### 4.4 Algae-Responsiveness (Reverse-Focus): nur begrenzt robust
+
+Quelle: [algae_responsiveness/algae_responsiveness_summary.md](algae_responsiveness/algae_responsiveness_summary.md)
+
+Muster:
+- Milimani: 14 Taxa mit Algen-Vorteil, 0 Holm-signifikant, 0 BH-signifikant
+- Utumbi: 14 Taxa mit Algen-Vorteil, 1 Holm-/BH-signifikantes Taxon
+- Nursery: 29 Taxa mit Algen-Vorteil, 0 Holm-signifikant, 0 BH-signifikant
+
+Ein robustes Einzelbeispiel (Utumbi):
+- species::bullethead (chlorurus sordidus): Cliff's Delta = 0.889, p = 0.0458, Algae-Median 3.0 vs Fish-Median 1.0
+
+Interpretation:
+- Es existieren klare Algen-Tendenzen in mehreren Taxa, aber nur sehr begrenzte korrigierte Robustheit.
+- Damit passt der Reverse-Focus zur Gesamtinterpretation: Die staerkste Algen-Unterstuetzung entsteht im gezielten Herbivore-/Feeding-Fokus, nicht im breiten All-Taxa-Screen.
+
 ### 2.5 Species-Richness-Zusatzauswertung
 
 Quelle: [species_richness_report/species_richness_additional_tests.md](species_richness_report/species_richness_additional_tests.md)
@@ -256,6 +291,218 @@ Ergebnisbild:
 - Der Standort ist fuer Species Richness robust signifikant, sowohl im Kruskal-Wallis-Test als auch in der Permutation.
 - Der Koeder-Faktor ist dagegen global nicht signifikant.
 - Auch paarweise bleibt der Standortkontrast deutlich, waehrend fuer Koeder nach Korrektur keine robusten Unterschiede mehr uebrig bleiben.
+
+Einordnung:
+
+---
+
+## 5. Weitere Tests, die die Ergebnisse weiter festigen koennen
+
+Die bisherigen Ergebnisse sind bereits klar in ihrer Richtung, aber es gibt mehrere sinnvolle Zusatzanalysen, die die Evidenz weiter absichern oder die Interpretation differenzieren.
+
+### 5.1 Effektgroessen und Konfidenzintervalle statt nur p-Werte
+
+Warum wichtig:
+- p-Werte allein sagen nichts darueber, wie gross oder praktisch relevant ein Effekt ist.
+- Bei vielen biologischen Vergleichsanalysen ist die Richtung und Starke der Differenz oft wichtiger als die rein formale Signifikanz.
+
+Sinnvolle Erweiterung:
+- Cliff's Delta fuer robuste, distributionsfreie Effektgroessen
+- Bootstrap-Konfidenzintervalle fuer mean differences
+- eta^2 oder epsilon^2 als groessere Effektmasse in Kruskal-Wallis-Analysen
+
+Interpretation:
+- Wenn ein Effekt sowohl signifikant als auch gross ist, wird die biologische Aussage deutlich tragfaehiger.
+- Wenn ein Effekt klein bleibt, trotz niedrigem p-Wert, ist die Evidenz eher vorsichtig zu bewerten.
+
+### 5.2 Permutationsbasierte Sensitivitaetsanalysen fuer die wichtigsten Hypothesen
+
+Warum wichtig:
+- Besonders bei kleinen Gruppengrössen (z.B. wenige Videos pro Koeder) ist die Verteilung von p-Werten empfindlich.
+- Permutationstests helfen, die Robustheit der Schlussfolgerung gegen kleine Abweichungen in der Verteilung zu prüfen.
+
+Sinnvolle Erweiterung:
+- Permutations-Tests fuer Mittelwertdifferenzen zwischen den wichtigsten Koederpaaren
+- Permutationstests fuer den globalen Bait-Effekt mit direkten und standortspezifischen Interaktionen
+- Permutations-Tests mit stratifizierter Permutation innerhalb von Standorten
+
+Interpretation:
+- Wenn ein Effekt sowohl nach Parametern als auch nach Permutation robust bleibt, ist er deutlich belastbarer.
+- Wenn der Effekt nur im klassischen Test erscheint, aber in Permutation verschwindet, ist Vorsicht geboten.
+
+### 5.3 Standort-stratifizierte Analysen statt rein globaler Vergleiche
+
+Warum wichtig:
+- Der Standort ist der dominante Strukturtreiber in den Daten.
+- Viele Koeder- und Sicht-Effekte koennen nur deshalb sichtbar werden, weil sie mit Standortkontexten zusammenfallen.
+
+Sinnvolle Erweiterung:
+- Analyse pro Standort mit Bait-Effekt getrennt
+- Vergleich innerhalb identischer Standort-Koeder-Kombinationen
+- Interaktionsmodell `bait_type * site` mit Permutation und Effektgrössen
+
+Interpretation:
+- Ein Effekt, der nur in einem Standort auftritt, ist biologisch interessant, aber nicht global generalisierbar.
+- Ein globaler Effekt mit konsistenter Richtung in mehreren Standorten ist stark belastbarer.
+
+### 5.4 Multivariat- und Dispersionstests zur Unterscheidung von Gruppenverschiebung vs. Streuung
+
+Warum wichtig:
+- PERMANOVA zeigt Unterschiede in der Gemeinschaftsstruktur, kann aber nicht sauber zwischen verschobenen Mittelwerten und unterschiedlicher Streuung unterscheiden.
+
+Sinnvolle Erweiterung:
+- PERMDISP (tests of multivariate dispersion)
+- Ordinationsplots (nMDS, PCoA) mit ellipses per Koeder oder Standort
+- Distanz zu Gruppenzentren als Zusatzmaass fuer Stabilitaet/Variabilitaet
+
+Interpretation:
+- Wenn die Gruppenvariablen nicht nur verschoben, sondern auch ungleich streuend sind, muss die biologische Interpretation genauer differenziert werden.
+- Das ist besonders wichtig bei der Interpretation von Koedereffekten auf die Komposition.
+
+### 5.5 Prevalence- und Occupancy-Sensitivitaet
+
+Warum wichtig:
+- Viele Taxa sind selten; ihre Signale koennen durch wenige extreme Videos entstehen.
+- Die Beurteilung sollte zwischen seltenen, doch stark reagierenden Taxa und frequenten, stabilen Taxa unterscheiden.
+
+Sinnvolle Erweiterung:
+- Anteil der Videos mit Nachweis je Taxon und Standort
+- Prevalence-gesteuerte Filter (z.B. nur Taxa mit Mindestnachweis in einem Anteil der Videos)
+- Vergleich von durchschnittlicher Haeufigkeit vs. prevalenter Nachweis
+
+Interpretation:
+- Ein Taxon mit hoher MaxN, aber niedriger Praevalenz kann biologisch anders interpretiert werden als ein Taxon, das in vielen Videos konsistent vorkommt.
+- So lassen sich "hotspot"-Effekte von robusten Community-Mustern trennen.
+
+### 5.6 Leave-one-out-Sensitivitaet und Resampling
+
+Warum wichtig:
+- Einzelne Videos oder kurze Zeitfenster koennen einen Effekt stark beeinflussen.
+- Ein Gutachter will wissen, ob das Ergebnis stabil ist oder an wenigen Ausreissern haengt.
+
+Sinnvolle Erweiterung:
+- Systematische Leave-one-video-out-Analysen fuer die wichtigsten Signale
+- Vergleich der Effektstaerke unter Entfernung eines einzelnen Videos
+- Fokus auf die biologisch zentralen Befunde: Nursery-Herbivore und Fish-vs-Algae-Hauptsignale
+
+Interpretation:
+- Wenn der Effekt bei jedem einzelnen Videoremoval in der gleichen Richtung bleibt, ist die Schlussfolgerung deutlich robuster.
+- Wenn er stark schwankt, sollte die Aussage entsprechend nuancierter formuliert werden.
+
+Quelle: [leave_one_video_out_sensitivity/leave_one_video_out_sensitivity.md](leave_one_video_out_sensitivity/leave_one_video_out_sensitivity.md)
+
+Ergebnis der systematischen LOO-Sensitivitaet:
+- Nursery-Acanthuridae bleibt auch bei jedem einzelnen Video-Remove signifikant (LOO-p-Werte: 0.0079 bis 0.0138).
+- Die koerperlich zentralen Fish-vs-Algae-Familien im Coral-Reef-Datensatz (Labridae, Balistidae, Muraenidae) bleiben ebenfalls unter jedem einzelnen Videoremoval durchgehend signifikant.
+- Damit ist der robuste Kern der Schlussfolgerungen nicht durch einzelne extreme Videos getrieben.
+- Der wichtigste Befund bleibt damit stabil: Die Haupteffekte sind real, aber standortabhaengig und nicht durch einen einzigen Ausreisser zu erklären.
+
+### 5.7 Präsenz-/Absenz-Modell als komplementärer Robustheitscheck
+
+Warum wichtig:
+- MaxN-Analysen zeigen vor allem, wie stark eine Gruppe in einem Video vertreten ist.
+- Ein echter Effekt kann aber auch als veraenderte Nachweiswahrscheinlichkeit interpretiert werden: ein Taxon ist auf Algenvideos häufiger überhaupt vorhanden, nicht nur intensiver.
+- Gerade bei Herbivoren und Fisch-vs-Algae-Mustern ist diese Unterscheidung wichtig, weil hohe MaxN-Werte auch durch wenige, sehr dichte Videos entstehen koennen.
+
+Methode:
+- Videoebene: jedes Taxon/Familie wird je Video als vorhanden/abwesend kodiert.
+- Vergleich zwischen Algen- und Fischvideos mit Fisher-Exact-Test, gerichtete Alternative entsprechend der biologischen Hypothese.
+- Fokus auf die wichtigsten biologischen Signale: Nursery-Acanthuridae, Coral-Reef-Labridae, Balistidae und Muraenidae.
+
+Ergebnis:
+- Nursery-Acanthuridae: kein robuster Prävalenzunterschied; beide Koedergruppen zeigen in praktisch allen Videos Vorhandensein. Das spricht dafür, dass hier der Kern des Effekts auf einer Dichte- oder Aktivitätsdifferenz beruht, nicht auf reiner Praesenz.
+- Coral-Reef-Muraenidae: klarstes Presence/Absence-Signal; auf Algenvideos war die Familie in keinem der 19 Videos vorhanden, auf Fischvideos in 5 von 9 Videos. Fisher-Exact p = 0.00128, BH-q = 0.00769.
+- Coral-Reef-Labridae und Balistidae: no robust prevalence effect; beide Familien waren in nahezu allen Algen- und Fischvideos präsent. Das deutet darauf hin, dass hier die Differenz nicht durch Vorkommen, sondern durch Groessen-/Dichteunterschiede oder Verhaltensunterschiede entsteht.
+- Coral-Reef-Siganidae und Scaridae: ebenfalls kein relevanter Präsenzunterschied, was die Interpretation stützt, dass die breitesten Fish-vs-Algae-Muster im MaxN-Raum stärker greifen als im binären Occurrence-Raum.
+
+Interpretation:
+- Das Präsenz-/Absenz-Modell ergänzt die MaxN- und LOO-Analysen, statt sie zu ersetzen.
+- Der robusteste Kern der biologischen Aussage liegt in der Kombination aus: (i) Konsistenz im MaxN-Bereich, (ii) Stabilitaet nach Videoremoval, und (iii) nur teilweise klarer Prevalence-Differenz bei einzelnen Familien.
+- Deshalb bleibt die sauberste Formulierung: Die wichtigsten Effekte sind real, aber biologisch vor allem als Dichte- und Intensitaetsmuster zu lesen, nicht als generelle Unterschiede im bloßen Vorkommen.
+
+### 5.8 Ranking von Evidenzstufen statt bloßer Signifikanzlabels
+
+Warum wichtig:
+- In biologischen Daten ist die Frage nicht nur, ob etwas signifikant ist, sondern wie stark und wie konsistent die Evidenz ist.
+
+Sinnvolle Erweiterung:
+- Robust = signifikant nach Holm, konsistent ueber Sensitivitaetsanalysen, kompatibel mit Effektgroessen
+- Bedingt = Richtung stabil, aber nur in Teilanalysen oder nach BH signifikant
+- Explorativ = nur roh signifikant oder nur in einer Teilmenge sichtbar
+
+Interpretation:
+- Diese Einordnung verhindert, dass eine einzelne p-Wert-Grenze zu stark und zu simplifiziert interpretiert wird.
+- Gerade fuer die Leitfrage "Algenkoeder vs. Fischkoeder" ist dies sehr hilfreich.
+
+### 5.9 Hurdle-Modell: Trennung von Praesenz- und Intensitaetseffekten
+
+Quelle: [hurdle_model/hurdle_model_focal_signals.md](hurdle_model/hurdle_model_focal_signals.md)
+
+Warum wichtig:
+- Das Praesenz-/Absenz-Modell und MaxN-Modelle beantworten unterschiedliche biologische Fragen.
+- Ein Hurdle-Ansatz trennt explizit: (i) kommt ein Taxon ueberhaupt vor und (ii) wie stark ist es, wenn es vorkommt.
+- Damit wird direkt sichtbar, ob Koedereffekte eher occurrence-getrieben oder dichte-/aktivitaetsgetrieben sind.
+
+Modellaufbau:
+- Stufe 1 (Praesenz): logistische Regression (bzw. Fisher-Fallback bei Separation) fuer Nachweis ja/nein.
+- Stufe 2 (Intensitaet): OLS auf log1p(MaxN) nur fuer Videos mit MaxN > 0 (HC3-robuste Standardfehler).
+- Korrektur: BH/FDR getrennt fuer Praesenz- und Intensitaetsteil ueber alle fokussierten Signale.
+
+Kernaussagen aus dem Ergebnis:
+- Nursery Acanthuridae: kein Praesenzsignal (beide Koedergruppen praktisch immer praesent), aber sehr starkes Intensitaetssignal zugunsten Algenkoeder (q_BH < 1e-4).
+- Coral Labridae und Balistidae: kein Praesenzsignal, aber robustes Intensitaetssignal in Richtung fish > algae.
+- Coral Muraenidae: robustes Praesenzsignal (Fisher-Fallback, q_BH = 0.00769), Intensitaetsteil wegen fehlender positiver Algen-Beobachtungen nicht stabil schaetzbar.
+- Coral Siganidae und Scaridae: weder im Praesenz- noch im Intensitaetsteil robust signifikant.
+
+Interpretation:
+- Der Zusatztest bestaetigt die bisherige Hauptlesart: Die staerksten Effekte liegen meist auf der Intensitaetsebene (MaxN bei Praesenz), nicht in einer pauschal veraenderten Nachweiswahrscheinlichkeit.
+- Gleichzeitig zeigt Muraenidae als Ausnahme ein klares Occurrence-Muster. Dadurch wird die biologische Einordnung praeziser: unterschiedliche Familien reagieren ueber unterschiedliche Mechanismen.
+
+---
+
+## 6. Grafik-Set zum Auswaehlen und Interpretieren
+
+Der neue Ordner [ergaenzende_statistische_grafiken/README.md](ergaenzende_statistische_grafiken/README.md) enthält ein umfangreiches Set an Abbildungen, das die wichtigsten Ergebnisse aus verschiedenen Perspektiven visualisiert.
+
+Die Sammlung deckt die folgenden Kategorien ab:
+- Standort-Haupteffekte
+- Koeder-Effekte auf die Gemeinschaftsstruktur
+- Fish-vs-Algae-Effektgroessen
+- Species Richness nach Standort
+- Visibility als Rohsignal und nach Adjustierung
+- Herbivore-Richtungseffekte
+- Evidenzstufen der wichtigsten Befunde
+- Hurdle-Zerlegung in Praesenz- vs. Intensitaetseffekte
+
+Die einzelnen Grafiken sind nicht nur dekorativ gedacht, sondern dienen dazu, die Ergebnisse in unterschiedlichen Interpretationsebenen zu vergleichen:
+- Grobe Effektstärke
+- Effektrichtung
+- Stabilitaet nach Korrektur
+- Beeinflussung durch Standorte
+- Erklaerungswert der Sichtweite
+- Biologische Plausibilitaet im a-priori Herbivore-Fokus
+
+So lassen sich verschiedene Formen der Belegkraft je nach Zielgruppe separat hervorheben:
+- fuer die fachliche Diskussion
+- fuer die Laborterminologie
+- fuer die Poster- oder Praesentation
+- fuer die kritische Einordnung von Signifikanz und Effektgroessen
+
+---
+
+## 7. Empfehlung fuer die finalen Schlussfolgerungen
+
+Wenn die Ergebnisse in der Praesentation oder im Manuskript festigen sollen, ist folgende Reihenfolge sinnvoll:
+
+1. Standort ist der dominanteste Effekt.
+2. Koeder beeinflussen die Gemeinschaftsstruktur global signifikant.
+3. Ein breiter Fish-vs-Algae-Vergleich zeigt eher fish-orientierte Muster.
+4. Im a priori Herbivore-Fokus und in der Nursery tritt jedoch eine klarere Algenkoeder-Response auf.
+5. Visibility ist im Rohmodell sichtbar, verliert aber nach Kontrolle fuer Standort und Koeder ihre Robustheit.
+6. Species Richness ist vor allem standortgetrieben und kein robuster Koeder-Effekt.
+7. Die Hurdle-Zerlegung zeigt, dass die staerksten Signale haeufig als Intensitaetsunterschiede und nur teilweise als Praesenzunterschiede auftreten.
+
+Diese Reihenfolge macht die Dateninterpretation nicht nur formal konsistent, sondern auch biologisch nachvollziehbar.
 
 Einordnung:
 - Species Richness folgt damit vor allem der Standortstruktur.
@@ -591,32 +838,34 @@ Milimani
 2. Das ist am klarsten in Nursery sichtbar.
 3. Die Wirkung ist nicht universell, sondern standortabhaengig.
 
-### 6.5 Zusätzlicher fehlender Test: Bait × Standort-Interaktion bei Herbivoren
+### 6.5 Durchgefuehrter Zusatztest 2: Einheitliches Bait x Standort-Interaktionsmodell
 
-Die bisherige Interpretation war durch einzelne Standort- und Familienanalysen gut nachvollziehbar, aber noch nicht vollstaendig auf die zentrale Frage ausgerichtet: Ist der Algenkoeder-Effekt wirklich staerker als der Fischkoeder-Effekt, und variiert er zwischen Standorten?
+Quelle: [core_endpoints_bait_site_interaction/core_endpoints_bait_site_interaction.md](core_endpoints_bait_site_interaction/core_endpoints_bait_site_interaction.md)
 
-Um genau diese Frage zu beantworten, wurde ein zusatzlicher, standort-stratifizierter Permutationstest ausgefuehrt:
+Fragestellung:
+- Bleiben Bait-Effekte bestehen, wenn zentrale Endpunkte in einem einheitlichen Modell mit Standort und Interaktion getestet werden?
 
-- Modell: `log1p(MaxN) ~ bait_type + site + bait_type:site`
-- Bait-Labels wurden innerhalb der Standorte permutiert (site-stratifizierte Nullhypothese)
-- getestet fuer die vier a priori Herbivore-Familien: Acanthuridae, Siganidae, Scaridae, Blenniidae
+Modell und Testlogik:
+- Modell: log1p(y) ~ bait_type + site + bait_type:site
+- Permutation: Bait-Labels innerhalb der Standorte (site-stratifizierte Nullhypothese)
+- Endpunkte: species_richness, maxn_video_peak, total_feeding_events, total_interested_events, herbivore_core_total_maxn sowie die vier Herbivore-Familien
+- Datengrundlage fuer das Modell: 38 Videos mit fish/algae-Koedern (controls ausgeschlossen)
 
-Ergebnisse:
-- Acanthuridae: Bait-Effekt p_perm = 0.0024, Bait × Standort-Interaktion p_perm = 0.0004
-- Siganidae: Bait-Effekt p_perm = 0.1012, Interaktion p_perm = 0.1768
-- Scaridae: Bait-Effekt p_perm = 0.8408, Interaktion p_perm = 0.6897
-- Blenniidae: Bait-Effekt p_perm = 0.1168, Interaktion p_perm = 0.2977
+Hauptergebnisse (BH-korrigiert):
+- Signifikante Bait-Effekte: 3 von 9 Endpunkten
+  - total_feeding_events: p_perm = 0.00010, q_BH = 0.00090, Richtung fish > algae
+  - herbivore_core_total_maxn: p_perm = 0.00290, q_BH = 0.00870, Richtung fish > algae
+  - herbivore_acanthuridae_maxn: p_perm = 0.00020, q_BH = 0.00090, Richtung fish > algae
+- Signifikante Bait x Standort-Interaktionen: 3 von 9 Endpunkten
+  - total_feeding_events: p_perm = 0.00010, q_BH = 0.00090
+  - herbivore_core_total_maxn: p_perm = 0.00090, q_BH = 0.00270
+  - herbivore_acanthuridae_maxn: p_perm = 0.00020, q_BH = 0.00090
+- Nicht robust signifikant: species_richness, maxn_video_peak, total_interested_events, siganidae, scaridae, blenniidae
 
 Interpretation:
-- Der Effekt ist fuer Acanthuridae nur dann robust, wenn Standort und Bait gemeinsam modelliert werden.
-- Gerade bei Acanthuridae ist die Wirkung nicht universell, sondern klar standortabhaengig: Der Algenkoeder-Effekt ist im Nursery-Kontext stark, in Milimani/Utumbi nicht vergleichbar stark.
-- Fuer Siganidae, Scaridae und Blenniidae bleibt die Evidenz nach Interaktionskontrolle schwach oder nicht robust.
-
-Diese Prüfung schliesst die wichtigste methodische Luecke: Die bisherige Auswertung konnte zeigen, dass dort ein Effekt vorliegt, aber sie konnte nicht komplett abbilden, dass dieser Effekt durch Standortkontexte bestimmt wird. Die Daten sprechen damit fuer eine context-dependent herbivore response statt fuer eine generische, allstandorts gueltige Algenkoeder-Wirkung.
-
-**Biologische Schlussfolgerung:**
-- Der Effekt ist nicht "global", sondern "standort-spezifisch und familienabhängig".
-- Dies ist konsistent mit der Gesamtinterpretation, dass die Hypothese in Nursery eindeutig am staerksten unterstuetzt wird, in den Korallenriff-Standorten aber nur Tendenzen oder keine robusten Nachweise zeigt.
+- Der globale Bait-Haupteffekt ist nicht einheitlich ueber alle Endpunkte, sondern konzentriert sich auf Feeding und Herbivore-MaxN.
+- Gleichzeitig zeigen genau diese Endpunkte robuste Interaktionen, also klare Standortabhaengigkeit der Effektstaerke.
+- Damit wird die Kernbotschaft geschaerft: Es gibt einen realen Fish-vs-Algae-Struktureffekt, aber seine Auspraegung ist kontextabhaengig und nicht als universeller Einheits-Effekt zu lesen.
 
 ---
 
@@ -680,8 +929,9 @@ Milimani ist fuer die Algen-Hypothese insgesamt schwach:
 
 1. Standort ist der staerkste Erklaerer.
 2. Der Standard-Funktionsvergleich findet vor allem fish > algae.
-3. Wenn man die biologische Hypothese gezielt auf Herbivore und Feeding fokussiert, entsteht ein klares Bild: Nursery bestaetigt die Algenhypothese deutlich.
-4. Der Effekt ist also real, aber nicht universell ueber alle Standorte.
+3. Das einheitliche Interaktionsmodell bestaetigt robuste Bait- und Interaktionseffekte fuer feeding_total, herbivore_core_total_maxn und acanthuridae.
+4. Diese Effekte sind standortabhaengig und damit nicht universell uebertragbar.
+5. Im eng gefassten a-priori Herbivore-Fokus bleibt Nursery weiterhin der staerkste Kontext fuer die Algenhypothese.
 
 ---
 
@@ -701,6 +951,42 @@ Milimani ist fuer die Algen-Hypothese insgesamt schwach:
 
 5. Standortabhaengige Oekologie
 - Es ist plausibel, dass die gleiche Art an einem Standort stark reagiert und an einem anderen kaum.
+
+### 9.1 Priorisierte Zusatztests und bereits durchgefuehrte Sensitivitaetschecks
+
+1. PERMDISP je Standort fuer den Koeder-Kompositionsvergleich
+- Ziel: Trennen, ob PERMANOVA-Signale eher durch Gruppenverschiebung oder unterschiedliche Dispersion getrieben sind.
+- Mehrwert: Direktere, methodisch sauberere Interpretation der Koedereffekte auf Community-Struktur.
+
+2. Bereits durchgefuehrt: Systematische Leave-one-video-out-Sensitivitaet
+- Fokus: robusteste und biologisch zentrale Befunde (v. a. Nursery-Herbivore, Fish-vs-Algae-Hauptsignale).
+- Ergebnis: Die Kernsignale bleiben auch nach Entfernen eines einzelnen Videos stabil.
+- Nursery Acanthuridae: LOO-p-Werte 0.0079-0.0138, also durchgehend signifikant.
+- Coral-Reef-Fish-vs-Algae-Familien: Labridae, Balistidae und Muraenidae bleiben unter jedem einzelnen Videoremoval signifikant.
+- Mehrwert: Zeigt explizit, dass einzelne Videos die Kernaussagen nicht dominieren.
+
+Hinweis: Zusatztest 2 (einheitliches Bait x Standort-Interaktionsmodell) wurde inzwischen durchgefuehrt und in Abschnitt 6.5 dokumentiert.
+
+3. Bootstrap-Konfidenzintervalle fuer priorisierte Effektgroessen
+- Effektgroessen: Cliff's Delta und Mittelwert-/Mediandifferenzen.
+- Mehrwert: Unsicherheit und Praezision der Effekte werden transparent statt nur p-wert-basiert.
+
+4. Praevalenz-/Occupancy-Analysen mit Mindestnachweis-Schwellen
+- Ziel: Trennung von seltenen Peak-Taxa gegenueber stabil haeufig nachgewiesenen Taxa.
+- Mehrwert: Robustere biologische Einordnung, welche Taxa konsistent auf Koeder reagieren.
+
+5. Erweiterte Mehrfachtest-Sensitivitaet als Standardreport
+- Neben Holm systematisch BH/FDR fuer alle Haupttabellen und priorisierte Familien.
+- Mehrwert: Vergleich von konservativer (Holm) und entdeckungsorientierter (FDR) Evidenzstufe.
+
+6. Praesenz/Absenz-Modelle fuer seltene, biologisch wichtige Taxa
+- Methodisch: logistische/Fisher-basierte Tests zusaetzlich zu MaxN.
+- Mehrwert: Bessere Aussage bei Null-lastigen Daten, in denen MaxN allein instabil sein kann.
+
+7. Bereits durchgefuehrt: Hurdle-Modell fuer fokussierte Signale
+- Quelle: [hurdle_model/hurdle_model_focal_signals.md](hurdle_model/hurdle_model_focal_signals.md)
+- Ergebnisbild: Effekte lassen sich sauber in Praesenz- und Intensitaetskomponente aufteilen; fuer mehrere Schluesselsignale liegt die Hauptinformation im Intensitaetsteil, waehrend Muraenidae ein klares Praesenzsignal zeigt.
+- Mehrwert: Konsistente methodische Bruecke zwischen Praesenz-/Absenz-Check und MaxN-basierten Tests.
 
 ---
 
@@ -722,10 +1008,14 @@ Milimani ist fuer die Algen-Hypothese insgesamt schwach:
   - [funktionsvergleich_feeding/funktionsvergleich_feeding_bericht.md](funktionsvergleich_feeding/funktionsvergleich_feeding_bericht.md)
 - Algae-Responsiveness (explorativer Reverse-Focus):
   - [algae_responsiveness/algae_responsiveness_summary.md](algae_responsiveness/algae_responsiveness_summary.md)
+- Einheitliches Bait x Standort-Interaktionsmodell (Kern-Endpunkte):
+  - [core_endpoints_bait_site_interaction/core_endpoints_bait_site_interaction.md](core_endpoints_bait_site_interaction/core_endpoints_bait_site_interaction.md)
 - Sichtanalyse:
   - [visibility_analysis/visibility_summary.md](visibility_analysis/visibility_summary.md)
   - [visibility_analysis/visibility_adjusted_summary.md](visibility_analysis/visibility_adjusted_summary.md)
   - [visibility_analysis/visibility_gesamtbewertung.md](visibility_analysis/visibility_gesamtbewertung.md)
+- Hurdle-Modell (Praesenz + Intensitaet):
+  - [hurdle_model/hurdle_model_focal_signals.md](hurdle_model/hurdle_model_focal_signals.md)
 
 ---
 
