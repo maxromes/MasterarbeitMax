@@ -1,6 +1,6 @@
 # Masterarbeit_Statistik
 
-Stand: 2026-08-13
+Stand: 2026-08-16
 
 Dieses Dokument ordnet die vorhandenen statistischen Ergebnisse entlang der zentralen Ziele und Hypothesen der Arbeit.
 Es trennt zwischen:
@@ -40,11 +40,18 @@ Fragestellung:
 2. Die staerkere Standortstruktur der Gesamtfauna bleibt als Hintergrundtreiber relevant.
 - Interpretation: Koedereffekte muessen standortkontextualisiert interpretiert werden.
 
+3. PERMDISP-Zusatztest (Jaccard-basiert) zeigt in allen Standorten signifikante Streuungsunterschiede zwischen Koedern.
+- Milimani: p = 0.0042, q_BH = 0.0063
+- Utumbi: p = 0.0176, q_BH = 0.0176
+- Nursery: p = 0.0018, q_BH = 0.0054
+- Interpretation: Die PERMANOVA-Signale koennen nicht rein als Lageverschiebung interpretiert werden; ein Teil der Evidenz wird durch unterschiedliche multivariate Streuung mitgetragen.
+
 ### 1.3 In den Anhang
 
 1. Vollstaendige Paarvergleichstabellen je Standort
 2. Overlap- und koederspezifische Taxalisten je Standort
 3. Alle Exporttabellen aus [results/artenvergleich_köder/artenvergleich_koeder_summary.md](results/artenvergleich_köder/artenvergleich_koeder_summary.md)
+4. Zusatzreport zu PERMDISP und Rarefaction aus [results/composition_robustness/composition_robustness_open_tests.md](results/composition_robustness/composition_robustness_open_tests.md)
 
 ---
 
@@ -78,11 +85,16 @@ Fragestellung:
 - Nursery Acanthuridae bleibt bei allen LOO-Laeufen signifikant (p-Bereich 0.0079-0.0138).
 - Interpretation: Der Haupteffekt ist nicht durch ein einzelnes Video getrieben.
 
+4. Bootstrap-CIs fuer priorisierte Effektgroessen (neu abgeschlossen):
+- Nursery Acanthuridae bleibt auch in den 95%-Bootstrap-CIs klar positiv (mean diff 17.83; CI [11.67, 25.33]).
+- Interpretation: Der zentrale H2-Befund ist nicht nur signifikant, sondern auch praezise und in der Effektgroesse substanziell.
+
 ### 2.3 In den Anhang
 
 1. Vollstaendige Familienlisten je Standort inklusive nicht signifikanter Tests
 2. Alle Effektgroessen-Detailtabellen
 3. Vollstaendige Hurdle-Ausgabe aus [results/hurdle_model/hurdle_model_focal_signals.md](results/hurdle_model/hurdle_model_focal_signals.md)
+4. Bootstrap-Tabellen aus [results/effectsize_bootstrap/prioritized_effectsize_bootstrap.md](results/effectsize_bootstrap/prioritized_effectsize_bootstrap.md)
 
 ---
 
@@ -106,11 +118,20 @@ Fragestellung:
 
 1. Interaktionsmodell ueber Kernendpunkte zeigt, dass Bait-Effekte bei Feeding-Ereignissen stark von Standortkontexten abhaengen.
 2. Fuer die Diskussion wichtig: Feeding-Ereignisse wurden als Ereignisvorkommen/Rate, nicht als Dauer, modelliert.
+3. Hierarchischer Mixed-Effects-Zusatztest auf Kernendpunkten (Random Intercept Standort):
+- first_seen_median_sec zeigt einen robusten fish-vs-algae-Effekt (Beta = -0.4665, q_Holm = 0.000417), konsistent mit frueheren Erstnachweisen unter fish.
+- Fuer species_richness und maxn_video_peak bleiben keine robusten fish-vs-algae-Effekte (q_Holm >= 0.2626).
+- Interpretation: Fish-vs-algae ist im hierarchischen Rahmen endpoint-spezifisch und nicht als uniforme Gesamtantwort ueber alle Kernendpunkte zu lesen.
+
+4. Prevalence-Threshold-Analyse (neu abgeschlossen):
+- Family-level-Occupancy mit Mindestnachweis-Schwellen zeigt nach BH/Holm je Standort kein robust signifikantes Richtungssignal (min q_Holm = 0.1199).
+- Interpretation: Die zentrale H3-Evidenz bleibt ein Intensitaets-/Rate-Effekt (Feeding), nicht ein breit robuster Praevalenz-Effekt.
 
 ### 3.3 In den Anhang
 
 1. Standortweise Verteilungsplots und alle Zwischenkennzahlen der Feeding-Raten
 2. Vollstaendige Vergleichstabellen aus [results/herbivore_analysis/herbivore_feeding_responsiveness.md](results/herbivore_analysis/herbivore_feeding_responsiveness.md)
+3. Occupancy-Threshold-Tabellen aus [results/prevalence_threshold_model/prevalence_threshold_model.md](results/prevalence_threshold_model/prevalence_threshold_model.md)
 
 ---
 
@@ -120,7 +141,7 @@ Die folgenden Formulierungen sind fuer den Ergebnisteil geeignet.
 
 ## 4.1 Formulierung zu H1 (Komposition)
 
-"Die standortspezifischen PERMANOVA-Analysen auf Jaccard-Distanzen zeigten in allen drei Untersuchungssettings signifikante Koedereffekte auf die Artenzusammensetzung (Milimani: p = 0.0242; Utumbi: p = 0.0046; Nursery: p = 0.0016). Im primaeren Riffvergleich blieb auch der gruppierte Kontrast zwischen Fisch- und Algenkoedern signifikant (Milimani: p = 0.0080; Utumbi: p = 0.0044). Damit wird H1 unterstuetzt: Koederbehandlung beeinflusst die Zusammensetzung der BRUVS-Assemblagen, wobei die Evidenz standortspezifisch interpretiert wird und die Nursery als separates Experiment zu lesen ist." 
+"Die standortspezifischen PERMANOVA-Analysen auf Jaccard-Distanzen zeigten in allen drei Untersuchungssettings signifikante Koedereffekte auf die Artenzusammensetzung (Milimani: p = 0.0242; Utumbi: p = 0.0046; Nursery: p = 0.0016). Im primaeren Riffvergleich blieb auch der gruppierte Kontrast zwischen Fisch- und Algenkoedern signifikant (Milimani: p = 0.0080; Utumbi: p = 0.0044). Ergaenzende PERMDISP-Tests waren ebenfalls in allen Standorten signifikant (BH-korrigiert), was auf zusaetzliche Streuungsunterschiede zwischen Koedern hinweist. Damit wird H1 unterstuetzt: Koederbehandlung beeinflusst die Zusammensetzung der BRUVS-Assemblagen, wobei die Evidenz standortspezifisch interpretiert wird und Lage- sowie Streuungskomponenten gemeinsam zu diskutieren sind." 
 
 ## 4.2 Formulierung zu H2 (Herbivore-MaxN)
 
@@ -149,6 +170,14 @@ Die folgenden Formulierungen sind fuer den Ergebnisteil geeignet.
 
 4. Inferenzgrenzen
 - Kleine und unbalancierte Zellgroessen, Mehrfachtest-Last, und standortabhaengige Generalisierbarkeit.
+
+5. Lage- vs. Streuungseffekte in der Komposition
+- Signifikante PERMDISP-Befunde in allen Standorten bedeuten, dass PERMANOVA nicht als reiner Zentroid-Effekt gelesen werden darf.
+- Interpretation der Koedereffekte deshalb immer gemeinsam mit Dispersion und Samplingstruktur.
+
+6. Hierarchische Modellierung als Robustheitsbaustein
+- Mixed-Effects-Ergebnisse bestaetigen die starke Kontextabhaengigkeit: robuste fish-vs-algae-Signale sind nicht ueber alle Endpunkte konsistent.
+- Fuer Gesamtinferenz deshalb immer Kombination aus standortgetrennten Haupttests und hierarchischem Zusatzmodell berichten.
 
 ---
 
@@ -182,3 +211,7 @@ Empfohlene Versionsregel:
 - Praesenz/Absenz: [results/presence_absence_model/presence_absence_model.md](results/presence_absence_model/presence_absence_model.md)
 - Hurdle-Modell: [results/hurdle_model/hurdle_model_focal_signals.md](results/hurdle_model/hurdle_model_focal_signals.md)
 - LOO-Sensitivitaet: [results/leave_one_video_out_sensitivity/leave_one_video_out_sensitivity.md](results/leave_one_video_out_sensitivity/leave_one_video_out_sensitivity.md)
+- Kompositions-Robustheit (PERMDISP + Rarefaction): [results/composition_robustness/composition_robustness_open_tests.md](results/composition_robustness/composition_robustness_open_tests.md)
+- Mixed-Effects Kernendpunkte: [results/mixed_effects_core_endpoints/mixed_effects_core_endpoints.md](results/mixed_effects_core_endpoints/mixed_effects_core_endpoints.md)
+- Bootstrap-Effektgroessen: [results/effectsize_bootstrap/prioritized_effectsize_bootstrap.md](results/effectsize_bootstrap/prioritized_effectsize_bootstrap.md)
+- Prevalence-Threshold-Modell: [results/prevalence_threshold_model/prevalence_threshold_model.md](results/prevalence_threshold_model/prevalence_threshold_model.md)

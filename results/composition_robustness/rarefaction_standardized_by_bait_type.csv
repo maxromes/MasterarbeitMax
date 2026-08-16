@@ -1,0 +1,7 @@
+standort,bait_type,n_videos,k_standardized_videos,rarefied_union_richness_mean,rarefied_union_richness_ci95_low,rarefied_union_richness_ci95_high,observed_union_richness
+milimani,algae,10,4,71.87875,63.0,81.0,89
+milimani,fish,4,4,77.0,77.0,77.0,77
+nursery,algae,6,4,58.302,54.0,63.0,65
+nursery,fish,4,4,67.0,67.0,67.0,67
+utumbi,algae,9,5,89.2765,85.0,94.0,101
+utumbi,fish,5,5,92.0,92.0,92.0,92
