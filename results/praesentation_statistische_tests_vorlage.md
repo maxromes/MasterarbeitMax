@@ -1,6 +1,6 @@
 # Statistische Gesamtauswertung: Standort, Koeder, Verhalten und funktionelle Reaktionen
 
-Stand: 2026-08-11
+Stand: 2026-08-16
 
 Diese Datei ist eine fachliche Gesamtdarstellung der wichtigsten statistischen Befunde.
 Der Schwerpunkt liegt auf:
@@ -86,6 +86,33 @@ Einordnung:
 - Der robuste Effekt liegt auf globaler Ebene, nicht zwingend in einzelnen Paarvergleichen.
 - Diese Analyse sagt aber noch nicht, ob Algenkoeder speziell Algenfresser bevorzugen. Sie zeigt nur, dass sich die Gemeinschaften zwischen Koedern unterscheiden.
 
+### 2.2a PERMDISP-Zusatztest (offener Punkt jetzt abgeschlossen)
+
+Quelle: [composition_robustness/composition_robustness_open_tests.md](composition_robustness/composition_robustness_open_tests.md)
+
+PERMDISP (Jaccard-basiert, 5000 Permutationen) je Standort:
+- Milimani: F = 18.4544, p = 0.0042, q_BH = 0.0063
+- Utumbi: F = 4.6927, p = 0.0176, q_BH = 0.0176
+- Nursery: F = 17.7449, p = 0.0018, q_BH = 0.0054
+
+Einordnung:
+- Die Kompositionssignale aus PERMANOVA bleiben statistisch klar, sind aber nicht als reine Zentroid-Verschiebung zu lesen.
+- Streuungsunterschiede zwischen Koedern tragen in allen Standorten messbar mit.
+- Fuer den Ergebnisteil bedeutet das: Koeder beeinflussen die Community-Struktur robust, aber der Mechanismus umfasst Lage- und Dispersionseffekte.
+
+### 2.2b Rarefaction / Sampling-Normalisierung (offener Punkt jetzt abgeschlossen)
+
+Quelle: [composition_robustness/composition_robustness_open_tests.md](composition_robustness/composition_robustness_open_tests.md)
+
+Fish-vs-Algae auf bait-type-Ebene (video-standardisiert):
+- Milimani (k = 4): rarefied richness fish = 77.0 vs algae = 71.88 [63, 81]
+- Utumbi (k = 5): fish = 92.0 vs algae = 89.28 [85, 94]
+- Nursery (k = 4): fish = 67.0 vs algae = 58.30 [54, 63]
+
+Einordnung:
+- Nach Standardisierung auf gleiche Videozahlen bleibt keine konsistente algae-dominierte Richness-Signatur erkennbar.
+- Das stuetzt die Lesart, dass starke Algensignale primaer im fokussierten Herbivore-/Feeding-Kontext liegen, nicht als generelle Community-Richness-Ueberlegenheit.
+
 ### 2.3 Fish-vs-Algae im Standard-Funktionsvergleich
 
 Quelle: [funktionsvergleich/funktionsvergleich_bericht.md](funktionsvergleich/funktionsvergleich_bericht.md)
@@ -109,6 +136,23 @@ Quellen:
 Robuster Schluss:
 - Bivariat sind Zusammenhaenge mit MaxN und Richness sichtbar.
 - Nach Kontrolle fuer Standort + Koeder bleibt kein robuster, unabhaengiger Sicht-Effekt.
+
+### 2.4a Mixed-Effects-Modell der Kernendpunkte (hierarchischer Zusatztest)
+
+Quelle: [mixed_effects_core_endpoints/mixed_effects_core_endpoints.md](mixed_effects_core_endpoints/mixed_effects_core_endpoints.md)
+
+Modellrahmen:
+- Endpoint-spezifische Modelle (log1p-Response), fixed: bait_type + visibility_z, random intercept: Standort.
+
+Ergebnisse (fish vs algae):
+- species_richness: Beta = -0.0240, p = 0.6303, q_Holm = 0.6303
+- maxn_video_peak: Beta = -0.3198, p = 0.1313, q_Holm = 0.2626
+- first_seen_median_sec: Beta = -0.4665, 95%-CI [-0.7066, -0.2265], p = 0.000139, q_Holm = 0.000417
+
+Einordnung:
+- Der einzige robuste hierarchische fish-vs-algae-Effekt liegt auf first_seen_median_sec und zeigt niedrigere Werte unter fish (frueherer Erstnachweis).
+- Fuer species_richness und maxn_video_peak bleiben im Mixed-Effects-Rahmen keine robusten fish-vs-algae-Effekte.
+- Das Ergebnis passt zur bisherigen Lesart: Standortstruktur bleibt zentral; fish-vs-algae-Signale sind endpoint-spezifisch statt pauschal.
 
 ---
 
@@ -306,14 +350,14 @@ Warum wichtig:
 - p-Werte allein sagen nichts darueber, wie gross oder praktisch relevant ein Effekt ist.
 - Bei vielen biologischen Vergleichsanalysen ist die Richtung und Starke der Differenz oft wichtiger als die rein formale Signifikanz.
 
-Sinnvolle Erweiterung:
-- Cliff's Delta fuer robuste, distributionsfreie Effektgroessen
-- Bootstrap-Konfidenzintervalle fuer mean differences
-- eta^2 oder epsilon^2 als groessere Effektmasse in Kruskal-Wallis-Analysen
+Aktueller Stand (jetzt umgesetzt):
+- Cliff's Delta sowie Mittelwert-/Mediandifferenzen wurden fuer priorisierte Kontraste mit 5000 Bootstrap-Resamples ausgewertet.
+- Ergebnisdateien: [effectsize_bootstrap/prioritized_effectsize_bootstrap.md](effectsize_bootstrap/prioritized_effectsize_bootstrap.md) und [effectsize_bootstrap/prioritized_effectsize_bootstrap.csv](effectsize_bootstrap/prioritized_effectsize_bootstrap.csv).
+- Robustestes Signal: Nursery-Acanthuridae (MaxN) mit klar positivem Algen-Effekt und CI ohne Nullueberlappung (mean diff 17.83; 95%-CI [11.67, 25.33]).
+- Auch fuer die Herbivore-Feeding-Responsiveness bleibt Nursery klar positiv (mean diff 0.2038; 95%-CI [0.1523, 0.2575]).
 
 Interpretation:
-- Wenn ein Effekt sowohl signifikant als auch gross ist, wird die biologische Aussage deutlich tragfaehiger.
-- Wenn ein Effekt klein bleibt, trotz niedrigem p-Wert, ist die Evidenz eher vorsichtig zu bewerten.
+- Die Bootstrap-CIs staerken die bisherige Schlussfolgerung: der robuste Algeneffekt ist standortspezifisch (v. a. Nursery) statt global gleichfoermig.
 
 ### 5.2 Permutationsbasierte Sensitivitaetsanalysen fuer die wichtigsten Hypothesen
 
@@ -350,8 +394,10 @@ Interpretation:
 Warum wichtig:
 - PERMANOVA zeigt Unterschiede in der Gemeinschaftsstruktur, kann aber nicht sauber zwischen verschobenen Mittelwerten und unterschiedlicher Streuung unterscheiden.
 
-Sinnvolle Erweiterung:
-- PERMDISP (tests of multivariate dispersion)
+Aktueller Stand:
+- PERMDISP wurde inzwischen gerechnet und ist in allen drei Standorten signifikant (siehe Abschnitt 2.2a).
+
+Weitere sinnvolle Erweiterung:
 - Ordinationsplots (nMDS, PCoA) mit ellipses per Koeder oder Standort
 - Distanz zu Gruppenzentren als Zusatzmaass fuer Stabilitaet/Variabilitaet
 
@@ -359,20 +405,29 @@ Interpretation:
 - Wenn die Gruppenvariablen nicht nur verschoben, sondern auch ungleich streuend sind, muss die biologische Interpretation genauer differenziert werden.
 - Das ist besonders wichtig bei der Interpretation von Koedereffekten auf die Komposition.
 
+### 5.4a Sampling-Normalisierung
+
+Aktueller Stand:
+- Rarefaction/Sampling-Normalisierung wurde gerechnet (pro Koeder und zusaetzlich fish-vs-algae auf bait-type-Ebene; siehe Abschnitt 2.2b).
+
+Konsequenz:
+- Ungleiche Zellgroessen sind transparenter kontrolliert, ohne dass sich eine neue, robuste algae-dominierte Globalaussage ergibt.
+
 ### 5.5 Prevalence- und Occupancy-Sensitivitaet
 
 Warum wichtig:
 - Viele Taxa sind selten; ihre Signale koennen durch wenige extreme Videos entstehen.
 - Die Beurteilung sollte zwischen seltenen, doch stark reagierenden Taxa und frequenten, stabilen Taxa unterscheiden.
 
-Sinnvolle Erweiterung:
-- Anteil der Videos mit Nachweis je Taxon und Standort
-- Prevalence-gesteuerte Filter (z.B. nur Taxa mit Mindestnachweis in einem Anteil der Videos)
-- Vergleich von durchschnittlicher Haeufigkeit vs. prevalenter Nachweis
+Aktueller Stand (jetzt umgesetzt):
+- Family-level-Occupancy wurde mit Mindestnachweis-Schwellen gerechnet: max(Praevalenz_algae, Praevalenz_fish) >= 0.20 und insgesamt mindestens 3 Praesenz-Videos.
+- Tests: Fisher-Exact (two-sided plus richtungsgerichtet in beobachteter Richtung), Korrektur je Standort mit BH und Holm.
+- Ergebnisdateien: [prevalence_threshold_model/prevalence_threshold_model.md](prevalence_threshold_model/prevalence_threshold_model.md) und [prevalence_threshold_model/prevalence_threshold_summary.csv](prevalence_threshold_model/prevalence_threshold_summary.csv).
+- Kernergebnis: Nach standortweiser Mehrfachtestkorrektur bleibt kein Family-Occupancy-Signal robust signifikant (alle q_Holm_directional_site >= 0.1199).
+- Kleinste unadjustierte p-Werte zeigen gerichtete Tendenzen (z. B. Utumbi-Muraenidae fish>algae p = 0.0050; Nursery-Muraenidae algae>fish p = 0.0238), die jedoch die Korrekturschwelle nicht halten.
 
 Interpretation:
-- Ein Taxon mit hoher MaxN, aber niedriger Praevalenz kann biologisch anders interpretiert werden als ein Taxon, das in vielen Videos konsistent vorkommt.
-- So lassen sich "hotspot"-Effekte von robusten Community-Mustern trennen.
+- Die neuen Occupancy-Ergebnisse stützen die bisherige Lesart, dass die Hauptsignale primär auf Intensitaet/MaxN und nicht auf breit robuste Praevalenzverschiebungen zurueckgehen.
 
 ### 5.6 Leave-one-out-Sensitivitaet und Resampling
 
@@ -967,13 +1022,17 @@ Milimani ist fuer die Algen-Hypothese insgesamt schwach:
 
 Hinweis: Zusatztest 2 (einheitliches Bait x Standort-Interaktionsmodell) wurde inzwischen durchgefuehrt und in Abschnitt 6.5 dokumentiert.
 
-3. Bootstrap-Konfidenzintervalle fuer priorisierte Effektgroessen
-- Effektgroessen: Cliff's Delta und Mittelwert-/Mediandifferenzen.
-- Mehrwert: Unsicherheit und Praezision der Effekte werden transparent statt nur p-wert-basiert.
+3. Bereits durchgefuehrt: Bootstrap-Konfidenzintervalle fuer priorisierte Effektgroessen
+- Effektgroessen: Cliff's Delta sowie Mittelwert-/Mediandifferenzen.
+- Quelle: [effectsize_bootstrap/prioritized_effectsize_bootstrap.md](effectsize_bootstrap/prioritized_effectsize_bootstrap.md)
+- Ergebnisbild: Der staerkste positive Algen-Effekt bleibt in Nursery (Acanthuridae-MaxN und Herbivore-Feeding-Responsiveness) und ist ueber die 95%-Bootstrap-CIs klar abgesichert.
+- Mehrwert: Unsicherheit und Praezision der Effekte sind transparent statt nur p-wert-basiert.
 
-4. Praevalenz-/Occupancy-Analysen mit Mindestnachweis-Schwellen
-- Ziel: Trennung von seltenen Peak-Taxa gegenueber stabil haeufig nachgewiesenen Taxa.
-- Mehrwert: Robustere biologische Einordnung, welche Taxa konsistent auf Koeder reagieren.
+4. Bereits durchgefuehrt: Praevalenz-/Occupancy-Analysen mit Mindestnachweis-Schwellen
+- Methode: Family-level-Fisher-Tests nach Mindestnachweisfilter (Praevalenz >= 0.20 in mindestens einer Koedergruppe; insgesamt >= 3 Praesenz-Videos), BH/Holm je Standort.
+- Quelle: [prevalence_threshold_model/prevalence_threshold_model.md](prevalence_threshold_model/prevalence_threshold_model.md)
+- Ergebnisbild: Nach Mehrfachtestkorrektur kein robust signifikantes Family-Occupancy-Signal je Standort (min q_Holm_directional_site = 0.1199).
+- Mehrwert: Stützt die Interpretation, dass die zentralen biologischen Effekte vorwiegend als Intensitaets- statt Praevalenzmuster auftreten.
 
 5. Erweiterte Mehrfachtest-Sensitivitaet als Standardreport
 - Neben Holm systematisch BH/FDR fuer alle Haupttabellen und priorisierte Familien.
@@ -1016,6 +1075,10 @@ Hinweis: Zusatztest 2 (einheitliches Bait x Standort-Interaktionsmodell) wurde i
   - [visibility_analysis/visibility_gesamtbewertung.md](visibility_analysis/visibility_gesamtbewertung.md)
 - Hurdle-Modell (Praesenz + Intensitaet):
   - [hurdle_model/hurdle_model_focal_signals.md](hurdle_model/hurdle_model_focal_signals.md)
+- Bootstrap-Effektgroessen (priorisierte Kontraste):
+  - [effectsize_bootstrap/prioritized_effectsize_bootstrap.md](effectsize_bootstrap/prioritized_effectsize_bootstrap.md)
+- Prevalence-Threshold-Modell:
+  - [prevalence_threshold_model/prevalence_threshold_model.md](prevalence_threshold_model/prevalence_threshold_model.md)
 
 ---
 

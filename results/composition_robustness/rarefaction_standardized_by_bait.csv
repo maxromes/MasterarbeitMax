@@ -1,0 +1,17 @@
+standort,koeder,n_videos,k_standardized_videos,rarefied_union_richness_mean,rarefied_union_richness_ci95_low,rarefied_union_richness_ci95_high,observed_union_richness,exclude_control
+milimani,mackerel,3,1,48.0365,34.0,57.0,74,False
+milimani,sargassum,3,1,45.01225,43.0,46.0,63,False
+milimani,fischmix,1,1,45.0,45.0,45.0,45,False
+milimani,ulva_gutweed,3,1,44.70125,39.0,49.0,66,False
+milimani,ulva_salad,4,1,42.867,31.0,57.0,71,False
+milimani,control,3,1,42.33675,36.0,46.0,63,False
+nursery,algaemix,3,1,39.0755,33.0,43.0,58,False
+nursery,algae_strings,3,1,35.67225,34.0,38.0,51,False
+nursery,mackerel,4,1,34.867,29.0,41.0,67,False
+nursery,control,1,1,29.0,29.0,29.0,29,False
+utumbi,sargassum,3,2,72.0005,70.0,74.0,80,False
+utumbi,mackerel,3,2,71.75,67.0,75.0,81,False
+utumbi,fischmix,2,2,68.0,68.0,68.0,68,False
+utumbi,ulva_salad,3,2,67.6975,64.0,70.0,76,False
+utumbi,ulva_gutweed,3,2,66.302,65.0,69.0,74,False
+utumbi,control,4,2,63.18475,60.0,66.0,77,False
