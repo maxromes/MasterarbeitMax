@@ -32,7 +32,7 @@ def save_raw_correlations() -> None:
     df = df.sort_values("spearman_rho", ascending=True)
 
     fig, ax = plt.subplots(figsize=(9, 4.8))
-    colors = ["#1b9e77" if q < 0.05 else "#7f8c8d" for q in df["spearman_q_bh"]]
+    colors = ["#4C78A8" if q < 0.05 else "#9D9D9D" for q in df["spearman_q_bh"]]
 
     bars = ax.barh(df["metric_label"], df["spearman_rho"], color=colors, edgecolor="black", linewidth=0.6)
     ax.axvline(0, color="black", linewidth=1)
@@ -54,7 +54,7 @@ def save_raw_correlations() -> None:
     ax.text(
         0.99,
         -0.22,
-        "Gruen = BH-signifikant (q<0.05)",
+        "Blau = BH-signifikant (q<0.05)",
         transform=ax.transAxes,
         ha="right",
         va="center",
@@ -77,8 +77,8 @@ def save_adjusted_forest() -> None:
     high = df["coef_ci95_high"].to_numpy()
 
     fig, ax = plt.subplots(figsize=(9, 4.8))
-    ax.hlines(y, low, high, color="#2c3e50", linewidth=2)
-    ax.plot(coef, y, "o", color="#d35400", markersize=7)
+    ax.hlines(y, low, high, color="#2F4B7C", linewidth=2)
+    ax.plot(coef, y, "o", color="#F28E2B", markersize=7)
     ax.axvline(0, color="black", linestyle="--", linewidth=1)
 
     ax.set_yticks(y)
@@ -119,7 +119,7 @@ def save_robustness_qvalues() -> None:
     mat = df[q_cols].to_numpy(dtype=float)
 
     fig, ax = plt.subplots(figsize=(8.8, 4.8))
-    im = ax.imshow(mat, cmap="YlOrRd_r", vmin=0, vmax=1, aspect="auto")
+    im = ax.imshow(mat, cmap="cividis_r", vmin=0, vmax=1, aspect="auto")
 
     ax.set_xticks(np.arange(len(col_labels)))
     ax.set_xticklabels(col_labels, rotation=0)
@@ -152,9 +152,9 @@ def save_site_stratified_perm() -> None:
     colors: list[str] = []
 
     palette = {
-        "maxn_video_peak": "#1f77b4",
-        "species_richness": "#2ca02c",
-        "first_seen_median_sec": "#ff7f0e",
+        "maxn_video_peak": "#4C78A8",
+        "species_richness": "#B279A2",
+        "first_seen_median_sec": "#F28E2B",
     }
 
     for site in site_order:
@@ -169,7 +169,7 @@ def save_site_stratified_perm() -> None:
     x = np.arange(len(values))
     fig, ax = plt.subplots(figsize=(12, 4.8))
     bars = ax.bar(x, values, color=colors, edgecolor="black", linewidth=0.5)
-    ax.axhline(0.05, color="red", linestyle="--", linewidth=1, label="alpha=0.05")
+    ax.axhline(0.05, color="#2F4B7C", linestyle="--", linewidth=1, label="alpha=0.05")
     ax.set_ylim(0, 1.05)
     ax.set_ylabel("Blockierter Permutations-p")
     ax.set_title("Standort-stratifizierte Sichttests (Permutation innerhalb Koeder)")

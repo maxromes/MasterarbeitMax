@@ -82,12 +82,27 @@ def extract_family(row: pd.Series) -> str | None:
     return None
 
 
+def parse_frame_time(frame_value: object) -> float | None:
+    text = clean_text(frame_value)
+    if not text:
+        return None
+    match = re.search(r"[-+]?\d*\.?\d+", text)
+    if not match:
+        return None
+    try:
+        return round(float(match.group(0)), 2)
+    except ValueError:
+        return None
+
+
 def load_video_feeding(csv_path: Path) -> Dict[str, object]:
     """Lade Feeding-Daten für Herbivore aus CSV."""
     df = pd.read_csv(csv_path, engine="python", on_bad_lines="skip")
 
     feeding_count = 0
     total_herbivore_entries = 0
+    feeding_by_family_time: Dict[Tuple[str, float], int] = {}
+    feeding_families_present: set[str] = set()
 
     for _, row in df.iterrows():
         family = extract_family(row)
@@ -97,6 +112,20 @@ def load_video_feeding(csv_path: Path) -> Dict[str, object]:
         total_herbivore_entries += 1
         if is_truthy(row.get("feeding", "")):
             feeding_count += 1
+            feeding_families_present.add(family)
+
+            frame_time = parse_frame_time(row.get("frames", ""))
+            if frame_time is not None:
+                key = (family, frame_time)
+                feeding_by_family_time[key] = feeding_by_family_time.get(key, 0) + 1
+
+    feeding_maxn_by_family: Dict[str, int] = {}
+    for (family, _), n in feeding_by_family_time.items():
+        if family not in feeding_maxn_by_family or n > feeding_maxn_by_family[family]:
+            feeding_maxn_by_family[family] = int(n)
+
+    feeding_maxn_sum = float(sum(feeding_maxn_by_family.values()))
+    feeding_family_presence = float(len(feeding_families_present) / len(HERBIVORE_CORE_FAMILIES))
 
     date, standort, koeder = parse_video_metadata(csv_path.name)
     return {
@@ -106,6 +135,8 @@ def load_video_feeding(csv_path: Path) -> Dict[str, object]:
         "koeder": koeder,
         "feeding_count": feeding_count,
         "total_herbivore_entries": total_herbivore_entries,
+        "feeding_maxn_sum": feeding_maxn_sum,
+        "feeding_family_presence": feeding_family_presence,
     }
 
 
@@ -165,28 +196,44 @@ def analyze_site(site: str) -> Dict[str, object]:
     if algae_videos.empty or fish_videos.empty:
         return {"results": pd.DataFrame()}
 
-    # Pro Video: Berechne Feeding-Rate
+    # Pro Video: Berechne Feeding-Metriken
     algae_feeding_rates = []
     fish_feeding_rates = []
+    algae_feeding_maxn_sums = []
+    fish_feeding_maxn_sums = []
+    algae_feeding_family_presence = []
+    fish_feeding_family_presence = []
 
     for _, row in algae_videos.iterrows():
         if row["total_herbivore_entries"] > 0:
             rate = row["feeding_count"] / row["total_herbivore_entries"]
             algae_feeding_rates.append(rate)
+            algae_feeding_maxn_sums.append(float(row["feeding_maxn_sum"]))
+            algae_feeding_family_presence.append(float(row["feeding_family_presence"]))
 
     for _, row in fish_videos.iterrows():
         if row["total_herbivore_entries"] > 0:
             rate = row["feeding_count"] / row["total_herbivore_entries"]
             fish_feeding_rates.append(rate)
+            fish_feeding_maxn_sums.append(float(row["feeding_maxn_sum"]))
+            fish_feeding_family_presence.append(float(row["feeding_family_presence"]))
 
     if not algae_feeding_rates or not fish_feeding_rates:
         return {"results": pd.DataFrame()}
 
     algae_arr = np.array(algae_feeding_rates, dtype=float)
     fish_arr = np.array(fish_feeding_rates, dtype=float)
+    algae_maxn_arr = np.array(algae_feeding_maxn_sums, dtype=float)
+    fish_maxn_arr = np.array(fish_feeding_maxn_sums, dtype=float)
+    algae_presence_arr = np.array(algae_feeding_family_presence, dtype=float)
+    fish_presence_arr = np.array(fish_feeding_family_presence, dtype=float)
 
     # Mann-Whitney U Test: Algae > Fish (directional)
-    stat, pval = stats.mannwhitneyu(algae_arr, fish_arr, alternative="greater")
+    _stat, pval = stats.mannwhitneyu(algae_arr, fish_arr, alternative="greater")
+    _stat_maxn, pval_maxn = stats.mannwhitneyu(algae_maxn_arr, fish_maxn_arr, alternative="greater")
+    _stat_presence, pval_presence = stats.mannwhitneyu(
+        algae_presence_arr, fish_presence_arr, alternative="greater"
+    )
 
     # Effektgröße (Cliffs Delta)
     total = len(algae_arr) * len(fish_arr)
@@ -208,6 +255,16 @@ def analyze_site(site: str) -> Dict[str, object]:
         "rate_diff_median_algae_minus_fish": float(np.median(algae_arr) - np.median(fish_arr)),
         "p_value": pval,
         "cliffs_delta": cliff_d,
+        "algae_feeding_maxn_sum_mean": float(np.mean(algae_maxn_arr)),
+        "fish_feeding_maxn_sum_mean": float(np.mean(fish_maxn_arr)),
+        "maxn_sum_diff_mean_algae_minus_fish": float(np.mean(algae_maxn_arr) - np.mean(fish_maxn_arr)),
+        "p_value_maxn_sum": float(pval_maxn),
+        "algae_family_presence_mean": float(np.mean(algae_presence_arr)),
+        "fish_family_presence_mean": float(np.mean(fish_presence_arr)),
+        "family_presence_diff_mean_algae_minus_fish": float(
+            np.mean(algae_presence_arr) - np.mean(fish_presence_arr)
+        ),
+        "p_value_family_presence": float(pval_presence),
     }
 
     return {"results": result}
@@ -229,17 +286,22 @@ def write_report(all_results: Dict[str, Dict[str, object]]) -> None:
 
     df_csv = pd.DataFrame(csv_rows)
 
-    # Holm-Korrektur (nur 3 Tests: 1 pro Standort)
+    # Holm-Korrektur (je 3 Tests: 1 pro Standort, getrennt nach Metrik)
     if len(df_csv) > 0 and "p_value" in df_csv.columns:
-        p_vals = df_csv["p_value"].tolist()
-        holm_adjusted = holm_adjust(p_vals)
-        df_csv["p_value_holm"] = holm_adjusted
+        df_csv["p_value_holm"] = holm_adjust(df_csv["p_value"].tolist())
+    if len(df_csv) > 0 and "p_value_maxn_sum" in df_csv.columns:
+        df_csv["p_value_maxn_sum_holm"] = holm_adjust(df_csv["p_value_maxn_sum"].tolist())
+    if len(df_csv) > 0 and "p_value_family_presence" in df_csv.columns:
+        df_csv["p_value_family_presence_holm"] = holm_adjust(
+            df_csv["p_value_family_presence"].tolist()
+        )
 
     with open(md_path, "w") as f:
         f.write("# Herbivore Feeding Responsiveness Test\n\n")
         f.write("**A priori Hypothese**: Herbivore zeigen signifikant häufiger Feeding-Verhalten bei Algenködern als bei Fischködern.\n\n")
         f.write("**Methode**: Pro Video und Standort wird die Feeding-Rate berechnet als (# Feeding-Events bei Herbivoren) / (# Gesamteinträge von Herbivoren).\n")
-        f.write("Mann-Whitney U Test (gerichtet) testet: Algae Feeding-Rate > Fish Feeding-Rate.\n\n")
+        f.write("Mann-Whitney U Test (gerichtet) testet: Algae Feeding-Rate > Fish Feeding-Rate.\n")
+        f.write("Sensitivitaetsmetriken (automatisch): (a) Summe familienweiser Feeding-Maxima pro Video (MaxN-konsistent), (b) Anteil Herbivore-Familien mit mindestens einem Feeding-Eintrag.\n\n")
 
         f.write("## Ergebnisse nach Standort\n\n")
 
@@ -255,6 +317,13 @@ def write_report(all_results: Dict[str, Dict[str, object]]) -> None:
                 f.write(f"- **Differenz (Algae - Fish)**: μ = {result['rate_diff_mean_algae_minus_fish']:.4f}, median = {result['rate_diff_median_algae_minus_fish']:.4f}\n")
                 f.write(f"- **p-Wert (roh)**: {result['p_value']:.6f}\n")
                 f.write(f"- **Cliffs Delta**: {result['cliffs_delta']:.4f}\n\n")
+                f.write("Sensitivitaet:\n")
+                f.write(
+                    f"- Feeding-MaxN-Summe (mean Algae | Fish): {result['algae_feeding_maxn_sum_mean']:.4f} | {result['fish_feeding_maxn_sum_mean']:.4f}; p_raw = {result['p_value_maxn_sum']:.6f}\n"
+                )
+                f.write(
+                    f"- Family-Presence (mean Algae | Fish): {result['algae_family_presence_mean']:.4f} | {result['fish_family_presence_mean']:.4f}; p_raw = {result['p_value_family_presence']:.6f}\n\n"
+                )
 
         f.write("## Zusammenfassung (Holm-korrigiert)\n\n")
         if len(df_csv) > 0:
@@ -266,6 +335,16 @@ def write_report(all_results: Dict[str, Dict[str, object]]) -> None:
                 "p_value",
                 "p_value_holm",
                 "cliffs_delta",
+                "algae_feeding_maxn_sum_mean",
+                "fish_feeding_maxn_sum_mean",
+                "maxn_sum_diff_mean_algae_minus_fish",
+                "p_value_maxn_sum",
+                "p_value_maxn_sum_holm",
+                "algae_family_presence_mean",
+                "fish_family_presence_mean",
+                "family_presence_diff_mean_algae_minus_fish",
+                "p_value_family_presence",
+                "p_value_family_presence_holm",
             ]
             f.write(df_csv[summary_cols].to_markdown(index=False))
             f.write("\n\n")
@@ -277,6 +356,24 @@ def write_report(all_results: Dict[str, Dict[str, object]]) -> None:
                     f.write(f"- {row['site']}: p = {row['p_value_holm']:.4f}\n")
             else:
                 f.write("**Kein Standort bleibt nach Holm-Korrektur signifikant.**\n")
+
+            if "p_value_maxn_sum_holm" in df_csv.columns:
+                sig_maxn = df_csv[df_csv["p_value_maxn_sum_holm"] < ALPHA]
+                f.write("\n**Holm-signifikant (MaxN-Sensitivitaet, p < 0.05):**\n")
+                if not sig_maxn.empty:
+                    for _, row in sig_maxn.iterrows():
+                        f.write(f"- {row['site']}: p = {row['p_value_maxn_sum_holm']:.4f}\n")
+                else:
+                    f.write("- Kein Standort.\n")
+
+            if "p_value_family_presence_holm" in df_csv.columns:
+                sig_presence = df_csv[df_csv["p_value_family_presence_holm"] < ALPHA]
+                f.write("\n**Holm-signifikant (Family-Presence-Sensitivitaet, p < 0.05):**\n")
+                if not sig_presence.empty:
+                    for _, row in sig_presence.iterrows():
+                        f.write(f"- {row['site']}: p = {row['p_value_family_presence_holm']:.4f}\n")
+                else:
+                    f.write("- Kein Standort.\n")
 
     df_csv.to_csv(csv_path, index=False)
     print(f"Wrote {md_path}")

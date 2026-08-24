@@ -564,8 +564,6 @@ filename,date,standort,koeder,taxon_key,maxn
 20241124-milimani-mackerel.csv,20241124,milimani,mackerel,family_label::wrasses (labridae),1
 20241124-milimani-mackerel.csv,20241124,milimani,mackerel,species::bluefin (caranx melampygus),1
 20241124-milimani-mackerel.csv,20241124,milimani,mackerel,species::red-breasted (cheilinus fasciatus),1
-20241124-milimani-mackerel.csv,20241124,milimani,mackerel,family_label::groupers feeding,1
-20241124-milimani-mackerel.csv,20241124,milimani,mackerel,family_label::groupers interested,2
 20241124-milimani-mackerel.csv,20241124,milimani,mackerel,species::speckled (parapercis hexophthalma),1
 20241124-milimani-mackerel.csv,20241124,milimani,mackerel,species::lyretail hogfish (bodianus anthioides),1
 20241124-milimani-mackerel.csv,20241124,milimani,mackerel,species::titan (balistoides viridescens),1
@@ -596,7 +594,6 @@ filename,date,standort,koeder,taxon_key,maxn
 20241127-milimani-sargassum.csv,20241127,milimani,sargassum,species::longbarbel (parupeneus macronemus),2
 20241127-milimani-sargassum.csv,20241127,milimani,sargassum,species::moon (thalassoma lunare),2
 20241127-milimani-sargassum.csv,20241127,milimani,sargassum,species::chevroned (chaetodon trifascialis),1
-20241127-milimani-sargassum.csv,20241127,milimani,sargassum,family_label::groupers interested,1
 20241127-milimani-sargassum.csv,20241127,milimani,sargassum,species::bullethead (chlorurus sordidus),3
 20241127-milimani-sargassum.csv,20241127,milimani,sargassum,species::regal (pygoplites diacanthus),1
 20241127-milimani-sargassum.csv,20241127,milimani,sargassum,genus::genus chromis,42
@@ -716,19 +713,17 @@ filename,date,standort,koeder,taxon_key,maxn
 20241210-milimani-fischmix.csv,20241210,milimani,fischmix,species::sixbar (thalassoma hardwicke),6
 20241210-milimani-fischmix.csv,20241210,milimani,fischmix,species::goldbar (thalassoma hebraicum),3
 20241210-milimani-fischmix.csv,20241210,milimani,fischmix,species::longbarbel (parupeneus macronemus),3
-20241210-milimani-fischmix.csv,20241210,milimani,fischmix,species::red (lutjanus bohar),8
+20241210-milimani-fischmix.csv,20241210,milimani,fischmix,species::red (lutjanus bohar),3
 20241210-milimani-fischmix.csv,20241210,milimani,fischmix,species::scissortail sergeant (abudefduf sexfasciatus),5
-20241210-milimani-fischmix.csv,20241210,milimani,fischmix,species::green (amblyglyphidodon indicus),16
+20241210-milimani-fischmix.csv,20241210,milimani,fischmix,species::green (amblyglyphidodon indicus),14
 20241210-milimani-fischmix.csv,20241210,milimani,fischmix,family_label::groupers (serranidae),3
 20241210-milimani-fischmix.csv,20241210,milimani,fischmix,species::lined bristletooth (ctenochaetus striatus),3
 20241210-milimani-fischmix.csv,20241210,milimani,fischmix,species::bird wrasse (gomphosus caeruleus),2
-20241210-milimani-fischmix.csv,20241210,milimani,fischmix,family_label::groupers interested,2
 20241210-milimani-fischmix.csv,20241210,milimani,fischmix,species::brown tang (zebrasoma scopas),3
 20241210-milimani-fischmix.csv,20241210,milimani,fischmix,species::indian half-and-half (pycnochromis dimidiatus),56
 20241210-milimani-fischmix.csv,20241210,milimani,fischmix,species::orange-lined (balistapus undulatus),2
 20241210-milimani-fischmix.csv,20241210,milimani,fischmix,species::freckled (paracirrhites forsteri),1
 20241210-milimani-fischmix.csv,20241210,milimani,fischmix,species::leopard (cephalopholis leopardus),1
-20241210-milimani-fischmix.csv,20241210,milimani,fischmix,family_label::groupers feeding,2
 20241210-milimani-fischmix.csv,20241210,milimani,fischmix,species::redmouth (aethaloperca rogaa),2
 20241210-milimani-fischmix.csv,20241210,milimani,fischmix,genus::genus chromis,55
 20241210-milimani-fischmix.csv,20241210,milimani,fischmix,species::honeycomb (siganus stellatus),2
@@ -830,7 +825,6 @@ filename,date,standort,koeder,taxon_key,maxn
 20240223-nursery-mackerel.csv,20240223,nursery,mackerel,species::humpback (lutjanus gibbus),18
 20240223-nursery-mackerel.csv,20240223,nursery,mackerel,family_label::groupers (serranidae),3
 20240223-nursery-mackerel.csv,20240223,nursery,mackerel,species::red (lutjanus bohar),2
-20240223-nursery-mackerel.csv,20240223,nursery,mackerel,family_label::groupers feeding,2
 20240223-nursery-mackerel.csv,20240223,nursery,mackerel,species::monk (acanthurus gahhm),3
 20240223-nursery-mackerel.csv,20240223,nursery,mackerel,family_label::parrotfishes (scaridae),3
 20240223-nursery-mackerel.csv,20240223,nursery,mackerel,genus::dascyllus,7
@@ -908,9 +902,7 @@ filename,date,standort,koeder,taxon_key,maxn
 20241204-nursery-algae_strings.csv,20241204,nursery,algae_strings,species::scissortail sergeant (abudefduf sexfasciatus),5
 20241204-nursery-algae_strings.csv,20241204,nursery,algae_strings,species::blackwhite (macolor niger),1
 20241204-nursery-algae_strings.csv,20241204,nursery,algae_strings,family_label::wrasses (labridae),1
-20241204-nursery-algae_strings.csv,20241204,nursery,algae_strings,family_label::wrasses interested,1
 20241204-nursery-algae_strings.csv,20241204,nursery,algae_strings,species::sailfin tang (zebrasoma desjardinii),3
-20241204-nursery-algae_strings.csv,20241204,nursery,algae_strings,family_label::parrotfishes feeding,4
 20241204-nursery-algae_strings.csv,20241204,nursery,algae_strings,family_label::parrotfishes (scaridae),13
 20241204-nursery-algae_strings.csv,20241204,nursery,algae_strings,species::yellow-margin (gymnothorax flavimarginatus),1
 20241204-nursery-algae_strings.csv,20241204,nursery,algae_strings,species::black-backed (chaetodon melannotus),2
@@ -923,7 +915,6 @@ filename,date,standort,koeder,taxon_key,maxn
 20241204-nursery-algae_strings.csv,20241204,nursery,algae_strings,species::weber's puller (chromis weberi),2
 20241204-nursery-algae_strings.csv,20241204,nursery,algae_strings,species::scrawled (aluterus scriptus),1
 20241204-nursery-algae_strings.csv,20241204,nursery,algae_strings,genus::genus siganus,2
-20241204-nursery-algae_strings.csv,20241204,nursery,algae_strings,family_label::siganus feeding,2
 20241204-nursery-algae_strings.csv,20241204,nursery,algae_strings,species::titan (balistoides viridescens),1
 20241204-nursery-algae_strings.csv,20241204,nursery,algae_strings,species::moorish idol (zanclus cornutus),1
 20241204-nursery-algae_strings.csv,20241204,nursery,algae_strings,species::linedcheeked (oxycheilinus digramma),1
@@ -966,7 +957,7 @@ filename,date,standort,koeder,taxon_key,maxn
 20241205-nursery-algae_strings.csv,20241205,nursery,algae_strings,species::brown tang (zebrasoma scopas),1
 20241205-nursery-algae_strings.csv,20241205,nursery,algae_strings,species::titan (balistoides viridescens),2
 20241205-nursery-algae_strings.csv,20241205,nursery,algae_strings,family_label::cornetfishes (fistulariidae),1
-20241205-nursery-algae_strings.csv,20241205,nursery,algae_strings,species::honeycomb (siganus stellatus),2
+20241205-nursery-algae_strings.csv,20241205,nursery,algae_strings,species::honeycomb (siganus stellatus),1
 20241205-nursery-algae_strings.csv,20241205,nursery,algae_strings,species::blackspot (lutjanus fulviflamma),2
 20241206-nursery-algae_strings.csv,20241206,nursery,algae_strings,species::longbarbel (parupeneus macronemus),5
 20241206-nursery-algae_strings.csv,20241206,nursery,algae_strings,species::humpback (lutjanus gibbus),20
@@ -985,7 +976,6 @@ filename,date,standort,koeder,taxon_key,maxn
 20241206-nursery-algae_strings.csv,20241206,nursery,algae_strings,species::yellow-margin (gymnothorax flavimarginatus),1
 20241206-nursery-algae_strings.csv,20241206,nursery,algae_strings,species::threespot dascyllus (dascyllus trimaculatus),5
 20241206-nursery-algae_strings.csv,20241206,nursery,algae_strings,genus::genus siganus,3
-20241206-nursery-algae_strings.csv,20241206,nursery,algae_strings,family_label::siganus feeding,1
 20241206-nursery-algae_strings.csv,20241206,nursery,algae_strings,species::monk (acanthurus gahhm),2
 20241206-nursery-algae_strings.csv,20241206,nursery,algae_strings,species::weber's puller (chromis weberi),1
 20241206-nursery-algae_strings.csv,20241206,nursery,algae_strings,species::yellowstripe (mulloidichthys flavolineatus),5
@@ -996,7 +986,7 @@ filename,date,standort,koeder,taxon_key,maxn
 20241206-nursery-algae_strings.csv,20241206,nursery,algae_strings,species::titan (balistoides viridescens),1
 20241206-nursery-algae_strings.csv,20241206,nursery,algae_strings,species::halfmoon (sufflamen chrysopterum),1
 20241206-nursery-algae_strings.csv,20241206,nursery,algae_strings,family_label::fusiliers (caesionidae),7
-20241206-nursery-algae_strings.csv,20241206,nursery,algae_strings,species::honeycomb (siganus stellatus),4
+20241206-nursery-algae_strings.csv,20241206,nursery,algae_strings,species::honeycomb (siganus stellatus),3
 20241206-nursery-algae_strings.csv,20241206,nursery,algae_strings,species::longnose (lethrinus olivaceus),2
 20241206-nursery-algae_strings.csv,20241206,nursery,algae_strings,species::black-backed (chaetodon melannotus),1
 20241206-nursery-algae_strings.csv,20241206,nursery,algae_strings,species::indian redfin (chaetodon trifasciatus),1
@@ -1053,7 +1043,7 @@ filename,date,standort,koeder,taxon_key,maxn
 20241209-nursery-algaemix.csv,20241209,nursery,algaemix,species::scissortail sergeant (abudefduf sexfasciatus),3
 20241209-nursery-algaemix.csv,20241209,nursery,algaemix,species::arabian monocle (scolopsis ghanam),20
 20241209-nursery-algaemix.csv,20241209,nursery,algaemix,genus::genus chromis,4
-20241209-nursery-algaemix.csv,20241209,nursery,algaemix,species::paletail unicorn (naso brevirostris),32
+20241209-nursery-algaemix.csv,20241209,nursery,algaemix,species::paletail unicorn (naso brevirostris),19
 20241209-nursery-algaemix.csv,20241209,nursery,algaemix,species::humpback (lutjanus gibbus),45
 20241209-nursery-algaemix.csv,20241209,nursery,algaemix,family_label::parrotfishes (scaridae),2
 20241209-nursery-algaemix.csv,20241209,nursery,algaemix,species::longbarbel (parupeneus macronemus),2
@@ -1079,7 +1069,6 @@ filename,date,standort,koeder,taxon_key,maxn
 20241209-nursery-algaemix.csv,20241209,nursery,algaemix,species::speckled (parapercis hexophthalma),1
 20241209-nursery-algaemix.csv,20241209,nursery,algaemix,family_label::fusiliers (caesionidae),7
 20241209-nursery-algaemix.csv,20241209,nursery,algaemix,species::bluefin (caranx melampygus),1
-20241209-nursery-algaemix.csv,20241209,nursery,algaemix,family_label::parrotfishes feeding,1
 20241209-nursery-algaemix.csv,20241209,nursery,algaemix,species::red-breasted (cheilinus fasciatus),1
 20241209-nursery-algaemix.csv,20241209,nursery,algaemix,species::scrawled (aluterus scriptus),1
 20241209-nursery-algaemix.csv,20241209,nursery,algaemix,family_label::groupers (serranidae),1
@@ -1120,7 +1109,6 @@ filename,date,standort,koeder,taxon_key,maxn
 20241210-nursery-algaemix.csv,20241210,nursery,algaemix,species::red-breasted (cheilinus fasciatus),1
 20241210-nursery-algaemix.csv,20241210,nursery,algaemix,species::map (arothron mappa),2
 20241210-nursery-algaemix.csv,20241210,nursery,algaemix,family_label::triggerfishes (balistidae),3
-20241210-nursery-algaemix.csv,20241210,nursery,algaemix,family_label::parrotfishes feeding,1
 20241210-nursery-algaemix.csv,20241210,nursery,algaemix,family_label::emperors (lethrinidae),1
 20241210-nursery-algaemix.csv,20241210,nursery,algaemix,species::blackspot (lutjanus fulviflamma),6
 20251212-nursery-mackerel.csv,20251212,nursery,mackerel,species::speckled (parapercis hexophthalma),1
@@ -1196,7 +1184,6 @@ filename,date,standort,koeder,taxon_key,maxn
 20240516-utumbi-mackerel.csv,20240516,utumbi,mackerel,species::longfin banner (heniochus acuminatus),2
 20240516-utumbi-mackerel.csv,20240516,utumbi,mackerel,species::yellowhead (chaetodon xanthocephalus),1
 20240516-utumbi-mackerel.csv,20240516,utumbi,mackerel,species::threadfin (chaetodon auriga),2
-20240516-utumbi-mackerel.csv,20240516,utumbi,mackerel,family_label::wrasses interested,1
 20240516-utumbi-mackerel.csv,20240516,utumbi,mackerel,species::humpnose bigeye (monotaxis grandoculis),2
 20240516-utumbi-mackerel.csv,20240516,utumbi,mackerel,species::undulated (gymnothorax undulatus),2
 20240516-utumbi-mackerel.csv,20240516,utumbi,mackerel,species::black-lipped (chaetodon kleinii),1
@@ -1315,8 +1302,7 @@ filename,date,standort,koeder,taxon_key,maxn
 20241026-utumbi-mackerel.csv,20241026,utumbi,mackerel,genus::genus chromis,13
 20241026-utumbi-mackerel.csv,20241026,utumbi,mackerel,family_label::fusiliers (caesionidae),42
 20241026-utumbi-mackerel.csv,20241026,utumbi,mackerel,species::claudia (halichoeres claudia),1
-20241026-utumbi-mackerel.csv,20241026,utumbi,mackerel,species::blacktip (epinephelus fasciatus),2
-20241026-utumbi-mackerel.csv,20241026,utumbi,mackerel,family_label::groupers feeding,2
+20241026-utumbi-mackerel.csv,20241026,utumbi,mackerel,species::blacktip (epinephelus fasciatus),1
 20241026-utumbi-mackerel.csv,20241026,utumbi,mackerel,species::chevroned (chaetodon trifascialis),1
 20241026-utumbi-mackerel.csv,20241026,utumbi,mackerel,species::barred (hemigymnus fasciatus),1
 20241027-utumbi-ulva_salad.csv,20241027,utumbi,ulva_salad,species::goldbar (thalassoma hebraicum),3
@@ -1570,7 +1556,6 @@ filename,date,standort,koeder,taxon_key,maxn
 20241110-utumbi-ulva_salad.csv,20241110,utumbi,ulva_salad,species::sixbar (thalassoma hardwicke),2
 20241110-utumbi-ulva_salad.csv,20241110,utumbi,ulva_salad,species::bluefin (caranx melampygus),2
 20241110-utumbi-ulva_salad.csv,20241110,utumbi,ulva_salad,genus::genus naso,1
-20241110-utumbi-ulva_salad.csv,20241110,utumbi,ulva_salad,family_label::naso feeding,1
 20241110-utumbi-ulva_salad.csv,20241110,utumbi,ulva_salad,species::emperor (pomacanthus imperator),1
 20241110-utumbi-ulva_salad.csv,20241110,utumbi,ulva_salad,species::arabian monocle (scolopsis ghanam),1
 20241110-utumbi-ulva_salad.csv,20241110,utumbi,ulva_salad,genus::genus siganus,7
@@ -1777,20 +1762,20 @@ filename,date,standort,koeder,taxon_key,maxn
 20241115-utumbi-control.csv,20241115,utumbi,control,species::longnose (forcipiger flavissimus),1
 20241115-utumbi-control.csv,20241115,utumbi,control,family_label::fusiliers (caesionidae),2
 20241115-utumbi-control.csv,20241115,utumbi,control,species::yellowbreast (anampses twistii),1
-20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::green (amblyglyphidodon indicus),18
+20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::green (amblyglyphidodon indicus),9
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::orange-lined (balistapus undulatus),5
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,family_label::parrotfishes (scaridae),16
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::brown tang (zebrasoma scopas),2
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::indian half-and-half (pycnochromis dimidiatus),27
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::bird wrasse (gomphosus caeruleus),2
-20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::goldbar (thalassoma hebraicum),6
+20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::goldbar (thalassoma hebraicum),3
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,genus::genus squirrel,5
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::leopard (cephalopholis leopardus),2
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::lined bristletooth (ctenochaetus striatus),3
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,genus::genus soldier,3
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::freckled (paracirrhites forsteri),1
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::golden (ctenochaetus truncates),2
-20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::red (lutjanus bohar),3
+20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::red (lutjanus bohar),1
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::moon (thalassoma lunare),1
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,family_label::groupers (serranidae),2
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::redmouth (aethaloperca rogaa),2
@@ -1799,7 +1784,7 @@ filename,date,standort,koeder,taxon_key,maxn
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,family_label::wrasses (labridae),2
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::sulfur (pomacentrus sulfureus),1
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::humpnose bigeye (monotaxis grandoculis),1
-20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::false-eye (abudefduf sparoides),8
+20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::false-eye (abudefduf sparoides),4
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::regal (pygoplites diacanthus),1
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::queenfish (scomberoides lysan),1
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,family_label::tunas/mackerels (scombridae),1
@@ -1807,7 +1792,7 @@ filename,date,standort,koeder,taxon_key,maxn
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::blue-streak (labroides dimidiatus),1
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,family_label::morays (muraenidae),2
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::bicolor (labroides bicolor),3
-20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::blacktip (epinephelus fasciatus),2
+20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::blacktip (epinephelus fasciatus),1
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::trumpetfish (aulostomus chinensis),1
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::spotted (chaetodon guttatissimus),2
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::black-backed (chaetodon melannotus),2
@@ -1825,7 +1810,6 @@ filename,date,standort,koeder,taxon_key,maxn
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::swarthy (scarus niger),1
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::five-saddle (scarus saber),1
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::black-lipped (chaetodon kleinii),1
-20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,family_label::groupers interested,2
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,species::meyer's (chaetodon meyeri),2
 20241124-utumbi-mackerel.csv,20241124,utumbi,mackerel,genus::genus chromis,94
 20241127-utumbi-sargassum.csv,20241127,utumbi,sargassum,species::orange-lined (balistapus undulatus),5
@@ -1999,10 +1983,10 @@ filename,date,standort,koeder,taxon_key,maxn
 20241129-utumbi-sargassum.csv,20241129,utumbi,sargassum,genus::genus chromis,34
 20241129-utumbi-sargassum.csv,20241129,utumbi,sargassum,species::sidespot (parupeneus pleurostigma),1
 20241129-utumbi-sargassum.csv,20241129,utumbi,sargassum,species::spotted (diodon hystrix),1
-20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,species::green (amblyglyphidodon indicus),12
-20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,species::orange-lined (balistapus undulatus),10
+20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,species::green (amblyglyphidodon indicus),9
+20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,species::orange-lined (balistapus undulatus),8
 20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,species::goldbar (thalassoma hebraicum),2
-20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,species::moon (thalassoma lunare),8
+20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,species::moon (thalassoma lunare),5
 20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,species::leopard (cephalopholis leopardus),3
 20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,species::indian half-and-half (pycnochromis dimidiatus),49
 20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,species::bicolor (labroides bicolor),3
@@ -2012,11 +1996,9 @@ filename,date,standort,koeder,taxon_key,maxn
 20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,genus::genus squirrel,7
 20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,family_label::groupers (serranidae),3
 20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,species::bird wrasse (gomphosus caeruleus),1
-20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,family_label::groupers interested,1
 20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,species::threadfin (chaetodon auriga),1
 20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,species::lined bristletooth (ctenochaetus striatus),1
 20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,family_label::morays (muraenidae),1
-20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,species::undulated (gymnothorax undulatus),1
 20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,species::five-saddle (scarus saber),1
 20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,species::false-eye (abudefduf sparoides),1
 20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,species::sailfin tang (zebrasoma desjardinii),5
@@ -2026,13 +2008,12 @@ filename,date,standort,koeder,taxon_key,maxn
 20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,species::checkerboard (halichoeres hortulanus),1
 20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,species::freckled (paracirrhites forsteri),2
 20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,species::longbarbel (parupeneus macronemus),3
-20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,family_label::groupers feeding,1
 20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,family_label::wrasses (labridae),2
 20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,species::linedcheeked (oxycheilinus digramma),1
 20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,species::redmouth (aethaloperca rogaa),2
 20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,species::snubnose (lethrinus borbonicus),1
 20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,genus::genus soldier,2
-20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,species::red (lutjanus bohar),2
+20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,species::red (lutjanus bohar),1
 20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,family_label::fusiliers (caesionidae),37
 20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,species::eclipse (chaetodon bennetti),1
 20241209-utumbi-fischmix.csv,20241209,utumbi,fischmix,species::blue-streak (labroides dimidiatus),2

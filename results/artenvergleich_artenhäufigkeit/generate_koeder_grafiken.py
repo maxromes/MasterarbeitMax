@@ -44,14 +44,14 @@ def plot_dominant_taxa_per_bait(profiles: pd.DataFrame, out_dir: Path) -> None:
             sub["n_taxa_dominant_mean_maxn"],
             width=width,
             label="Dominante Taxa (MaxN)",
-            color="#2a9d8f",
+            color="#4C78A8",
         )
         ax.bar(
             x + width / 2,
             sub["n_dominant_taxa_ratio_ge_3"],
             width=width,
             label="Starke Dominanz (Ratio >= 3)",
-            color="#264653",
+            color="#2F4B7C",
         )
 
         ax.set_title(f"Standort: {site}")
@@ -97,14 +97,14 @@ def plot_signal_and_specific_taxa(profiles: pd.DataFrame, out_dir: Path) -> None
             sub["n_dominant_taxa_raw_sig"],
             width=width,
             label="Roh-signifikante dominante Taxa",
-            color="#e76f51",
+            color="#F28E2B",
         )
         ax.bar(
             x + width / 2,
             sub["n_koederspezifische_taxa_presence"],
             width=width,
             label="Koederspezifische Taxa (Vorkommen)",
-            color="#f4a261",
+            color="#B279A2",
         )
 
         ax.set_title(f"Standort: {site}")
@@ -145,7 +145,7 @@ def plot_dominant_and_specific_taxa(profiles: pd.DataFrame, out_dir: Path) -> No
             x,
             sub["n_taxa_dominant_mean_maxn"],
             width=0.6,
-            color="#2a9d8f",
+            color="#4C78A8",
             alpha=0.9,
             label="Dominante Taxa (MaxN)",
         )
@@ -159,7 +159,7 @@ def plot_dominant_and_specific_taxa(profiles: pd.DataFrame, out_dir: Path) -> No
             line = ax2.plot(
                 x,
                 specific,
-                color="#e76f51",
+                color="#F28E2B",
                 marker="o",
                 linewidth=2.2,
                 markersize=6.5,
@@ -177,7 +177,7 @@ def plot_dominant_and_specific_taxa(profiles: pd.DataFrame, out_dir: Path) -> No
                 transform=ax2.transAxes,
                 ha="right",
                 va="center",
-                color="#a44a3f",
+                color="#6B5A4A",
                 fontsize=9,
             )
 
@@ -239,7 +239,7 @@ def plot_jaccard_distance_heatmaps(overlap: pd.DataFrame, out_dir: Path) -> None
     for ax, site in zip(axes, sites):
         sub = overlap[overlap["standort"] == site].copy()
         mat = _matrix_from_pairs(sub)
-        im = ax.imshow(mat.values, cmap="YlOrRd", vmin=0.0, vmax=1.0)
+        im = ax.imshow(mat.values, cmap="cividis", vmin=0.0, vmax=1.0)
         ax.set_title(f"{site}")
         ax.set_xticks(np.arange(len(mat.columns)))
         ax.set_yticks(np.arange(len(mat.index)))

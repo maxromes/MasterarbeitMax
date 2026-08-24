@@ -33,9 +33,9 @@ FIG_DIR = OUT_DIR / "figures"
 
 SITES = ["milimani", "utumbi", "nursery"]
 SITE_COLORS = {
-    "milimani": "#ff7f0e",
-    "utumbi": "#1f77b4",
-    "nursery": "#2ca02c",
+    "milimani": "#4C78A8",
+    "utumbi": "#B279A2",
+    "nursery": "#F28E2B",
 }
 
 
@@ -150,9 +150,9 @@ def make_figures(
     x = np.arange(len(labels))
 
     plt.figure(figsize=(10, 6))
-    plt.bar(x, shared, label="geteilt", color="#4c78a8")
-    plt.bar(x, unique_a, bottom=shared, label="nur site_a", color="#f58518")
-    plt.bar(x, unique_b, bottom=shared + unique_a, label="nur site_b", color="#54a24b")
+    plt.bar(x, shared, label="geteilt", color="#4C78A8")
+    plt.bar(x, unique_a, bottom=shared, label="nur site_a", color="#F28E2B")
+    plt.bar(x, unique_b, bottom=shared + unique_a, label="nur site_b", color="#B279A2")
     plt.xticks(x, labels, rotation=15)
     plt.ylabel("Anzahl Taxa")
     plt.title("Artenüberlappung und standortspezifische Taxa je Standortpaar")
@@ -165,7 +165,7 @@ def make_figures(
     pattern_order = ["111", "110", "101", "011", "100", "010", "001"]
     patt = pattern_df.set_index("presence_pattern").reindex(pattern_order).fillna(0).reset_index()
     plt.figure(figsize=(9, 5.5))
-    plt.bar(patt["presence_pattern"], patt["n_taxa"], color="#4c78a8")
+    plt.bar(patt["presence_pattern"], patt["n_taxa"], color="#4C78A8")
     plt.xlabel("Präsenzmuster (milimani-utumbi-nursery)")
     plt.ylabel("Anzahl Taxa")
     plt.title("Verteilung der Taxa über Standort-Präsenzmuster")
@@ -180,7 +180,7 @@ def make_figures(
         int(focus_df.iloc[0]["unique_a"]),
         int(focus_df.iloc[0]["unique_b"]),
     ]
-    colors = ["#4c78a8", SITE_COLORS["milimani"], SITE_COLORS["utumbi"]]
+    colors = ["#4C78A8", SITE_COLORS["milimani"], SITE_COLORS["utumbi"]]
     plt.figure(figsize=(7.5, 5))
     plt.bar(categories, values, color=colors)
     plt.ylabel("Anzahl Taxa")

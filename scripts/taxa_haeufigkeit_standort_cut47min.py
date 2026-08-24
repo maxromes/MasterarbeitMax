@@ -181,7 +181,7 @@ def create_summary_figures(taxon_tests_df: pd.DataFrame, taxon_site_df: pd.DataF
     holm_sig = int((taxon_tests_df["p_value_holm"] < ALPHA).sum())
 
     plt.figure(figsize=(7, 4.8))
-    plt.bar(["roh p<0.05", "Holm p<0.05"], [raw_sig, holm_sig], color=["#4c78a8", "#f58518"])
+    plt.bar(["roh p<0.05", "Holm p<0.05"], [raw_sig, holm_sig], color=["#4C78A8", "#F28E2B"])
     plt.ylabel("Anzahl Taxa")
     plt.title("Signifikante Standortunterschiede je Taxon (MaxN)")
     plt.tight_layout()
@@ -205,7 +205,7 @@ def create_summary_figures(taxon_tests_df: pd.DataFrame, taxon_site_df: pd.DataF
         )
 
         plt.figure(figsize=(9.5, max(6, len(top_taxa) * 0.28)))
-        im = plt.imshow(mat.values, aspect="auto", cmap="YlGnBu")
+        im = plt.imshow(mat.values, aspect="auto", cmap="cividis")
         plt.xticks(range(len(SITES)), SITES)
         plt.yticks(range(len(top_taxa)), top_taxa)
         plt.title("Top-20 Taxa nach mittlerem MaxN (Standortvergleich)")

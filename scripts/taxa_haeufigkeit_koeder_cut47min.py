@@ -182,7 +182,7 @@ def create_site_figures(site: str, taxon_tests_df: pd.DataFrame, taxon_bait_df: 
     holm_sig = int((taxon_tests_df["p_value_holm"] < ALPHA).sum())
 
     plt.figure(figsize=(7, 4.8))
-    plt.bar(["roh p<0.05", "Holm p<0.05"], [raw_sig, holm_sig], color=["#4c78a8", "#f58518"])
+    plt.bar(["roh p<0.05", "Holm p<0.05"], [raw_sig, holm_sig], color=["#4C78A8", "#F28E2B"])
     plt.ylabel("Anzahl Taxa")
     plt.title(f"{site.capitalize()}: Signifikante Koederunterschiede je Taxon (MaxN)")
     plt.tight_layout()
@@ -206,7 +206,7 @@ def create_site_figures(site: str, taxon_tests_df: pd.DataFrame, taxon_bait_df: 
         )
 
         plt.figure(figsize=(11, max(6, len(top_taxa) * 0.28)))
-        im = plt.imshow(mat.values, aspect="auto", cmap="YlGnBu")
+        im = plt.imshow(mat.values, aspect="auto", cmap="cividis")
         plt.xticks(range(len(bait_order)), bait_order, rotation=35, ha="right")
         plt.yticks(range(len(top_taxa)), top_taxa)
         plt.title(f"{site.capitalize()}: Top-20 Taxa nach mittlerem MaxN (Koedervergleich)")

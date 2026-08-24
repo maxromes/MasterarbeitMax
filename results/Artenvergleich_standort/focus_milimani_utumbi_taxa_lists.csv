@@ -1,22 +1,20 @@
 milimani_only,utumbi_only,shared_milimani_utumbi
 family_label::butterflyfishes (chaetodontidae),family_label::blennies (blenniidae),family_label::emperors (lethrinidae)
 family_label::cornetfishes (fistulariidae),family_label::fusiliers (caesionidae),family_label::groupers (serranidae)
-family_label::filefishes (monacanthidae),family_label::morays (muraenidae),family_label::groupers feeding
-family_label::goatfishes (mullidae),family_label::naso feeding,family_label::groupers interested
-family_label::puffers (tetraodontidae),family_label::scorpion-&lionfishes (scorpaenidae),family_label::jacks/trevallyes (carangidae)
-family_label::turtle (cheloniidae),family_label::wrasses interested,family_label::parrotfishes (scaridae)
-genus::genus acanthurus,genus::genus caesio,family_label::surgeonfishes (acanthuridae)
-label::stomatapoda,genus::genus ctenochaetus,family_label::triggerfishes (balistidae)
-species::indian longnose (hipposcarus harid),species::blacktip (epinephelus fasciatus),family_label::tunas/mackerels (scombridae)
-species::lyretail hogfish (bodianus anthioides),species::brassy trevally (caranx papuensis),family_label::wrasses (labridae)
-species::masked banner (heniochus monoceros),species::cigar (cheilio inermis),genus::genus chromis
-species::scissortail sergeant (abudefduf sexfasciatus),species::claudia (halichoeres claudia),genus::genus naso
-species::spotted toby (canthigaster solandri),species::clown (coris aygula),genus::genus siganus
-species::titan (balistoides viridescens),species::emperor (pomacanthus imperator),genus::genus soldier
-species::weber's puller (chromis weberi),species::false-eye (abudefduf sparoides),genus::genus squirrel
-species::yellowstripe (mulloidichthys flavolineatus),species::five-saddle (scarus saber),species::arabian monocle (scolopsis ghanam)
-,species::golden (ctenochaetus truncates),species::axilspot hogfish (bodianus axillaris)
-,species::halfmoon (sufflamen chrysopterum),species::barred (hemigymnus fasciatus)
+family_label::filefishes (monacanthidae),family_label::morays (muraenidae),family_label::jacks/trevallyes (carangidae)
+family_label::goatfishes (mullidae),family_label::scorpion-&lionfishes (scorpaenidae),family_label::parrotfishes (scaridae)
+family_label::puffers (tetraodontidae),genus::genus caesio,family_label::surgeonfishes (acanthuridae)
+family_label::turtle (cheloniidae),genus::genus ctenochaetus,family_label::triggerfishes (balistidae)
+genus::genus acanthurus,species::blacktip (epinephelus fasciatus),family_label::tunas/mackerels (scombridae)
+label::stomatapoda,species::brassy trevally (caranx papuensis),family_label::wrasses (labridae)
+species::indian longnose (hipposcarus harid),species::cigar (cheilio inermis),genus::genus chromis
+species::lyretail hogfish (bodianus anthioides),species::claudia (halichoeres claudia),genus::genus naso
+species::masked banner (heniochus monoceros),species::clown (coris aygula),genus::genus siganus
+species::scissortail sergeant (abudefduf sexfasciatus),species::emperor (pomacanthus imperator),genus::genus soldier
+species::spotted toby (canthigaster solandri),species::false-eye (abudefduf sparoides),genus::genus squirrel
+species::titan (balistoides viridescens),species::five-saddle (scarus saber),species::arabian monocle (scolopsis ghanam)
+species::weber's puller (chromis weberi),species::golden (ctenochaetus truncates),species::axilspot hogfish (bodianus axillaris)
+species::yellowstripe (mulloidichthys flavolineatus),species::halfmoon (sufflamen chrysopterum),species::barred (hemigymnus fasciatus)
 ,species::indian half-and-half (pycnochromis dimidiatusf),species::bicolor (labroides bicolor)
 ,species::longnose (lethrinus olivaceus),species::bird wrasse (gomphosus caeruleus)
 ,species::palenose (scarus psittacus),species::black saddled toby (canthigaster valentini)

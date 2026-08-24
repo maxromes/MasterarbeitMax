@@ -27,10 +27,6 @@ family_label::groupers (serranidae),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
 family_label::groupers (serranidae),algaemix,3,2,0.6666666666666666,0.6666666666666666,1.0,0.5773502691896258,1.0
 family_label::groupers (serranidae),control,1,0,0.0,0.0,0.0,0.0,0.0
 family_label::groupers (serranidae),mackerel,4,2,0.5,1.0,0.5,1.4142135623730951,3.0
-family_label::groupers feeding,algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
-family_label::groupers feeding,algaemix,3,0,0.0,0.0,0.0,0.0,0.0
-family_label::groupers feeding,control,1,0,0.0,0.0,0.0,0.0,0.0
-family_label::groupers feeding,mackerel,4,1,0.25,0.5,0.0,1.0,2.0
 family_label::jacks/trevallyes (carangidae),algae_strings,3,3,1.0,1.6666666666666667,2.0,0.5773502691896257,2.0
 family_label::jacks/trevallyes (carangidae),algaemix,3,3,1.0,1.3333333333333333,1.0,0.5773502691896257,2.0
 family_label::jacks/trevallyes (carangidae),control,1,1,1.0,6.0,6.0,0.0,6.0
@@ -39,18 +35,10 @@ family_label::parrotfishes (scaridae),algae_strings,3,3,1.0,11.0,13.0,4.35889894
 family_label::parrotfishes (scaridae),algaemix,3,3,1.0,4.333333333333333,3.0,3.214550253664318,8.0
 family_label::parrotfishes (scaridae),control,1,1,1.0,1.0,1.0,0.0,1.0
 family_label::parrotfishes (scaridae),mackerel,4,4,1.0,7.75,8.5,3.947573094109004,11.0
-family_label::parrotfishes feeding,algae_strings,3,1,0.3333333333333333,1.3333333333333333,0.0,2.3094010767585034,4.0
-family_label::parrotfishes feeding,algaemix,3,2,0.6666666666666666,0.6666666666666666,1.0,0.5773502691896258,1.0
-family_label::parrotfishes feeding,control,1,0,0.0,0.0,0.0,0.0,0.0
-family_label::parrotfishes feeding,mackerel,4,0,0.0,0.0,0.0,0.0,0.0
 family_label::puffers (tetraodontidae),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
 family_label::puffers (tetraodontidae),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
 family_label::puffers (tetraodontidae),control,1,1,1.0,2.0,2.0,0.0,2.0
 family_label::puffers (tetraodontidae),mackerel,4,0,0.0,0.0,0.0,0.0,0.0
-family_label::siganus feeding,algae_strings,3,2,0.6666666666666666,1.0,1.0,1.0,2.0
-family_label::siganus feeding,algaemix,3,0,0.0,0.0,0.0,0.0,0.0
-family_label::siganus feeding,control,1,0,0.0,0.0,0.0,0.0,0.0
-family_label::siganus feeding,mackerel,4,0,0.0,0.0,0.0,0.0,0.0
 family_label::snappers (lutjanidae),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
 family_label::snappers (lutjanidae),algaemix,3,0,0.0,0.0,0.0,0.0,0.0
 family_label::snappers (lutjanidae),control,1,1,1.0,1.0,1.0,0.0,1.0
@@ -67,10 +55,6 @@ family_label::wrasses (labridae),algae_strings,3,1,0.3333333333333333,0.33333333
 family_label::wrasses (labridae),algaemix,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
 family_label::wrasses (labridae),control,1,0,0.0,0.0,0.0,0.0,0.0
 family_label::wrasses (labridae),mackerel,4,0,0.0,0.0,0.0,0.0,0.0
-family_label::wrasses interested,algae_strings,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
-family_label::wrasses interested,algaemix,3,0,0.0,0.0,0.0,0.0,0.0
-family_label::wrasses interested,control,1,0,0.0,0.0,0.0,0.0,0.0
-family_label::wrasses interested,mackerel,4,0,0.0,0.0,0.0,0.0,0.0
 genus::canthigaster,algae_strings,3,0,0.0,0.0,0.0,0.0,0.0
 genus::canthigaster,algaemix,3,0,0.0,0.0,0.0,0.0,0.0
 genus::canthigaster,control,1,0,0.0,0.0,0.0,0.0,0.0
@@ -211,7 +195,7 @@ species::halfmoon (sufflamen chrysopterum),algae_strings,3,2,0.6666666666666666,
 species::halfmoon (sufflamen chrysopterum),algaemix,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
 species::halfmoon (sufflamen chrysopterum),control,1,0,0.0,0.0,0.0,0.0,0.0
 species::halfmoon (sufflamen chrysopterum),mackerel,4,0,0.0,0.0,0.0,0.0,0.0
-species::honeycomb (siganus stellatus),algae_strings,3,3,1.0,3.3333333333333335,4.0,1.1547005383792515,4.0
+species::honeycomb (siganus stellatus),algae_strings,3,3,1.0,2.6666666666666665,3.0,1.5275252316519468,4.0
 species::honeycomb (siganus stellatus),algaemix,3,3,1.0,4.0,4.0,0.0,4.0
 species::honeycomb (siganus stellatus),control,1,0,0.0,0.0,0.0,0.0,0.0
 species::honeycomb (siganus stellatus),mackerel,4,2,0.5,1.75,1.0,2.362907813126304,5.0
@@ -276,7 +260,7 @@ species::mozambique fangblenny (meiacanthus mossambicus),algaemix,3,0,0.0,0.0,0.
 species::mozambique fangblenny (meiacanthus mossambicus),control,1,0,0.0,0.0,0.0,0.0,0.0
 species::mozambique fangblenny (meiacanthus mossambicus),mackerel,4,2,0.5,0.75,0.5,0.9574271077563381,2.0
 species::paletail unicorn (naso brevirostris),algae_strings,3,3,1.0,20.0,23.0,5.196152422706632,23.0
-species::paletail unicorn (naso brevirostris),algaemix,3,3,1.0,31.0,32.0,9.539392014169456,40.0
+species::paletail unicorn (naso brevirostris),algaemix,3,3,1.0,26.666666666666668,21.0,11.590225767142474,40.0
 species::paletail unicorn (naso brevirostris),control,1,0,0.0,0.0,0.0,0.0,0.0
 species::paletail unicorn (naso brevirostris),mackerel,4,3,0.75,3.25,1.5,4.573474244670748,10.0
 species::peacock damsel (pomacentrus pavo),algae_strings,3,0,0.0,0.0,0.0,0.0,0.0

@@ -28,24 +28,24 @@ ALPHA = 0.05
 
 # Visual mapping used in markdown table and figures
 BAIT_COLOR_MAP = {
-    "mackerel": "#1f77b4",
-    "ulva_salad": "#2ca02c",
-    "ulva_gutweed": "#17becf",
-    "control": "#7f7f7f",
-    "sargassum": "#ff7f0e",
-    "fischmix": "#d62728",
-    "algae_strings": "#9467bd",
-    "algaemix": "#8c564b",
+    "mackerel": "#1F77B4",
+    "ulva_salad": "#B279A2",
+    "ulva_gutweed": "#76B7B2",
+    "control": "#9D9D9D",
+    "sargassum": "#F28E2B",
+    "fischmix": "#2F4B7C",
+    "algae_strings": "#8F63B8",
+    "algaemix": "#9C755F",
 }
 BAIT_MARKER_MAP = {
-    "mackerel": "🔵",
-    "ulva_salad": "🟢",
-    "ulva_gutweed": "🩵",
-    "control": "⚪",
-    "sargassum": "🟠",
-    "fischmix": "🔴",
-    "algae_strings": "🟣",
-    "algaemix": "🟤",
+    "mackerel": "MKR",
+    "ulva_salad": "US",
+    "ulva_gutweed": "UG",
+    "control": "CTRL",
+    "sargassum": "SG",
+    "fischmix": "FM",
+    "algae_strings": "AS",
+    "algaemix": "AM",
 }
 
 

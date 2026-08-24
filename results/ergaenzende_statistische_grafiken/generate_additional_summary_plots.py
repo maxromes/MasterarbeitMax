@@ -44,8 +44,8 @@ labels = [f[0] for f in features]
 deltas = [f[1] for f in features]
 fig, ax = plt.subplots(figsize=(9, 5.5))
 y = np.arange(len(labels))
-ax.hlines(y, 0, deltas, color="#2f6f9f", linewidth=2)
-ax.plot(deltas, y, "o", color="#d65f5f", markersize=7)
+ax.hlines(y, 0, deltas, color="#2F4B7C", linewidth=2)
+ax.plot(deltas, y, "o", color="#F28E2B", markersize=7)
 ax.set_yticks(y)
 ax.set_yticklabels(labels)
 ax.axvline(0, color="black", linewidth=0.8, alpha=0.6)
@@ -65,8 +65,8 @@ values = [
     [40, 55, 60, 52, 58, 48, 62, 51, 50, 54, 45, 64, 57, 47, 53, 61, 68],
     [25, 30, 38, 42, 36, 34, 29, 31, 40, 33, 28, 37, 35, 32, 41, 36, 39],
 ]
-boxes = ax.boxplot(values, patch_artist=True, labels=site_order, widths=0.5)
-colors = ["#4e79a7", "#59a14f", "#f28e2b"]
+boxes = ax.boxplot(values, patch_artist=True, tick_labels=site_order, widths=0.5)
+colors = ["#4C78A8", "#B279A2", "#F28E2B"]
 for patch, c in zip(boxes["boxes"], colors):
     patch.set_facecolor(c)
     patch.set_alpha(0.75)
@@ -82,7 +82,7 @@ fig, ax = plt.subplots(figsize=(8, 5.2))
 # x = species richness, y = visibility mean
 x = np.array([20, 25, 30, 35, 40, 45, 50, 55, 60, 65])
 y = np.array([1.8, 2.1, 2.3, 2.5, 2.9, 3.0, 3.4, 3.6, 4.0, 4.3])
-ax.scatter(x, y, s=30, color="#e15759", alpha=0.8)
+ax.scatter(x, y, s=30, color="#4C78A8", alpha=0.8)
 ax.set_xlabel("Species Richness")
 ax.set_ylabel("Visibility (mean)")
 ax.set_title("Visibility: roher Zusammenhang mit Species Richness")
@@ -96,8 +96,8 @@ ci_low = [0.004 - 0.06, 0.030 - 0.09, -0.017 - 0.12]
 ci_high = [0.004 + 0.06, 0.030 + 0.09, -0.017 + 0.12]
 fig, ax = plt.subplots(figsize=(8, 4.8))
 y = np.arange(len(labels))
-ax.hlines(y, ci_low, ci_high, color="#7f7f7f", linewidth=1.8)
-ax.plot(coef, y, "o", color="#76b7b2", markersize=7)
+ax.hlines(y, ci_low, ci_high, color="#7F7F7F", linewidth=1.8)
+ax.plot(coef, y, "o", color="#F28E2B", markersize=7)
 ax.axvline(0, color="black", linewidth=0.8, alpha=0.7)
 ax.set_yticks(y)
 ax.set_yticklabels(labels)
@@ -110,7 +110,7 @@ save(fig, "05_visibility_adjusted_forest_plot.png")
 sites = ["Milimani", "Utumbi", "Nursery"]
 ps = [0.0242, 0.0046, 0.0016]
 fig, ax = plt.subplots(figsize=(7, 4.8))
-ax.bar(sites, [-np.log10(p) for p in ps], color=["#5a9bd4", "#00a14b", "#f28e2b"])
+ax.bar(sites, [-np.log10(p) for p in ps], color=["#4C78A8", "#B279A2", "#F28E2B"])
 ax.set_ylabel("-log10(p)")
 ax.set_title("PERMANOVA: Koeder-Effekt auf Gemeinschaftszusammensetzung")
 for s, p in zip(sites, ps):
@@ -129,7 +129,7 @@ mat = np.array([
     [0, 0, 1],
 ])
 fig, ax = plt.subplots(figsize=(8, 4.5))
-img = ax.imshow(mat, cmap="RdBu_r", vmin=-1, vmax=1)
+img = ax.imshow(mat, cmap="PuOr", vmin=-1, vmax=1)
 ax.set_xticks(range(len(site_labels)))
 ax.set_xticklabels(site_labels)
 ax.set_yticks(range(len(herbivores)))
@@ -159,7 +159,7 @@ items = [
     "Koeder-Rohsignale",
 ]
 status = ["robust", "robust", "teilweise", "robust", "bedingt", "bedingt", "explorativ"]
-color_map = {"robust": "#2ca02c", "bedingt": "#ffbb33", "explorativ": "#d62728", "teilweise": "#6c8ebf"}
+color_map = {"robust": "#4C78A8", "bedingt": "#F28E2B", "explorativ": "#B279A2", "teilweise": "#9C755F"}
 colors = [color_map[s] for s in status]
 y = np.arange(len(items))
 ax.barh(y, [1.0]*len(items), color=colors, height=0.8)

@@ -39,9 +39,9 @@ ALPHA = 0.05
 RNG = np.random.default_rng(42)
 
 SITE_COLORS = {
-    "utumbi": "#1f77b4",
-    "milimani": "#ff7f0e",
-    "nursery": "#2ca02c",
+    "utumbi": "#B279A2",
+    "milimani": "#4C78A8",
+    "nursery": "#F28E2B",
 }
 
 
@@ -348,7 +348,7 @@ def create_figures(videos_df: pd.DataFrame, overlap_df: pd.DataFrame, site_sets:
         sim[j, i] = r["jaccard_similarity"]
 
     plt.figure(figsize=(6.5, 5.5))
-    im = plt.imshow(sim, vmin=0, vmax=1, cmap="YlGnBu")
+    im = plt.imshow(sim, vmin=0, vmax=1, cmap="cividis")
     plt.xticks([0, 1, 2], sites)
     plt.yticks([0, 1, 2], sites)
     for i in range(3):
@@ -403,9 +403,9 @@ def create_figures(videos_df: pd.DataFrame, overlap_df: pd.DataFrame, site_sets:
 
     x = np.arange(len(labels))
     plt.figure(figsize=(9.5, 6))
-    plt.bar(x, shared, label="geteilt", color="#4c78a8")
-    plt.bar(x, ua, bottom=shared, label="nur site_a", color="#f58518")
-    plt.bar(x, ub, bottom=np.array(shared) + np.array(ua), label="nur site_b", color="#54a24b")
+    plt.bar(x, shared, label="geteilt", color="#4C78A8")
+    plt.bar(x, ua, bottom=shared, label="nur site_a", color="#F28E2B")
+    plt.bar(x, ub, bottom=np.array(shared) + np.array(ua), label="nur site_b", color="#B279A2")
     plt.xticks(x, labels, rotation=15)
     plt.ylabel("Anzahl Taxa")
     plt.title("Geteilte und einzigartige Taxa pro Standortpaar")

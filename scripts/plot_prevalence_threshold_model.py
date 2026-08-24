@@ -38,7 +38,7 @@ def main() -> None:
     # Plot 1: Heatmap by site and family
     fig, axes = plt.subplots(1, 3, figsize=(16, 10), sharey=True)
     fig.suptitle(
-        "Prevalence-Threshold Fisher-Exact Tests by Site\n(Colors: algae>fish (red) vs fish>algae (blue); Intensity: -log10(p))",
+        "Prevalence-Threshold Fisher-Exact Tests by Site\n(Farben: algae>fish (orange) vs fish>algae (blau); Intensitaet: -log10(p))",
         fontsize=14,
         fontweight="bold",
         y=0.98
@@ -61,7 +61,7 @@ def main() -> None:
         values = subset["signed_log10_p"].tolist()
         
         # Create barplot
-        colors = ["#d73027" if v > 0 else "#4575b4" for v in values]
+        colors = ["#F28E2B" if v > 0 else "#4C78A8" for v in values]
         bars = ax.barh(range(len(families)), values, color=colors, edgecolor="black", linewidth=0.5)
         
         # Add significance threshold line
@@ -79,8 +79,8 @@ def main() -> None:
             ax.set_ylabel("Family", fontsize=10)
 
     # Add legend
-    red_patch = mpatches.Patch(color="#d73027", label="Algae > Fish")
-    blue_patch = mpatches.Patch(color="#4575b4", label="Fish > Algae")
+    red_patch = mpatches.Patch(color="#F28E2B", label="Algae > Fish")
+    blue_patch = mpatches.Patch(color="#4C78A8", label="Fish > Algae")
     fig.legend(
         handles=[red_patch, blue_patch],
         loc="lower center",
@@ -118,8 +118,8 @@ def main() -> None:
     x = np.arange(len(sites))
     width = 0.35
     
-    bars1 = ax.bar(x - width/2, robust_by_site.values, width, label="Holm q <= 0.05", color="#1f77b4", edgecolor="black")
-    bars2 = ax.bar(x + width/2, trend_by_site.values, width, label="Trend: 0.05 < q <= 0.10", color="#ff7f0e", edgecolor="black")
+    bars1 = ax.bar(x - width/2, robust_by_site.values, width, label="Holm q <= 0.05", color="#4C78A8", edgecolor="black")
+    bars2 = ax.bar(x + width/2, trend_by_site.values, width, label="Trend: 0.05 < q <= 0.10", color="#B279A2", edgecolor="black")
     
     ax.set_ylabel("Number of Families", fontsize=11, fontweight="bold")
     ax.set_title(
@@ -170,8 +170,8 @@ def main() -> None:
     x = np.arange(len(sites))
     width = 0.35
     
-    bars1 = ax.bar(x - width/2, algae_by_site.values, width, label="Algae > Fish (direction)", color="#d73027", edgecolor="black")
-    bars2 = ax.bar(x + width/2, fish_by_site.values, width, label="Fish > Algae (direction)", color="#4575b4", edgecolor="black")
+    bars1 = ax.bar(x - width/2, algae_by_site.values, width, label="Algae > Fish (direction)", color="#F28E2B", edgecolor="black")
+    bars2 = ax.bar(x + width/2, fish_by_site.values, width, label="Fish > Algae (direction)", color="#4C78A8", edgecolor="black")
     
     ax.set_ylabel("Number of Families", fontsize=11, fontweight="bold")
     ax.set_title(

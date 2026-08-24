@@ -227,7 +227,7 @@ def main() -> None:
 
     fig, ax = plt.subplots(figsize=(9, 6.2))
     x_positions = np.arange(1, len(summary_df) + 1)
-    colors = ["#2e7d32", "#1f77b4", "#d97706", "#7b2cbf"]
+    colors = ["#4C78A8", "#2F4B7C", "#F28E2B", "#8F63B8"]
     for idx, row in enumerate(summary_df.itertuples(index=False)):
         loo_values = np.array([
             float(v) for v in row.all_loo_p_values.split(", ") if v.strip()

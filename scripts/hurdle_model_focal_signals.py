@@ -397,8 +397,8 @@ def main() -> None:
     ax2 = axes[1]
     for i, row in enumerate(summary.itertuples(index=False)):
         if np.isfinite(row.intensity_coef_log1p):
-            ax2.hlines(i, row.intensity_ci_low, row.intensity_ci_high, color="#d62728", linewidth=2)
-            ax2.plot(row.intensity_coef_log1p, i, "o", color="#d62728")
+            ax2.hlines(i, row.intensity_ci_low, row.intensity_ci_high, color="#F28E2B", linewidth=2)
+            ax2.plot(row.intensity_coef_log1p, i, "o", color="#F28E2B")
         else:
             ax2.plot(0.0, i, "x", color="#666666")
 

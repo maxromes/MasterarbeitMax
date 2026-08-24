@@ -23,18 +23,6 @@ family_label::groupers (serranidae),mackerel,3,3,1.0,2.3333333333333335,2.0,0.57
 family_label::groupers (serranidae),sargassum,3,3,1.0,1.3333333333333333,1.0,0.5773502691896257,2.0
 family_label::groupers (serranidae),ulva_gutweed,3,3,1.0,1.3333333333333333,1.0,0.5773502691896257,2.0
 family_label::groupers (serranidae),ulva_salad,3,3,1.0,1.3333333333333333,1.0,0.5773502691896257,2.0
-family_label::groupers feeding,control,4,0,0.0,0.0,0.0,0.0,0.0
-family_label::groupers feeding,fischmix,2,1,0.5,0.5,0.5,0.7071067811865476,1.0
-family_label::groupers feeding,mackerel,3,1,0.3333333333333333,0.6666666666666666,0.0,1.1547005383792517,2.0
-family_label::groupers feeding,sargassum,3,0,0.0,0.0,0.0,0.0,0.0
-family_label::groupers feeding,ulva_gutweed,3,0,0.0,0.0,0.0,0.0,0.0
-family_label::groupers feeding,ulva_salad,3,0,0.0,0.0,0.0,0.0,0.0
-family_label::groupers interested,control,4,0,0.0,0.0,0.0,0.0,0.0
-family_label::groupers interested,fischmix,2,1,0.5,0.5,0.5,0.7071067811865476,1.0
-family_label::groupers interested,mackerel,3,1,0.3333333333333333,0.6666666666666666,0.0,1.1547005383792517,2.0
-family_label::groupers interested,sargassum,3,0,0.0,0.0,0.0,0.0,0.0
-family_label::groupers interested,ulva_gutweed,3,0,0.0,0.0,0.0,0.0,0.0
-family_label::groupers interested,ulva_salad,3,0,0.0,0.0,0.0,0.0,0.0
 family_label::jacks/trevallyes (carangidae),control,4,0,0.0,0.0,0.0,0.0,0.0
 family_label::jacks/trevallyes (carangidae),fischmix,2,0,0.0,0.0,0.0,0.0,0.0
 family_label::jacks/trevallyes (carangidae),mackerel,3,0,0.0,0.0,0.0,0.0,0.0
@@ -47,12 +35,6 @@ family_label::morays (muraenidae),mackerel,3,1,0.3333333333333333,0.666666666666
 family_label::morays (muraenidae),sargassum,3,0,0.0,0.0,0.0,0.0,0.0
 family_label::morays (muraenidae),ulva_gutweed,3,0,0.0,0.0,0.0,0.0,0.0
 family_label::morays (muraenidae),ulva_salad,3,0,0.0,0.0,0.0,0.0,0.0
-family_label::naso feeding,control,4,0,0.0,0.0,0.0,0.0,0.0
-family_label::naso feeding,fischmix,2,0,0.0,0.0,0.0,0.0,0.0
-family_label::naso feeding,mackerel,3,0,0.0,0.0,0.0,0.0,0.0
-family_label::naso feeding,sargassum,3,0,0.0,0.0,0.0,0.0,0.0
-family_label::naso feeding,ulva_gutweed,3,0,0.0,0.0,0.0,0.0,0.0
-family_label::naso feeding,ulva_salad,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
 family_label::parrotfishes (scaridae),control,4,4,1.0,7.0,6.5,4.546060565661952,13.0
 family_label::parrotfishes (scaridae),fischmix,2,2,1.0,4.5,4.5,3.5355339059327378,7.0
 family_label::parrotfishes (scaridae),mackerel,3,3,1.0,11.666666666666666,12.0,4.509249752822894,16.0
@@ -89,12 +71,6 @@ family_label::wrasses (labridae),mackerel,3,3,1.0,1.6666666666666667,2.0,0.57735
 family_label::wrasses (labridae),sargassum,3,1,0.3333333333333333,0.6666666666666666,0.0,1.1547005383792517,2.0
 family_label::wrasses (labridae),ulva_gutweed,3,3,1.0,1.3333333333333333,1.0,0.5773502691896257,2.0
 family_label::wrasses (labridae),ulva_salad,3,3,1.0,1.3333333333333333,1.0,0.5773502691896257,2.0
-family_label::wrasses interested,control,4,0,0.0,0.0,0.0,0.0,0.0
-family_label::wrasses interested,fischmix,2,0,0.0,0.0,0.0,0.0,0.0
-family_label::wrasses interested,mackerel,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
-family_label::wrasses interested,sargassum,3,0,0.0,0.0,0.0,0.0,0.0
-family_label::wrasses interested,ulva_gutweed,3,0,0.0,0.0,0.0,0.0,0.0
-family_label::wrasses interested,ulva_salad,3,0,0.0,0.0,0.0,0.0,0.0
 genus::genus caesio,control,4,1,0.25,0.5,0.0,1.0,2.0
 genus::genus caesio,fischmix,2,0,0.0,0.0,0.0,0.0,0.0
 genus::genus caesio,mackerel,3,0,0.0,0.0,0.0,0.0,0.0
@@ -193,7 +169,7 @@ species::blackeye (hemigymnus melapterus),ulva_gutweed,3,1,0.3333333333333333,0.
 species::blackeye (hemigymnus melapterus),ulva_salad,3,3,1.0,1.0,1.0,0.0,1.0
 species::blacktip (epinephelus fasciatus),control,4,0,0.0,0.0,0.0,0.0,0.0
 species::blacktip (epinephelus fasciatus),fischmix,2,1,0.5,0.5,0.5,0.7071067811865476,1.0
-species::blacktip (epinephelus fasciatus),mackerel,3,2,0.6666666666666666,1.3333333333333333,2.0,1.1547005383792517,2.0
+species::blacktip (epinephelus fasciatus),mackerel,3,2,0.6666666666666666,0.6666666666666666,1.0,0.5773502691896258,1.0
 species::blacktip (epinephelus fasciatus),sargassum,3,0,0.0,0.0,0.0,0.0,0.0
 species::blacktip (epinephelus fasciatus),ulva_gutweed,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
 species::blacktip (epinephelus fasciatus),ulva_salad,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
@@ -295,7 +271,7 @@ species::emperor (pomacanthus imperator),ulva_gutweed,3,0,0.0,0.0,0.0,0.0,0.0
 species::emperor (pomacanthus imperator),ulva_salad,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
 species::false-eye (abudefduf sparoides),control,4,2,0.5,0.5,0.5,0.5773502691896257,1.0
 species::false-eye (abudefduf sparoides),fischmix,2,2,1.0,1.0,1.0,0.0,1.0
-species::false-eye (abudefduf sparoides),mackerel,3,2,0.6666666666666666,3.3333333333333335,2.0,4.163331998932265,8.0
+species::false-eye (abudefduf sparoides),mackerel,3,2,0.6666666666666666,2.0,2.0,2.0,4.0
 species::false-eye (abudefduf sparoides),sargassum,3,2,0.6666666666666666,1.3333333333333333,2.0,1.1547005383792517,2.0
 species::false-eye (abudefduf sparoides),ulva_gutweed,3,3,1.0,1.3333333333333333,1.0,0.5773502691896257,2.0
 species::false-eye (abudefduf sparoides),ulva_salad,3,0,0.0,0.0,0.0,0.0,0.0
@@ -313,7 +289,7 @@ species::freckled (paracirrhites forsteri),ulva_gutweed,3,2,0.6666666666666666,0
 species::freckled (paracirrhites forsteri),ulva_salad,3,3,1.0,1.0,1.0,0.0,1.0
 species::goldbar (thalassoma hebraicum),control,4,4,1.0,1.25,1.0,0.5,2.0
 species::goldbar (thalassoma hebraicum),fischmix,2,2,1.0,1.5,1.5,0.7071067811865476,2.0
-species::goldbar (thalassoma hebraicum),mackerel,3,3,1.0,3.3333333333333335,2.0,2.3094010767585034,6.0
+species::goldbar (thalassoma hebraicum),mackerel,3,3,1.0,2.3333333333333335,2.0,0.5773502691896258,3.0
 species::goldbar (thalassoma hebraicum),sargassum,3,3,1.0,2.6666666666666665,3.0,0.5773502691896258,3.0
 species::goldbar (thalassoma hebraicum),ulva_gutweed,3,3,1.0,1.6666666666666667,2.0,0.5773502691896257,2.0
 species::goldbar (thalassoma hebraicum),ulva_salad,3,3,1.0,2.0,2.0,1.0,3.0
@@ -324,8 +300,8 @@ species::golden (ctenochaetus truncates),sargassum,3,3,1.0,2.0,2.0,1.0,3.0
 species::golden (ctenochaetus truncates),ulva_gutweed,3,0,0.0,0.0,0.0,0.0,0.0
 species::golden (ctenochaetus truncates),ulva_salad,3,2,0.6666666666666666,1.3333333333333333,2.0,1.1547005383792517,2.0
 species::green (amblyglyphidodon indicus),control,4,4,1.0,2.0,2.0,0.816496580927726,3.0
-species::green (amblyglyphidodon indicus),fischmix,2,2,1.0,10.5,10.5,2.1213203435596424,12.0
-species::green (amblyglyphidodon indicus),mackerel,3,3,1.0,8.333333333333334,6.0,8.736894948054104,18.0
+species::green (amblyglyphidodon indicus),fischmix,2,2,1.0,9.0,9.0,0.0,9.0
+species::green (amblyglyphidodon indicus),mackerel,3,3,1.0,5.333333333333333,6.0,4.041451884327381,9.0
 species::green (amblyglyphidodon indicus),sargassum,3,3,1.0,4.0,4.0,1.0,5.0
 species::green (amblyglyphidodon indicus),ulva_gutweed,3,3,1.0,1.6666666666666667,2.0,0.5773502691896257,2.0
 species::green (amblyglyphidodon indicus),ulva_salad,3,2,0.6666666666666666,2.0,2.0,2.0,4.0
@@ -444,7 +420,7 @@ species::monk (acanthurus gahhm),sargassum,3,0,0.0,0.0,0.0,0.0,0.0
 species::monk (acanthurus gahhm),ulva_gutweed,3,0,0.0,0.0,0.0,0.0,0.0
 species::monk (acanthurus gahhm),ulva_salad,3,0,0.0,0.0,0.0,0.0,0.0
 species::moon (thalassoma lunare),control,4,3,0.75,1.25,1.5,0.9574271077563381,2.0
-species::moon (thalassoma lunare),fischmix,2,2,1.0,7.5,7.5,0.7071067811865476,8.0
+species::moon (thalassoma lunare),fischmix,2,2,1.0,6.0,6.0,1.4142135623730951,7.0
 species::moon (thalassoma lunare),mackerel,3,3,1.0,2.3333333333333335,3.0,1.1547005383792515,3.0
 species::moon (thalassoma lunare),sargassum,3,3,1.0,1.6666666666666667,2.0,0.5773502691896257,2.0
 species::moon (thalassoma lunare),ulva_gutweed,3,2,0.6666666666666666,0.6666666666666666,1.0,0.5773502691896258,1.0
@@ -462,7 +438,7 @@ species::mozambique fangblenny (meiacanthus mossambicus),sargassum,3,1,0.3333333
 species::mozambique fangblenny (meiacanthus mossambicus),ulva_gutweed,3,2,0.6666666666666666,0.6666666666666666,1.0,0.5773502691896258,1.0
 species::mozambique fangblenny (meiacanthus mossambicus),ulva_salad,3,2,0.6666666666666666,0.6666666666666666,1.0,0.5773502691896258,1.0
 species::orange-lined (balistapus undulatus),control,4,4,1.0,1.5,1.0,1.0,3.0
-species::orange-lined (balistapus undulatus),fischmix,2,2,1.0,7.5,7.5,3.5355339059327378,10.0
+species::orange-lined (balistapus undulatus),fischmix,2,2,1.0,6.5,6.5,2.1213203435596424,8.0
 species::orange-lined (balistapus undulatus),mackerel,3,3,1.0,5.333333333333333,5.0,0.5773502691896258,6.0
 species::orange-lined (balistapus undulatus),sargassum,3,3,1.0,3.6666666666666665,4.0,1.5275252316519468,5.0
 species::orange-lined (balistapus undulatus),ulva_gutweed,3,3,1.0,2.0,2.0,0.0,2.0
@@ -528,8 +504,8 @@ species::raccoon (chaetodon lunula),sargassum,3,2,0.6666666666666666,0.666666666
 species::raccoon (chaetodon lunula),ulva_gutweed,3,1,0.3333333333333333,0.6666666666666666,0.0,1.1547005383792517,2.0
 species::raccoon (chaetodon lunula),ulva_salad,3,1,0.3333333333333333,0.6666666666666666,0.0,1.1547005383792517,2.0
 species::red (lutjanus bohar),control,4,3,0.75,0.75,1.0,0.5,1.0
-species::red (lutjanus bohar),fischmix,2,2,1.0,1.5,1.5,0.7071067811865476,2.0
-species::red (lutjanus bohar),mackerel,3,3,1.0,2.3333333333333335,3.0,1.1547005383792515,3.0
+species::red (lutjanus bohar),fischmix,2,2,1.0,1.0,1.0,0.0,1.0
+species::red (lutjanus bohar),mackerel,3,3,1.0,1.6666666666666667,1.0,1.1547005383792517,3.0
 species::red (lutjanus bohar),sargassum,3,3,1.0,1.6666666666666667,2.0,0.5773502691896257,2.0
 species::red (lutjanus bohar),ulva_gutweed,3,3,1.0,1.0,1.0,0.0,1.0
 species::red (lutjanus bohar),ulva_salad,3,2,0.6666666666666666,0.6666666666666666,1.0,0.5773502691896258,1.0
@@ -678,7 +654,7 @@ species::tubelip (labrichthys unilineatus),sargassum,3,2,0.6666666666666666,0.66
 species::tubelip (labrichthys unilineatus),ulva_gutweed,3,2,0.6666666666666666,0.6666666666666666,1.0,0.5773502691896258,1.0
 species::tubelip (labrichthys unilineatus),ulva_salad,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
 species::undulated (gymnothorax undulatus),control,4,0,0.0,0.0,0.0,0.0,0.0
-species::undulated (gymnothorax undulatus),fischmix,2,1,0.5,0.5,0.5,0.7071067811865476,1.0
+species::undulated (gymnothorax undulatus),fischmix,2,0,0.0,0.0,0.0,0.0,0.0
 species::undulated (gymnothorax undulatus),mackerel,3,1,0.3333333333333333,0.6666666666666666,0.0,1.1547005383792517,2.0
 species::undulated (gymnothorax undulatus),sargassum,3,0,0.0,0.0,0.0,0.0,0.0
 species::undulated (gymnothorax undulatus),ulva_gutweed,3,0,0.0,0.0,0.0,0.0,0.0

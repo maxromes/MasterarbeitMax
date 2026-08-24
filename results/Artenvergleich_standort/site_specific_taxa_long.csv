@@ -5,7 +5,6 @@ milimani,family_label::turtle (cheloniidae)
 milimani,species::lyretail hogfish (bodianus anthioides)
 milimani,species::masked banner (heniochus monoceros)
 utumbi,family_label::morays (muraenidae)
-utumbi,family_label::naso feeding
 utumbi,family_label::scorpion-&lionfishes (scorpaenidae)
 utumbi,genus::genus ctenochaetus
 utumbi,species::blacktip (epinephelus fasciatus)
@@ -26,8 +25,6 @@ utumbi,species::whiteline (stethojulis albovittata)
 utumbi,species::yellowbreast (anampses twistii)
 utumbi,species::yellowtail (anampses meleagrides)
 nursery,family_label::batfishes (ephippidae)
-nursery,family_label::parrotfishes feeding
-nursery,family_label::siganus feeding
 nursery,family_label::snappers (lutjanidae)
 nursery,family_label::trumpetfishes (aulostomidae)
 nursery,genus::canthigaster

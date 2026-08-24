@@ -35,18 +35,6 @@ family_label::groupers (serranidae),mackerel,3,2,0.6666666666666666,1.0,1.0,1.0,
 family_label::groupers (serranidae),sargassum,3,3,1.0,1.6666666666666667,2.0,0.5773502691896257,2.0
 family_label::groupers (serranidae),ulva_gutweed,3,2,0.6666666666666666,0.6666666666666666,1.0,0.5773502691896258,1.0
 family_label::groupers (serranidae),ulva_salad,4,2,0.5,1.0,0.5,1.4142135623730951,3.0
-family_label::groupers feeding,control,3,0,0.0,0.0,0.0,0.0,0.0
-family_label::groupers feeding,fischmix,1,1,1.0,2.0,2.0,0.0,2.0
-family_label::groupers feeding,mackerel,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
-family_label::groupers feeding,sargassum,3,0,0.0,0.0,0.0,0.0,0.0
-family_label::groupers feeding,ulva_gutweed,3,0,0.0,0.0,0.0,0.0,0.0
-family_label::groupers feeding,ulva_salad,4,0,0.0,0.0,0.0,0.0,0.0
-family_label::groupers interested,control,3,0,0.0,0.0,0.0,0.0,0.0
-family_label::groupers interested,fischmix,1,1,1.0,2.0,2.0,0.0,2.0
-family_label::groupers interested,mackerel,3,1,0.3333333333333333,0.6666666666666666,0.0,1.1547005383792517,2.0
-family_label::groupers interested,sargassum,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
-family_label::groupers interested,ulva_gutweed,3,0,0.0,0.0,0.0,0.0,0.0
-family_label::groupers interested,ulva_salad,4,0,0.0,0.0,0.0,0.0,0.0
 family_label::jacks/trevallyes (carangidae),control,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
 family_label::jacks/trevallyes (carangidae),fischmix,1,0,0.0,0.0,0.0,0.0,0.0
 family_label::jacks/trevallyes (carangidae),mackerel,3,1,0.3333333333333333,0.3333333333333333,0.0,0.5773502691896258,1.0
@@ -270,7 +258,7 @@ species::goldbar (thalassoma hebraicum),sargassum,3,3,1.0,1.6666666666666667,2.0
 species::goldbar (thalassoma hebraicum),ulva_gutweed,3,3,1.0,1.0,1.0,0.0,1.0
 species::goldbar (thalassoma hebraicum),ulva_salad,4,3,0.75,1.0,1.0,0.816496580927726,2.0
 species::green (amblyglyphidodon indicus),control,3,3,1.0,1.0,1.0,0.0,1.0
-species::green (amblyglyphidodon indicus),fischmix,1,1,1.0,16.0,16.0,0.0,16.0
+species::green (amblyglyphidodon indicus),fischmix,1,1,1.0,14.0,14.0,0.0,14.0
 species::green (amblyglyphidodon indicus),mackerel,3,3,1.0,4.0,3.0,3.605551275463989,8.0
 species::green (amblyglyphidodon indicus),sargassum,3,3,1.0,6.333333333333333,6.0,2.516611478423583,9.0
 species::green (amblyglyphidodon indicus),ulva_gutweed,3,3,1.0,4.0,3.0,2.6457513110645907,7.0
@@ -450,7 +438,7 @@ species::raccoon (chaetodon lunula),sargassum,3,1,0.3333333333333333,0.666666666
 species::raccoon (chaetodon lunula),ulva_gutweed,3,1,0.3333333333333333,0.6666666666666666,0.0,1.1547005383792517,2.0
 species::raccoon (chaetodon lunula),ulva_salad,4,1,0.25,0.5,0.0,1.0,2.0
 species::red (lutjanus bohar),control,3,3,1.0,1.0,1.0,0.0,1.0
-species::red (lutjanus bohar),fischmix,1,1,1.0,8.0,8.0,0.0,8.0
+species::red (lutjanus bohar),fischmix,1,1,1.0,3.0,3.0,0.0,3.0
 species::red (lutjanus bohar),mackerel,3,3,1.0,2.0,2.0,1.0,3.0
 species::red (lutjanus bohar),sargassum,3,3,1.0,2.0,2.0,0.0,2.0
 species::red (lutjanus bohar),ulva_gutweed,3,3,1.0,1.0,1.0,0.0,1.0

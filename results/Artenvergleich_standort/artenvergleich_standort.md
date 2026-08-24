@@ -10,21 +10,21 @@ Fokus Milimani/Utumbi: hohe Überlappung bei gleichzeitig klar vorhandenen stand
 - Taxonbildung: species > genus > family/label; feeding/interested ausgeschlossen
 
 ## Fokus: Milimani vs Utumbi
-- Milimani vs Utumbi teilen 88 Taxa (Jaccard=0.647). Exklusiv: Milimani=16, Utumbi=32.
+- Milimani vs Utumbi teilen 86 Taxa (Jaccard=0.652). Exklusiv: Milimani=16, Utumbi=30.
 - Hintergrund: Beide Standorte wurden mit denselben Köderkategorien beprobt.
 
 ## Standortpaare im Vergleich
 | site_a   | site_b   |   n_taxa_a |   n_taxa_b |   intersection_taxa |   union_taxa |   jaccard_similarity |   jaccard_distance |   unique_a |   unique_b |
 |:---------|:---------|-----------:|-----------:|--------------------:|-------------:|---------------------:|-------------------:|-----------:|-----------:|
-| milimani | utumbi   |        104 |        120 |                  88 |          136 |             0.647059 |           0.352941 |         16 |         32 |
-| milimani | nursery  |        104 |         99 |                  63 |          140 |             0.45     |           0.55     |         41 |         36 |
-| utumbi   | nursery  |        120 |         99 |                  63 |          156 |             0.403846 |           0.596154 |         57 |         36 |
+| milimani | utumbi   |        102 |        116 |                  86 |          132 |             0.651515 |           0.348485 |         16 |         30 |
+| milimani | nursery  |        102 |         95 |                  62 |          135 |             0.459259 |           0.540741 |         40 |         33 |
+| utumbi   | nursery  |        116 |         95 |                  61 |          150 |             0.406667 |           0.593333 |         55 |         34 |
 
 ## Standortspezifische Taxa
 | standort   |   n_site_specific_taxa |
 |:-----------|-----------------------:|
-| nursery    |                     25 |
-| utumbi     |                     21 |
+| nursery    |                     23 |
+| utumbi     |                     20 |
 | milimani   |                      5 |
 
 ### Vollständige Listen standortspezifischer Taxa
@@ -36,9 +36,8 @@ Fokus Milimani/Utumbi: hohe Überlappung bei gleichzeitig klar vorhandenen stand
 - species::lyretail hogfish (bodianus anthioides)
 - species::masked banner (heniochus monoceros)
 
-#### utumbi (21 Taxa)
+#### utumbi (20 Taxa)
 - family_label::morays (muraenidae)
-- family_label::naso feeding
 - family_label::scorpion-&lionfishes (scorpaenidae)
 - genus::genus ctenochaetus
 - species::blacktip (epinephelus fasciatus)
@@ -59,10 +58,8 @@ Fokus Milimani/Utumbi: hohe Überlappung bei gleichzeitig klar vorhandenen stand
 - species::yellowbreast (anampses twistii)
 - species::yellowtail (anampses meleagrides)
 
-#### nursery (25 Taxa)
+#### nursery (23 Taxa)
 - family_label::batfishes (ephippidae)
-- family_label::parrotfishes feeding
-- family_label::siganus feeding
 - family_label::snappers (lutjanidae)
 - family_label::trumpetfishes (aulostomidae)
 - genus::canthigaster
@@ -87,17 +84,17 @@ Fokus Milimani/Utumbi: hohe Überlappung bei gleichzeitig klar vorhandenen stand
 - species::yellowmargin (pseudobalistes flavimarginatus)
 
 ## Taxa in allen drei Standorten
-- Anzahl: 52
+- Anzahl: 51
 
 ## Präsenzmuster
 |   presence_pattern |   n_taxa |
 |-------------------:|---------:|
-|                111 |       52 |
-|                110 |       36 |
-|                001 |       25 |
-|                010 |       21 |
-|                011 |       11 |
+|                111 |       51 |
+|                110 |       35 |
+|                001 |       23 |
+|                010 |       20 |
 |                101 |       11 |
+|                011 |       10 |
 |                100 |        5 |
 
 ### Bedeutung der Muster-Codes

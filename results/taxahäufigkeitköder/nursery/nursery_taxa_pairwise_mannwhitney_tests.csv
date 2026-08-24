@@ -41,12 +41,6 @@ family_label::groupers (serranidae),algaemix,control,3,1,0.6666666666666666,0.0,
 family_label::groupers (serranidae),control,mackerel,1,4,0.0,1.0,0.0,0.5,1.0,0.6926327840419602,-0.5,1.0,False,False
 family_label::groupers (serranidae),algae_strings,control,3,1,0.0,0.0,0.0,0.0,1.5,1.0,0.0,1.0,False,False
 family_label::groupers (serranidae),algaemix,mackerel,3,4,0.6666666666666666,1.0,1.0,0.5,6.0,1.0,0.0,1.0,False,False
-family_label::groupers feeding,algae_strings,mackerel,3,4,0.0,0.5,0.0,0.0,4.5,0.5637028616507731,-0.25,1.0,False,False
-family_label::groupers feeding,algaemix,mackerel,3,4,0.0,0.5,0.0,0.0,4.5,0.5637028616507731,-0.25,1.0,False,False
-family_label::groupers feeding,algae_strings,algaemix,3,3,0.0,0.0,0.0,0.0,4.5,1.0,0.0,1.0,False,False
-family_label::groupers feeding,algae_strings,control,3,1,0.0,0.0,0.0,0.0,1.5,1.0,0.0,1.0,False,False
-family_label::groupers feeding,algaemix,control,3,1,0.0,0.0,0.0,0.0,1.5,1.0,0.0,1.0,False,False
-family_label::groupers feeding,control,mackerel,1,4,0.0,0.5,0.0,0.0,1.5,1.0,-0.25,1.0,False,False
 family_label::jacks/trevallyes (carangidae),algae_strings,mackerel,3,4,1.6666666666666667,0.25,2.0,0.0,11.5,0.061368829139402156,0.9166666666666666,0.3682129748364129,False,False
 family_label::jacks/trevallyes (carangidae),algaemix,mackerel,3,4,1.3333333333333333,0.25,1.0,0.0,11.0,0.08571167175529873,0.8333333333333334,0.4285583587764936,False,False
 family_label::jacks/trevallyes (carangidae),control,mackerel,1,4,6.0,0.25,6.0,0.0,4.0,0.2356799134290376,1.0,0.9427196537161504,False,False
@@ -59,24 +53,12 @@ family_label::parrotfishes (scaridae),algae_strings,mackerel,3,4,11.0,7.75,13.0,
 family_label::parrotfishes (scaridae),algaemix,mackerel,3,4,4.333333333333333,7.75,3.0,8.5,2.5,0.28008721081149746,-0.5833333333333334,1.0,False,False
 family_label::parrotfishes (scaridae),algae_strings,control,3,1,11.0,1.0,13.0,1.0,3.0,0.5,1.0,1.0,False,False
 family_label::parrotfishes (scaridae),algaemix,control,3,1,4.333333333333333,1.0,3.0,1.0,3.0,0.5,1.0,1.0,False,False
-family_label::parrotfishes feeding,algaemix,mackerel,3,4,0.6666666666666666,0.0,1.0,0.0,10.0,0.11752486809663916,0.6666666666666666,0.705149208579835,False,False
-family_label::parrotfishes feeding,algae_strings,mackerel,3,4,1.3333333333333333,0.0,0.0,0.0,8.0,0.3864762307712327,0.3333333333333333,1.0,False,False
-family_label::parrotfishes feeding,algaemix,control,3,1,0.6666666666666666,0.0,1.0,0.0,2.5,0.6170750774519738,0.6666666666666666,1.0,False,False
-family_label::parrotfishes feeding,algae_strings,algaemix,3,3,1.3333333333333333,0.6666666666666666,0.0,1.0,4.0,1.0,-0.1111111111111111,1.0,False,False
-family_label::parrotfishes feeding,algae_strings,control,3,1,1.3333333333333333,0.0,0.0,0.0,2.0,1.0,0.3333333333333333,1.0,False,False
-family_label::parrotfishes feeding,control,mackerel,1,4,0.0,0.0,0.0,0.0,2.0,1.0,0.0,1.0,False,False
 family_label::puffers (tetraodontidae),control,mackerel,1,4,2.0,0.0,2.0,0.0,4.0,0.13361440253771614,1.0,0.8016864152262968,False,False
 family_label::puffers (tetraodontidae),algae_strings,control,3,1,0.0,2.0,0.0,2.0,0.0,0.24821307898992362,-1.0,1.0,False,False
 family_label::puffers (tetraodontidae),algaemix,control,3,1,0.0,2.0,0.0,2.0,0.0,0.24821307898992362,-1.0,1.0,False,False
 family_label::puffers (tetraodontidae),algae_strings,algaemix,3,3,0.0,0.0,0.0,0.0,4.5,1.0,0.0,1.0,False,False
 family_label::puffers (tetraodontidae),algae_strings,mackerel,3,4,0.0,0.0,0.0,0.0,6.0,1.0,0.0,1.0,False,False
 family_label::puffers (tetraodontidae),algaemix,mackerel,3,4,0.0,0.0,0.0,0.0,6.0,1.0,0.0,1.0,False,False
-family_label::siganus feeding,algae_strings,mackerel,3,4,1.0,0.0,1.0,0.0,10.0,0.12274468232592091,0.6666666666666666,0.7364680939555255,False,False
-family_label::siganus feeding,algae_strings,algaemix,3,3,1.0,0.0,1.0,0.0,7.5,0.19670560245894686,0.6666666666666666,0.9835280122947343,False,False
-family_label::siganus feeding,algae_strings,control,3,1,1.0,0.0,1.0,0.0,2.5,0.6373518882339371,0.6666666666666666,1.0,False,False
-family_label::siganus feeding,algaemix,control,3,1,0.0,0.0,0.0,0.0,1.5,1.0,0.0,1.0,False,False
-family_label::siganus feeding,algaemix,mackerel,3,4,0.0,0.0,0.0,0.0,6.0,1.0,0.0,1.0,False,False
-family_label::siganus feeding,control,mackerel,1,4,0.0,0.0,0.0,0.0,2.0,1.0,0.0,1.0,False,False
 family_label::snappers (lutjanidae),control,mackerel,1,4,1.0,0.0,1.0,0.0,4.0,0.13361440253771614,1.0,0.8016864152262968,False,False
 family_label::snappers (lutjanidae),algae_strings,control,3,1,0.0,1.0,0.0,1.0,0.0,0.24821307898992362,-1.0,1.0,False,False
 family_label::snappers (lutjanidae),algaemix,control,3,1,0.0,1.0,0.0,1.0,0.0,0.24821307898992362,-1.0,1.0,False,False
@@ -101,12 +83,6 @@ family_label::wrasses (labridae),algae_strings,algaemix,3,3,0.3333333333333333,0
 family_label::wrasses (labridae),algae_strings,control,3,1,0.3333333333333333,0.0,0.0,0.0,2.0,1.0,0.3333333333333333,1.0,False,False
 family_label::wrasses (labridae),algaemix,control,3,1,0.3333333333333333,0.0,0.0,0.0,2.0,1.0,0.3333333333333333,1.0,False,False
 family_label::wrasses (labridae),control,mackerel,1,4,0.0,0.0,0.0,0.0,2.0,1.0,0.0,1.0,False,False
-family_label::wrasses interested,algae_strings,mackerel,3,4,0.3333333333333333,0.0,0.0,0.0,8.0,0.3864762307712327,0.3333333333333333,1.0,False,False
-family_label::wrasses interested,algae_strings,algaemix,3,3,0.3333333333333333,0.0,0.0,0.0,6.0,0.5049850750938458,0.3333333333333333,1.0,False,False
-family_label::wrasses interested,algae_strings,control,3,1,0.3333333333333333,0.0,0.0,0.0,2.0,1.0,0.3333333333333333,1.0,False,False
-family_label::wrasses interested,algaemix,control,3,1,0.0,0.0,0.0,0.0,1.5,1.0,0.0,1.0,False,False
-family_label::wrasses interested,algaemix,mackerel,3,4,0.0,0.0,0.0,0.0,6.0,1.0,0.0,1.0,False,False
-family_label::wrasses interested,control,mackerel,1,4,0.0,0.0,0.0,0.0,2.0,1.0,0.0,1.0,False,False
 genus::canthigaster,algae_strings,mackerel,3,4,0.0,0.5,0.0,0.0,4.5,0.5637028616507731,-0.25,1.0,False,False
 genus::canthigaster,algaemix,mackerel,3,4,0.0,0.5,0.0,0.0,4.5,0.5637028616507731,-0.25,1.0,False,False
 genus::canthigaster,algae_strings,algaemix,3,3,0.0,0.0,0.0,0.0,4.5,1.0,0.0,1.0,False,False
@@ -317,11 +293,11 @@ species::halfmoon (sufflamen chrysopterum),algae_strings,control,3,1,0.666666666
 species::halfmoon (sufflamen chrysopterum),algae_strings,algaemix,3,3,0.6666666666666666,0.3333333333333333,1.0,0.0,6.0,0.6192567541768621,0.3333333333333333,1.0,False,False
 species::halfmoon (sufflamen chrysopterum),algaemix,control,3,1,0.3333333333333333,0.0,0.0,0.0,2.0,1.0,0.3333333333333333,1.0,False,False
 species::halfmoon (sufflamen chrysopterum),control,mackerel,1,4,0.0,0.0,0.0,0.0,2.0,1.0,0.0,1.0,False,False
+species::honeycomb (siganus stellatus),algae_strings,algaemix,3,3,2.6666666666666665,4.0,3.0,4.0,1.5,0.19670560245894686,-0.6666666666666666,1.0,False,False
 species::honeycomb (siganus stellatus),algaemix,control,3,1,4.0,0.0,4.0,0.0,3.0,0.24821307898992362,1.0,1.0,False,False
-species::honeycomb (siganus stellatus),algae_strings,control,3,1,3.3333333333333335,0.0,4.0,0.0,3.0,0.3457785861511603,1.0,1.0,False,False
 species::honeycomb (siganus stellatus),algaemix,mackerel,3,4,4.0,1.75,4.0,1.0,9.0,0.35434297896331657,0.5,1.0,False,False
-species::honeycomb (siganus stellatus),algae_strings,mackerel,3,4,3.3333333333333335,1.75,4.0,1.0,8.5,0.4673216576882314,0.4166666666666667,1.0,False,False
-species::honeycomb (siganus stellatus),algae_strings,algaemix,3,3,3.3333333333333335,4.0,4.0,4.0,3.0,0.5049850750938458,-0.3333333333333333,1.0,False,False
+species::honeycomb (siganus stellatus),algae_strings,control,3,1,2.6666666666666665,0.0,3.0,0.0,3.0,0.5,1.0,1.0,False,False
+species::honeycomb (siganus stellatus),algae_strings,mackerel,3,4,2.6666666666666665,1.75,3.0,1.0,8.0,0.5925602769166511,0.3333333333333333,1.0,False,False
 species::honeycomb (siganus stellatus),control,mackerel,1,4,0.0,1.75,0.0,1.0,1.0,0.6926327840419602,-0.5,1.0,False,False
 species::humpback (lutjanus gibbus),algaemix,mackerel,3,4,36.0,14.75,43.0,12.0,11.0,0.11428571428571428,0.8333333333333334,0.6857142857142857,False,False
 species::humpback (lutjanus gibbus),algae_strings,algaemix,3,3,18.0,36.0,20.0,43.0,1.5,0.26828588367711736,-0.6666666666666666,1.0,False,False
@@ -414,11 +390,11 @@ species::mozambique fangblenny (meiacanthus mossambicus),algae_strings,algaemix,
 species::mozambique fangblenny (meiacanthus mossambicus),algae_strings,control,3,1,0.0,0.0,0.0,0.0,1.5,1.0,0.0,1.0,False,False
 species::mozambique fangblenny (meiacanthus mossambicus),algaemix,control,3,1,0.0,0.0,0.0,0.0,1.5,1.0,0.0,1.0,False,False
 species::paletail unicorn (naso brevirostris),algae_strings,mackerel,3,4,20.0,3.25,23.0,1.5,12.0,0.04974599072150299,1.0,0.298475944329018,True,False
-species::paletail unicorn (naso brevirostris),algaemix,mackerel,3,4,31.0,3.25,32.0,1.5,12.0,0.05714285714285714,1.0,0.298475944329018,False,False
+species::paletail unicorn (naso brevirostris),algaemix,mackerel,3,4,26.666666666666668,3.25,21.0,1.5,12.0,0.05714285714285714,1.0,0.298475944329018,False,False
 species::paletail unicorn (naso brevirostris),algae_strings,control,3,1,20.0,0.0,23.0,0.0,3.0,0.3457785861511603,1.0,1.0,False,False
-species::paletail unicorn (naso brevirostris),algae_strings,algaemix,3,3,20.0,31.0,23.0,32.0,2.0,0.37582508748869836,-0.5555555555555556,1.0,False,False
 species::paletail unicorn (naso brevirostris),control,mackerel,1,4,0.0,3.25,0.0,1.5,0.5,0.468159909854428,-0.75,1.0,False,False
-species::paletail unicorn (naso brevirostris),algaemix,control,3,1,31.0,0.0,32.0,0.0,3.0,0.5,1.0,1.0,False,False
+species::paletail unicorn (naso brevirostris),algaemix,control,3,1,26.666666666666668,0.0,21.0,0.0,3.0,0.5,1.0,1.0,False,False
+species::paletail unicorn (naso brevirostris),algae_strings,algaemix,3,3,20.0,26.666666666666668,23.0,21.0,4.0,1.0,-0.1111111111111111,1.0,False,False
 species::peacock damsel (pomacentrus pavo),algae_strings,control,3,1,0.0,2.0,0.0,2.0,0.0,0.24821307898992362,-1.0,1.0,False,False
 species::peacock damsel (pomacentrus pavo),algaemix,control,3,1,0.0,2.0,0.0,2.0,0.0,0.24821307898992362,-1.0,1.0,False,False
 species::peacock damsel (pomacentrus pavo),algae_strings,mackerel,3,4,0.0,1.25,0.0,0.0,4.5,0.5637028616507731,-0.25,1.0,False,False

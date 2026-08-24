@@ -16,182 +16,182 @@ Die Analyse umfasst 46 cut_47min-Videos. Der globale Standorteffekt ist signifik
 ## Farblegende fuer Koeder
 | koeder        | marker   | hex     |
 |:--------------|:---------|:--------|
-| algae_strings | 🟣        | #9467bd |
-| algaemix      | 🟤        | #8c564b |
-| control       | ⚪        | #7f7f7f |
-| fischmix      | 🔴        | #d62728 |
-| mackerel      | 🔵        | #1f77b4 |
-| sargassum     | 🟠        | #ff7f0e |
-| ulva_gutweed  | 🩵        | #17becf |
-| ulva_salad    | 🟢        | #2ca02c |
+| algae_strings | AS       | #8F63B8 |
+| algaemix      | AM       | #9C755F |
+| control       | CTRL     | #9D9D9D |
+| fischmix      | FM       | #2F4B7C |
+| mackerel      | MKR      | #1F77B4 |
+| sargassum     | SG       | #F28E2B |
+| ulva_gutweed  | UG       | #76B7B2 |
+| ulva_salad    | US       | #B279A2 |
 
 ## Uebersicht: Videos nach Standort und Koeder (gleichfarbig ueber Marker)
 ### Standort: milimani
 #### Koeder: control
 | video                         | koeder_farbe   |   species_richness |   rows_used |   rows_total | kuerzestes_video   |
 |:------------------------------|:---------------|-------------------:|------------:|-------------:|:-------------------|
-| 20241111-milimani-control.csv | ⚪              |                 46 |         334 |          334 | Nein               |
-| 20241115-milimani-control.csv | ⚪              |                 45 |         148 |          148 | Nein               |
-| 20241114-milimani-control.csv | ⚪              |                 36 |         180 |          180 | Nein               |
+| 20241111-milimani-control.csv | CTRL           |                 46 |         334 |          334 | Nein               |
+| 20241115-milimani-control.csv | CTRL           |                 45 |         148 |          148 | Nein               |
+| 20241114-milimani-control.csv | CTRL           |                 36 |         180 |          180 | Nein               |
 
 #### Koeder: fischmix
 | video                          | koeder_farbe   |   species_richness |   rows_used |   rows_total | kuerzestes_video   |
 |:-------------------------------|:---------------|-------------------:|------------:|-------------:|:-------------------|
-| 20241210-milimani-fischmix.csv | 🔴              |                 45 |         379 |          409 | Nein               |
+| 20241210-milimani-fischmix.csv | FM             |                 45 |         379 |          409 | Nein               |
 
 #### Koeder: mackerel
 | video                          | koeder_farbe   |   species_richness |   rows_used |   rows_total | kuerzestes_video   |
 |:-------------------------------|:---------------|-------------------:|------------:|-------------:|:-------------------|
-| 20241124-milimani-mackerel.csv | 🔵              |                 57 |         261 |          287 | Nein               |
-| 20240515-milimani-mackerel.csv | 🔵              |                 53 |         375 |          375 | Nein               |
-| 20241025-milimani-mackerel.csv | 🔵              |                 34 |         259 |          259 | Nein               |
+| 20241124-milimani-mackerel.csv | MKR            |                 57 |         261 |          287 | Nein               |
+| 20240515-milimani-mackerel.csv | MKR            |                 53 |         375 |          375 | Nein               |
+| 20241025-milimani-mackerel.csv | MKR            |                 34 |         259 |          259 | Nein               |
 
 #### Koeder: sargassum
 | video                           | koeder_farbe   |   species_richness |   rows_used |   rows_total | kuerzestes_video   |
 |:--------------------------------|:---------------|-------------------:|------------:|-------------:|:-------------------|
-| 20241128-milimani-sargassum.csv | 🟠              |                 46 |         380 |          391 | Nein               |
-| 20241129-milimani-sargassum.csv | 🟠              |                 46 |         314 |          320 | Nein               |
-| 20241127-milimani-sargassum.csv | 🟠              |                 43 |         205 |          214 | Nein               |
+| 20241128-milimani-sargassum.csv | SG             |                 46 |         380 |          391 | Nein               |
+| 20241129-milimani-sargassum.csv | SG             |                 46 |         314 |          320 | Nein               |
+| 20241127-milimani-sargassum.csv | SG             |                 43 |         205 |          214 | Nein               |
 
 #### Koeder: ulva_gutweed
 | video                              | koeder_farbe   |   species_richness |   rows_used |   rows_total | kuerzestes_video   |
 |:-----------------------------------|:---------------|-------------------:|------------:|-------------:|:-------------------|
-| 20241029-milimani-ulva_gutweed.csv | 🩵              |                 49 |         149 |          149 | Nein               |
-| 20241030-milimani-ulva_gutweed.csv | 🩵              |                 46 |         181 |          181 | Nein               |
-| 20241026-milimani-ulva_gutweed.csv | 🩵              |                 39 |         126 |          128 | Nein               |
+| 20241029-milimani-ulva_gutweed.csv | UG             |                 49 |         149 |          149 | Nein               |
+| 20241030-milimani-ulva_gutweed.csv | UG             |                 46 |         181 |          181 | Nein               |
+| 20241026-milimani-ulva_gutweed.csv | UG             |                 39 |         126 |          128 | Nein               |
 
 #### Koeder: ulva_salad
 | video                            | koeder_farbe   |   species_richness |   rows_used |   rows_total | kuerzestes_video   |
 |:---------------------------------|:---------------|-------------------:|------------:|-------------:|:-------------------|
-| 20241110-milimani-ulva_salad.csv | 🟢              |                 57 |         320 |          320 | Nein               |
-| 20241112-milimani-ulva_salad.csv | 🟢              |                 43 |         268 |          268 | Nein               |
-| 20241027-milimani-ulva_salad.csv | 🟢              |                 40 |         105 |          106 | Nein               |
-| 20241105-milimani-ulva_salad.csv | 🟢              |                 31 |         100 |          100 | Nein               |
+| 20241110-milimani-ulva_salad.csv | US             |                 57 |         320 |          320 | Nein               |
+| 20241112-milimani-ulva_salad.csv | US             |                 43 |         268 |          268 | Nein               |
+| 20241027-milimani-ulva_salad.csv | US             |                 40 |         105 |          106 | Nein               |
+| 20241105-milimani-ulva_salad.csv | US             |                 31 |         100 |          100 | Nein               |
 
 
 ### Standort: nursery
 #### Koeder: algae_strings
 | video                              | koeder_farbe   |   species_richness |   rows_used |   rows_total | kuerzestes_video   |
 |:-----------------------------------|:---------------|-------------------:|------------:|-------------:|:-------------------|
-| 20241204-nursery-algae_strings.csv | 🟣              |                 38 |         200 |          224 | Nein               |
-| 20241206-nursery-algae_strings.csv | 🟣              |                 35 |         157 |          168 | Nein               |
-| 20241205-nursery-algae_strings.csv | 🟣              |                 34 |         190 |          204 | Nein               |
+| 20241204-nursery-algae_strings.csv | AS             |                 38 |         200 |          224 | Nein               |
+| 20241206-nursery-algae_strings.csv | AS             |                 35 |         157 |          168 | Nein               |
+| 20241205-nursery-algae_strings.csv | AS             |                 34 |         190 |          204 | Nein               |
 
 #### Koeder: algaemix
 | video                         | koeder_farbe   |   species_richness |   rows_used |   rows_total | kuerzestes_video   |
 |:------------------------------|:---------------|-------------------:|------------:|-------------:|:-------------------|
-| 20241208-nursery-algaemix.csv | 🟤              |                 43 |         340 |          420 | Nein               |
-| 20241209-nursery-algaemix.csv | 🟤              |                 41 |         283 |          303 | Nein               |
-| 20241210-nursery-algaemix.csv | 🟤              |                 33 |         170 |          201 | Nein               |
+| 20241208-nursery-algaemix.csv | AM             |                 43 |         340 |          420 | Nein               |
+| 20241209-nursery-algaemix.csv | AM             |                 41 |         283 |          303 | Nein               |
+| 20241210-nursery-algaemix.csv | AM             |                 33 |         170 |          201 | Nein               |
 
 #### Koeder: control
 | video                        | koeder_farbe   |   species_richness |   rows_used |   rows_total | kuerzestes_video   |
 |:-----------------------------|:---------------|-------------------:|------------:|-------------:|:-------------------|
-| 20240108-nursery-control.csv | ⚪              |                 29 |          69 |           69 | 🟥 Ja               |
+| 20240108-nursery-control.csv | CTRL           |                 29 |          69 |           69 | 🟥 Ja               |
 
 #### Koeder: mackerel
 | video                         | koeder_farbe   |   species_richness |   rows_used |   rows_total | kuerzestes_video   |
 |:------------------------------|:---------------|-------------------:|------------:|-------------:|:-------------------|
-| 20241126-nursery-mackerel.csv | 🔵              |                 41 |         356 |          361 | Nein               |
-| 20251212-nursery-mackerel.csv | 🔵              |                 36 |         150 |          159 | Nein               |
-| 20240223-nursery-mackerel.csv | 🔵              |                 33 |         192 |          211 | Nein               |
-| 20240106-nursery-mackerel.csv | 🔵              |                 29 |         103 |          107 | Nein               |
+| 20241126-nursery-mackerel.csv | MKR            |                 41 |         356 |          361 | Nein               |
+| 20251212-nursery-mackerel.csv | MKR            |                 36 |         150 |          159 | Nein               |
+| 20240223-nursery-mackerel.csv | MKR            |                 33 |         192 |          211 | Nein               |
+| 20240106-nursery-mackerel.csv | MKR            |                 29 |         103 |          107 | Nein               |
 
 
 ### Standort: utumbi
 #### Koeder: control
 | video                       | koeder_farbe   |   species_richness |   rows_used |   rows_total | kuerzestes_video   |
 |:----------------------------|:---------------|-------------------:|------------:|-------------:|:-------------------|
-| 20241115-utumbi-control.csv | ⚪              |                 54 |         235 |          235 | Nein               |
-| 20241111-utumbi-control.csv | ⚪              |                 50 |         219 |          219 | Nein               |
-| 20241105-utumbi-control.csv | ⚪              |                 44 |         396 |          398 | Nein               |
-| 20241114-utumbi-control.csv | ⚪              |                 43 |         135 |          135 | Nein               |
+| 20241115-utumbi-control.csv | CTRL           |                 54 |         235 |          235 | Nein               |
+| 20241111-utumbi-control.csv | CTRL           |                 50 |         219 |          219 | Nein               |
+| 20241105-utumbi-control.csv | CTRL           |                 44 |         396 |          398 | Nein               |
+| 20241114-utumbi-control.csv | CTRL           |                 43 |         135 |          135 | Nein               |
 
 #### Koeder: fischmix
 | video                        | koeder_farbe   |   species_richness |   rows_used |   rows_total | kuerzestes_video   |
 |:-----------------------------|:---------------|-------------------:|------------:|-------------:|:-------------------|
-| 20241209-utumbi-fischmix.csv | 🔴              |                 60 |         317 |          373 | Nein               |
-| 20241210-utumbi-fischmix.csv | 🔴              |                 52 |         222 |          249 | Nein               |
+| 20241209-utumbi-fischmix.csv | FM             |                 60 |         317 |          373 | Nein               |
+| 20241210-utumbi-fischmix.csv | FM             |                 52 |         222 |          249 | Nein               |
 
 #### Koeder: mackerel
 | video                        | koeder_farbe   |   species_richness |   rows_used |   rows_total | kuerzestes_video   |
 |:-----------------------------|:---------------|-------------------:|------------:|-------------:|:-------------------|
-| 20240516-utumbi-mackerel.csv | 🔵              |                 61 |         518 |          529 | Nein               |
-| 20241124-utumbi-mackerel.csv | 🔵              |                 50 |         294 |          343 | Nein               |
-| 20241026-utumbi-mackerel.csv | 🔵              |                 49 |         366 |          395 | Nein               |
+| 20240516-utumbi-mackerel.csv | MKR            |                 61 |         518 |          529 | Nein               |
+| 20241124-utumbi-mackerel.csv | MKR            |                 50 |         294 |          343 | Nein               |
+| 20241026-utumbi-mackerel.csv | MKR            |                 49 |         366 |          395 | Nein               |
 
 #### Koeder: sargassum
 | video                         | koeder_farbe   |   species_richness |   rows_used |   rows_total | kuerzestes_video   |
 |:------------------------------|:---------------|-------------------:|------------:|-------------:|:-------------------|
-| 20241128-utumbi-sargassum.csv | 🟠              |                 61 |         233 |          235 | Nein               |
-| 20241129-utumbi-sargassum.csv | 🟠              |                 56 |         245 |          251 | Nein               |
-| 20241127-utumbi-sargassum.csv | 🟠              |                 54 |         281 |          293 | Nein               |
+| 20241128-utumbi-sargassum.csv | SG             |                 61 |         233 |          235 | Nein               |
+| 20241129-utumbi-sargassum.csv | SG             |                 56 |         245 |          251 | Nein               |
+| 20241127-utumbi-sargassum.csv | SG             |                 54 |         281 |          293 | Nein               |
 
 #### Koeder: ulva_gutweed
 | video                            | koeder_farbe   |   species_richness |   rows_used |   rows_total | kuerzestes_video   |
 |:---------------------------------|:---------------|-------------------:|------------:|-------------:|:-------------------|
-| 20241112-utumbi-ulva_gutweed.csv | 🩵              |                 55 |         212 |          213 | Nein               |
-| 20241030-utumbi-ulva_gutweed.csv | 🩵              |                 54 |         227 |          227 | Nein               |
-| 20241029-utumbi-ulva_gutweed.csv | 🩵              |                 50 |         365 |          367 | Nein               |
+| 20241112-utumbi-ulva_gutweed.csv | UG             |                 55 |         212 |          213 | Nein               |
+| 20241030-utumbi-ulva_gutweed.csv | UG             |                 54 |         227 |          227 | Nein               |
+| 20241029-utumbi-ulva_gutweed.csv | UG             |                 50 |         365 |          367 | Nein               |
 
 #### Koeder: ulva_salad
 | video                          | koeder_farbe   |   species_richness |   rows_used |   rows_total | kuerzestes_video   |
 |:-------------------------------|:---------------|-------------------:|------------:|-------------:|:-------------------|
-| 20241027-utumbi-ulva_salad.csv | 🟢              |                 55 |         376 |          381 | Nein               |
-| 20241110-utumbi-ulva_salad.csv | 🟢              |                 52 |         308 |          316 | Nein               |
-| 20241025-utumbi-ulva_salad.csv | 🟢              |                 48 |         525 |          527 | Nein               |
+| 20241027-utumbi-ulva_salad.csv | US             |                 55 |         376 |          381 | Nein               |
+| 20241110-utumbi-ulva_salad.csv | US             |                 52 |         308 |          316 | Nein               |
+| 20241025-utumbi-ulva_salad.csv | US             |                 48 |         525 |          527 | Nein               |
 
 
 
 ## Ranking aller 46 Videos (nicht nur Top 10)
 |   rank | filename                           | standort   | koeder        | koeder_farbe   |   species_richness | kuerzestes_video   |
 |-------:|:-----------------------------------|:-----------|:--------------|:---------------|-------------------:|:-------------------|
-|      1 | 20240516-utumbi-mackerel.csv       | utumbi     | mackerel      | 🔵              |                 61 | Nein               |
-|      2 | 20241128-utumbi-sargassum.csv      | utumbi     | sargassum     | 🟠              |                 61 | Nein               |
-|      3 | 20241209-utumbi-fischmix.csv       | utumbi     | fischmix      | 🔴              |                 60 | Nein               |
-|      4 | 20241110-milimani-ulva_salad.csv   | milimani   | ulva_salad    | 🟢              |                 57 | Nein               |
-|      5 | 20241124-milimani-mackerel.csv     | milimani   | mackerel      | 🔵              |                 57 | Nein               |
-|      6 | 20241129-utumbi-sargassum.csv      | utumbi     | sargassum     | 🟠              |                 56 | Nein               |
-|      7 | 20241027-utumbi-ulva_salad.csv     | utumbi     | ulva_salad    | 🟢              |                 55 | Nein               |
-|      8 | 20241112-utumbi-ulva_gutweed.csv   | utumbi     | ulva_gutweed  | 🩵              |                 55 | Nein               |
-|      9 | 20241030-utumbi-ulva_gutweed.csv   | utumbi     | ulva_gutweed  | 🩵              |                 54 | Nein               |
-|     10 | 20241115-utumbi-control.csv        | utumbi     | control       | ⚪              |                 54 | Nein               |
-|     11 | 20241127-utumbi-sargassum.csv      | utumbi     | sargassum     | 🟠              |                 54 | Nein               |
-|     12 | 20240515-milimani-mackerel.csv     | milimani   | mackerel      | 🔵              |                 53 | Nein               |
-|     13 | 20241110-utumbi-ulva_salad.csv     | utumbi     | ulva_salad    | 🟢              |                 52 | Nein               |
-|     14 | 20241210-utumbi-fischmix.csv       | utumbi     | fischmix      | 🔴              |                 52 | Nein               |
-|     15 | 20241029-utumbi-ulva_gutweed.csv   | utumbi     | ulva_gutweed  | 🩵              |                 50 | Nein               |
-|     16 | 20241111-utumbi-control.csv        | utumbi     | control       | ⚪              |                 50 | Nein               |
-|     17 | 20241124-utumbi-mackerel.csv       | utumbi     | mackerel      | 🔵              |                 50 | Nein               |
-|     18 | 20241026-utumbi-mackerel.csv       | utumbi     | mackerel      | 🔵              |                 49 | Nein               |
-|     19 | 20241029-milimani-ulva_gutweed.csv | milimani   | ulva_gutweed  | 🩵              |                 49 | Nein               |
-|     20 | 20241025-utumbi-ulva_salad.csv     | utumbi     | ulva_salad    | 🟢              |                 48 | Nein               |
-|     21 | 20241030-milimani-ulva_gutweed.csv | milimani   | ulva_gutweed  | 🩵              |                 46 | Nein               |
-|     22 | 20241111-milimani-control.csv      | milimani   | control       | ⚪              |                 46 | Nein               |
-|     23 | 20241128-milimani-sargassum.csv    | milimani   | sargassum     | 🟠              |                 46 | Nein               |
-|     24 | 20241129-milimani-sargassum.csv    | milimani   | sargassum     | 🟠              |                 46 | Nein               |
-|     25 | 20241115-milimani-control.csv      | milimani   | control       | ⚪              |                 45 | Nein               |
-|     26 | 20241210-milimani-fischmix.csv     | milimani   | fischmix      | 🔴              |                 45 | Nein               |
-|     27 | 20241105-utumbi-control.csv        | utumbi     | control       | ⚪              |                 44 | Nein               |
-|     28 | 20241112-milimani-ulva_salad.csv   | milimani   | ulva_salad    | 🟢              |                 43 | Nein               |
-|     29 | 20241114-utumbi-control.csv        | utumbi     | control       | ⚪              |                 43 | Nein               |
-|     30 | 20241127-milimani-sargassum.csv    | milimani   | sargassum     | 🟠              |                 43 | Nein               |
-|     31 | 20241208-nursery-algaemix.csv      | nursery    | algaemix      | 🟤              |                 43 | Nein               |
-|     32 | 20241126-nursery-mackerel.csv      | nursery    | mackerel      | 🔵              |                 41 | Nein               |
-|     33 | 20241209-nursery-algaemix.csv      | nursery    | algaemix      | 🟤              |                 41 | Nein               |
-|     34 | 20241027-milimani-ulva_salad.csv   | milimani   | ulva_salad    | 🟢              |                 40 | Nein               |
-|     35 | 20241026-milimani-ulva_gutweed.csv | milimani   | ulva_gutweed  | 🩵              |                 39 | Nein               |
-|     36 | 20241204-nursery-algae_strings.csv | nursery    | algae_strings | 🟣              |                 38 | Nein               |
-|     37 | 20241114-milimani-control.csv      | milimani   | control       | ⚪              |                 36 | Nein               |
-|     38 | 20251212-nursery-mackerel.csv      | nursery    | mackerel      | 🔵              |                 36 | Nein               |
-|     39 | 20241206-nursery-algae_strings.csv | nursery    | algae_strings | 🟣              |                 35 | Nein               |
-|     40 | 20241025-milimani-mackerel.csv     | milimani   | mackerel      | 🔵              |                 34 | Nein               |
-|     41 | 20241205-nursery-algae_strings.csv | nursery    | algae_strings | 🟣              |                 34 | Nein               |
-|     42 | 20240223-nursery-mackerel.csv      | nursery    | mackerel      | 🔵              |                 33 | Nein               |
-|     43 | 20241210-nursery-algaemix.csv      | nursery    | algaemix      | 🟤              |                 33 | Nein               |
-|     44 | 20241105-milimani-ulva_salad.csv   | milimani   | ulva_salad    | 🟢              |                 31 | Nein               |
-|     45 | 20240106-nursery-mackerel.csv      | nursery    | mackerel      | 🔵              |                 29 | Nein               |
-|     46 | 20240108-nursery-control.csv       | nursery    | control       | ⚪              |                 29 | 🟥 Ja               |
+|      1 | 20240516-utumbi-mackerel.csv       | utumbi     | mackerel      | MKR            |                 61 | Nein               |
+|      2 | 20241128-utumbi-sargassum.csv      | utumbi     | sargassum     | SG             |                 61 | Nein               |
+|      3 | 20241209-utumbi-fischmix.csv       | utumbi     | fischmix      | FM             |                 60 | Nein               |
+|      4 | 20241110-milimani-ulva_salad.csv   | milimani   | ulva_salad    | US             |                 57 | Nein               |
+|      5 | 20241124-milimani-mackerel.csv     | milimani   | mackerel      | MKR            |                 57 | Nein               |
+|      6 | 20241129-utumbi-sargassum.csv      | utumbi     | sargassum     | SG             |                 56 | Nein               |
+|      7 | 20241027-utumbi-ulva_salad.csv     | utumbi     | ulva_salad    | US             |                 55 | Nein               |
+|      8 | 20241112-utumbi-ulva_gutweed.csv   | utumbi     | ulva_gutweed  | UG             |                 55 | Nein               |
+|      9 | 20241030-utumbi-ulva_gutweed.csv   | utumbi     | ulva_gutweed  | UG             |                 54 | Nein               |
+|     10 | 20241115-utumbi-control.csv        | utumbi     | control       | CTRL           |                 54 | Nein               |
+|     11 | 20241127-utumbi-sargassum.csv      | utumbi     | sargassum     | SG             |                 54 | Nein               |
+|     12 | 20240515-milimani-mackerel.csv     | milimani   | mackerel      | MKR            |                 53 | Nein               |
+|     13 | 20241110-utumbi-ulva_salad.csv     | utumbi     | ulva_salad    | US             |                 52 | Nein               |
+|     14 | 20241210-utumbi-fischmix.csv       | utumbi     | fischmix      | FM             |                 52 | Nein               |
+|     15 | 20241029-utumbi-ulva_gutweed.csv   | utumbi     | ulva_gutweed  | UG             |                 50 | Nein               |
+|     16 | 20241111-utumbi-control.csv        | utumbi     | control       | CTRL           |                 50 | Nein               |
+|     17 | 20241124-utumbi-mackerel.csv       | utumbi     | mackerel      | MKR            |                 50 | Nein               |
+|     18 | 20241026-utumbi-mackerel.csv       | utumbi     | mackerel      | MKR            |                 49 | Nein               |
+|     19 | 20241029-milimani-ulva_gutweed.csv | milimani   | ulva_gutweed  | UG             |                 49 | Nein               |
+|     20 | 20241025-utumbi-ulva_salad.csv     | utumbi     | ulva_salad    | US             |                 48 | Nein               |
+|     21 | 20241030-milimani-ulva_gutweed.csv | milimani   | ulva_gutweed  | UG             |                 46 | Nein               |
+|     22 | 20241111-milimani-control.csv      | milimani   | control       | CTRL           |                 46 | Nein               |
+|     23 | 20241128-milimani-sargassum.csv    | milimani   | sargassum     | SG             |                 46 | Nein               |
+|     24 | 20241129-milimani-sargassum.csv    | milimani   | sargassum     | SG             |                 46 | Nein               |
+|     25 | 20241115-milimani-control.csv      | milimani   | control       | CTRL           |                 45 | Nein               |
+|     26 | 20241210-milimani-fischmix.csv     | milimani   | fischmix      | FM             |                 45 | Nein               |
+|     27 | 20241105-utumbi-control.csv        | utumbi     | control       | CTRL           |                 44 | Nein               |
+|     28 | 20241112-milimani-ulva_salad.csv   | milimani   | ulva_salad    | US             |                 43 | Nein               |
+|     29 | 20241114-utumbi-control.csv        | utumbi     | control       | CTRL           |                 43 | Nein               |
+|     30 | 20241127-milimani-sargassum.csv    | milimani   | sargassum     | SG             |                 43 | Nein               |
+|     31 | 20241208-nursery-algaemix.csv      | nursery    | algaemix      | AM             |                 43 | Nein               |
+|     32 | 20241126-nursery-mackerel.csv      | nursery    | mackerel      | MKR            |                 41 | Nein               |
+|     33 | 20241209-nursery-algaemix.csv      | nursery    | algaemix      | AM             |                 41 | Nein               |
+|     34 | 20241027-milimani-ulva_salad.csv   | milimani   | ulva_salad    | US             |                 40 | Nein               |
+|     35 | 20241026-milimani-ulva_gutweed.csv | milimani   | ulva_gutweed  | UG             |                 39 | Nein               |
+|     36 | 20241204-nursery-algae_strings.csv | nursery    | algae_strings | AS             |                 38 | Nein               |
+|     37 | 20241114-milimani-control.csv      | milimani   | control       | CTRL           |                 36 | Nein               |
+|     38 | 20251212-nursery-mackerel.csv      | nursery    | mackerel      | MKR            |                 36 | Nein               |
+|     39 | 20241206-nursery-algae_strings.csv | nursery    | algae_strings | AS             |                 35 | Nein               |
+|     40 | 20241025-milimani-mackerel.csv     | milimani   | mackerel      | MKR            |                 34 | Nein               |
+|     41 | 20241205-nursery-algae_strings.csv | nursery    | algae_strings | AS             |                 34 | Nein               |
+|     42 | 20240223-nursery-mackerel.csv      | nursery    | mackerel      | MKR            |                 33 | Nein               |
+|     43 | 20241210-nursery-algaemix.csv      | nursery    | algaemix      | AM             |                 33 | Nein               |
+|     44 | 20241105-milimani-ulva_salad.csv   | milimani   | ulva_salad    | US             |                 31 | Nein               |
+|     45 | 20240106-nursery-mackerel.csv      | nursery    | mackerel      | MKR            |                 29 | Nein               |
+|     46 | 20240108-nursery-control.csv       | nursery    | control       | CTRL           |                 29 | 🟥 Ja               |
 
 ## Gruppenstatistik (Standort x Koeder)
 | standort   | koeder        |   n_videos |   mean_species_richness |   median_species_richness |   sd_species_richness |   min_species_richness |   max_species_richness |

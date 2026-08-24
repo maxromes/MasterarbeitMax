@@ -8,16 +8,11 @@ family_label::filefishes (monacanthidae),1,0,0,1,100
 family_label::fusiliers (caesionidae),0,1,1,2,011
 family_label::goatfishes (mullidae),1,0,1,2,101
 family_label::groupers (serranidae),1,1,1,3,111
-family_label::groupers feeding,1,1,1,3,111
-family_label::groupers interested,1,1,0,2,110
 family_label::jacks/trevallyes (carangidae),1,1,1,3,111
 family_label::morays (muraenidae),0,1,0,1,010
-family_label::naso feeding,0,1,0,1,010
 family_label::parrotfishes (scaridae),1,1,1,3,111
-family_label::parrotfishes feeding,0,0,1,1,001
 family_label::puffers (tetraodontidae),1,0,1,2,101
 family_label::scorpion-&lionfishes (scorpaenidae),0,1,0,1,010
-family_label::siganus feeding,0,0,1,1,001
 family_label::snappers (lutjanidae),0,0,1,1,001
 family_label::surgeonfishes (acanthuridae),1,1,0,2,110
 family_label::triggerfishes (balistidae),1,1,1,3,111
@@ -25,7 +20,6 @@ family_label::trumpetfishes (aulostomidae),0,0,1,1,001
 family_label::tunas/mackerels (scombridae),1,1,0,2,110
 family_label::turtle (cheloniidae),1,0,0,1,100
 family_label::wrasses (labridae),1,1,1,3,111
-family_label::wrasses interested,0,1,1,2,011
 genus::canthigaster,0,0,1,1,001
 genus::chromis,0,0,1,1,001
 genus::dascyllus,0,0,1,1,001
