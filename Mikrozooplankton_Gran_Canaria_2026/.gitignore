@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+
+# Lokale Excel-Rohdaten und generierte Artefakte
+*.xlsx
+*.xls
+!data/raw/.gitkeep
+results/*.csv
+results/*.xlsx
+results/figures/*
+!results/figures/.gitkeep
