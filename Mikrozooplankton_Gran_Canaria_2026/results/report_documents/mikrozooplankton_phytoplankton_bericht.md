@@ -22,11 +22,19 @@ Die Ciliaten reagierten insgesamt empfindlicher als die Dinoflagellaten. Über d
 
 Die Ciliatenrückgänge waren besonders ausgeprägt in den Kontrollmesokosmen und in M8 (300 NaOH). Gleichzeitig blieben Dinoflagellaten in einzelnen Mesokosmen stabil oder nahmen zu, beispielsweise in M2 (500 NaOH). Dies weist auf unterschiedliche Reaktionen der beiden Mikrozooplanktongruppen hin und spricht gegen eine einheitliche Antwort des Mikrozooplanktons.
 
+![Zeitlicher Verlauf des Mikrozooplanktons](figures/01_mikrozooplankton_zeitverlauf.png)
+
+**Abbildung 1:** Zeitlicher Verlauf der Gesamtzellzahl des Mikrozooplanktons sowie der Ciliaten und Dinoflagellaten. Farben kennzeichnen das Material, Symbole die Dosierung; die gestrichelte Linie markiert T4.
+
 ## Vergleich mit dem Phytoplankton
 
 Das Phytoplankton zeigte nach T4 in mehreren Mesokosmen zunächst einen Rückgang, während sich einzelne Mesokosmen im späteren Verlauf wieder erholten. Die Small-Fraktion und das Phytoplankton gesamt zeigten über die sechs Mesokosmen eine signifikante mittlere Abnahme (jeweils p = 0,031); die Large-Fraktion zeigte dagegen keine gemeinsame signifikante Veränderung (p = 0,844).
 
 Zeitgleiche Korrelationen zwischen Mikrozooplankton und Phytoplankton waren nach Korrektur für multiples Testen nicht signifikant. Daraus folgt, dass hohe Phytoplanktonwerte nicht unmittelbar und konsistent mit hohen Mikrozooplanktonwerten am selben Probetag verbunden waren.
+
+![Vergleich von Mikrozooplankton und Phytoplankton](figures/02_mikro_vs_phyto_zeitverlauf.png)
+
+**Abbildung 2:** Vergleich der zeitlichen Entwicklung des Gesamt-Mikrozooplanktons und des Gesamtphytoplanktons an den gemeinsamen Probetagen.
 
 ## Zeitverzögerte Beziehungen
 
@@ -45,6 +53,10 @@ Der stärkste mittlere Zusammenhang zwischen Ciliaten und Large-Phytoplankton tr
 Auch für das Mikrozooplankton gesamt lag der stärkste mittlere Zusammenhang mit dem Gesamtphytoplankton bei Lag −2 (ρ = 0.432). Dieses Ergebnis unterstützt die Hypothese einer zeitlich verzögerten Reaktion stärker als die zeitgleichen Korrelationen. Es ist jedoch nicht über alle Mesokosmen gleich ausgeprägt und blieb nach FDR-Korrektur nicht signifikant.
 
 Die Unterschiede zwischen den Mesokosmen sind biologisch relevant: Für Ciliaten lagen die besten individuellen Lags zwischen 0 und +4 Tagen, bei Dinoflagellaten zwischen −4 und +2 Tagen. Damit existiert kein einheitlicher zeitlicher Versatz. Mögliche Ursachen sind unterschiedliche Nahrungspräferenzen, wechselnde Phytoplanktonzusammensetzungen, abweichende Entwicklungsstadien der Populationen oder zusätzliche Umwelt- und Treatmentwirkungen.
+
+![Zeitverzögerte Beziehungen zwischen Mikro- und Phytoplankton](figures/03_zeitverzoegerte_beziehungen.png)
+
+**Abbildung 3:** Mittlere Spearman-Korrelationen bei unterschiedlichen zeitlichen Verschiebungen. Ein negativer Lag bedeutet, dass das Phytoplankton zeitlich vor dem Mikrozooplankton liegt.
 
 ## Wissenschaftliche Interpretation
 
