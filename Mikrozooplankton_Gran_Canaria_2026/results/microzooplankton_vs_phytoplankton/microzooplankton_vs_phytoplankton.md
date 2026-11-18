@@ -127,6 +127,36 @@ Bei n = 6 ist der Test nur sehr grob aufgelöst. Die Treatmentkombinationen sind
 5. **Behandlungseffekte sind konfundiert:** Jeder Material-Dosis-Mesokosmos ist eine Einzelbeobachtung. Unterschiede zwischen M1, M2, M8 und M9 können daher nicht eindeutig Material oder Dosis zugeschrieben werden.
 6. **Ausgangsverläufe beachten:** Bereits vor T4 verlaufen die Mesokosmen nicht identisch. T3-Normalisierung reduziert dieses Problem, ersetzt aber keine replizierte Kontroll- oder Vorher-Nachher-Statistik.
 
+## Erweiterte kontroll- und phasenbezogene Vergleiche
+
+### Kontrollkorrigierte Unterschiede
+
+Concrete-Treatments wurden gegen M3 und NaOH-Treatments gegen M6 verglichen. Als Difference-in-Difference ergab sich für das Gesamt-Mikrozooplankton für M1 +0,563, M2 +1,037, M8 -0,387 und M9 +0,188 log2-Einheiten. Damit waren M2 und M1 gegenüber ihren Kontrollen besonders positiv beeinflusst, während M8 niedriger lag. Für das Gesamtphytoplankton waren die Unterschiede +1,398 in M1, +0,217 in M2, -0,263 in M8 und +0,618 in M9.
+
+### Verhältnis und Phasen
+
+Die mittlere Mikrozooplankton/Phytoplankton-Zellzahlrelation lag bei M1 bei 0,773, M2 bei 1,182, M3 bei 1,161, M6 bei 0,870, M8 bei 0,986 und M9 bei 0,609. In der späten Nachbehandlung war die mittlere Kopplung zum Gesamtphytoplankton für das Gesamt-Mikrozooplankton am stärksten (ρ = 0,590), gefolgt von Dinoflagellaten (ρ = 0,367) und Ciliaten (ρ = 0,295).
+
+![Kontrollkorrigierte Dynamik](../report_documents/figures/05_kontrollkorrigiert.png)
+
+![Mikro-Phytoplankton-Verhältnis](../report_documents/figures/06_micro_phyto_verhaeltnis.png)
+
+![Phasenvergleich](../report_documents/figures/07_phasenvergleich.png)
+
+### Größenklassen
+
+Die kleinen Ciliaten zeigten bei Lag −2 starke mittlere Beziehungen zum Gesamt- und Small-Phytoplankton (ρ = 0,917). Die große Ciliatenklasse war nicht für alle Lags ausreichend besetzt. Große Ciliaten sind daher nur explorativ zu interpretieren.
+
+### Signale und Peakzeiten
+
+Explorativ waren Ciliaten mit chain-forming Microphytoplankton (ρ = 0,445), long chain-forming Diatoms (ρ = 0,428) und Synechococcus (negativ, ρ = -0,309) verbunden. Dinoflagellaten korrelierten positiv mit Picophytoplankton (ρ = 0,378) und Nanophytoplankton 2 (ρ = 0,361). Diese Korrelationen verwenden gepoolte Messwerte und sind keine replizierten Gruppentests.
+
+Peakzeiten unterschieden sich deutlich: Das Mikrozooplankton erreichte in M1, M3, M6 und M8 seine höchsten Nachbehandlungswerte jeweils an T19, T11, T31 beziehungsweise T31. Das Phytoplankton war in M1, M2, M6 und M8 am höchsten an T27, T31, T27 beziehungsweise T27. Die Peakdifferenzen waren daher mesokosmusspezifisch und kein einheitliches trophisches Muster.
+
+### Bootstrap-Unsicherheit
+
+Das Bootstrap bestätigte Lag −2 für Ciliaten mit ρ = 0,322 und einem 95-%-Intervall von 0,164 bis 0,522. Für das Gesamt-Mikrozooplankton lag Lag −2 bei ρ = 0,432 (0,335 bis 0,523). Lag 0 lag bei Ciliaten bei ρ = 0,179 (0,035 bis 0,322). Die Unsicherheitsintervalle unterstützen einen möglichen negativen Lag, ersetzen aber keine Signifikanzkorrektur und Replikationsanalyse.
+
 ## Dateien
 
 - `microzooplankton_vs_phytoplankton.xlsx`: zusammengeführte Zeitreihen, T3-Normalisierung, Korrelationen, Lags, Effektvergleiche und Tests.

@@ -75,6 +75,40 @@ Die Unterschiede zwischen den Mesokosmen sind biologisch relevant: Für Ciliaten
 
 **Abbildung 3:** Mittlere Spearman-Korrelationen bei unterschiedlichen zeitlichen Verschiebungen. Ein negativer Lag bedeutet, dass das Phytoplankton zeitlich vor dem Mikrozooplankton liegt.
 
+## Kontrollkorrigierte Treatmentvergleiche
+
+Für Concrete wurde M3 und für NaOH wurde M6 als passende Kontrolle verwendet. Die Difference-in-Differences zeigt die zusätzliche Vorhersagerichtung nach T4 relativ zur jeweiligen Kontrolle. Die stärksten Muster lagen in M2 (500 NaOH) und M1 (300 Concrete): Bei M2 betrug die Differenz für das Gesamt-Mikrozooplankton +1,037 log2-Einheiten und für die Ciliaten +1,755; bei M1 waren es +0,563 beziehungsweise +0,849. M8 (300 NaOH) zeigte eine negative Difference-in-Difference (-0,387 für das Gesamt-Mikrozooplankton).
+
+Diese Ergebnisse bleiben deskriptiv, da jede Kombination aus Material und Dosierung nur einmal repliziert ist.
+
+![Kontrollkorrigierte Entwicklung](figures/05_kontrollkorrigiert.png)
+
+**Abbildung 4:** Kontrollkorrigierte Entwicklung von Mikro- und Phytoplankton als log2(Treatment/Kontrolle). Ein Wert von null bedeutet Übereinstimmung mit der passenden Kontrolle.
+
+## Verhältnis, Phasen und Peaks
+
+Das mittlere Verhältnis von Gesamt-Mikrozooplankton zu Gesamtphytoplankton war in M2 am höchsten (1,182) und in M9 am niedrigsten (0,609). In der späten Nachbehandlung war die mittlere Kopplung zum Gesamtphytoplankton für das Gesamt-Mikrozooplankton am stärksten (rho = 0,590), gefolgt von Dinoflagellaten (rho = 0,367) und Ciliaten (rho = 0,295). Die Peakzeiten waren mesokosmusspezifisch und zeigten keine einheitliche Verzögerung.
+
+![Mikro-Phytoplankton-Verhältnis](figures/06_micro_phyto_verhaeltnis.png)
+
+**Abbildung 5:** Verhältnis der Gesamtzellzahlen von Mikrozooplankton und Phytoplankton.
+
+![Phasenvergleich](figures/07_phasenvergleich.png)
+
+**Abbildung 6:** Mittlere zeitgleiche Kopplung in den experimentellen Phasen.
+
+## Größenklassen und explorative Signalgruppen
+
+Für Ciliaten <30 um war Lag -2 zum Gesamt- und Small-Phytoplankton besonders hoch (rho = 0,917). Explorativ waren Ciliaten mit chain-forming Microphytoplankton (rho = 0,445) und long chain-forming Diatoms (rho = 0,428) verbunden; Dinoflagellaten mit Picophytoplankton (rho = 0,378) und Nanophytoplankton 2 (rho = 0,361). Diese Flow-Cytometrie-Signale bleiben hypothesengenerierend.
+
+![Groszenklassen-Lags](figures/08_groessen_lags.png)
+
+**Abbildung 7:** Explorative Lag-Muster kleiner und großer Ciliaten gegenüber Small-, Large- und Gesamtphytoplankton.
+
+## Unsicherheit der Lag-Schätzungen
+
+Das Bootstrap ergab für Ciliaten Lag -2 bei rho = 0,322 mit einem 95-%-Intervall von 0,164 bis 0,522. Für das Gesamt-Mikrozooplankton lag Lag -2 bei rho = 0,432 (0,335 bis 0,523). Die mittlere Verzögerung bleibt plausibel, ist aber wegen n = 6 und uneinheitlicher Einzel-Lags keine bestätigte trophische Beziehung.
+
 ## Wissenschaftliche Interpretation
 
 Die Daten sind mit einer trophischen Kopplung zwischen Phytoplankton und Mikrozooplankton vereinbar, liefern jedoch keinen allgemeinen statistischen Nachweis einer einheitlichen Räuber-Beute-Beziehung. Besonders die negative Lag-Struktur von ungefähr zwei Tagen ist als biologisch plausible Arbeitshypothese hervorzuheben: Eine Veränderung des Phytoplanktons könnte der Reaktion des Mikrozooplanktons zeitlich vorausgehen. Der fehlende konsistente Nachweis über alle Mesokosmen zeigt jedoch, dass die Dynamik nicht allein durch die Gesamtzellzahl des Phytoplanktons erklärt wird.

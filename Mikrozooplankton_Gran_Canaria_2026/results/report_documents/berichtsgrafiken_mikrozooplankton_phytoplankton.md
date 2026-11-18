@@ -40,3 +40,27 @@ Die Coding-Ebene ist kontextabhängig: In Mesokosmos-Zeitreihen kennzeichnet die
 ![Lag-Profile der Mesokosmen](../microzooplankton_vs_phytoplankton/figures/04_lag_profile_mesokosmen.png)
 
 **Abbildungslegende:** Lag-Profile der einzelnen Mesokosmen für Ciliaten und Dinoflagellaten gegenüber dem Gesamtphytoplankton. Die Abbildung zeigt die mesokosmspezifische Streuung der optimalen zeitlichen Verschiebung.
+
+## Abbildung 4: Kontrollkorrigierte Verläufe
+
+![Kontrollkorrigierte Zellzahlen](figures/05_kontrollkorrigiert.png)
+
+**Abbildungslegende:** Kontrollkorrigierte Entwicklung von Mikro- und Phytoplankton als log2(Treatment/Kontrolle). Concrete-Treatments werden gegen M3 und NaOH-Treatments gegen M6 verglichen.
+
+## Abbildung 5: Mikrozooplankton-Phytoplankton-Verhältnis
+
+![Mikrozooplankton-Phytoplankton-Verhältnis](figures/06_micro_phyto_verhaeltnis.png)
+
+**Abbildungslegende:** Verhältnis der Gesamtzellzahlen von Mikrozooplankton und Phytoplankton über alle gemeinsamen Probetage.
+
+## Abbildung 6: Phasenvergleich
+
+![Phasenvergleich](figures/07_phasenvergleich.png)
+
+**Abbildungslegende:** Mittlere Spearman-Korrelationen für Ciliaten und Dinoflagellaten gegenüber dem Gesamtphytoplankton nach experimenteller Phase.
+
+## Abbildung 7: Lag-Muster nach Größenklassen
+
+![Lag-Muster nach Größenklassen](figures/08_groessen_lags.png)
+
+**Abbildungslegende:** Explorative Lag-Korrelationen kleiner und großer Ciliaten gegenüber Small-, Large- und Gesamtphytoplankton.
