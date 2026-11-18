@@ -20,14 +20,23 @@ COMMON_DAYS = [1, 3, 5, 7, 11, 15, 19, 23, 27, 31]
 
 COLORS = {"concrete": "#0072B2", "naoh": "#D55E00"}
 MARKERS = {0: "o", 300: "^", 500: "s"}
+GROUP_COLORS = {
+    "Mikrozooplankton gesamt": "#333333",
+    "Ciliaten": "#009E73",
+    "Dinoflagellaten": "#E69F00",
+}
+PHYTO_COLORS = {
+    "Phytoplankton gesamt": "#333333",
+    "Small-Phytoplankton": "#56B4E9",
+    "Large-Phytoplankton": "#CC79A7",
+}
 
 
 def treatment_style(label: str, mesocosm: int) -> tuple[str, str, int]:
     text = str(label).lower()
     if "kontrolle" in text:
-        material = "concrete" if mesocosm == 3 else "naoh"
-    else:
-        material = "concrete" if "concrete" in text else "naoh"
+        return "#555555", MARKERS[0], 0
+    material = "concrete" if "concrete" in text else "naoh"
     dose_match = re.search(r"\d+", text)
     dose = int(dose_match.group()) if dose_match else 0
     return COLORS[material], MARKERS.get(dose, "o"), dose
@@ -74,7 +83,8 @@ def plot_micro(micro: pd.DataFrame) -> None:
         ("ciliate_cells_L", "Ciliaten"),
         ("dinoflagellate_cells_L", "Dinoflagellaten"),
     ]
-    fig, axes = plt.subplots(3, 1, figsize=(10, 12), sharex=True)
+    fig, axes = plt.subplots(3, 1, figsize=(10, 11), sharex=True)
+    sns.set_theme(style="ticks", context="notebook")
     legend_done: set[str] = set()
     for ax, (column, title) in zip(axes, labels):
         for mesocosm, frame in micro.groupby("mesocosm"):
@@ -86,8 +96,10 @@ def plot_micro(micro: pd.DataFrame) -> None:
                 frame[column],
                 color=color,
                 marker=marker,
-                linewidth=1.6,
-                markersize=6,
+                linewidth=2,
+                markersize=7,
+                markeredgecolor="white",
+                markeredgewidth=0.5,
                 label=line_label if line_label not in legend_done else None,
             )
             legend_done.add(line_label)
@@ -162,13 +174,19 @@ def plot_lags(comparison: pd.DataFrame) -> None:
     ]
     mean_lags = selected.groupby(["comparison", "lag_days"], as_index=False).spearman_rho.mean()
     fig, ax = plt.subplots(figsize=(9, 5))
+    comparison_colors = {
+        "Ciliaten vs. Phytoplankton gesamt": GROUP_COLORS["Ciliaten"],
+        "Dinoflagellaten vs. Phytoplankton gesamt": GROUP_COLORS["Dinoflagellaten"],
+    }
     sns.lineplot(
         data=mean_lags,
         x="lag_days",
         y="spearman_rho",
         hue="comparison",
         marker="o",
-        linewidth=2,
+        palette=comparison_colors,
+        linewidth=2.5,
+        markersize=8,
         ax=ax,
     )
     ax.axhline(0, color="grey", linewidth=0.8)
@@ -210,6 +228,23 @@ Die Auswertung umfasst die sechs ausgewerteten Mesokosmen M1, M2, M3, M6, M8 und
 
 Für den Vergleich mit dem Phytoplankton wurden die geprüften `All cells`-Summen der Small- und Large-Messungen verwendet. Zeitverzögerte Beziehungen wurden über die tatsächlich vorhandenen Zeitpunkte beider Datensätze geprüft. Ein negativer Lag bedeutet, dass das Phytoplankton zeitlich vor dem Mikrozooplankton liegt.
 
+## Einheitlicher Farb- und Symbolcode
+
+Der Bericht verwendet getrennte, eindeutig erkennbare Codierungen für Mesokosmos-Treatments und biologische Gruppen:
+
+| Verwendung | Kennzeichnung | Farbe / Symbol |
+|---|---|---|
+| Concrete | Material | Blau `#0072B2` |
+| NaOH | Material | Orange `#D55E00` |
+| Kontrolle | Dosierung 0 | Grau `#555555`, Kreis |
+| 300 | Dosierung | Dreieck |
+| 500 | Dosierung | Quadrat |
+| Gesamt-Mikrozooplankton | Gruppe | Schwarzgrau `#333333` |
+| Ciliaten | Gruppe | Grün `#009E73` |
+| Dinoflagellaten | Gruppe | Gelborange `#E69F00` |
+
+Die Treatment-Farbe kennzeichnet das Material und das Symbol die Dosierung. In getrennten Gruppenvergleichen kennzeichnen die Grün-/Gelborange-Töne Ciliaten und Dinoflagellaten; diese Farbdaten sind nicht mit der Materialcodierung zu vermischen. Für gute Lesbarkeit verwenden alle Berichtsgrafiken klare Linienstärken, ausgefüllte Symbole und ausreichend Kontrast. Die Kontrollfarbe ist grau, da Kontrollen keinem Material zugeordnet werden.
+
 ## Ergebnisse des Mikrozooplanktons
 
 Die Gesamtzellzahlen des Mikrozooplanktons zeigten zwischen T1 und T3 keinen einheitlichen Vorbehandlungstrend. Nach der Behandlung verliefen die Mesokosmen deutlich unterschiedlich. Die mittleren Nachbehandlungswerte und die Veränderung zwischen T3 und T31 sind:
@@ -222,7 +257,7 @@ Die Ciliatenrückgänge waren besonders ausgeprägt in den Kontrollmesokosmen un
 
 ![Zeitlicher Verlauf des Mikrozooplanktons](figures/01_mikrozooplankton_zeitverlauf.png)
 
-**Abbildung 1:** Zeitlicher Verlauf der Gesamtzellzahl des Mikrozooplanktons sowie der Ciliaten und Dinoflagellaten. Farben kennzeichnen das Material, Symbole die Dosierung; die gestrichelte Linie markiert T4.
+**Abbildung 1:** Zeitlicher Verlauf der Gesamtzellzahl des Mikrozooplanktons sowie der Ciliaten und Dinoflagellaten. Blaue Linien kennzeichnen Concrete und orange Linien NaOH; 0 = Kreis, 300 = Dreieck und 500 = Quadrat. Die gestrichelte Linie markiert T4.
 
 ## Vergleich mit dem Phytoplankton
 
@@ -268,18 +303,28 @@ Die Treatmentvergleiche dürfen nicht als allgemeine Material- oder Dosiseffekte
 def write_figure_document() -> None:
     document = """# Berichtsgrafiken: Mikrozooplankton und Phytoplankton
 
-Die folgenden Abbildungen wurden für die direkte Verwendung im Bericht erstellt. Alle Abbildungen verwenden dieselbe Codierung:
+Die folgenden Abbildungen wurden für die direkte Verwendung im Bericht neu gestaltet und verwenden einen konsistenten, kontrastreichen Farb- und Symbolcode.
 
-- **Farbe = Material:** Concrete blau (`#0072B2`), NaOH orange (`#D55E00`)
-- **Symbol = Dosierung:** 0 = Kreis, 300 = Dreieck, 500 = Quadrat
-- Die gestrichelte vertikale Linie markiert T4, den Behandlungstag.
-- Die y-Achsen sind logarithmisch skaliert, da die Zellzahlen mehrere Größenordnungen umfassen.
+## Wiederverwendbarer Berichtscode
+
+| Zweck | Kennzeichnung | Farbe / Symbol |
+|---|---|---|
+| Concrete | Material | Blau `#0072B2` |
+| NaOH | Material | Orange `#D55E00` |
+| Kontrolle | Dosierung 0 | Grau `#555555`, Kreis |
+| Dosierung 300 | Treatment | Dreieck |
+| Dosierung 500 | Treatment | Quadrat |
+| Mikrozooplankton gesamt | Gruppe | Schwarzgrau `#333333` |
+| Ciliaten | Gruppe | Grün `#009E73` |
+| Dinoflagellaten | Gruppe | Gelborange `#E69F00` |
+
+Die Coding-Ebene ist kontextabhängig: In Mesokosmos-Zeitreihen kennzeichnet die Farbe das Material und das Symbol die Dosierung. In Abbildungen, die Ciliaten und Dinoflagellaten direkt gegenüberstellen, kennzeichnen die Gruppenfarben die biologische Gruppe. Die gestrichelte vertikale Linie markiert T4, den Behandlungstag. Die y-Achsen der Zellzahlverläufe sind logarithmisch skaliert.
 
 ## Abbildung 1: Mikrozooplankton
 
 ![Mikrozooplankton-Zeitverlauf](figures/01_mikrozooplankton_zeitverlauf.png)
 
-**Abbildungslegende:** Zeitlicher Verlauf der Gesamtzellzahl des Mikrozooplanktons sowie der Ciliaten und Dinoflagellaten in den sechs ausgewerteten Mesokosmen. Die Farbe zeigt das Material, das Symbol die Dosierung. Die gestrichelte Linie markiert die Behandlung an T4.
+**Abbildungslegende:** Zeitlicher Verlauf der Gesamtzellzahl des Mikrozooplanktons sowie der Ciliaten und Dinoflagellaten in den sechs ausgewerteten Mesokosmen. Die Farbe zeigt das Material (Concrete blau `#0072B2`, NaOH orange `#D55E00`), das Symbol die Dosierung (0 = Kreis, 300 = Dreieck, 500 = Quadrat). Die gestrichelte Linie markiert die Behandlung an T4.
 
 ## Abbildung 2: Vergleich Mikro- und Phytoplankton
 
@@ -291,7 +336,7 @@ Die folgenden Abbildungen wurden für die direkte Verwendung im Bericht erstellt
 
 ![Zeitverzögerte Beziehungen](figures/03_zeitverzoegerte_beziehungen.png)
 
-**Abbildungslegende:** Mittlere Spearman-Korrelationen zwischen Mikrozooplankton und Phytoplankton bei verschiedenen zeitlichen Verschiebungen. Ein negativer Lag bedeutet, dass das Phytoplankton zeitlich vor dem Mikrozooplankton liegt.
+**Abbildungslegende:** Mittlere Spearman-Korrelationen zwischen Mikrozooplankton und Phytoplankton bei verschiedenen zeitlichen Verschiebungen. Ciliaten sind grün (`#009E73`) und Dinoflagellaten gelborange (`#E69F00`) dargestellt. Ein negativer Lag bedeutet, dass das Phytoplankton zeitlich vor der Mikrozooplanktongruppe liegt.
 
 ## Ergänzende Lag-Abbildung
 

@@ -1,17 +1,27 @@
 # Berichtsgrafiken: Mikrozooplankton und Phytoplankton
 
-Die folgenden Abbildungen wurden für die direkte Verwendung im Bericht erstellt. Alle Abbildungen verwenden dieselbe Codierung:
+Die folgenden Abbildungen wurden für die direkte Verwendung im Bericht neu gestaltet und verwenden einen konsistenten, kontrastreichen Farb- und Symbolcode.
 
-- **Farbe = Material:** Concrete blau (`#0072B2`), NaOH orange (`#D55E00`)
-- **Symbol = Dosierung:** 0 = Kreis, 300 = Dreieck, 500 = Quadrat
-- Die gestrichelte vertikale Linie markiert T4, den Behandlungstag.
-- Die y-Achsen sind logarithmisch skaliert, da die Zellzahlen mehrere Größenordnungen umfassen.
+## Wiederverwendbarer Berichtscode
+
+| Zweck | Kennzeichnung | Farbe / Symbol |
+|---|---|---|
+| Concrete | Material | Blau `#0072B2` |
+| NaOH | Material | Orange `#D55E00` |
+| Kontrolle | Dosierung 0 | Grau `#555555`, Kreis |
+| Dosierung 300 | Treatment | Dreieck |
+| Dosierung 500 | Treatment | Quadrat |
+| Mikrozooplankton gesamt | Gruppe | Schwarzgrau `#333333` |
+| Ciliaten | Gruppe | Grün `#009E73` |
+| Dinoflagellaten | Gruppe | Gelborange `#E69F00` |
+
+Die Coding-Ebene ist kontextabhängig: In Mesokosmos-Zeitreihen kennzeichnet die Farbe das Material und das Symbol die Dosierung. In Abbildungen, die Ciliaten und Dinoflagellaten direkt gegenüberstellen, kennzeichnen die Gruppenfarben die biologische Gruppe. Die gestrichelte vertikale Linie markiert T4, den Behandlungstag. Die y-Achsen der Zellzahlverläufe sind logarithmisch skaliert.
 
 ## Abbildung 1: Mikrozooplankton
 
 ![Mikrozooplankton-Zeitverlauf](figures/01_mikrozooplankton_zeitverlauf.png)
 
-**Abbildungslegende:** Zeitlicher Verlauf der Gesamtzellzahl des Mikrozooplanktons sowie der Ciliaten und Dinoflagellaten in den sechs ausgewerteten Mesokosmen. Die Farbe zeigt das Material, das Symbol die Dosierung. Die gestrichelte Linie markiert die Behandlung an T4.
+**Abbildungslegende:** Zeitlicher Verlauf der Gesamtzellzahl des Mikrozooplanktons sowie der Ciliaten und Dinoflagellaten in den sechs ausgewerteten Mesokosmen. Die Farbe zeigt das Material (Concrete blau `#0072B2`, NaOH orange `#D55E00`), das Symbol die Dosierung (0 = Kreis, 300 = Dreieck, 500 = Quadrat). Die gestrichelte Linie markiert die Behandlung an T4.
 
 ## Abbildung 2: Vergleich Mikro- und Phytoplankton
 
@@ -23,7 +33,7 @@ Die folgenden Abbildungen wurden für die direkte Verwendung im Bericht erstellt
 
 ![Zeitverzögerte Beziehungen](figures/03_zeitverzoegerte_beziehungen.png)
 
-**Abbildungslegende:** Mittlere Spearman-Korrelationen zwischen Mikrozooplankton und Phytoplankton bei verschiedenen zeitlichen Verschiebungen. Ein negativer Lag bedeutet, dass das Phytoplankton zeitlich vor dem Mikrozooplankton liegt.
+**Abbildungslegende:** Mittlere Spearman-Korrelationen zwischen Mikrozooplankton und Phytoplankton bei verschiedenen zeitlichen Verschiebungen. Ciliaten sind grün (`#009E73`) und Dinoflagellaten gelborange (`#E69F00`) dargestellt. Ein negativer Lag bedeutet, dass das Phytoplankton zeitlich vor der Mikrozooplanktongruppe liegt.
 
 ## Ergänzende Lag-Abbildung
 

@@ -6,6 +6,23 @@ Die Auswertung umfasst die sechs ausgewerteten Mesokosmen M1, M2, M3, M6, M8 und
 
 Für den Vergleich mit dem Phytoplankton wurden die geprüften `All cells`-Summen der Small- und Large-Messungen verwendet. Zeitverzögerte Beziehungen wurden über die tatsächlich vorhandenen Zeitpunkte beider Datensätze geprüft. Ein negativer Lag bedeutet, dass das Phytoplankton zeitlich vor dem Mikrozooplankton liegt.
 
+## Einheitlicher Farb- und Symbolcode
+
+Der Bericht verwendet getrennte, eindeutig erkennbare Codierungen für Mesokosmos-Treatments und biologische Gruppen:
+
+| Verwendung | Kennzeichnung | Farbe / Symbol |
+|---|---|---|
+| Concrete | Material | Blau `#0072B2` |
+| NaOH | Material | Orange `#D55E00` |
+| Kontrolle | Dosierung 0 | Grau `#555555`, Kreis |
+| 300 | Dosierung | Dreieck |
+| 500 | Dosierung | Quadrat |
+| Gesamt-Mikrozooplankton | Gruppe | Schwarzgrau `#333333` |
+| Ciliaten | Gruppe | Grün `#009E73` |
+| Dinoflagellaten | Gruppe | Gelborange `#E69F00` |
+
+Die Treatment-Farbe kennzeichnet das Material und das Symbol die Dosierung. In getrennten Gruppenvergleichen kennzeichnen die Grün-/Gelborange-Töne Ciliaten und Dinoflagellaten; diese Farbdaten sind nicht mit der Materialcodierung zu vermischen. Für gute Lesbarkeit verwenden alle Berichtsgrafiken klare Linienstärken, ausgefüllte Symbole und ausreichend Kontrast. Die Kontrollfarbe ist grau, da Kontrollen keinem Material zugeordnet werden.
+
 ## Ergebnisse des Mikrozooplanktons
 
 Die Gesamtzellzahlen des Mikrozooplanktons zeigten zwischen T1 und T3 keinen einheitlichen Vorbehandlungstrend. Nach der Behandlung verliefen die Mesokosmen deutlich unterschiedlich. Die mittleren Nachbehandlungswerte und die Veränderung zwischen T3 und T31 sind:
@@ -24,7 +41,7 @@ Die Ciliatenrückgänge waren besonders ausgeprägt in den Kontrollmesokosmen un
 
 ![Zeitlicher Verlauf des Mikrozooplanktons](figures/01_mikrozooplankton_zeitverlauf.png)
 
-**Abbildung 1:** Zeitlicher Verlauf der Gesamtzellzahl des Mikrozooplanktons sowie der Ciliaten und Dinoflagellaten. Farben kennzeichnen das Material, Symbole die Dosierung; die gestrichelte Linie markiert T4.
+**Abbildung 1:** Zeitlicher Verlauf der Gesamtzellzahl des Mikrozooplanktons sowie der Ciliaten und Dinoflagellaten. Blaue Linien kennzeichnen Concrete und orange Linien NaOH; 0 = Kreis, 300 = Dreieck und 500 = Quadrat. Die gestrichelte Linie markiert T4.
 
 ## Vergleich mit dem Phytoplankton
 
